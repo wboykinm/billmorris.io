@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  
+  <title>Redistricting: A Question and a Query - Writing</title>
+
+  <!--Favicon-->
+  <link rel="icon" href="favicon/favicon.ico">
+
+  <!--Description-->
+  
+      <meta name="description" content="Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.
+Gotta love the classics
+My city is on the tail ">
+  
+
+  <!--Author-->
+  
+      <meta name="author" content="Bill Morris">
+  
+
+  <!-- Pure CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+
+  <body>
+  	<div class="container-fluid navbar-container m-sm-5">
+      <!-- Header -->
+      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+  <a class="navbar-brand ml-2" href="/">Writing</a>
+  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto my-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="http://billmorris.io">Home</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScD5x8IGGAIZfQGbKeLfINRNO2-WFfpn7swyP2zCnnwdLXGFg/viewform?usp=sf_link">Contact</a>
+        </li>
+      
+    </ul>
+    <hr class="hidden-md-up" />
+  </div>
+</nav>
+
+
+  		<div class="row">
+  			<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="/images/default.jpg" alt="Redistricting: A Question and a Query">
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>Redistricting: A Question and a Query</h1>
+</div>
+<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+  <p>Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*x8ZychsoeVA3WJz1.jpg" alt="Gotta love the classics"><em>Gotta love the classics</em></p>
+<p>My city is on the tail end of the country’s redistricting cycle. Somehow while Texas was <a href="http://www.huffingtonpost.com/2012/08/28/texas-redistricting-discriminated-latino-voters_n_1838030.html" target="_blank" rel="noopener">marginalizing Latinos</a> and Dennis Kucinich was <a href="http://news.firedoglake.com/2012/03/07/kucinich-squeezed-out-by-redistricting-loses-primary-to-kaptur-in-ohio/" target="_blank" rel="noopener">getting scribbled out of his constituency</a>, we here in Burlington were <a href="http://7d.blogs.com/offmessage/2013/12/burlington-city-council-mulls-redistricting-take-457.html" target="_blank" rel="noopener">waffling</a> over how to deal with triparty politics and the implications of our changing neighborhoods.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*KlZ491iAlSXwRlJCQhA4FQ.jpeg" alt=""></p>
+<p>I was unrealistic early on about how much of a role technology could play in the process. A <a href="http://btvhoods.geosprocket.org/results2.html" target="_blank" rel="noopener">survey of neighborhood geographic identity</a> and a do-it-yourself redistricting app (sidebar) were helpful but not game-changing. After years of wrangling, the parties mostly just hashed it out in committee (though the final plan is derived from one made with our <a href="http://www.publicmapping.org/Home" target="_blank" rel="noopener">DistrictBuilder</a> app), and now in about 6 weeks the voters will approve or reject it.</p>
+<p>Which brings me to the question: What would the proposed plan change things for the average BTV citizen? It’s a pretty easy one to answer in the aggregate — all the information is out there: new boundaries, old boundaries, population distribution, polling locations. But these bits are spread out across various sites and articles.</p>
+<p>What if there was a way to just ask the question: <strong>How will this change things for me?</strong></p>
+<p>Under the umbrella of <a href="http://codeforbtv.org/" target="_blank" rel="noopener">CodeForBTV</a> — the local CodeforAmerica brigade — I put together <a href="http://codeforbtv.org/votefinder/" target="_blank" rel="noopener">the basic answering tool</a>. Built for phones (via Bootstrap), the app lets the user plug in their address and get back a list of redistricting plan implications:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*U9NxkO0Y6sXkNgOh.gif" alt=""></p>
+<p>The question of individual impact can be answered with a simple spatial query: return some pieces of information based on the polygons that intersect the user’s location. This pointed to some basic building blocks:</p>
+<ul>
+<li><p>The <a href="https://gist.github.com/wboykinm/7ef57cd1e58fc626ee3c#file-map-geojson" target="_blank" rel="noopener">city redistricting plan</a> — both the old wards and the new ones lumped into one geojson file</p>
+</li>
+<li><p>A robust search engine — I went with the <a href="https://developers.google.com/maps/" target="_blank" rel="noopener">Google Maps API</a> because of the amazing viewport-biased geocoding and the built-in typeahead, but given more time I would use <a href="http://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> and a <a href="http://vcgi.vermont.gov/warehouse/web_services/geocoding" target="_blank" rel="noopener">state-hosted geocoder</a> plus <a href="http://twitter.github.io/typeahead.js/" target="_blank" rel="noopener">typeahead.js</a></p>
+</li>
+<li><p>Spatial query capability — fortunately <a href="http://developers.cartodb.com/documentation/cartodb-js.html" target="_blank" rel="noopener">CartoDB</a> offers all the magic of PostGIS at a URL endpoint, with great styling available as well.</p>
+</li>
+</ul>
+<p>The user-selected address gets converted to lat/lon, then <a href="https://github.com/codeforbtv/votefinder/blob/master/votefind.js#L57" target="_blank" rel="noopener">sent to the CartoDB API in an ST_Intersects() query</a>. It returns a map overlay of the old and new district boundaries at the site, and a set of answers to some FAQs about redistricting. It’s a simple app, relying on some robust APIs. I hope it’s useful in getting my neighbors oriented to the landscape of the proposed redistricting. At the very least it’ll save people some time peering at a large paper map in city hall, and at best it’ll head off 40,000 individual “how will this affect me” emails directed at the city councilors and GIS manager. I also hope it’ll be of use to anyone else who wants to present geographic change over time at a user-selected location.</p>
+<p>Get the code <a href="https://github.com/codeforbtv/votefinder" target="_blank" rel="noopener">on github</a>.</p>
+<p><em>Originally published at <a href="http://geosprocket.blogspot.com/2014/01/redistricting-question-and-query.html" target="_blank" rel="noopener">geosprocket.blogspot.com</a> on January 15, 2014.</em></p>
+
+</div>
+
+
+      </div>
+      
+  	</div>
+
+    <!-- After footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </body>
+</html>
