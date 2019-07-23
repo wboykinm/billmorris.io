@@ -1,0 +1,9 @@
+[submodule "themes/solar"]
+	path = themes/solar
+	url = https://github.com/bake/solar-theme-hugo.git
+[submodule "themes/parsa"]
+	path = themes/parsa
+	url = https://github.com/themefisher/parsa-hugo-personal-blog-theme.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
