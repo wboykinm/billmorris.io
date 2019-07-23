@@ -24,7 +24,7 @@ _Alert: Both policy AND technology will be discussed below. Bring both your brai
 
 
 
-![image](/posts/2014-11-15_redistricting-a-question-and-a-query/images/1.jpg)
+![image](/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/1.jpg)
 
 Gotta love the classics
 
@@ -35,7 +35,7 @@ My city is on the tail end of the country’s redistricting cycle. Somehow while
 
 
 
-![image](/posts/2014-11-15_redistricting-a-question-and-a-query/images/2.jpeg)
+![image](/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/2.jpeg)
 
 
 
@@ -50,7 +50,7 @@ Under the umbrella of [CodeForBTV](http://codeforbtv.org/) — the local Cod
 
 
 
-![image](/posts/2014-11-15_redistricting-a-question-and-a-query/images/3.gif)
+![image](/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/3.gif)
 
 
 

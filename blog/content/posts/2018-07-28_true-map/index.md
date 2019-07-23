@@ -51,6 +51,6 @@ Maybe a map that reflects such a status — even unintentionally — is 
 
 
 
-![image](/posts/2018-07-28_true-map/images/1.png)
+![image](/shoals/posts/2018-07-28_true-map/images/1.png)
 
 Red deserts

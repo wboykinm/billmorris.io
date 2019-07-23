@@ -21,7 +21,7 @@ aliases:
 
 > A history in cartographic tools
 
-![image](/posts/2014-11-15_palm-board-and-parchment/images/0.jpg)
+![image](/shoals/posts/2014-11-15_palm-board-and-parchment/images/0.jpg)
 The last-known record of the author using hand tools for mapping, AD 2003
 
 #### 1998
@@ -39,7 +39,7 @@ Every few weeks I would go to Nagua — the nearest city — and sit in 
 
 
 
-![image](/posts/2014-11-15_palm-board-and-parchment/images/1.png)
+![image](/shoals/posts/2014-11-15_palm-board-and-parchment/images/1.png)
 
 h12v04
 
@@ -60,7 +60,7 @@ An army of University of Vermont undergrads carried a hundred letter-sized sheet
 
 
 
-![image](/posts/2014-11-15_palm-board-and-parchment/images/2.png)
+![image](/shoals/posts/2014-11-15_palm-board-and-parchment/images/2.png)
 
 clementines
 
@@ -81,4 +81,4 @@ A query — formulated in a text editor and pasted into the psql command lin
 
 
 
-![image](/posts/2014-11-15_palm-board-and-parchment/images/3.png)
+![image](/shoals/posts/2014-11-15_palm-board-and-parchment/images/3.png)

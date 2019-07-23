@@ -35,7 +35,7 @@ The Global Positioning System (GPS) guides us around the world and is approachin
 
 
 
-![image](/posts/2014-06-02_constellations-of-potential/images/1.png)
+![image](/shoals/posts/2014-06-02_constellations-of-potential/images/1.png)
 
 Triangulation in the 16th Century — courtesy [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:CD006-Triangulation_16th_century.png)
 
@@ -46,7 +46,7 @@ If your phone can receive a signal from three satellites at once it can figure o
 
 
 
-![image](/posts/2014-06-02_constellations-of-potential/images/2.gif)
+![image](/shoals/posts/2014-06-02_constellations-of-potential/images/2.gif)
 
 GPS in action — graphic by [PSU](https://www.e-education.psu.edu/natureofgeoinfo/book/export/html/1620)
 

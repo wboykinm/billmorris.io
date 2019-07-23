@@ -33,7 +33,7 @@ My current workflow is to dump the geometry as geojson, grab the file to my loca
 
 
 
-![image](/posts/2015-03-11_geoascii/images/1.gif)
+![image](/shoals/posts/2015-03-11_geoascii/images/1.gif)
 
 Multispectral classification of Landsat MSS data from the Salton Sea in California. From “Remote Sensing: Principles and Interpretation” by Floyd Sabins, 1978
 
@@ -59,7 +59,7 @@ Three separate tools were thrown at me:
 
 
 
-![image](/posts/2015-03-11_geoascii/images/2.png)
+![image](/shoals/posts/2015-03-11_geoascii/images/2.png)
 
 
 
@@ -68,7 +68,7 @@ Three separate tools were thrown at me:
 
 
 
-![image](/posts/2015-03-11_geoascii/images/3.png)
+![image](/shoals/posts/2015-03-11_geoascii/images/3.png)
 
 
 
@@ -79,7 +79,7 @@ Three separate tools were thrown at me:
 
 
 
-![image](/posts/2015-03-11_geoascii/images/4.png)
+![image](/shoals/posts/2015-03-11_geoascii/images/4.png)
 
 
 

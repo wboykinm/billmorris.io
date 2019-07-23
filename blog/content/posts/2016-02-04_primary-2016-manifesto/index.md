@@ -17,7 +17,7 @@ aliases:
     - "/primary-2016-manifesto-b66690e6640a"
 ---
 
-![image](/posts/2016-02-04_primary-2016-manifesto/images/1.png)
+![image](/shoals/posts/2016-02-04_primary-2016-manifesto/images/1.png)
 
 Howdy folks.
 

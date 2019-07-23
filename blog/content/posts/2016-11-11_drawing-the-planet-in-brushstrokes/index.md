@@ -37,7 +37,7 @@ Aided by [a trove of openly-licensed imagery](https://www.planet.com/gallery/) f
 
 
 
-![image](/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/1.jpeg)
+![image](/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/1.jpeg)
 
 Francis Picabia, 1913, Catch as Catch Can, oil on canvas, 100.6 x 81.6 cm, Philadelphia Museum of Art
 
@@ -50,7 +50,7 @@ Fortunately, Prisma — at least as far as I can tell — is simply a co
 
 
 
-![image](/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/2.jpeg)
+![image](/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/2.jpeg)
 
 Dubai international airport, deconstructed
 
@@ -63,7 +63,7 @@ I am not an artist; I make these pieces with some of my own sensibility expresse
 
 
 
-![image](/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/3.png)
+![image](/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/3.png)
 
 Pivot irrigation outside Aruanã, Brazil
 

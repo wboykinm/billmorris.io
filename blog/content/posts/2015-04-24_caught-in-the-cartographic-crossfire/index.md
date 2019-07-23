@@ -29,7 +29,7 @@ This morning [Ahmad Babar noticed](https://www.facebook.com/photo.php?fbid=10155
 
 
 
-![image](/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/1.gif)
+![image](/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/1.gif)
 
 Dammit, Calvin.
 
@@ -61,7 +61,7 @@ This leadership has made Google sort of cocky in some ways. In conversations wit
 
 
 
-![image](/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2.png)
+![image](/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2.png)
 
 OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan
 
@@ -78,7 +78,7 @@ The urinating android (now removed) was drawn on what seemed like an empty spot 
 
 
 
-![image](/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/3.png)
+![image](/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/3.png)
 
 What lay under the android
 
@@ -89,7 +89,7 @@ Whatever the intent, this is a form of casual imperialism, and we usually just m
 
 
 
-![image](/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/4.png)
+![image](/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/4.png)
 
 [Kindu, DR Congo](http://tools.geofabrik.de/mc/#17/-2.9558/25.9534&amp;num=2&amp;mt0=google-map&amp;mt1=google-satellite)
 

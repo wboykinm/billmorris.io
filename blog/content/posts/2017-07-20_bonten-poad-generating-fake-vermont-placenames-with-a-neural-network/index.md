@@ -17,7 +17,7 @@ aliases:
     - "/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network-ce0e8f90afbb"
 ---
 
-![image](/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/1.jpeg)
+![image](/shoals/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/1.jpeg)
 
 > “Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”
 

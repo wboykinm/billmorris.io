@@ -32,7 +32,7 @@ It’s a flexible adaptation of [fast vector tile technology](https://www.mapbox
 
 
 
-![image](/posts/2015-09-17_cartographers-promised-land/images/1.png)
+![image](/shoals/posts/2015-09-17_cartographers-promised-land/images/1.png)
 
 The new cartographic interface
 
@@ -43,7 +43,7 @@ Using the new Mapbox Studio, I was able to quickly and painlessly adapt the Fara
 
 
 
-![image](/posts/2015-09-17_cartographers-promised-land/images/2.gif)
+![image](/shoals/posts/2015-09-17_cartographers-promised-land/images/2.gif)
 
 Flying around Seattle
 

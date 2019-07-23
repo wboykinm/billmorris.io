@@ -27,7 +27,7 @@ Upon the occasion of Halloween, and the need to optimize, I took a look at [Next
 
 
 
-![image](/posts/2015-11-03_social-silos/images/1.png)
+![image](/shoals/posts/2015-11-03_social-silos/images/1.png)
 
 Where I live, according to NextDoor
 
@@ -40,7 +40,7 @@ You see this is Burlington, Vermont — where a NextDoor precursor/competito
 
 
 
-![image](/posts/2015-11-03_social-silos/images/2.png)
+![image](/shoals/posts/2015-11-03_social-silos/images/2.png)
 
 Where I live, according to Front Porch Forum
 
@@ -55,7 +55,7 @@ Last year at a statewide digital conference {{joke about Vermont and smoke signa
 
 
 
-![image](/posts/2015-11-03_social-silos/images/3.jpeg)
+![image](/shoals/posts/2015-11-03_social-silos/images/3.jpeg)
 
 Irene says hi. Photo by [Stephen Flanders](https://commons.wikimedia.org/wiki/File:Tropical_Storm_Irene_Flood-Buildings_at_Quechee_Vermont_2011-08-28.jpg)
 
@@ -78,7 +78,7 @@ But there are lots of channels, with messages repeated over many of them. Adword
 
 
 
-![image](/posts/2015-11-03_social-silos/images/4.jpeg)
+![image](/shoals/posts/2015-11-03_social-silos/images/4.jpeg)
 
 Photo by [Simon Cousins](https://www.flickr.com/photos/simon_cousins/4869880958)
 

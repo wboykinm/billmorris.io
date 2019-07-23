@@ -18,7 +18,7 @@ aliases:
     - "/all-the-takes-youre-about-to-see-on-the-nyc-snapchat-map-vandalism-c0e73010e90b"
 ---
 
-![image](/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/1.png)
+![image](/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/1.png)
 
 That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
 
@@ -64,7 +64,7 @@ Real talk: this last one worries me _a lot_. OpenStreetMap is a community of peo
 
 
 
-![image](/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2.gif)
+![image](/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2.gif)
 
 
 

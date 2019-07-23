@@ -3,7 +3,7 @@
 title = "Shoals"
 #theme = "terminal"
 
-baseurl = "/"
+baseurl = "/shoals/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -34,5 +34,5 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Shoals"
-      logoHomeLink = "/"
+      logoHomeLink = "/shoals/"
 
