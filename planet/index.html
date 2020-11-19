@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico"/>
+  <meta content="Geosprocket planet" name="description">
+  <meta content="Bill Morris" name="author">
+  <title>Deconstructed planet</title>
+  <meta property="og:site_name" content="Geosprocket planet"/>
+  <meta property="og:title" content="Geosprocket planet gallery"/>
+  <meta property="og:description" content="Collected renderings of satellite imagery as cubist art"/>
+  <meta property="og:image" content="https://c1.staticflickr.com/1/563/32575638273_a4afe5e8cb_o.png">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="Geosprocket planet" />
+  <meta name="twitter:title" content="Geosprocket planet gallery" />
+  <meta name="twitter:description" content="Collected renderings of satellite imagery as cubist art" />
+  <meta name="twitter:image" content="https://c1.staticflickr.com/1/563/32575638273_a4afe5e8cb_o.png" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .modal-dialog {max-width:600px;}
+    .caption-hidden {
+      visibility: hidden;
+    }
+    .entry {
+      cursor: pointer; 
+      cursor: hand; 
+    }
+    .buy {
+      /*text-align: center;*/
+    }
+    .caption {
+      text-align: left;
+    }
+    #headerwrap {
+    	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/city_hall.jpg) no-repeat center top;
+    	margin-top: -50px;
+    	padding-top:120px;
+    	text-align:center;
+    	background-attachment: relative;
+    	background-position: center center;
+    	min-height: 650px;
+    	width: 100%;
+    	
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #headerwrap h1 {
+    	color:#ffffff;
+    	margin-top: 90px;
+    	padding-bottom: 30px;
+    	letter-spacing: 8px;
+    	font-size: 50px;
+    	font-weight: light;
+    	text-shadow: 2px 2px 2px #000;
+    }
+
+    #headerwrap p {
+    	color:#ffffff;
+    	font-size: 50px;
+    	font-weight: 400;
+    	text-align: center;
+    	line-height: 60px;
+    	letter-spacing: 3px;
+    	margin-left: 15px;
+    	text-shadow: 1px 1px 1px #000;
+    }
+    .centered {
+      text-align: center;
+    }
+    #footerwrap {
+    	background: #2b2b2b;
+    	margin-top: 0px;
+    	padding-top: 40px;
+    	padding-bottom: 20px;
+    	border-bottom: 1px solid #ddd;
+    	text-align: center;
+    }
+
+    #footerwrap p {
+      font-size: 12px;
+    	color: #e2e3e3;
+    }
+  </style>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-93574134-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+  <div id="headerwrap" id="home" name="home">
+    <header class="clearfix">
+      <h1><img src="img/geosprocket1_512.png" class="img" width="128px"/></h1>
+      <p>Geosprocket Planet Gallery</p>
+    </header>	    
+  </div><!-- /headerwrap -->
+  <!-- ==== ABOUT ==== -->
+  <div class="container" id="about" name="about">
+    <div class="row white">
+    <br>
+      <h3 class="centered">Breaking the earth apart, and piecing it back together</h3>
+      <hr>
+      
+      <div class="col-lg-6">
+        <p>I had an idea of the world as a cubist painting. Using a convolutional neural network, <a href="http://news.nationalgeographic.com/2017/01/earth-satellite-maps-abstract-art/" target="_blank">I combined compelling satellite imagery with the bold work of abstract expressionist painters.</a> The results you see collected here show approximately what I'd hoped: that humans shape our planet in distinct, clear ways. These range from wispy traces of wildfire smoke to rigid geometric landscapes, and are still evident when perspective is doubly-flattened: first by the aerial view, and second by a busybody algorithm. These images show a wrenching aesthetic dilemma: sometimes our hammerblow of deconstruction on the land is beautiful to behold, or at least sublime.</p>
+      </div><!-- col-lg-6 -->
+      
+      <div class="col-lg-6">
+        <p>I am not an artist; I make these pieces with some of my own sensibility expressed as a series of command line arguments — switches and weights. I’m amalgamating the true work that undergirds it: the <a href="https://www.moma.org/calendar/exhibitions/1670" target="_blank">paintcraft of Francis Picabia</a>, the <a href="https://github.com/jcjohnson/neural-style" target="_blank">code of Justin Johnson</a>, the scientists who built <a href="https://arxiv.org/abs/1508.06576" target="_blank">the neural network</a>, and the engineers who flung <a href="https://www.planet.com/gallery/" target="_blank">satellites</a> into orbit. But in a way, this is meta-cubism: aided by machines, I am pulling apart composed materials and putting them back together, slightly rearranged. I would hope that this would raise at least a smirk from Picabia before he would throw a drink in my face.</p>
+        <blockquote class="blockquote-reverse">- Bill Morris</blockquote>
+      </div><!-- col-lg-6 -->
+    </div><!-- row -->
+  </div><!-- container -->
+  <section class="section-divider textdivider divider1">
+    <div class="container">
+      <hr>
+    </div><!-- container -->
+  </section><!-- section -->
+  <div class="container">
+    <!--<div class="row" style="text-align:center; padding:0 0 20px 0; margin-bottom:40px;">
+      <h1>Deconstructed Planet</h1>
+      <h4><a href="https://medium.com/planet-stories/drawing-the-planet-in-brushstrokes-bc54a686fb30#.exz251be8" target="_blank">Deep-learning-assisted renderings</a> of satellite imagery in a generally-cubist form.</h4>
+    </div>-->
+    <div id="main" class="row">
+    </div>
+  </div><!-- /container -->
+  <div class="container buy">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h4>Prints of some of these renderings are available at <a href="http://store.geosprocket.com" target="_blank">the Geosprocket Planet store.</a><h4>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div id="footerwrap">
+    <div class="container">
+      <p>by <a href="http://store.geosprocket.com">Geosprocket</a> - Copyright 2017</p>
+    </div>
+  </div>
+  <div tabindex="-1" class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+      	<div class="modal-body">
+          <img id="image-gallery-image" class="img-responsive" src="">
+      	</div>
+      	<div class="modal-footer">
+          <div class="row">
+            <div class="col-md-8">
+              <p id="description-main" class="caption"></p>
+              <p id="citation" class="caption"></p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      	</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $.getJSON("https://spreadsheets.google.com/feeds/list/1HyZ4TWXrjxcTOjYhJpqEPYYiw3frfzcSRKZ2aT0i41M/1/public/values?alt=json", function(data) {
+      records = data.feed.entry
+      records.sort(function(a, b){
+        return parseFloat(a.gsx$lat.$t) - parseFloat(b.gsx$lat.$t);
+      });
+      records = records.reverse();
+      var mainList = document.getElementById('main');
+      //console.log(records[1])
+      for (i = 0; i < records.length; i++) {
+        var renderLine = document.createElement('div');
+        renderLine.className = 'col-lg-3 col-sm-4 col-xs-6 entry';
+        renderLine.setAttribute('data-target', '#myModal')
+        renderLine.setAttribute('data-toggle', 'modal')
+        renderLine.setAttribute('type', 'button')
+        var renderA = document.createElement('a');
+        renderA.title = 'Image ' + (i + 1)
+        var render = document.createElement('img');
+        render.src = records[i].gsx$renderurl.$t;
+        render.setAttribute('data-url', records[i].gsx$sourceurl.$t);
+        render.setAttribute('data-citation', records[i].gsx$source.$t);
+        render.className = 'img-responsive img-circle';
+        var caption = document.createElement('h5');
+        caption.className = 'caption-hidden';
+        caption.innerHTML = records[i].gsx$description.$t;
+        renderA.appendChild(render)
+        renderA.appendChild(caption)
+        renderLine.appendChild(renderA)
+        mainList.appendChild(renderLine)
+      }
+      $(document).ready(function() {
+        $('.entry').click(function(){
+          var entryParent = this.firstChild
+          var caption = entryParent.text
+          var imageSrc1 = entryParent.firstChild.src
+          var imageSrc2 = entryParent.firstChild.dataset.url
+          var citationText = "<small><i>Image source: " + entryParent.firstChild.dataset.citation + " (Hover/tap rendering to see original)</i></small>"
+          $('#description-main').html(caption);
+          $('#citation').html(citationText)
+          $('#image-gallery-image')
+            .attr('src', imageSrc1)
+            .attr("onmouseover", "this.src='" + imageSrc2 + "';")
+            .attr("onmouseout", "this.src='" + imageSrc1 + "';")
+        });
+      });
+    });
+  </script>
+</body>
+</html>
