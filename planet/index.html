@@ -26,8 +26,8 @@
       visibility: hidden;
     }
     .entry {
-      cursor: pointer; 
-      cursor: hand; 
+      cursor: pointer;
+      cursor: hand;
     }
     .buy {
       /*text-align: center;*/
@@ -44,7 +44,7 @@
     	background-position: center center;
     	min-height: 650px;
     	width: 100%;
-    	
+
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
         -o-background-size: 100%;
@@ -108,7 +108,7 @@
     <header class="clearfix">
       <h1><img src="img/geosprocket1_512.png" class="img" width="128px"/></h1>
       <p>Geosprocket Planet Gallery</p>
-    </header>	    
+    </header>
   </div><!-- /headerwrap -->
   <!-- ==== ABOUT ==== -->
   <div class="container" id="about" name="about">
@@ -116,11 +116,11 @@
     <br>
       <h3 class="centered">Breaking the earth apart, and piecing it back together</h3>
       <hr>
-      
+
       <div class="col-lg-6">
         <p>I had an idea of the world as a cubist painting. Using a convolutional neural network, <a href="http://news.nationalgeographic.com/2017/01/earth-satellite-maps-abstract-art/" target="_blank">I combined compelling satellite imagery with the bold work of abstract expressionist painters.</a> The results you see collected here show approximately what I'd hoped: that humans shape our planet in distinct, clear ways. These range from wispy traces of wildfire smoke to rigid geometric landscapes, and are still evident when perspective is doubly-flattened: first by the aerial view, and second by a busybody algorithm. These images show a wrenching aesthetic dilemma: sometimes our hammerblow of deconstruction on the land is beautiful to behold, or at least sublime.</p>
       </div><!-- col-lg-6 -->
-      
+
       <div class="col-lg-6">
         <p>I am not an artist; I make these pieces with some of my own sensibility expressed as a series of command line arguments — switches and weights. I’m amalgamating the true work that undergirds it: the <a href="https://www.moma.org/calendar/exhibitions/1670" target="_blank">paintcraft of Francis Picabia</a>, the <a href="https://github.com/jcjohnson/neural-style" target="_blank">code of Justin Johnson</a>, the scientists who built <a href="https://arxiv.org/abs/1508.06576" target="_blank">the neural network</a>, and the engineers who flung <a href="https://www.planet.com/gallery/" target="_blank">satellites</a> into orbit. But in a way, this is meta-cubism: aided by machines, I am pulling apart composed materials and putting them back together, slightly rearranged. I would hope that this would raise at least a smirk from Picabia before he would throw a drink in my face.</p>
         <blockquote class="blockquote-reverse">- Bill Morris</blockquote>
@@ -177,15 +177,14 @@
     </div>
   </div>
   <script>
-    $.getJSON("https://spreadsheets.google.com/feeds/list/1HyZ4TWXrjxcTOjYhJpqEPYYiw3frfzcSRKZ2aT0i41M/1/public/values?alt=json", function(data) {
-      records = data.feed.entry
-      records.sort(function(a, b){
-        return parseFloat(a.gsx$lat.$t) - parseFloat(b.gsx$lat.$t);
-      });
-      records = records.reverse();
+    // var listUrl = "https://spreadsheets.google.com/feeds/list/1HyZ4TWXrjxcTOjYhJpqEPYYiw3frfzcSRKZ2aT0i41M/1/public/values?alt=json"
+    var listUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1HyZ4TWXrjxcTOjYhJpqEPYYiw3frfzcSRKZ2aT0i41M/values/Sheet1?key=AIzaSyCMUCi2fAxbtPgelZDM_NOi4TDD8dF9Yl8'
+    $.getJSON(listUrl, function(data) {
+      console.log(data)
+      records = data.values
       var mainList = document.getElementById('main');
       //console.log(records[1])
-      for (i = 0; i < records.length; i++) {
+      for (var i = 1; i < records.length - 1; i++) {
         var renderLine = document.createElement('div');
         renderLine.className = 'col-lg-3 col-sm-4 col-xs-6 entry';
         renderLine.setAttribute('data-target', '#myModal')
@@ -194,13 +193,13 @@
         var renderA = document.createElement('a');
         renderA.title = 'Image ' + (i + 1)
         var render = document.createElement('img');
-        render.src = records[i].gsx$renderurl.$t;
-        render.setAttribute('data-url', records[i].gsx$sourceurl.$t);
-        render.setAttribute('data-citation', records[i].gsx$source.$t);
+        render.src = records[i][3];
+        render.setAttribute('data-url', records[i][4]);
+        render.setAttribute('data-citation', records[i][2]);
         render.className = 'img-responsive img-circle';
         var caption = document.createElement('h5');
         caption.className = 'caption-hidden';
-        caption.innerHTML = records[i].gsx$description.$t;
+        caption.innerHTML = records[i][1];
         renderA.appendChild(render)
         renderA.appendChild(caption)
         renderLine.appendChild(renderA)
