@@ -1,12 +1,12 @@
 +++
 title = "A New Story"
 date = "2023-03-10T16:01:04-05:00"
-author = ""
+author = "Bill"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["", ""]
+tags = ["running", "aging"]
 keywords = ["", ""]
-description = ""
+description = "Injury and new leaves"
 showFullContent = false
 readingTime = false
 +++
@@ -17,7 +17,7 @@ This year it's harder than ever.
 
 My right knee has been bothering me since last summer, after some particularly long and brutal trail runs, after 100 miles of backpacking, after . . . maybe something I don't even recall. It started quiet and progressed to a yell walking up and down stairs by Thanksgiving. The results of my MRI are now in, and it's tempting to hear them with dramatic music playing in the background:
 
-_Advanced Chondrosis, with cartilage fissuring and bone edema_
+> Advanced Chondrosis, with cartilage fissuring and bone edema
 
 ![The knee in question](images/knee.png)
 
