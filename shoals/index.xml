@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shoals</title>
@@ -6,10 +6,27 @@
     <description>Recent content on Shoals</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 17:37:23 +0000</lastBuildDate>
-    
-	<atom:link href="/shoals/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 10 Mar 2023 16:01:04 -0500</lastBuildDate><atom:link href="/shoals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Story</title>
+      <link>/shoals/posts/2023-03-08_a-new-story/</link>
+      <pubDate>Fri, 10 Mar 2023 16:01:04 -0500</pubDate>
+      
+      <guid>/shoals/posts/2023-03-08_a-new-story/</guid>
+      <description>It&amp;rsquo;s late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner.
+This year it&amp;rsquo;s harder than ever.
+My right knee has been bothering me since last summer, after some particularly long and brutal trail runs, after 100 miles of backpacking, after .</description>
+      <content>&lt;p&gt;It&amp;rsquo;s late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner.&lt;/p&gt;
+&lt;p&gt;This year it&amp;rsquo;s harder than ever.&lt;/p&gt;
+&lt;p&gt;My right knee has been bothering me since last summer, after some particularly long and brutal trail runs, after 100 miles of backpacking, after . . . maybe something I don&amp;rsquo;t even recall. It started quiet and progressed to a yell walking up and down stairs by Thanksgiving. The results of my MRI are now in, and it&amp;rsquo;s tempting to hear them with dramatic music playing in the background:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Advanced Chondrosis, with cartilage fissuring and bone edema&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/knee.png&#34; alt=&#34;The knee in question&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The best translation I&amp;rsquo;ve got is that &lt;strong&gt;I&amp;rsquo;ve ruined my knee in a way that won&amp;rsquo;t heal.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The one clear message I&amp;rsquo;m getting from everyone - physicians, runners, bloggers, running doctor bloggers - is that I should all but stop running. This isn&amp;rsquo;t garden-variety arthritis; this is &lt;em&gt;damage&lt;/em&gt;, and I should find a new sport with lower impact, to extend the life of my knee before a now-inevitable replacement. So, like several billion of my middle-aged brethren before me, I&amp;rsquo;ll have to adjust - try to make a go of it with cycling or rowing or quietly reading. But that hurts, because running, to me, is perfect. All you need is a pair of shoes, and you can do it anywhere in the world, in any conditions. I&amp;rsquo;m going to miss it like I&amp;rsquo;d miss home.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m in the dangerous position of being able to construct multiple narratives about my life as a runner. If I squint and tilt my head one way, I see a late-blooming enthusiasm that led me to start piling up miles and &lt;em&gt;seriousness&lt;/em&gt; even before a pandemic made it the perfect manic coping strategy. If I tilt the other way, I read a story of a little fat kid who showed up to track practice one day; whose coach - Tim Simpson, bless you - didn&amp;rsquo;t laugh him off the field but instead got him moving; of someone who&amp;rsquo;s been running ever since. Both narratives are &amp;ldquo;correct&amp;rdquo;, but both are coming to an end.&lt;/p&gt;
+&lt;p&gt;Time to get to work on a new story.&lt;/p&gt;
+</content>
+    </item>
     
     <item>
       <title>All the Takes You’re About to See on the NYC-Snapchat Map Vandalism</title>
@@ -18,8 +35,45 @@
       
       <guid>/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</guid>
       <description>That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
-Anti-Semitic Vandalism Lists New York as &amp;#39;Jewtropolis&amp;#39; on Snapchat, CitiBike, and More
+Anti-Semitic Vandalism Lists New York as &#39;Jewtropolis&#39; on Snapchat, CitiBike, and More
 About three weeks ago, some roblox-loving, likely-gamergater mini-nazi decided to re-label New York City in OSM (along with a bunch of other landmarks). It was almost immediately caught and reverted by community members, but it somehow slipped through the Mapbox review process and made it into production today long enough for some users to notice it (though it’s since been fixed).</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gizmodo.com/anti-semitic-vandalism-lists-new-york-as-jewtropolis-on-1828712009&#34;&gt;Anti-Semitic Vandalism Lists New York as &#39;Jewtropolis&#39; on Snapchat, CitiBike, and More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;About three weeks ago, some &lt;a href=&#34;https://www.google.com/search?q=MedwedianPresident&amp;amp;oq=MedwedianPresident&amp;amp;aqs=chrome..69i57.520j0j1&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;roblox-loving, likely-gamergater mini-nazi&lt;/a&gt; decided to re-label New York City in OSM (along with a bunch of other landmarks). It was almost immediately &lt;a href=&#34;https://www.openstreetmap.org/changeset/61555047&#34;&gt;caught and reverted by&lt;/a&gt; community members, but it somehow slipped through the &lt;a href=&#34;https://www.mapbox.com/help/how-mapbox-data-works/#data-sources&#34;&gt;Mapbox review process&lt;/a&gt; and made it into production &lt;strong&gt;today&lt;/strong&gt; long enough for some users to notice it (though it’s &lt;a href=&#34;https://map.snapchat.com/@40.729782,-74.138598,8.80z&#34;&gt;since been fixed&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As with any scandalous digital f***up, there’s going to be a certain amount of ink spilled over this incident. Mapbox CEO Eric Gunderson &lt;a href=&#34;https://techcrunch.com/2018/08/30/mapbox-vandalism/&#34;&gt;called it “disgusting”&lt;/a&gt;. Ashley Feinberg &lt;a href=&#34;https://twitter.com/ashleyfeinberg/status/1035149099560054784&#34;&gt;made comic lemonade&lt;/a&gt;. As I considered the angles, I realized I’m in the perfect position of ethnographer-of-the-map-people to just write &lt;em&gt;all&lt;/em&gt; the potential bluster in one go. So, for your convenience, here are all the takes you’re about to see:&lt;/p&gt;
+&lt;h3 id=&#34;take-1-wait-there-are-editable-maps&#34;&gt;Take 1: Wait, there are editable maps?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Likely venue: Vox&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Did you know that you can decide how to name any geographic feature in the world? Even if you’re not a professional cartographer? Well there’s a wikipedia-like map called “OpenedStreetsMaps” &lt;em&gt;[See other egregious misspellings. -Ed.]&lt;/em&gt; that will let you do just that. Seriously, you could rename your city “Schnozzleville” and it’ll show up that way on a thousand different apps! And that’s exactly what just happened in New York City . . .&amp;gt; {Additional boilerplate with some technical nuance that nobody reads}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;take-2-this-is-openstreetmaps-fault&#34;&gt;Take 2: This is OpenStreetMap’s fault&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Likely venue: Sponsored press release on TechCrunch from a VP at Here or TomTom (but not Google, because they’ve . . . um . . .&lt;/strong&gt; &lt;a href=&#34;https://medium.com/@vtcraghead/caught-in-the-cartographic-crossfire-33b2036897b&#34;&gt;&lt;strong&gt;been here already&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For too long, this dangerous crowdsourced project has been building momentum in the enterprise. How can we trust maps that can change in an instant, whether vandalized or in good-faith error? We must return to &lt;strong&gt;canonical&lt;/strong&gt; cartography and authoritative sources of map data, like HERE &lt;em&gt;[or TomTom, depending on who’s ambulance-chasing. -Ed.].&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Apple thinks this too, but they won’t say it.&lt;/p&gt;
+&lt;h3 id=&#34;take-3-this-is-mapboxs-fault&#34;&gt;Take 3: This is Mapbox’s fault&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Likely venue:&lt;/strong&gt; &lt;a href=&#34;https://lists.openstreetmap.org/pipermail/talk-us/2018-August/thread.html&#34;&gt;&lt;strong&gt;The OSM mailing lists&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OMFG how many times am I going to have to rant to you people about how local knowledge is the only way to build OSM!!! This shows once and for all that Mapbox’s money-grubbing, high-volume, data-team approach is flawed, and still subject to the same editorial control problems that OSM itself has! Now’s the time to ban bulk editing and imports!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sigh.&lt;/p&gt;
+&lt;h3 id=&#34;take-4-blockchain-saves&#34;&gt;Take 4: Blockchain saves&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Likely venue: Medium&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The recent publicly-visible vandalization of OpenStreetMap serves to reinforce what we’ve been saying for months: proof of location and authoritative geographic nomenclature can only be offered by with secure, private, decentralized blockchain technology.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Maybe the hammer has finally found a nail?&lt;/p&gt;
+&lt;h3 id=&#34;take-5-its-open-season&#34;&gt;Take 5: It’s open season&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Likely venue: 4chan&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey y’all, I propose we initiate operation IronMapDickEagle on the Führer’s birthday. If it’s this easy to get the &lt;strong&gt;real&lt;/strong&gt; names of places all over the world to show up in (((mainstream apps))), we should coordinate the attack.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Real talk: this last one worries me &lt;em&gt;a lot&lt;/em&gt;. OpenStreetMap is a community of people, and even with some automated moderation assistance, it’s really vulnerable to concerted efforts at vandalization. We’re fortunate to have active and alert mappers who can catch things quickly when they happen one-off, but any #opendata project eventually has to deal with the goddamned nazis, and I’m not sure there’s a plan for it in OSM.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hit me up if I missed any takes. I’m not an all-seeing eye, people.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -31,6 +85,32 @@ About three weeks ago, some roblox-loving, likely-gamergater mini-nazi decided t
       <description>Many an earnest cartographer/journalist/opinion-holder is currently debating — with varying degrees of condescension — the utility of the @nytimes’ latest map piece:
 Some people argued that we should have used opacity or a dot map to adjust for population density in our 2016 precinct maps. fwiw, here&amp;#39;s why we didn&amp;#39;t... https://t.co/RSqOlJx7SB
 &amp;mdash; Josh Katz (@jshkatz) July 27, 2018  While some arguments are specious (specifically, I’m not sure what species of monster you have to be to fail to enjoy a good birds-eye perspective), and others are just petty, the most valid argument wrangles with the nature of our Republic, and how best to convey that Acres don’t vote.</description>
+      <content>&lt;p&gt;Many an earnest cartographer/journalist/opinion-holder is currently debating — with varying degrees of condescension — the utility of the &lt;a href=&#34;https://twitter.com/nytimes&#34;&gt;@nytimes&lt;/a&gt;’ latest &lt;a href=&#34;https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html&#34;&gt;map piece&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Some people argued that we should have used opacity or a dot map to adjust for population density in our 2016 precinct maps. fwiw, here&amp;#39;s why we didn&amp;#39;t... &lt;a href=&#34;https://t.co/RSqOlJx7SB&#34;&gt;https://t.co/RSqOlJx7SB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Josh Katz (@jshkatz) &lt;a href=&#34;https://twitter.com/jshkatz/status/1022927839425912838?ref_src=twsrc%5Etfw&#34;&gt;July 27, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;While some arguments are specious (specifically, I’m not sure what species of monster you have to be to fail to enjoy a good birds-eye perspective), and others are just petty, the most valid argument wrangles with the nature of our Republic, and how best to convey that &lt;strong&gt;Acres don’t vote.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Helpful New York Times Map Reveals How Much Empty Space Voted For Empty Suit Trump&lt;br&gt;     &lt;a href=&#34;https://t.co/I6epuMbcSz&#34;&gt;https://t.co/I6epuMbcSz&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/SER1897?ref_src=twsrc%5Etfw&#34;&gt;@SER1897&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wonkette (@Wonkette) &lt;a href=&#34;https://twitter.com/Wonkette/status/1022720752729169920?ref_src=twsrc%5Etfw&#34;&gt;July 27, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Obviously&lt;/strong&gt;, acres don’t vote, people do. And the proportions between the two are hardly linear in our basket-case vastness of a country. There are whole other maps and tweetologues covering the fact that &lt;a href=&#34;http://mapsbynik.com/maps/census0pop/&#34;&gt;entire census tracts are populated only by crows and/or otters&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Obviously, acres don’t vote, right?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But as I was reading through James Michener’s “The Covenant” a few day ago, I came across a phrase that I thought had never been uttered among the citizens of a nominal democracy:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;. . . those former towns, now abandoned or much reduced in population, which clung to ancient privileges on the principle that &lt;strong&gt;&amp;lsquo;Parliament represents land, not people.&#39;&lt;/strong&gt; So that even in these early years of the nineteenth century one-fourth of the members of Parliament came from boroughs which in common sense should have returned nobody, and a shocking percentage of these were from boroughs like Old Sarum, which contained almost no one.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;[And indeed, these exact words probably haven’t; this is a work of historical fiction after all]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A bit of research revealed that, in the period surrounding the English Civil War, &lt;a href=&#34;https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/commons-representation-changes/&#34;&gt;there were pitched battles in Parliament&lt;/a&gt; over the appropriate balance of representation between County and Borough, the result being that, by the time our own forebears in the Americas were getting uppity about taxes, the idea of population-based representation in a constitutional monarchy [or democracy, whatever] was still no more than a generation or two old.&lt;/p&gt;
+&lt;p&gt;We can see the fading-but-still-grasping echoes of &lt;em&gt;“Parliament represents land”&lt;/em&gt; in our Senate, in our Electoral College. It doesn’t take many leaps of a modest imagination to see that perhaps the votes of acres &lt;em&gt;do&lt;/em&gt; count for more than the votes of people in certain contexts.&lt;/p&gt;
+&lt;p&gt;The acres of Michigan are roughly equal to the acres of Wyoming, and they cast the same number of votes in the confirmation of a Supreme Court Justice, failing along the way to notice that there are 20 Michiganiacs for every 1 Wyomista. The acres of Vermont are roughly equal to the acres of New Jersey, so it may seem unfair that the former casts only 3 votes to choose a President, while the latter casts 14. But there are 15 Jersers for every Vermontian, so perhaps it’s a compromise.&lt;/p&gt;
+&lt;p&gt;The pressure ridge between land and population as the representative standard of a Republic is still visible in our country. We watch in horror as its contours are terraformed back and forth by enterprising gerrymandrists. “Land” in this sense is a shorthand for “Power”, and maybe it always has been. “One acre one vote” can concentrate power in greedy and selfish hands, and is fundamentally antidemocratic.&lt;/p&gt;
+&lt;p&gt;“One person one vote” was radical when we declared independence, and remains so radical that it has never been at peace, always under attack, never fully implemented.&lt;/p&gt;
+&lt;p&gt;Maybe a map that reflects such a status — even unintentionally — is telling the truth.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2018-07-28_true-map/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Red deserts&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -41,6 +121,55 @@ Some people argued that we should have used opacity or a dot map to adjust for p
       <guid>/shoals/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/</guid>
       <description>“Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”
  Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this experiment in generative British placenames by Dan Hon; his workflow is 7 goddamn steps to use technology only the likes of Alan Turing could have dreamed up, until a few years ago.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/1.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this &lt;a href=&#34;https://medium.com/@hondanhon/i-trained-a-neural-net-to-generate-british-placenames-9460e907e4e9&#34;&gt;experiment in generative British placenames&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/hondanhon&#34;&gt;Dan Hon&lt;/a&gt;; his workflow is &lt;strong&gt;7 goddamn steps&lt;/strong&gt; to use technology only the likes of Alan Turing could have dreamed up, until a few years ago.&lt;/p&gt;
+&lt;p&gt;Dan used a multi-layer recurrent neural net to come up with imaginary locales like “Buchraston-on-Ter-Sey”, so I thought I give it a shot and see what a complex algorithm could do with a state that includes “Ira”, “Lympus”, and “Satan’s Kingdom” IRL. Here are the choicest results of the &lt;a href=&#34;https://gist.github.com/wboykinm/51de3208f0ab9bf00cdfac42b2fd07ec&#34;&gt;several thousand&lt;/a&gt; I generated; they look more Welsh than I would have expected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cellen Boneyboas&lt;/li&gt;
+&lt;li&gt;Macih Pond&lt;/li&gt;
+&lt;li&gt;Pendoil&lt;/li&gt;
+&lt;li&gt;Ralas Port&lt;/li&gt;
+&lt;li&gt;ClintCtow&lt;/li&gt;
+&lt;li&gt;Wi&lt;/li&gt;
+&lt;li&gt;Wont&lt;/li&gt;
+&lt;li&gt;Cissham Bond&lt;/li&gt;
+&lt;li&gt;Whortdlay Pond&lt;/li&gt;
+&lt;li&gt;Sad Cahue&lt;/li&gt;
+&lt;li&gt;Coal Bontewlu Porn&lt;/li&gt;
+&lt;li&gt;Bent Pond&lt;/li&gt;
+&lt;li&gt;Hicton&lt;/li&gt;
+&lt;li&gt;Mash dank Mount&lt;/li&gt;
+&lt;li&gt;Goryhy Pond&lt;/li&gt;
+&lt;li&gt;Ha&lt;/li&gt;
+&lt;li&gt;Dondslon&lt;/li&gt;
+&lt;li&gt;Dorits Wat Poon&lt;/li&gt;
+&lt;li&gt;Cold Bamronr&lt;/li&gt;
+&lt;li&gt;Wot Ponde&lt;/li&gt;
+&lt;li&gt;Claylelon&lt;/li&gt;
+&lt;li&gt;Golen&lt;/li&gt;
+&lt;li&gt;Cllen Boneyboas&lt;/li&gt;
+&lt;li&gt;Rut anvill&lt;/li&gt;
+&lt;li&gt;Ponk&lt;/li&gt;
+&lt;li&gt;Chomtax Bastarr&lt;/li&gt;
+&lt;li&gt;Lentrenston&lt;/li&gt;
+&lt;li&gt;Wershrok Modanton&lt;/li&gt;
+&lt;li&gt;Bonten Poad&lt;/li&gt;
+&lt;li&gt;Ponkey&lt;/li&gt;
+&lt;li&gt;Wasdesh&lt;/li&gt;
+&lt;li&gt;Vontfalilina&lt;/li&gt;
+&lt;li&gt;Kart Pond&lt;/li&gt;
+&lt;li&gt;Poon Welton&lt;/li&gt;
+&lt;li&gt;Hate Zonord&lt;/li&gt;
+&lt;li&gt;Cowrelu&lt;/li&gt;
+&lt;li&gt;Mu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, these don’t exactly meet my not-totally-formulated standard for “Vermontyness”, but that’s the nature of machine learning in this case: &lt;a href=&#34;https://blog.vivekpanyam.com/deep-learning-made-simple-part-1/&#34;&gt;it’s about figuring out the question using a series of answers.&lt;/a&gt; And to be fair, Vermont’s placenames aren’t that distinct (at least by the standards of the Northeastern U.S.): mostly English place and family names, with a very small smattering of French and Abenaki. Also, the fact that both “Ponk” and “Ponkey” show up here tells me that my training set might be a tad small — only &lt;a href=&#34;http://geodata.vermont.gov/datasets/vt-geographic-names&#34;&gt;~2000 placenames&lt;/a&gt; went into the model — but overall this is good fun.&lt;/p&gt;
+&lt;p&gt;Many thanks to Justin Johnson (whose work &lt;a href=&#34;https://medium.com/planet-stories/drawing-the-planet-in-brushstrokes-bc54a686fb30&#34;&gt;I’ve benefitted from before&lt;/a&gt;) and Cristian Baldi for making such accessible tools in the brave new world of machine learning.&lt;/p&gt;
+&lt;p&gt;Try it out yourselves: &lt;a href=&#34;https://github.com/crisbal/docker-torch-rnn&#34;&gt;here’s a docker image with everything you need&lt;/a&gt;!&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -51,6 +180,27 @@ Some people argued that we should have used opacity or a dot map to adjust for p
       <guid>/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/</guid>
       <description>To take my mind off certain things, I’ve been experimenting with a novel style of cartography: cubism.
 I arrived here on a wave of hype via an app called Prisma — a nifty take on the “filter-and-share” photo paradigm; it applies a touch of machine learning to redraw your image in an array of artistic styles. You’ve definitely seen the results in the wild, sometimes stunning, sometimes godawful, usually determined by the quality of the source image.</description>
+      <content>&lt;p&gt;To take my mind off certain things, I’ve been experimenting with a novel style of cartography: &lt;strong&gt;cubism&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I arrived here on a wave of hype via an app called &lt;a href=&#34;http://prisma-ai.com/&#34;&gt;Prisma&lt;/a&gt; — a nifty take on the “filter-and-share” photo paradigm; it applies a touch of machine learning to redraw your image in an array of artistic styles. You’ve &lt;em&gt;definitely&lt;/em&gt; seen the results in the wild, sometimes stunning, sometimes godawful, usually determined by the quality of the source image.&lt;/p&gt;
+&lt;p&gt;After fiddling with the app for a few weeks and finding its limitations, on a whim I tried piping a satellite image through it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And &lt;em&gt;it worked&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With some minor adjustments, the landscape structure punched through the style while looking completely abstract — a memory of the stone walls and crops in the fields of southern France:&lt;/p&gt;
+
+&lt;p&gt;Aided by &lt;a href=&#34;https://www.planet.com/gallery/&#34;&gt;a trove of openly-licensed imagery&lt;/a&gt; from the ever-generous &lt;a href=&#34;https://twitter.com/planetlabs&#34;&gt;Planet Labs&lt;/a&gt;, I started abstracting sites worldwide. I was particularly drawn to a pair of styles that drew from the work of the French avant-garde polymath &lt;a href=&#34;https://www.guggenheim.org/artwork/artist/francis-picabia&#34;&gt;Francis Picabia&lt;/a&gt;. His large-scale pieces — and cubism more broadly — fit almost perfectly into the structure of the human-altered landscapes we can see from space. The deconstructionist tendency of cubism — break it apart and then piece it roughly back together — mirrors the patterns visible in agriculture and the built environment. We break apart the ground at all scales, and we put it back together, repurposed; human straightaways against nature’s arcs and bights.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/1.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Francis Picabia, 1913, Catch as Catch Can, oil on canvas, 100.6 x 81.6 cm, Philadelphia Museum of Art&lt;/p&gt;
+&lt;p&gt;But using Prisma felt limiting very quickly. First was the simple issue of it being a black box — there’s no indication of the parameters used to tune the model, nowhere to include weights or adjustments. Second — and more of a practical problem — was the fact that prisma outputs at a maximum image size of 1080px wide, which is mostly unsuitable for printing (&lt;a href=&#34;http://geosprocket.bigcartel.com/&#34;&gt;hint hint&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Fortunately, Prisma — at least as far as I can tell — is simply a consumer-friendly wrapper built on an excellent open-source toolkit by Justin Johnson called &lt;a href=&#34;https://github.com/jcjohnson/neural-style&#34;&gt;Neural Style&lt;/a&gt;. Relatively straightforward to implement on a laptop (or wherever, &lt;a href=&#34;https://medium.com/@lherrera/how-to-fake-it-as-an-artist-with-docker-aws-and-deep-learning-6d42f4acd890#.s8962978z&#34;&gt;from a Docker container&lt;/a&gt;), the software invokes a &lt;a href=&#34;https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/&#34;&gt;convolutional neural network&lt;/a&gt; to &lt;em&gt;understand&lt;/em&gt; the structure and style of the inputs before doing its best to aggregate them.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/2.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dubai international airport, deconstructed&lt;/p&gt;
+&lt;p&gt;After some configuration struggles (&lt;a href=&#34;http://markets.businessinsider.com/stock/NVDA-Quote&#34;&gt;NVIDIA is so hot right now&lt;/a&gt;, but man their GPU drivers are sometimes painful to use), I began making these images on my own server, free from the Prisma TOU and scale. &lt;a href=&#34;https://github.com/wboykinm/neural-style-docker&#34;&gt;My current implementation of the code&lt;/a&gt; is now stocked with satellite imagery. There are endless possibilities.&lt;/p&gt;
+&lt;p&gt;I am not an artist; I make these pieces with some of my own sensibility expressed as a series of command line arguments — switches and weights. I’m amalgamating the true work that undergirds it: the paintcraft of Picabia, the code of Justin Johnson, the scientists who built the neural network, and the orbiting satellites of Planet Labs (&lt;a href=&#34;https://www.instagram.com/p/BMZiUIHhMDK/?taken-by=wboykinm&#34;&gt;and USGS&lt;/a&gt;, so far). But in a way, this is meta-cubism: aided by machines, I am pulling apart composed materials and putting them back together, slightly rearranged. I would hope that this would raise at least a smirk from Picabia before he would throw a drink in my face.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pivot irrigation outside Aruanã, Brazil&lt;/p&gt;
+&lt;h4 id=&#34;check-out-the-complete-galleryhttpplanetgeosprocketcom-or-buy-selected-printshttpgeosprocketbigcartelcom&#34;&gt;Check out &lt;a href=&#34;http://planet.geosprocket.com/&#34;&gt;the complete gallery&lt;/a&gt;, or &lt;a href=&#34;http://geosprocket.bigcartel.com/&#34;&gt;buy selected prints&lt;/a&gt;.&lt;/h4&gt;
+</content>
     </item>
     
     <item>
@@ -62,6 +212,27 @@ I arrived here on a wave of hype via an app called Prisma — a nifty take o
       <description>HRC campaign events and volunteer opportunities around Oakland, CA
 Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin vote margins we expect to see in battleground states.
 Hillary Clinton’s campaign has an excellent, centralized database of rallies, phone banks and canvassing efforts, all of which need volunteers. In order to lower the bar to participation as much as possible, the digital volunteers of DevProgress constructed an application on top of the campaign events database -it shows events near you.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;HRC campaign events and volunteer opportunities around Oakland, CA&lt;/p&gt;
+&lt;p&gt;Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin vote margins we expect to see in battleground states.&lt;/p&gt;
+&lt;p&gt;Hillary Clinton’s campaign has an excellent, centralized database of rallies, phone banks and canvassing efforts, all of which need volunteers. In order to lower the bar to participation as much as possible, the digital volunteers of &lt;a href=&#34;https://devprogress.us/&#34;&gt;DevProgress&lt;/a&gt; constructed an application on top of the campaign events database -&lt;a href=&#34;https://devprogress.us/hrc-events&#34;&gt;it shows events near you&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We built it with two user groups in mind:&lt;/p&gt;
+&lt;h4 id=&#34;1-hillary-supporters-with-the-urge-to-contribute&#34;&gt;1. Hillary supporters with the urge to contribute&lt;/h4&gt;
+&lt;p&gt;These folks are galvanized by the historic stakes of the election, and are willing to do more than just vote, even if they don’t have a lot of time. We wanted them to be able to quickly find a nearby volunteer opportunity and pitch in with whatever resources they have. The mobile swipe interface was designed particularly with this group in mind.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Search — swipe — swipe — swipe — bingo — click — sign up&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/2.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Swipe to make an impact&lt;/p&gt;
+&lt;h4 id=&#34;2-field-offices-and-volunteer-coordinators&#34;&gt;2. Field offices and volunteer coordinators&lt;/h4&gt;
+&lt;p&gt;The geographic perspective can give this group a sense of context. Are the canvassing events too clustered in certain neighborhoods? Are there enough phone banks accessible to the students at the nearby campus? The desktop layout is more of a dashboard with this group in mind, giving the full regional overview:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;An events dashboard&lt;/p&gt;
+&lt;p&gt;We hope that by putting the campaign on the map, we can get everyone the information they need to put Hillary over the top.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://devprogress.us/hrc-events&#34;&gt;Join us for the homestretch.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
     </item>
     
     <item>
@@ -72,7 +243,42 @@ Hillary Clinton’s campaign has an excellent, centralized database of rallies, 
       <guid>/shoals/posts/2016-08-11_superblocks-for-a-small-city/</guid>
       <description>Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. These are wildly-different scales (different everything, really), but when one of my legislators brought up Barcelona’s planned superblocks, I couldn’t help but imagine the radical livability experiment playing out in Burlington.
 Here&amp;#39;s an idea to incorporate into #btv mall redevelopment. @councilortracy @JaneKnodell https://t.co/c2ol8eLBZA
-&amp;mdash; Christopher Pearson (@SenatorCP) August 8, 2016  Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area.</description>
+&amp;mdash; Christopher Pearson (@Pearson_VT) August 8, 2016  Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-08-11_superblocks-for-a-small-city/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. These are wildly-different scales (different everything, really), but when one of my legislators brought up &lt;a href=&#34;http://www.bcnecologia.net/en/conceptual-model/superblocks&#34;&gt;Barcelona’s planned superblocks&lt;/a&gt;, I couldn’t help but imagine the radical livability experiment playing out in Burlington.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Here&amp;#39;s an idea to incorporate into &lt;a href=&#34;https://twitter.com/hashtag/btv?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#btv&lt;/a&gt; mall redevelopment. @councilortracy &lt;a href=&#34;https://twitter.com/JaneKnodell?ref_src=twsrc%5Etfw&#34;&gt;@JaneKnodell&lt;/a&gt;  &lt;a href=&#34;https://t.co/c2ol8eLBZA&#34;&gt;https://t.co/c2ol8eLBZA&lt;/a&gt;&lt;/p&gt;&amp;mdash; Christopher Pearson (@Pearson_VT) &lt;a href=&#34;https://twitter.com/Pearson_VT/status/762489886939066369?ref_src=twsrc%5Etfw&#34;&gt;August 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area. Take a square of nine city blocks, push all fast, two-way traffic to the perimeter, and make the interior roads waaaaay slower for cars in a series on one-way loops:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-08-11_superblocks-for-a-small-city/images/2.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.bcnecologia.net/en/conceptual-model/superblocks&#34;&gt;By BCN Ecologia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In one move, you flip the car/person hierarchy for two-thirds of the street network; cyclists and pedestrians, even &lt;em&gt;gasp&lt;/em&gt; street life are given the room to move and flourish.&lt;/p&gt;
+&lt;p&gt;This idea is appealing — Burlington has a fabulous central pedestrian mall, great beaches, restaurants and more than our fair share of breweries. But even downtown the city can feel hostile to walkers and bikers. There’s enough gridlock that drivers get easily frustrated. It’s the worst of both worlds in some ways, so I sketched out a design for how superblocks in Burlington might work.&lt;/p&gt;
+&lt;h4 id=&#34;the-plan&#34;&gt;The plan&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://wboykinm.github.io/btv-superblocks/&#34;&gt;Check out the map here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-08-11_superblocks-for-a-small-city/images/3.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Barcelona — &lt;a href=&#34;https://www.google.com/maps/place/Eixample,+Barcelona,+Spain/@41.3935114,2.1471762,5005m/data=!3m1!1e3!4m5!3m4!1s0x12a4a28d7b963ea1:0x9ee6d50544f5205d!8m2!3d41.391843!4d2.1641969&#34;&gt;particularly in the Eixample district&lt;/a&gt; — is a grid-planned city. Burlington — with the exception of a poorly-conceived bout of urban renewal in the 60s — spread out organically in a manner typical of American cities.&lt;/p&gt;
+&lt;p&gt;Burlington’s layout presents all kinds of basic geometric problems, and only one of the superblocks I sketched (“Lower Slope”) actually conforms to the 9-block clustering pattern.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-08-11_superblocks-for-a-small-city/images/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At the bottom of the hill, the one textbook superblock&lt;/p&gt;
+&lt;p&gt;The rest grapple with discontinuous streets, dead-ends, angled junctions and a huge waterfront (marking perhaps the one similarity with Barcelona). These superblocks required a bit of imagination, and some stretched assumptions about traffic patterns and desireable contiguity.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-08-11_superblocks-for-a-small-city/images/5.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Superblocks in Burlington’s Old North End neighborhood&lt;/p&gt;
+&lt;p&gt;The city has six North/South throughways; this plan reduces that to four. One of five East/West arteries would also become a series of one-way locals (Main street, ironically — but it’s already pretty slow for cars most of the time). These reductions could give way to bikeways, greenbelt parks, streetside cafes — a city at the vaunted “&lt;a href=&#34;https://www.asla.org/ContentDetail.aspx?id=31346&#34;&gt;human scale&lt;/a&gt;”.&lt;/p&gt;
+&lt;h4 id=&#34;but-who-is-it-for&#34;&gt;But who is it for?&lt;/h4&gt;
+&lt;p&gt;There are plenty of reasons why a citywide plan like this couldn’t work, and the one that stalls me the most is that — absent a gigantic public transit expansion — this would reconfigure the city for residents at the expense of commuters and tourists. Against the backdrop of tightly-restricted growth and soaring housing costs in desireable cities (Burlington is no exception), this is tough to advocate.&lt;/p&gt;
+&lt;p&gt;Visitors love this city, partly for the food &amp;amp; drink, partly for the beauty, and partly for the pace. As a good nationalist, I’m reluctant to do anything that prevents them from experiencing it. I’m lucky enough to live here already, and I’d like others to share in my good fortune.&lt;/p&gt;
+&lt;p&gt;Barcelona’s experience will be instructive; the first phase of superblock implementation is minimally invasive and easily-reversible, so for all its cloaking as a massive urban restructuring, it’ll be simple to react to public input.&lt;/p&gt;
+&lt;p&gt;Hell, a one-superblock pilot isn’t out of the question for Burlington . . .&lt;/p&gt;
+&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
+&lt;p&gt;For any urban planners or map nerds who are interested, my Burlington datasets are here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/wboykinm/1a6f6b76fc51a9de3596598e6b1fd08c&#34;&gt;Superblocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/wboykinm/b07b2e9be43faab0a5ce7775e755262e&#34;&gt;Fast streets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/wboykinm/b0e82567dc37b9ac6f4f834b8ebe6356&#34;&gt;Slow streets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can fiddle with them in your browser &lt;a href=&#34;http://geojson.io/#id=gist:wboykinm/b07b2e9be43faab0a5ce7775e755262e&amp;amp;map=14/44.4779/-73.2122&#34;&gt;using geojson.io like so&lt;/a&gt;.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -85,6 +291,34 @@ Here&amp;#39;s an idea to incorporate into #btv mall redevelopment. @councilortr
 On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite has been used worldwide for rapid re-afforestation. It sinks deep roots, quickly. It fixes nitrogen and sequesters carbon.
  It’s visible from space.
  In the global fight against deforestation, Earth-observing satellites have spent decades whirling around the planet, confirming successful conservation projects and sounding seemingly-endless new alarms on wildcat miners and on seasonal slash and burn.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-04-01_from-above/images/1.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lake Baringo, Kenya — Image by Digital Globe, 2014&lt;/p&gt;
+&lt;p&gt;On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite &lt;a href=&#34;http://researchpub.org/journal/jfpi/number/vol3-no4/vol3-no4-1.pdf&#34;&gt;has been used worldwide&lt;/a&gt; for rapid re-afforestation. It sinks deep roots, quickly. It fixes nitrogen and sequesters carbon.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;It’s visible from space.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the global fight against deforestation, Earth-observing satellites have spent decades whirling around the planet, &lt;a href=&#34;http://bassinducongo.reddspot.org/web/en/118-forest-maps.php&#34;&gt;confirming&lt;/a&gt; successful conservation projects and sounding seemingly-endless &lt;a href=&#34;http://mashable.com/2015/04/22/forests-artificial-intelligence/#74j9hEsl4uqq&#34;&gt;new alarms&lt;/a&gt; on wildcat miners and on seasonal slash and burn. And the eyes in the sky are about to gain undreamed-of acuity; hundreds of instruments — streaming trillions of pixels dozens of times daily over anywhere on Earth — will be online within the next year or two, part of &lt;a href=&#34;http://www.sparkgeo.com/blog/the-great-space-race-pt1/#.Vv1SqBHaW7Q.twitter&#34;&gt;a massive space expansion in the private sector&lt;/a&gt;. Google, Digital Globe, Planet Labs and a veritable horde of space travelers are headed into orbit.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Requisite folksy aphorism: Soon, ten overhead pictures of a grazing cow will be available within minutes of it going out to pasture.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Business intelligence is catching on. Data that was once the purview of the military is out in the open, available for purchase. Freight companies are &lt;a href=&#34;https://www.mapbox.com/labs/wirrida/index.html&#34;&gt;tracking their rolling stock&lt;/a&gt;, and that of their competitors. Facebook is &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2016/02/facebook-makes-a-new-map-of-everyone-in-the-world/470487/&#34;&gt;mapping its market&lt;/a&gt; (i.e. every person, everywhere).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-04-01_from-above/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Mine monitoring in Australia — Mapbox, 2014&lt;/p&gt;
+&lt;p&gt;As capabilities ramp up, we’re all exuberant. I mean, I’m actually flipping my s*** on a near-daily basis that &lt;a href=&#34;https://books.google.com/books?id=XD1pQwAACAAJ&amp;amp;dq=inauthor:%22William+Boykin-Morris%22&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=0ahUKEwjBuJTepezLAhWHtIMKHQQ-BAEQ6AEIHTAA&#34;&gt;my Master’s thesis&lt;/a&gt; came 10 years too soon. The implications for phenology studies alone have me gnawing on a sprig of winter wheat to calm down. But I also have a nagging sense that we’re missing something when we look down from above.A Political Ecologist named Paul Robbins &lt;a href=&#34;https://books.google.com/books?id=NixJcZnSsv8C&amp;amp;lpg=PA123&amp;amp;ots=AR9eOe1K6s&amp;amp;dq=political%20ecology%20mesquite%20india&amp;amp;pg=PA122#v=onepage&amp;amp;q=political%20ecology%20mesquite%20india&amp;amp;f=false&#34;&gt;noticed something funny&lt;/a&gt; while hanging out in Rajasthan a few years ago: the view from the ground was much more complicated than the view from above.&lt;/p&gt;
+&lt;p&gt;From above, it looked like the local foresters had done yeoman’s work on behalf of the World Bank and other funding agencies under the &lt;a href=&#34;http://www.un-redd.org/aboutredd&#34;&gt;REDD+&lt;/a&gt; umbrella, expanding forest cover quickly and measurably with mesquite. They were justifiably proud of their conservation accomplishments, and satellite observation would validate them. &lt;em&gt;X% increase in&lt;/em&gt; &lt;a href=&#34;http://wiki.landscapetoolbox.org/doku.php/remote_sensing_methods:normalized_difference_vegetation_index&#34;&gt;&lt;em&gt;NDVI&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Leaf_area_index&#34;&gt;&lt;em&gt;LAI&lt;/em&gt;&lt;/a&gt; &lt;em&gt;over X hectares&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-04-01_from-above/images/3.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Mesquite on Maui — &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Starr_050924-4469_Prosopis_pallida.jpg&#34;&gt;photo&lt;/a&gt; by Forest and Kim Starr&lt;/p&gt;
+&lt;p&gt;From the ground, the local herders told Robbins a different story — about how the mesquite was a bane on the landscape, a fiercely-competitive invasive and a poison forage for their cattle. They weren’t opposed to conservation — they were opposed to this specific plant.&amp;gt; What is the boundary between the observable and the important?&lt;/p&gt;
+&lt;p&gt;Conservation is complicated, we know. We get that a seemingly-clear benchmark (“Increase forest cover”) — even when met exactly to spec — can have a ripple effect across the landscape (Do the herders clear forest elsewhere? Does the mesquite outcompete a crucial endemic species?).&lt;/p&gt;
+&lt;p&gt;So, what else is complicated?&lt;/p&gt;
+&lt;p&gt;Just as conservation planners are semi-alert to collateral damage in their efforts, the industries coming onboard the Earth observation train should consider their blind spots. If you count parked cars to measure employment at a factory in Shenzhen, will they build a parking garage? Will illegal fishing operations in the South Atlantic — aware that they’re being observed at a certain scale — look to parallelize with smaller ships? Is counting houses the same thing as counting people who are interested in buying your internet service? Who gets marginalized when your proxy measure of mine productivity comes up short? The investors? The workers?&lt;/p&gt;
+&lt;p&gt;As spatial and temporal resolution increase exponentially, we need to increase the rigor of how we frame these questions and the answers we expect.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is the &lt;em&gt;important&lt;/em&gt; process— the one that drives you to use the satellite perspective — actually &lt;em&gt;observable&lt;/em&gt; from above?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-04-01_from-above/images/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Costa Marques, Brasil — Image by DigitalGlobe, 2015&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -100,6 +334,21 @@ I have some thoughts.
 She has experience at all levels of government establishing broadly-liberal policies, and had to fight for every inch.
 I like that. I will vote for her in the general if she wins the primary.
 I prefer @BernieSanders, because — as I’ve had the privilege of being represented by him since I was a kid — I’ve seen his prescience, his relentlessness and his progress.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2016-02-04_primary-2016-manifesto/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Howdy folks.&lt;/p&gt;
+&lt;p&gt;Sanderista here.&lt;/p&gt;
+&lt;p&gt;I have some thoughts.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/HillaryClinton&#34;&gt;@HillaryClinton&lt;/a&gt; is a remarkable American.&lt;/p&gt;
+&lt;p&gt;She has experience at all levels of government establishing broadly-liberal policies, and had to fight for every inch.&lt;/p&gt;
+&lt;p&gt;I like that. I will vote for her in the general if she wins the primary.&lt;/p&gt;
+&lt;p&gt;I prefer &lt;a href=&#34;https://twitter.com/BernieSanders&#34;&gt;@BernieSanders&lt;/a&gt;, because — as I’ve had the privilege of being represented by him since I was a kid — I’ve seen his prescience, his relentlessness and his progress. He has fought for me. Every citizen of this country deserves his advocacy, and a piece of my good fortune in having experienced it.&lt;/p&gt;
+&lt;p&gt;But again, I’m not a f***ing idiot. &lt;a href=&#34;https://twitter.com/HillaryClinton&#34;&gt;@HillaryClinton&lt;/a&gt; isn’t just someone I’ll “hold my nose and vote for”.&lt;/p&gt;
+&lt;p&gt;I’d be proud to have her as my president. I hope-bordering-on-demand that her supporters feel the same way about &lt;a href=&#34;https://twitter.com/BernieSanders&#34;&gt;@BernieSanders&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I like Hillary. I’m voting Bernie.&lt;/p&gt;
+&lt;p&gt;I’m not alone.&lt;/p&gt;
+&lt;p&gt;In fact, I better f***ing well be legion; the future of the Republic requires it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/hashtag/feelthebern?src=hash&#34;&gt;#feelthebern&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -110,6 +359,28 @@ I prefer @BernieSanders, because — as I’ve had the privilege of being re
       <guid>/shoals/posts/2015-12-11_better-friendships-through-mapping-technology/</guid>
       <description>I have trouble getting together with friends these days. I’m not alone in this — distance is a surprising obstacle to maintaining relationships in the landscape of modern America. Can a hack-of-an-app help?
  Over Thanksgiving I was traveling with my family and found out that a friend — one I don’t often see — would be nearby. As often happens in these situations, I mentally considered “what semi-decent bar is about halfway between us?</description>
+      <content>&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-12-11_better-friendships-through-mapping-technology/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I have trouble getting together with friends these days. I’m not alone in this — &lt;a href=&#34;http://www.vox.com/2015/10/28/9622920/housing-adult-friendship&#34;&gt;distance is a surprising obstacle to maintaining relationships&lt;/a&gt; in the landscape of modern America. Can a hack-of-an-app help?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Over Thanksgiving I was traveling with my family and found out that a friend — one I don’t often see — would be nearby. As often happens in these situations, I mentally considered “what semi-decent bar is about halfway between us?” It’s not the first time this has happened; as my good friends from past experience have scattered around the world, it’s become harder for all of us to find those opportunities to meet.&lt;/p&gt;
+&lt;p&gt;Then I thought — what the hell; I already have access to all the data I need to answer the “bars halfway” question, even in the unknown terrain between two arbitrary points of origin. Some nifty tools for mining that data have recently become easier to use, so I knocked together a mobile-ready webapp prototype. I assembled it with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mapbox.com/mapbox-gl-js/api/&#34;&gt;Mapbox GL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bootswatch.com/paper/&#34;&gt;Bootstrap&lt;/a&gt; made to look like Google’s &lt;a href=&#34;https://www.google.com/design/spec/material-design/introduction.html&#34;&gt;material design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-directions/&#34;&gt;Mapbox directions&lt;/a&gt; for determining the routes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://turfjs.org/&#34;&gt;turf.js&lt;/a&gt; for basic geoprocessing of midpoints and radii&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.foursquare.com/docs/venues/search&#34;&gt;Foursquare places&lt;/a&gt; for well-rated venues within a basic catchment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it &lt;a href=&#34;http://wboykinm.github.io/midpoint/&#34;&gt;turned out alright&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-12-11_better-friendships-through-mapping-technology/images/2.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Searching for ‘za in the Green Mountains&lt;/p&gt;
+&lt;p&gt;It’s a prototype — try it out over the weekend; &lt;a href=&#34;https://github.com/wboykinm/midpoint/issues&#34;&gt;let me know what works and what doesn’t&lt;/a&gt;. Feel free to fork your own version from the &lt;a href=&#34;https://github.com/wboykinm/midpoint&#34;&gt;source repository&lt;/a&gt; (though I ask that you get your own API keys).&lt;/p&gt;
+&lt;h4 id=&#34;ironic-coda-1&#34;&gt;Ironic coda #1&lt;/h4&gt;
+&lt;p&gt;As is usually the case when I get enthusiastic about something like this, I wait until after I’ve started before I remember to run some due diligence. And indeed, there are &lt;a href=&#34;http://www.whatshalfway.com/&#34;&gt;already&lt;/a&gt; a &lt;a href=&#34;http://www.meetways.com/&#34;&gt;handful&lt;/a&gt; of &lt;a href=&#34;http://www.geomidpoint.com/meet/&#34;&gt;sites&lt;/a&gt; that’ll answer the question I posed. But I was aiming for a mobile audience, and this was still a fun learning exercise.&lt;/p&gt;
+&lt;h4 id=&#34;ironic-coda-2&#34;&gt;Ironic coda #2&lt;/h4&gt;
+&lt;p&gt;Over Thanksgiving we didn’t meet halfway — my friend drove all the way to where I was. My kids were getting tired, and even with an app that can halve your potential trip, there’s no replacement for a friend who’s willing to drive further to make your life easier.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -120,6 +391,46 @@ I prefer @BernieSanders, because — as I’ve had the privilege of being re
       <guid>/shoals/posts/2015-11-03_social-silos/</guid>
       <description>In which I find a parallel universe in my own backyard
  Upon the occasion of Halloween, and the need to optimize, I took a look at NextDoor for the first time. They apparently had some sort of dope candy-targeting map for every neighborhood, and since that’s my catnip I had to check it out. Step 1: sign up, because the candymap is actually just a big inbound marketing trap:</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;In which I find a parallel universe in my own backyard&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Upon the occasion of Halloween, and the need to optimize, I took a look at &lt;a href=&#34;https://nextdoor.com/&#34;&gt;NextDoor&lt;/a&gt; for the first time. They apparently had some sort of &lt;a href=&#34;https://blog.nextdoor.com/2015/10/14/find-the-treats-on-your-neighborhoods-streets-with-the-treat-map/&#34;&gt;dope candy-targeting map&lt;/a&gt; for every neighborhood, and since that’s my catnip I had to check it out. Step 1: sign up, because the candymap is actually just a big inbound marketing trap:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-11-03_social-silos/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Where I live, according to NextDoor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eastwood. Awesome. Never heard of it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You see this is Burlington, Vermont — where a NextDoor precursor/competitor called &lt;a href=&#34;http://frontporchforum.com/&#34;&gt;Front Porch Forum&lt;/a&gt; has been merrily providing me with neighborhood gossip and news for a damn long time. And in that world I’m part of the (accurately-delineated) neighborhood known as “The Addition”:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-11-03_social-silos/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Where I live, according to Front Porch Forum&lt;/p&gt;
+&lt;p&gt;Leaving aside questions of geographic or customary accuracy (I’ve already &lt;a href=&#34;http://geosprocket.blogspot.com/2012/10/results-of-burlington-neighborhoods.html&#34;&gt;spilled too much ink there&lt;/a&gt;), I realized that these were two parallel streams of information. Maybe the reports of missing cats, rants about parking and occasional racist dogwhistles (&lt;em&gt;seriously Thad, stop it.&lt;/em&gt;) overlapped between FPF and NextDoor, but maybe a lot was being lost. What if someone on the next block has been posting to NextDoor for months, looking for the adorable wallaby that snacks on my azaleas every morning? The thought of such vital information missing its target because of platform lock-in is almost too much to bear.&lt;/p&gt;
+&lt;p&gt;Vital information misses its target all the time because of platform lock-in.&lt;/p&gt;
+&lt;p&gt;Last year at a statewide digital conference {{joke about Vermont and smoke signals}}, I met a woman who — like me — had gotten her start in online organizing during &lt;a href=&#34;http://usatoday30.usatoday.com/weather/storms/story/2011-08-29/Irene-leaves-waterlogged-mess-in-Vermont/50175534/1&#34;&gt;hurricane Irene&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-11-03_social-silos/images/3.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Irene says hi. Photo by &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Tropical_Storm_Irene_Flood-Buildings_at_Quechee_Vermont_2011-08-28.jpg&#34;&gt;Stephen Flanders&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Quick background&lt;/strong&gt;: at the end of the summer in 2011, a random hurricane veered off course and wandered up the Green Mountains, cutting off whole towns, killing electricity statewide and incidentally flooding the VT office of emergency management out of their building. In the days and weeks afterward, some colleagues and I used &lt;a href=&#34;https://www.ushahidi.com/&#34;&gt;Ushahidi&lt;/a&gt; and &lt;a href=&#34;https://vtresponse.wordpress.com/&#34;&gt;straight-up Wordpress&lt;/a&gt; to fill the gap in the information plumbing, relaying help requests and offers between victims, responders and the public, over any channel we could plug into.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But this woman hadn’t heard of our efforts (the nerve!) even though information about her hard-hit town had definitely passed through our pages. Instead, she had exclusively used a Facebook page to rally donations, supplies and volunteers. I mentally slammed my head against a brick wall a few times, recalling that Facebook — absent a public newsfeed API — was the one major social channel we hadn’t been able to tap. It was incredibly frustrating at the time knowing that aggregation wasn’t possible from that direction — knowing that responders were being forced to sift through dozens of Facebook pages &lt;em&gt;in addition&lt;/em&gt; to the single-point firehose that we (and later &lt;a href=&#34;https://www.google.org/crisisresponse/&#34;&gt;Google Crisis Response&lt;/a&gt;) created.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And the greater concern — the bogeyman in this terrifying data-parable — was whether anyone fell through the cracks. Specifically, did anyone die or suffer in any way because Facebook was and remains a social silo?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’m pretty sure the answer is no. Life and death hinging on the social web is still sort of an edge case.
+S
+ocial data, however, is definitely getting locked into a series of well-worn ruts, along with the rest of our media diets (see: &lt;a href=&#34;http://www.sciencemag.org/content/348/6239/1130&#34;&gt;The Filter Bubble&lt;/a&gt;). The effect of it seems like it should be scale-dependent, with the likelihood of negative impact inversely proportional to the scale:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Missing a world news story about oil prices probably isn’t going to ruin your day.&lt;/li&gt;
+&lt;li&gt;Missing a congressional corruption scandal won’t necessarily hurt your paycheck, but might have affected your next vote.&lt;/li&gt;
+&lt;li&gt;Missing a town meeting announcement might mean you stumble into an unexpected roadwork delay on your commute.&lt;/li&gt;
+&lt;li&gt;Missing a “Found a wallaby” post on your block could mean that Fluffy has a new owner and you never find out about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But there are lots of channels, with messages repeated over many of them. Adwords, Twitter, listservs, posters stapled on telephone poles.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-11-03_social-silos/images/4.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Photo by &lt;a href=&#34;https://www.flickr.com/photos/simon_cousins/4869880958&#34;&gt;Simon Cousins&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As long as the channels are open the redundancy should do its work for the really important stuff (Twitter notifications to Slack, for instance), and at the neighborhood level the power of the analog still reigns.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Fluffy! I’ve got some azaleas for you! Yum! HEEEERE FLUFFYYYYYYY”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What worries me is a future where — at whatever level we call our “community” — we become partitioned from each other. Where Twitter v. Facebook is as socially-segregating a choice as Liberal v. Conservative. Where the parallel universes of NextDoor and Front Porch Forum never interact in real life either, no matter how meaningful the subject.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -131,6 +442,29 @@ I prefer @BernieSanders, because — as I’ve had the privilege of being re
       <description>The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
  I just hope I can start playing with the new @mapbox editor ASAP. it looks nice guys! Maps everywhere!
 &amp;mdash; saleiva (@saleiva) September 17, 2015  There’s a lot of marketing behind the new Mapbox Studio, along with a glowing review in Wired. I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I just hope I can start playing with the new &lt;a href=&#34;https://twitter.com/Mapbox?ref_src=twsrc%5Etfw&#34;&gt;@mapbox&lt;/a&gt; editor ASAP. it looks nice guys! Maps everywhere!&lt;/p&gt;&amp;mdash; saleiva (@saleiva) &lt;a href=&#34;https://twitter.com/saleiva/status/644522465104891904?ref_src=twsrc%5Etfw&#34;&gt;September 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;There’s a lot of marketing behind &lt;a href=&#34;https://www.mapbox.com/mapbox-studio/&#34;&gt;the new Mapbox Studio&lt;/a&gt;, along with &lt;a href=&#34;http://www.wired.com/2015/09/mapbox-studio/&#34;&gt;a glowing review in Wired&lt;/a&gt;. I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.&lt;/p&gt;
+&lt;h3 id=&#34;the-good&#34;&gt;The good&lt;/h3&gt;
+&lt;p&gt;It’s a flexible adaptation of &lt;a href=&#34;https://www.mapbox.com/developers/vector-tiles/&#34;&gt;fast vector tile technology&lt;/a&gt; to WebGL, which is already powering Google’s maps and represents the next generation of how we see geographic data in our daily lives. It also carries over what I loved about the previous iteration of the platform:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The world’s data is at your fingertips, and the old adage — that 90% of a cartographer’s job is data-wrangling — is no longer true.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-09-17_cartographers-promised-land/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The new cartographic interface&lt;/p&gt;
+&lt;p&gt;Using the new Mapbox Studio, I was able to quickly and painlessly adapt the Faraday basemap style to MapboxGL. It was even easy to include our application fonts. The result is such a different paradigm from raster tiles that I could spend hours just watching it, exploring the rendering and trying to absorb it. I suspect it’ll be many more months before &lt;a href=&#34;http://bl.ocks.org/wboykinm/2a483a2cced4b9b38407&#34;&gt;this ceases to feel novel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-09-17_cartographers-promised-land/images/2.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Flying around Seattle&lt;/p&gt;
+&lt;p&gt;But I’m a cartographer; overanalyzing the feel of a map is what I do. The real test of the new platform will be how developers take to it, and how users react. [It might actually be a positive indicator if users don’t react at all.]&lt;/p&gt;
+&lt;h3 id=&#34;maturity-needed&#34;&gt;Maturity needed&lt;/h3&gt;
+&lt;p&gt;I’ve found that some roadblocks remain to using maps produced in the new Mapbox Studio in production on &lt;a href=&#34;http://app.faraday.io&#34;&gt;the Faraday platform&lt;/a&gt;. There are still bugs in &lt;a href=&#34;https://github.com/mapbox/mapbox-gl-js/issues/757&#34;&gt;the rendering of layered labels,&lt;/a&gt; and for a complex system of panes and API hooks like ours, the mapbox-gl.js library is not a complete replacement for the LeafletJS-based mapbox.js.&lt;/p&gt;
+&lt;p&gt;The support architecture for the new Mapbox Studio is not yet as robust as what it seeks to replace — just count the number of examples available in the crucial Mapbox documentation: &lt;a href=&#34;https://www.mapbox.com/mapbox-gl-js/examples/&#34;&gt;18 for MapboxGL&lt;/a&gt; vs. &lt;a href=&#34;https://www.mapbox.com/mapbox.js/example/v1.0.0/&#34;&gt;&amp;gt; 200 for MapboxJS&lt;/a&gt;. I’m not alone in using those examples to guide my adoption of web mapping tools — I owe them a lot, actually, and I think they’ve helped a lot of developers gravitate toward Mapbox’s offerings. The new rendering engine needs more wayfinding on markers, layers, drawings and the whole range of user expectations.&lt;/p&gt;
+&lt;p&gt;If I’m the target audience for the new Mapbox Studio, their job is done. Its fun, beautiful and fast. But the rest of Faraday’s engineers— and application developers in general — may need more functionality before they can jump onboard.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -143,6 +477,47 @@ I prefer @BernieSanders, because — as I’ve had the privilege of being re
  The incident This morning Ahmad Babar noticed a curious feature on Google Maps just South of Rawalpindi, Pakistan:
 Dammit, Calvin.
 Yes indeed — an android pissing on an Apple logo, rendered in the color that Google typically uses to signify a park or natural area. It was a part of the basemap! The internet howled with glee:</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;The work of a vandal reminds us what’s missing from the map.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;the-incident&#34;&gt;The incident&lt;/h3&gt;
+&lt;p&gt;This morning &lt;a href=&#34;https://www.facebook.com/photo.php?fbid=10155581320805122&amp;amp;set=a.10151572005255122.853730.546895121&amp;amp;type=1&amp;amp;comment_id=10155581348305122&amp;amp;offset=0&amp;amp;total_comments=5&amp;amp;ref=notif&amp;amp;notif_t=photo_reply&#34;&gt;Ahmad Babar noticed&lt;/a&gt; a curious feature on Google Maps just South of Rawalpindi, Pakistan:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/1.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dammit, Calvin.&lt;/p&gt;
+&lt;p&gt;Yes indeed — an android pissing on an Apple logo, rendered in the color that Google typically uses to signify a park or natural area. It was a part of the basemap! The internet &lt;a href=&#34;http://mashable.com/2015/04/24/android-bot-peeing-on-apple-logo-google-maps/?utm_cid=mash-com-Tw-main-link&#34;&gt;howled with glee&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Second debacle... I think Google Maps is hacked! &lt;a href=&#34;https://t.co/mv6NRAWBr3&#34;&gt;https://t.co/mv6NRAWBr3&lt;/a&gt; &lt;a href=&#34;http://t.co/sZTDz5mT7H&#34;&gt;pic.twitter.com/sZTDz5mT7H&lt;/a&gt;&lt;/p&gt;&amp;mdash; Himanshu Chanda (@himanshuchanda) &lt;a href=&#34;https://twitter.com/himanshuchanda/status/591613349441314817?ref_src=twsrc%5Etfw&#34;&gt;April 24, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;. . . and the discoveries continued:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;There seems to be a Skype logo in Google Maps around Lahore, Pakistan” as well &lt;a href=&#34;http://t.co/132uURHnHp&#34;&gt;pic.twitter.com/132uURHnHp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Christian Zibreg (@dujkan) &lt;a href=&#34;https://twitter.com/dujkan/status/591633658882215936?ref_src=twsrc%5Etfw&#34;&gt;April 24, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;how-the-android-got-there&#34;&gt;How the android got there&lt;/h3&gt;
+&lt;p&gt;Google is constantly pulling in map data from 3rd party vendors, and they have &lt;a href=&#34;http://www.wired.com/2014/12/google-maps-ground-truth/&#34;&gt;their own massive data operation&lt;/a&gt;, but this most likely came from a user-submitted edit to the &lt;a href=&#34;http://www.google.com/mapmaker&#34;&gt;Google Mapmaker system&lt;/a&gt;. Ostensibly a crowdsourcing project, Google asks users to add local knowledge to the map directly. This means everything from business names to one-way street restrictions most of the time, but users can also add big polygons like parks. Or, y’know, huge logos.&lt;/p&gt;
+&lt;p&gt;The official Google process for allowing these map edits involves a verification step. Sometimes it’s a Google employee, more often it’s an approved volunteer with local knowledge, but someone has to hit an “approved” button before a user edit makes it onto the map. That process broke down this time.&lt;/p&gt;
+&lt;h3 id=&#34;two-reasons-why-this-matters&#34;&gt;Two reasons why this matters&lt;/h3&gt;
+&lt;h4 id=&#34;it-shows-that-googles-data-isnt-perfect&#34;&gt;It shows that Google’s data isn’t perfect.&lt;/h4&gt;
+&lt;p&gt;For nearly a decade now, Google has been the recognized leader in map accuracy and utility. When Apple &lt;a href=&#34;http://www.apple.com/au/letter-from-tim-cook-on-maps/&#34;&gt;tried to cut the cord&lt;/a&gt; and created it’s own maps, they famously and awkwardly learned how hard it really was to make a high-quality geographic database (and how much money Google must have thrown at the problem).&lt;/p&gt;
+&lt;p&gt;This leadership has made Google sort of cocky in some ways. In conversations with their sales staff (as you might expect), I’ve heard plenty of contempt for my own preferred map database, &lt;a href=&#34;http://www.osm.org&#34;&gt;OpenStreetmap&lt;/a&gt; (OSM). OSM is often described as “The Wikipedia of Maps”, and it differs from Google maps in a key way: the users and the public own the data. Contributions to Google Mapmaker by contrast are owned by Google alone.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan&lt;/p&gt;
+&lt;p&gt;But OSM (and Apple, and others) is &lt;a href=&#34;http://thenextweb.com/insider/2014/02/28/openstreetmap/&#34;&gt;catching up&lt;/a&gt;, and in many ways the power of nakedly-open crowdsourcing surpasses Google’s proprietary muscle.&lt;/p&gt;
+&lt;p&gt;A typical Google criticism of OSM is that — absent verification and dollars spent — the quality is lacking. &lt;em&gt;Anybody can add anything! That’s chaos!&lt;/em&gt; After today there are at least a few holes in that argument.&lt;/p&gt;
+&lt;h4 id=&#34;it-exposes-the-painful-irony-of-our-maps&#34;&gt;It exposes the painful irony of our maps.&lt;/h4&gt;
+&lt;p&gt;The urinating android (now removed) was drawn on what seemed like an empty spot on the map. Google had little data there, despite the fact that nearby Rawalpindi has a population of six million - so the prankster had plenty of space to work. OSM &lt;a href=&#34;http://www.openstreetmap.org/node/58744442#map=15/33.5174/73.0626&amp;amp;layers=C&#34;&gt;isn’t much better&lt;/a&gt; in this area. The problem is that the space there is not actually empty. People farm there, build there and live there:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What lay under the android&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And their land was briefly turned into a battlefield in a pissing contest between two American corporate behemoths.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Whatever the intent, this is a form of casual imperialism, and we usually just miss it completely, seeing nothing in the empty spots on our maps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://tools.geofabrik.de/mc/#17/-2.9558/25.9534&amp;amp;num=2&amp;amp;mt0=google-map&amp;amp;mt1=google-satellite&#34;&gt;Kindu, DR Congo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the reasons I like OpenStreetmap is its ability to remedy the problem immediately. If you are so-motivated, you can &lt;a href=&#34;http://learnosm.org/en/beginner/introduction/&#34;&gt;add people to the map&lt;/a&gt; and make sure they aren’t mistaken for an empty canvas. And for all my complaints about lock-in, Google’s satellite imagery and Streetview tools are incredibly useful for bringing us closer to people we might miss in the cartographic lens (note where the images above came from).&lt;/p&gt;
+&lt;p&gt;If any journalists are off to write a piece about the people of Shahpur and the logos that were dropped on them, I’m in. We all have a lot to learn about the empty spaces on our maps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9 PM Update&lt;/strong&gt;: &lt;em&gt;Google&lt;/em&gt; &lt;a href=&#34;http://thenextweb.com/google/2015/04/24/theres-an-android-peeing-on-apple-on-google-maps-and-we-cant-figure-out-why/?utm_source=t.co&amp;amp;utm_campaign=share%20button&amp;amp;awesm=tnw.to_c4hnl&amp;amp;utm_medium=referral&amp;amp;utm_content=There%27s%20an%20Android%20peeing%20on%20Apple%20on%20Google%20Maps%20and%20we%20can%27t%20figure%20out%20why&#34;&gt;&lt;em&gt;has apologized&lt;/em&gt;&lt;/a&gt;&lt;em&gt;! Just not for having fallible data or for obscuring the presence of a small slice of humanity.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;May 11 Update&lt;/strong&gt;: &lt;em&gt;Google&lt;/em&gt; &lt;a href=&#34;http://gizmodo.com/google-maps-shows-an-android-robot-taking-a-big-pee-on-1699938922/1703615498/+knibbs&#34;&gt;&lt;em&gt;has suspended Map Maker contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;! This suggests that Google has less bandwidth for edit-moderation-per-volume-of-edits than it would like, and less than OpenStreetmap has.&lt;/em&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -153,6 +528,45 @@ Yes indeed — an android pissing on an Apple logo, rendered in the color th
       <guid>/shoals/posts/2015-03-11_geoascii/</guid>
       <description>A throwback mapping technique at the modern console
  My arcane problem I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;A throwback mapping technique at the modern console&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;my-arcane-problem&#34;&gt;My arcane problem&lt;/h3&gt;
+&lt;p&gt;I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.&lt;/p&gt;
+&lt;p&gt;My current workflow is to dump the geometry as geojson, grab the file to my local machine, and open it in QGIS or geojson.io — which is an extra minute at least for every look at a feature. I sometimes need to do this dozens of times an hour as I debug and optimize. Obviously this is complete crap, but there’s no easy way around it when the command line is the only window into the data.&lt;/p&gt;
+&lt;h3 id=&#34;the-old-ways&#34;&gt;The old ways&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-03-11_geoascii/images/1.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Multispectral classification of Landsat MSS data from the Salton Sea in California. From “Remote Sensing: Principles and Interpretation” by Floyd Sabins, 1978&lt;/p&gt;
+&lt;p&gt;From my remote sensing days at BU, I recalled my professors chuckling about how — in the dim ages before Arc/Info and most other raster processing systems — they would classify Landsat MSS data and then print out the results using ASCII characters in a grid. (After which they’d open beers with their teeth, calibrate their spectroradiometer lens with a hammer and toss the instrument into orbit with their bare hands. Those were the days).&lt;/p&gt;
+&lt;p&gt;So why not check to see if this sort of thing exists today? I floated a not-too-desperate-sounding trial balloon on twitter:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A utility to render geojson shapes in ascii from the command line.&lt;/p&gt;&amp;mdash; Map/ (@vtcraghead) &lt;a href=&#34;https://twitter.com/vtcraghead/status/575370039701929984?ref_src=twsrc%5Etfw&#34;&gt;March 10, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;And let me remind you all that the internet is indeed awesome, because . . .&lt;/p&gt;
+&lt;h3 id=&#34;solutions&#34;&gt;Solutions&lt;/h3&gt;
+&lt;p&gt;Three separate tools were thrown at me:&lt;/p&gt;
+&lt;h4 id=&#34;gj2ascii&#34;&gt;gj2ascii&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/geowurster&#34;&gt;Kevin Wurster&lt;/a&gt; wrote &lt;a href=&#34;https://github.com/geowurster/gj2ascii&#34;&gt;gs2ascii&lt;/a&gt;, a fully-formed python module that cycles well through multiple features:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-03-11_geoascii/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update — August 13, 2015:&lt;/strong&gt; Kevin added emoji functions. Heaven help us.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-03-11_geoascii/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;geojsontoasciihttpsgistgithubcomdnomadb62d629216e19906c53d3&#34;&gt;&lt;a href=&#34;https://gist.github.com/dnomadb/62d629216e19906c53d3&#34;&gt;&lt;strong&gt;geojsontoascii&lt;/strong&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/DnomadB&#34;&gt;Damon Burgett&lt;/a&gt; put together a streamlined &lt;a href=&#34;https://gist.github.com/dnomadb/62d629216e19906c53d3&#34;&gt;script&lt;/a&gt; (also python — I blame &lt;a href=&#34;https://twitter.com/sgillies&#34;&gt;Sean Gillies&lt;/a&gt; for this nonsense) to do the same:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2015-03-11_geoascii/images/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;geotype&#34;&gt;geotype&lt;/h4&gt;
+&lt;p&gt;And &lt;a href=&#34;https://twitter.com/morganherlocker&#34;&gt;Morgan Herlocker&lt;/a&gt; cryptically teased something called &lt;a href=&#34;https://github.com/morganherlocker/geotype&#34;&gt;“GeoType”&lt;/a&gt; that seems to do %$#&amp;amp;in’ &lt;strong&gt;colors&lt;/strong&gt; at the command line:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;:) &lt;a href=&#34;https://twitter.com/vtcraghead?ref_src=twsrc%5Etfw&#34;&gt;@vtcraghead&lt;/a&gt; &lt;a href=&#34;http://t.co/fFsA7QKdEx&#34;&gt;pic.twitter.com/fFsA7QKdEx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Morgan Herlocker (@morganherlocker) &lt;a href=&#34;https://twitter.com/morganherlocker/status/575460117010739200?ref_src=twsrc%5Etfw&#34;&gt;March 11, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;. . . then upped the craziness:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/mattmoehr?ref_src=twsrc%5Etfw&#34;&gt;@mattmoehr&lt;/a&gt; same thing from the command line with different font/spacing &lt;a href=&#34;http://t.co/gztYuEXNla&#34;&gt;pic.twitter.com/gztYuEXNla&lt;/a&gt;&lt;/p&gt;&amp;mdash; Morgan Herlocker (@morganherlocker) &lt;a href=&#34;https://twitter.com/morganherlocker/status/575512762861903872?ref_src=twsrc%5Etfw&#34;&gt;March 11, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;I thank you all — this is exactly the sort of thing I was looking for.&lt;/p&gt;
+&lt;h3 id=&#34;alternatives&#34;&gt;Alternatives&lt;/h3&gt;
+&lt;p&gt;My colleagues &lt;a href=&#34;https://twitter.com/devTristan&#34;&gt;Tristan Davies&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/TeslaNick&#34;&gt;Nick Husher&lt;/a&gt; pointed out two other solutions to my original problem: Use the &lt;a href=&#34;https://github.com/mapbox/geojson.io/blob/gh-pages/API.md#datadataapplicationjson&#34;&gt;geojson.io API&lt;/a&gt; (if the geometry is simple enough), or &lt;a href=&#34;https://gist.github.com/caspyin/2288960#post&#34;&gt;POST to a gist&lt;/a&gt; using the github API. Then in both cases just visit the URL. &lt;a href=&#34;https://twitter.com/jwass2000&#34;&gt;Jake Wasserman&lt;/a&gt; built &lt;a href=&#34;https://github.com/jwass/geojsonio.py&#34;&gt;yet another python tool&lt;/a&gt; to make that easier.&lt;/p&gt;
+&lt;p&gt;But I’m a geohipster, and I prefer the cartographic equivalent of hand-milled artisanal mustache wax.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -164,6 +578,19 @@ Yes indeed — an android pissing on an Apple logo, rendered in the color th
       <description>It’s about the political ecology of global agricultural systems, but Ello enables it.
  Update: Since February I have indeed stopped this series of imagery posts to Ello. However, this has much to do with my lack of available time to locate, assess and process the images. It was a fun and finite project.
 I’ve been posting a bunch of stuff on Ello recently. Mostly it’s big images of farmland, taken from space.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;It’s about the political ecology of global agricultural systems, but Ello enables it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Update: Since February I have indeed stopped this series of imagery posts to Ello. However, this has much to do with my lack of available time to locate, assess and process the images. It was a fun and finite project.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I’ve been posting a bunch of stuff &lt;a href=&#34;https://ello.co/vtcraghead&#34;&gt;on Ello&lt;/a&gt; recently. Mostly it’s big images of farmland, taken from space. The reason I process them and post them is that the view from above &lt;a href=&#34;http://en.wikipedia.org/wiki/Political_ecology#Overview&#34;&gt;can teach us a lot&lt;/a&gt; about the dynamics of money and power on the ground. We make a huge impact on the land and on each other as a result.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-12-01_this-is-not-a-post-about-ello/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hayer, Alberta&lt;/p&gt;
+&lt;p&gt;Ello is a nice place to put these images because they get a large container. That’s it. That’s the main reason I like it. Facebook, Twitter and Tumblr all shrink visual content to ~1/3 of screen width, but obsessively-flat-and-borderless Ello gives it a big window, bigger with a collapsed sidebar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-12-01_this-is-not-a-post-about-ello/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The spare view&lt;/p&gt;
+&lt;p&gt;And that lets me focus on things like the shape of cultivated fields or the spread-out pattern of an invasive tree species. Because that stuff — with implications for livelihoods, hunger and ecology — is what matters. It’s nice that Ello is local (for me), and that it’s ad-free and that it’s registered as a public-benefit corporation, but that’s secondary to the layout.&lt;/p&gt;
+&lt;p&gt;I’ll be keeping up the vertical-perspective storytelling over there in something like digest form, so &lt;a href=&#34;https://ello.co/vtcraghead&#34;&gt;check it out&lt;/a&gt;.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -176,6 +603,25 @@ I’ve been posting a bunch of stuff on Ello recently. Mostly it’s big images 
 Gotta love the classics
 My city is on the tail end of the country’s redistricting cycle. Somehow while Texas was marginalizing Latinos and Dennis Kucinich was getting scribbled out of his constituency, we here in Burlington were waffling over how to deal with triparty politics and the implications of our changing neighborhoods.
 I was unrealistic early on about how much of a role technology could play in the process.</description>
+      <content>&lt;p&gt;&lt;em&gt;Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/1.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Gotta love the classics&lt;/p&gt;
+&lt;p&gt;My city is on the tail end of the country’s redistricting cycle. Somehow while Texas was &lt;a href=&#34;http://www.huffingtonpost.com/2012/08/28/texas-redistricting-discriminated-latino-voters_n_1838030.html&#34;&gt;marginalizing Latinos&lt;/a&gt; and Dennis Kucinich was &lt;a href=&#34;http://news.firedoglake.com/2012/03/07/kucinich-squeezed-out-by-redistricting-loses-primary-to-kaptur-in-ohio/&#34;&gt;getting scribbled out of his constituency&lt;/a&gt;, we here in Burlington were &lt;a href=&#34;http://7d.blogs.com/offmessage/2013/12/burlington-city-council-mulls-redistricting-take-457.html&#34;&gt;waffling&lt;/a&gt; over how to deal with triparty politics and the implications of our changing neighborhoods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/2.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I was unrealistic early on about how much of a role technology could play in the process. A &lt;a href=&#34;http://btvhoods.geosprocket.org/results2.html&#34;&gt;survey of neighborhood geographic identity&lt;/a&gt; and a do-it-yourself redistricting app (sidebar) were helpful but not game-changing. After years of wrangling, the parties mostly just hashed it out in committee (though the final plan is derived from one made with our &lt;a href=&#34;http://www.publicmapping.org/Home&#34;&gt;DistrictBuilder&lt;/a&gt; app), and now in about 6 weeks the voters will approve or reject it.&lt;/p&gt;
+&lt;p&gt;Which brings me to the question: What would the proposed plan change things for the average BTV citizen? It’s a pretty easy one to answer in the aggregate — all the information is out there: new boundaries, old boundaries, population distribution, polling locations. But these bits are spread out across various sites and articles.&lt;/p&gt;
+&lt;p&gt;What if there was a way to just ask the question: &lt;strong&gt;How will this change things for me?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Under the umbrella of &lt;a href=&#34;http://codeforbtv.org/&#34;&gt;CodeForBTV&lt;/a&gt; — the local CodeforAmerica brigade — I put together &lt;a href=&#34;http://codeforbtv.org/votefinder/&#34;&gt;the basic answering tool&lt;/a&gt;. Built for phones (via Bootstrap), the app lets the user plug in their address and get back a list of redistricting plan implications:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/images/3.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The question of individual impact can be answered with a simple spatial query: return some pieces of information based on the polygons that intersect the user’s location. This pointed to some basic building blocks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://gist.github.com/wboykinm/7ef57cd1e58fc626ee3c#file-map-geojson&#34;&gt;city redistricting plan&lt;/a&gt; — both the old wards and the new ones lumped into one geojson file&lt;/li&gt;
+&lt;li&gt;A robust search engine — I went with the &lt;a href=&#34;https://developers.google.com/maps/&#34;&gt;Google Maps API&lt;/a&gt; because of the amazing viewport-biased geocoding and the built-in typeahead, but given more time I would use &lt;a href=&#34;http://leafletjs.com/&#34;&gt;Leaflet&lt;/a&gt; and a &lt;a href=&#34;http://vcgi.vermont.gov/warehouse/web_services/geocoding&#34;&gt;state-hosted geocoder&lt;/a&gt; plus &lt;a href=&#34;http://twitter.github.io/typeahead.js/&#34;&gt;typeahead.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spatial query capability — fortunately &lt;a href=&#34;http://developers.cartodb.com/documentation/cartodb-js.html&#34;&gt;CartoDB&lt;/a&gt; offers all the magic of PostGIS at a URL endpoint, with great styling available as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The user-selected address gets converted to lat/lon, then &lt;a href=&#34;https://github.com/codeforbtv/votefinder/blob/master/votefind.js#L57&#34;&gt;sent to the CartoDB API in an ST_Intersects() query&lt;/a&gt;. It returns a map overlay of the old and new district boundaries at the site, and a set of answers to some FAQs about redistricting. It’s a simple app, relying on some robust APIs. I hope it’s useful in getting my neighbors oriented to the landscape of the proposed redistricting. At the very least it’ll save people some time peering at a large paper map in city hall, and at best it’ll head off 40,000 individual “how will this affect me” emails directed at the city councilors and GIS manager. I also hope it’ll be of use to anyone else who wants to present geographic change over time at a user-selected location.&lt;/p&gt;
+&lt;p&gt;Get the code &lt;a href=&#34;https://github.com/codeforbtv/votefinder&#34;&gt;on github&lt;/a&gt;.&lt;em&gt;Originally published at&lt;/em&gt; &lt;a href=&#34;http://geosprocket.blogspot.com/2014/01/redistricting-question-and-query.html&#34;&gt;&lt;em&gt;geosprocket.blogspot.com&lt;/em&gt;&lt;/a&gt; &lt;em&gt;on January 15, 2014.&lt;/em&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -187,6 +633,35 @@ I was unrealistic early on about how much of a role technology could play in the
       <description>A history in cartographic tools
  The last-known record of the author using hand tools for mapping, AD 2003
 1998 The GIS lab at Middlebury College had a set of drafting pens hanging on the wall, dust on top of the box. There was also a ruler and a caliper-like thing in there, a curiosity as we labored over the new arcane of ArcView and Illustrator. Rumor had it that Professor Churchill had once used those pens in the dim ages.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;A history in cartographic tools&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_palm-board-and-parchment/images/0.jpg&#34; alt=&#34;image&#34;&gt;
+The last-known record of the author using hand tools for mapping, AD 2003&lt;/p&gt;
+&lt;h4 id=&#34;1998&#34;&gt;1998&lt;/h4&gt;
+&lt;p&gt;The GIS lab at Middlebury College had a set of drafting pens hanging on the wall, dust on top of the box. There was also a ruler and a caliper-like thing in there, a curiosity as we labored over the new arcane of ArcView and Illustrator. Rumor had it that Professor Churchill had once used those pens in the dim ages.&lt;/p&gt;
+&lt;h4 id=&#34;2003&#34;&gt;2003&lt;/h4&gt;
+&lt;p&gt;Openstreetmap would have been a godsend to my 23-year-old self, sweating ceaselessly over light cardstock and sheafs of tracing paper as I planned a gravity-fed aqueduct for a village in the Dominican rainforest. A survey-grade GPS would have saved weeks, replacing the hackjob of an elevation profile I cobbled together with an abney level, a twenty-foot pole, a tape measure and a Peace Corps colleague.&lt;/p&gt;
+&lt;h4 id=&#34;2005&#34;&gt;2005&lt;/h4&gt;
+&lt;p&gt;Every few weeks I would go to Nagua — the nearest city — and sit in front of a fan in the office of a local NGO, glued to a computer equipped with manna from heaven: an ArcView 3.2 license donated by the German Development Service. I made bad maps of the nearby protected area, and worse maps of the surrounding villages.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_palm-board-and-parchment/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;h12v04&lt;/p&gt;
+&lt;h4 id=&#34;2006&#34;&gt;2006&lt;/h4&gt;
+&lt;p&gt;I had two monitors in my cubicle at Boston University — one fancy newfangled flatscreen and the other an old vacuum tube box, perched on top of a Unix station that I would occasionally boot up to run scripts that I didn’t understand, given to me by indulgent colleagues. I made maps of crops from one-kilometer pixels, using a curiosity called “Google Earth” to find training sites that big all over the world.&lt;/p&gt;
+&lt;h4 id=&#34;2008&#34;&gt;2008&lt;/h4&gt;
+&lt;p&gt;The plotter at the engineering firm where I worked initially lived near my desk. I learned all the right PDF export settings so that it would — over half an hour or so — spit out a crisp, annotated orthophoto on an ArchD sheet that a project manager would take to an awkward public forum on a new highway onramp or ski resort parking lot. I used my mouse as a weapon in those days, digitizing as though my life depended on it.&lt;/p&gt;
+&lt;h4 id=&#34;2010&#34;&gt;2010&lt;/h4&gt;
+&lt;p&gt;An army of University of Vermont undergrads carried a hundred letter-sized sheets of paper — detailing sites for daily bird counts — with them weekly into the cold dawn hours of a fast Fall. I used bookmarks in ArcMap to stay organized; I curated them meticulously, then mourned when they disappeared in a fried external hard drive. I moved on.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_palm-board-and-parchment/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;clementines&lt;/p&gt;
+&lt;h4 id=&#34;2012&#34;&gt;2012&lt;/h4&gt;
+&lt;p&gt;It was always pleasant to walk the wide streets of Rabat on the way to the USAID contractor’s office. In my messenger bag was a netbook with QGIS on it, and it provided most of the juice needed to map an agricultural census and put it on the web. A colleague who spoke Arabic, French, Berber and PHP had to email another consultant that I couldn’t open the geodatabases he provided; could he send shapefiles?&lt;/p&gt;
+&lt;h4 id=&#34;2014&#34;&gt;2014&lt;/h4&gt;
+&lt;p&gt;A dozen Vermonters sit at their macbooks, tracing out roads and houses in Kailahun — a place they’ve never been, and most likely will never visit. I try to help with feature questions and tech support, though my voice is raw from a cold and everyone has a pretty good handle on the process anyway. They use their trackpads like weapons, digitizing because others’ lives depend on it.&lt;/p&gt;
+&lt;h4 id=&#34;now&#34;&gt;Now&lt;/h4&gt;
+&lt;p&gt;A query — formulated in a text editor and pasted into the psql command line — calculates a density index in a database of households likely to invest in solar panels. As I wait I look out over the lake at a snow squall rolling across from the Adirondacks, already whitecapped. The query finishes and I move on to the next one.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-11-15_palm-board-and-parchment/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -197,6 +672,40 @@ I was unrealistic early on about how much of a role technology could play in the
       <guid>/shoals/posts/2014-08-24_separation-of-concerns/</guid>
       <description>Working with shaded relief and satellite imagery in Mapbox Studio
  I have a minor quibble. Amid the wonders that the Mapbox team has been producing of late, they’ve rebranded the groundbreaking Tilemill as Mapbox Studio, given it a souped-up engine powered by OpenStreetmap-based vector tiles, and turned it loose on the beta crowd to a reception somewhere between “rapturous” and “bieberesque”. It makes web mapping both better-supported and more flexible, and at Faraday we quickly used it to build our basemap.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;Working with shaded relief and satellite imagery in Mapbox Studio&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;i-have-a-minor-quibble&#34;&gt;I have a minor quibble.&lt;/h3&gt;
+&lt;p&gt;Amid the wonders that the Mapbox team has been producing of late, they’ve rebranded the groundbreaking Tilemill as &lt;a href=&#34;https://www.mapbox.com/mapbox-studio/#darwin&#34;&gt;Mapbox Studio&lt;/a&gt;, given it a souped-up engine powered by OpenStreetmap-based vector tiles, and turned it loose on the beta crowd to a reception somewhere between “rapturous” and “bieberesque”. It makes web mapping both better-supported and more flexible, and at &lt;a href=&#34;http://faraday.io/&#34;&gt;Faraday&lt;/a&gt; we quickly used it to build &lt;a href=&#34;https://api.tiles.mapbox.com/v4/faraday2.74974c94/page.html?access_token=pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ#14/42.3591/-71.0639&#34;&gt;our basemap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mapbox Studio comes with four starter templates . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;. . . and my quibble is with the &lt;a href=&#34;https://github.com/mapbox/satellite-afternoon.tm2&#34;&gt;“Satellite Afternoon” template&lt;/a&gt;. I played with it for awhile before I noticed I was unhappy with it in a familiar way. Back in my desktop GIS days I had frequently used an ESRI-provided basemap that tried to do the same thing: Overlay shaded relief on satellite imagery. At the time I couldn’t quite place what I found wrong with this kind of basemap, but it’s now clear looking at the Mapbox version:&lt;/p&gt;
+&lt;h3 id=&#34;the-shadows-arent-lining-up&#34;&gt;The shadows aren’t lining up.&lt;/h3&gt;
+&lt;p&gt;Shaded relief maps present a stylized view of sunlight smacking terrain. Satellite imagery — unless acquired at nadir angle — shows actual sunlight on terrain. It’s very unlikely that the two will have exactly the same zenith and azimuth angles by chance:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Mapbox Satellite view of the peaks near Eldorado Canyon in Colorado. Note the sun azimuth angle from the Southeast, casting shadows on the Northwest slopes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The same view in the Mapbox Studio “Satellite Afternoon” template — the solar azimuth is almost exactly the opposite of the underlying imagery.&lt;/p&gt;
+&lt;p&gt;It’s a quick enough fix to reverse the terrain shadows . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Mapbox Studio “Satellite Afternoon” template with hillshade matching the solar azimuth of the underlying imagery . . . at this location&lt;/p&gt;
+&lt;p&gt;. . . and now the hillshade compliments the imagery underneath, instead of fighting with it. This even allows us to reduce the desaturated feel of the imagery in the template, and bring up what is essentially terrain-enhanced imagery:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/5.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Mapbox Studio “Satellite Afternoon” template with unfiltered imagery and azimuth-aligned, composited hillshade&lt;/p&gt;
+&lt;p&gt;To go completely nuts, we can layer in light contours so the shadows aren’t information vacuums:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/6.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And now we’ve basically reversed the conceit of the “Satellite Afternoon” template, going from the stylized terrain map created by Mapbox to more of a terrain-accented satellite basemap. This is more of an information-dense basemap, so it probably won’t serve the same purpose as the original template. &lt;a href=&#34;https://gist.github.com/wboykinm/8bd89a8b4ef0d489a4ba&#34;&gt;&lt;em&gt;(Here’s the revised CartoCSS)&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;back-to-the-quibble&#34;&gt;Back to the quibble.&lt;/h3&gt;
+&lt;p&gt;It’s solved, right? Alas, if we travel to New Hampshire and the slopes of Mt. Washington, we find that hillshade and satellite shadows are again mismatched:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/7.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Restyled “Satellite Afternoon”; arrow indicates the azimuth angle of the sun, about 90° misaligned with the overlain hillshade&lt;/p&gt;
+&lt;p&gt;In fact, despite &lt;a href=&#34;https://www.mapbox.com/blog/processing-raw-naip-into-seamless-imagery/&#34;&gt;the awesome work the Mapbox Satellite team has done standardizing colors and resolutions&lt;/a&gt; in a globe of mismatched satellite imagery, it is essentially impossible to standardize solar angle. You can simulate shaded relief for any one image/location/date/time, but it cannot be made globally applicable.&lt;/p&gt;
+&lt;p&gt;When using ESRI’s satellite/terrain combo basemap years ago, I ultimately decided the best solution was to simply stop trying, and to go with either a shaded relief or a satellite surface. But in the intervening time my relationship with mapping problem solving has changed — helped by the open-source community and by Mapbox in particular — from “The platform can’t do it” to “How can we make the platform do it?” And their team has already &lt;a href=&#34;https://www.mapbox.com/blog/dynamic-hill-shading/&#34;&gt;had a few thoughts on the matter&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-08-24_separation-of-concerns/images/8.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dynamic Hillshade demo built by Vladimir Agafonkin for Mapbox&lt;/p&gt;
+&lt;p&gt;If combining hillshade with satellite imagery is a cartographic problem that enough people want solved, I suspect it will get solved. In the meantime I’m going to continue working with Mapbox Studio and having a blast.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Cover image of the Himalayas&lt;/em&gt; &lt;a href=&#34;http://eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS008&amp;amp;roll=E&amp;amp;frame=13304&#34;&gt;&lt;em&gt;taken from on board the ISS&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, provided by NASA)&lt;/em&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -209,6 +718,31 @@ I was unrealistic early on about how much of a role technology could play in the
  About 10PM last night, I saw some interesting news dropped:
 WSJ: @google to spend $1billion+ on ~180 @satellites_ to provide Internet access around globe http://t.co/k4LJu5CRR0 pic.twitter.com/BoaCUBzzGv
 &amp;mdash; Alex Howard (@digiphile) June 2, 2014  Completely light on details (“A billion dollars!” “180 new satellites!” “Internet everywhere!”), the story is that Google will be pouring cash into previously-insurmountable technical challenges, and bringing satellite-borne internet to the world.</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;About 10PM last night, I saw some interesting news dropped:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;WSJ: &lt;a href=&#34;https://twitter.com/Google?ref_src=twsrc%5Etfw&#34;&gt;@google&lt;/a&gt; to spend $1billion+ on ~180 &lt;a href=&#34;https://twitter.com/satellites_?ref_src=twsrc%5Etfw&#34;&gt;@satellites_&lt;/a&gt; to provide Internet access around globe &lt;a href=&#34;http://t.co/k4LJu5CRR0&#34;&gt;http://t.co/k4LJu5CRR0&lt;/a&gt; &lt;a href=&#34;http://t.co/BoaCUBzzGv&#34;&gt;pic.twitter.com/BoaCUBzzGv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alex Howard (@digiphile) &lt;a href=&#34;https://twitter.com/digiphile/status/473285811677691904?ref_src=twsrc%5Etfw&#34;&gt;June 2, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Completely &lt;a href=&#34;http://www.theverge.com/2014/6/2/5771322/google-reportedly-launching-180-satellites-for-worldwide-internet&#34;&gt;light on details&lt;/a&gt; (“A &lt;strong&gt;billion&lt;/strong&gt; dollars!” “&lt;strong&gt;180&lt;/strong&gt; new satellites!” “Internet &lt;strong&gt;everywhere&lt;/strong&gt;!”), the story is that Google will be pouring cash into previously-insurmountable technical challenges, and bringing satellite-borne internet to the world. Awesome! I’ll believe it when I see it, but I’m sure folks will be talking about the possibilities today (as well as about &lt;a href=&#34;https://developer.apple.com/wwdc/&#34;&gt;the timing&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;But as long as we’re speculating, does the idea of a coordinated constellation of satellites ring any bells with anyone?&lt;/p&gt;
+&lt;p&gt;The Global Positioning System (GPS) guides us around the world and is approaching indispensability and ubiquity. It runs on signals emanating from a constant overhead mesh of 32 satellites at regular intervals around the planet (24 operational at any given time), and without getting too math-y on a Monday morning, the power is in triangulation (or more &lt;a href=&#34;https://twitter.com/jscarto/status/473478174769422337&#34;&gt;accurately&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Trilateration&#34;&gt;&lt;em&gt;trilateration&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-06-02_constellations-of-potential/images/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Triangulation in the 16th Century — courtesy &lt;a href=&#34;http://commons.wikimedia.org/wiki/File:CD006-Triangulation_16th_century.png&#34;&gt;Wikimedia Commons&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If your phone can receive a signal from three satellites at once it can figure out its approximate position on Earth. If it can get four, the accuracy goes up. If it can get five, six or even nine at once then the precision continues improving, to the point where your phone will know where it is down to the foot. There have been many technical tweaks to this equation over the years — better receivers, realtime error correction, etc. — but the essential roots are the same: &lt;strong&gt;more satellites overhead = more-accurate location&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/shoals/shoals/posts/2014-06-02_constellations-of-potential/images/2.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;GPS in action — graphic by &lt;a href=&#34;https://www.e-education.psu.edu/natureofgeoinfo/book/export/html/1620&#34;&gt;PSU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The GPS system has 32 satellites. The Russian equivalent system — GLONASS — has at least 24, the Chinese Baidou system has at least 16, and the EU is developing another array. There are a few high-priced receiver systems used by surveyors and the military that can employ multiple systems at once, but even those are going to have access to signals from no more than about 50 satellites at a time. Even worse, there are almost never more than 12 visible within a given horizon (you can’t get a signal if the Earth is between you and a satellite).&lt;/p&gt;
+&lt;p&gt;Imagine now that you have — instead of 50 satellites powering your navigation — 180 potential position signals around the globe. Imagine your phone can receive signals from 40 satellites at once. Even without enhanced receiver equipment and correction, that’s enough to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pinpoint the lawn chair where you left your phone&lt;/li&gt;
+&lt;li&gt;Navigate a wheelchair around a high curb cut on a sidewalk&lt;/li&gt;
+&lt;li&gt;Let a surveyor do their job at a fraction of the cost&lt;/li&gt;
+&lt;li&gt;Run your mobile device with maximum efficiency; the position and the network connectivity are coming from the same source.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As they develop this idea of “Internet everywhere”, you can bet Google is already thinking about this possible leap in position technology. They’ve disrupted (and I hate that word, so you know I mean it) geospatial technology &lt;a href=&#34;http://en.wikipedia.org/wiki/Google_Earth&#34;&gt;so&lt;/a&gt; &lt;a href=&#34;http://blumenthals.com/blog/2009/05/13/google-maps-development-history-2005-2008/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://en.wikipedia.org/wiki/Google_Street_View&#34;&gt;times&lt;/a&gt; at this &lt;a href=&#34;http://techcrunch.com/2014/04/07/a-satellite-startup-could-be-googles-next-purchase/&#34;&gt;point&lt;/a&gt; that I’m losing count, but maybe they’re going to do it again.&lt;/p&gt;
+</content>
     </item>
     
   </channel>
