@@ -5,27 +5,6 @@
     <link>/shoals/tags/</link>
     <description>Recent content in Tags on Shoals</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 16:01:04 -0500</lastBuildDate><atom:link href="/shoals/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>aging</title>
-      <link>/shoals/tags/aging/</link>
-      <pubDate>Fri, 10 Mar 2023 16:01:04 -0500</pubDate>
-      
-      <guid>/shoals/tags/aging/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>running</title>
-      <link>/shoals/tags/running/</link>
-      <pubDate>Fri, 10 Mar 2023 16:01:04 -0500</pubDate>
-      
-      <guid>/shoals/tags/running/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
+    <language>en-us</language><atom:link href="/shoals/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -5,19 +5,10 @@
     <loc>/shoals/posts/2023-03-08_a-new-story/</loc>
     <lastmod>2023-03-10T16:01:04-05:00</lastmod>
   </url><url>
-    <loc>/shoals/tags/aging/</loc>
-    <lastmod>2023-03-10T16:01:04-05:00</lastmod>
-  </url><url>
     <loc>/shoals/posts/</loc>
     <lastmod>2023-03-10T16:01:04-05:00</lastmod>
   </url><url>
-    <loc>/shoals/tags/running/</loc>
-    <lastmod>2023-03-10T16:01:04-05:00</lastmod>
-  </url><url>
     <loc>/shoals/</loc>
-    <lastmod>2023-03-10T16:01:04-05:00</lastmod>
-  </url><url>
-    <loc>/shoals/tags/</loc>
     <lastmod>2023-03-10T16:01:04-05:00</lastmod>
   </url><url>
     <loc>/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</loc>
@@ -75,5 +66,7 @@
     <lastmod>2019-07-19T09:09:04-04:00</lastmod>
   </url><url>
     <loc>/shoals/categories/</loc>
+  </url><url>
+    <loc>/shoals/tags/</loc>
   </url>
 </urlset>
