@@ -19,8 +19,6 @@ My right knee has been bothering me since last summer, after some particularly l
 
 > Advanced Chondrosis, with cartilage fissuring and bone edema
 
-![The knee in question](images/knee.png)
-
 The best translation I've got is that __I've ruined my knee in a way that won't heal.__
 
 The one clear message I'm getting from everyone - physicians, runners, bloggers, running doctor bloggers - is that I should all but stop running. This isn't garden-variety arthritis; this is *damage*, and I should find a new sport with lower impact, to extend the life of my knee before a now-inevitable replacement. So, like several billion of my middle-aged brethren before me, I'll have to adjust - try to make a go of it with cycling or rowing or quietly reading. But that hurts, because running, to me, is perfect. All you need is a pair of shoes, and you can do it anywhere in the world, in any conditions. I'm going to miss it like I'd miss home.
