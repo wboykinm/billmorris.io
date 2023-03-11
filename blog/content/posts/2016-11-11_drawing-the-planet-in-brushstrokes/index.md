@@ -29,8 +29,7 @@ After fiddling with the app for a few weeks and finding its limitations, on a wh
 
 With some minor adjustments, the landscape structure punched through the style while looking completely abstract — a memory of the stone walls and crops in the fields of southern France:
 
-{{< instagram BMAlh1ehQMj >}}
-
+![The Medina Rabat, at sunset](images/4.png)
 
 Aided by [a trove of openly-licensed imagery](https://www.planet.com/gallery/) from the ever-generous [Planet Labs](https://twitter.com/planetlabs), I started abstracting sites worldwide. I was particularly drawn to a pair of styles that drew from the work of the French avant-garde polymath [Francis Picabia](https://www.guggenheim.org/artwork/artist/francis-picabia). His large-scale pieces — and cubism more broadly — fit almost perfectly into the structure of the human-altered landscapes we can see from space. The deconstructionist tendency of cubism — break it apart and then piece it roughly back together — mirrors the patterns visible in agriculture and the built environment. We break apart the ground at all scales, and we put it back together, repurposed; human straightaways against nature’s arcs and bights.
 

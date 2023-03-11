@@ -2,11 +2,11 @@
 title = "A New Story"
 date = "2023-03-10T16:01:04-05:00"
 author = "Bill"
-authorTwitter = "" #do not include @
-cover = ""
+authorTwitter = "vtcraghead" #do not include @
+cover = "images/knee.png"
 tags = []
-keywords = ["", ""]
-description = "Injury and new leaves"
+keywords = ["running", "aging", "cycling"]
+description = ""
 showFullContent = false
 readingTime = false
 +++
