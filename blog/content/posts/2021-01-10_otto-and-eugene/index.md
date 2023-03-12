@@ -1,6 +1,6 @@
 +++
 title = "Otto and Eugene"
-date = "2023-03-12T18:17:00-04:00"
+date = "2021-01-10T18:17:00-04:00"
 author = "Bill Morris"
 authorTwitter = "" #do not include @
 cover = "images/goodman.jpeg"
