@@ -1,7 +1,7 @@
 +++
 title = "A New Story"
 date = "2023-03-10T16:01:04-05:00"
-author = "Bill"
+author = "Bill Morris"
 authorTwitter = "vtcraghead" #do not include @
 cover = "images/knee.png"
 tags = []
