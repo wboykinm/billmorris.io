@@ -1,7 +1,6 @@
 #baseURL = "http://example.org/"
 #languageCode = "en-us"
 title = "Shoals"
-#theme = "terminal"
 
 baseurl = "/shoals/"
 languageCode = "en-us"
