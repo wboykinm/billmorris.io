@@ -5,6 +5,7 @@ date: 2018-08-30T17:37:23.466Z
 lastmod: 2019-07-19T09:09:38-04:00
 
 description: ""
+cover: "images/1.png"
 
 subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:"
 
@@ -17,8 +18,6 @@ images:
 aliases:
     - "/all-the-takes-youre-about-to-see-on-the-nyc-snapchat-map-vandalism-c0e73010e90b"
 ---
-
-![image](/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/1.png)
 
 That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
 
