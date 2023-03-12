@@ -28,7 +28,7 @@ At this point, Lieutenant Otto Bellgardt of the local precinct's police force ar
 
 (The story is muddled here - accounts suggest that Bellgardt's superior Wilhelm Krützfeld was either on the scene as well, or directing the rescue effort remotely. Some accounts [are available in German](https://www.google.com/books/edition/Ost_Berlin/Z6WIDwAAQBAJ?hl=en&gbpv=1&dq=%22otto%20bellgardt%22&pg=PA94&printsec=frontcover&bsq=%22otto%20bellgardt%22)).
 
-Bellgardt's act - by most interpretations, of doing his job - saved that German Synagogue on a night when very few of them were spared, and it was used by the congregation for at least a few more years before the congregation was evicted completely. Reports that I have difficulty confirming have him and his colleagues repeatedly defying the gestapo in subsequent years, warning Jews of raids and forging papers on their behalf.
+Bellgardt's act - by most interpretations, of doing his job - saved that German Synagogue on a night when very few of them were spared, and it was used by the congregation for at least a few more years before they were evicted completely. Reports that I have difficulty confirming have Bellgardt and his colleagues repeatedly defying the gestapo in subsequent years, warning Jews of raids and forging papers on their behalf.
 
 Legends grow in the telling, but the New Synagogue is still there today. 
 
