@@ -188,11 +188,12 @@ On November 9, 1938, Goebbels turned the SA loose on Jewish communities througho
       <pubDate>Mon, 19 Nov 2018 20:13:11 -0400</pubDate>
       
       <guid>/shoals/posts/2018-11-19_a-journey/</guid>
-      <description>On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!
+      <description>The order is placed On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!
 Hmmm . . . looks like it shipped. Lemme check the status.
 Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!
-Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a clearer window into the supply chain than what I&amp;rsquo;m accustomed to . . .</description>
-      <content>&lt;p&gt;On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!&lt;/p&gt;
+Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a clearer window into the supply chain than what I&amp;rsquo;m accustomed to .</description>
+      <content>&lt;h2 id=&#34;the-order-is-placed&#34;&gt;The order is placed&lt;/h2&gt;
+&lt;p&gt;On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!&lt;/p&gt;
 &lt;p&gt;Hmmm . . . looks like it shipped. Lemme check the status.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/1.gif&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!&lt;/p&gt;
@@ -201,6 +202,80 @@ Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a 
 &lt;p&gt;&lt;img src=&#34;images/3.gif&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Oh man, it must be at one of those massive factories I&amp;rsquo;ve been obliquely-misinformed about since I was 5. Let&amp;rsquo;s take a look.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/4.gif&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hmmm . . . seems like a huge building, but it&amp;rsquo;s closer to the city center than I&amp;rsquo;d expect. let&amp;rsquo;s see what it looks like on a satellite view.&lt;/p&gt;
+&lt;p&gt;[Whoa - that &lt;a href=&#34;https://geoawesomeness.com/eo-hub/china-messing-gps-coordinates/&#34;&gt;state-imposed offset&lt;/a&gt; is no joke.]&lt;/p&gt;
+&lt;p&gt;But that building looks suspiciously Hall-of-the-People-ish.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/5.gif&#34; alt=&#34;5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Okay, let&amp;rsquo;s check streetview to see this factor- OH MY GOD IT&amp;rsquo;S THE FRIGGIN&amp;rsquo; &amp;lsquo;NAUVOO&amp;rsquo; FROM &amp;lsquo;THE EXPANSE&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Takes a deep breath&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Actually I see this is indeed the &amp;ldquo;Shenzhen People&amp;rsquo;s Government&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/6.gif&#34; alt=&#34;6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t think this is the factory. I think it&amp;rsquo;s what the Google Maps API considers the &amp;ldquo;default&amp;rdquo; geocode for Shenzhen, and no address of the factory was provided to the part of the package-tracking app that faces me.&lt;/p&gt;
+&lt;p&gt;But man, now I want to know more about Shenzhen.&lt;/p&gt;
+&lt;h2 id=&#34;side-trip-to-shenzhen&#34;&gt;Side trip to Shenzhen&lt;/h2&gt;
+&lt;p&gt;As a dumbass American, I know f***-all about China in general, and Shenzhen in particular, but I harbor a fascination about where so much of my &amp;ldquo;stuff&amp;rdquo; comes from.&lt;/p&gt;
+&lt;p&gt;So lemme dig into this a bit.&lt;/p&gt;
+&lt;p&gt;Shenzhen is the beat of a great many journalists, and Matt Rivers from CNN &lt;a href=&#34;https://edition.cnn.com/videos/business/2018/11/19/shenzhen-china-innovation.cnn-business&#34;&gt;has a good starting point&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Overview:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Population in 1980: 40k&lt;/li&gt;
+&lt;li&gt;Population in 2018: 12 Million 😲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Cause: Deng Xiaoping&amp;rsquo;s economic reforms, among others)&lt;/p&gt;
+&lt;p&gt;Shenzhen is home to many of China&amp;rsquo;s (and the world&amp;rsquo;s) titans of tech: Tencent, ZTE, Huawei . . . and of course, Foxconn. This last company may be known to Americans as &amp;ldquo;That place that probably made your iPhone where they &lt;a href=&#34;https://en.wikipedia.org/wiki/Foxconn_suicides&#34;&gt;put up nets&lt;/a&gt; to stop overstressed workers throwing themselves off balconies, and where Mike Daisey decided to push the boundary between journalism and &lt;a href=&#34;https://www.theatlantic.com/international/archive/2012/03/the-sad-and-infuriating-mike-daisey-case/254661/&#34;&gt;&amp;lsquo;making s*** up&amp;rsquo;.&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Google has modest offices in Shenzhen too, but that wouldn&amp;rsquo;t be where my phone case was manufactured, any more than the People&amp;rsquo;s Government complex would have been. Instead, it probably would have been in a place like this manufacturing district North of the city center, where (if dubiously-curated map labels are to be believed) Foxconn has its primary facility . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/7.gif&#34; alt=&#34;7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;. . . and where - I s*** you not - there are precisely 0 Streetview shots or geotagged photos within a mile or so radius.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/8.gif&#34; alt=&#34;8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So maybe Google - currently &lt;a href=&#34;https://www.theverge.com/2018/11/29/18117400/google-china-petitions-dragonfly-sundar-pichai&#34;&gt;in the political weeds in China&lt;/a&gt; - isn&amp;rsquo;t the best source of a ground-level view of where my phone case was made. Let&amp;rsquo;s try Baidu. Aaaaaand . . . let&amp;rsquo;s enjoy this attempt of mine to navigate an obvious ripoff of the Google Maps UI, using only geographic cues because I have absolutely no knowledge of Chinese characters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/9.gif&#34; alt=&#34;9&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lets see if Baidu has to adhere to the same precision degradation of satellite imagery as foreign map providers . . . NOPE. Spot-on.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/10.gif&#34; alt=&#34;10&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I bet the Baidu &amp;ldquo;Total View&amp;rdquo; is also in better shape here . . .&lt;/p&gt;
+&lt;p&gt;Yep.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/11.gif&#34; alt=&#34;11&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This part of Shenzhen is basically all-Foxconn, as far as the eye can see, but I suppose it&amp;rsquo;s not a bad answer to &amp;ldquo;What is it like where my phone case comes from?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/12.gif&#34; alt=&#34;12&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t mean to suggest that a corporate behemoth like Baidu is like the friendly guy on the corner who gives you detailed directions and recommends a good teahouse . . . but maybe local knowledge is better when running down a whim of curiosity in unfamiliar territory. A harder class of question to answer is what I&amp;rsquo;m really after here: questions about the people who live and work here. Like&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;What did the worker who QA&amp;rsquo;d my phone case do for fun last weekend? [Did she even have a day off?]&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And not to harp too much on Mike Daisey (his transgressions now seem quaint in the era of a president who capital-L-Lies on the daily), but his &amp;ldquo;Heart of Darkness&amp;rdquo; approach to talking about tech in Shenzhen is both odious and relatable. Here I am, across the planet from this place where my phone case was birthed, curious about the circumstances that surround the creation of that little bit of plastic that&amp;rsquo;ll spend so much time in my pocket. And despite the fact that I have an information bonanza available to me about Shenzhen at the stroke of a key - in English, no less - I still feel the cloak of mystery swirling back around that faraway city even moments after I stop researching it.&lt;/p&gt;
+&lt;p&gt;Maybe I should visit 😎.&lt;/p&gt;
+&lt;h2 id=&#34;the-phone-moves-out&#34;&gt;The phone moves out&lt;/h2&gt;
+&lt;p&gt;UPDATE! OFF TO OSAKA!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/13.gif&#34; alt=&#34;13&#34;&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE: Hello, Louisville!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/14.gif&#34; alt=&#34;14&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Also, big shout to Google Maps&amp;rsquo; recently-imposed and not-yet-addressed-by-the-tracking-app &lt;a href=&#34;https://therealdeal.com/2018/05/07/agents-will-have-to-really-start-paying-for-google-maps/&#34;&gt;API requirements!&lt;/a&gt; I&amp;rsquo;d like to think that my aggressive package-tracking is what caused the API limit bots to notice.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t want to fail to note that my phone case passed through Anchorage, probably well before today&amp;rsquo;s earthquake. But these arrows sure have the hint of a pilot approaching the airport, noticing fissures opening up in the earth, and cruising away like Cusak &amp;amp; co. in &amp;ldquo;2012&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/15.gif&#34; alt=&#34;15&#34;&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE: Swerve North to Indianapolis!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/16.gif&#34; alt=&#34;16&#34;&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE: On Springfield! On White River Junction! On . . . hey wait, did this chain of custody already forget its brush with disaster in Anchorage? Has the memory of Osaka faded?&lt;/p&gt;
+&lt;p&gt;Was Shenzhen merely a dream?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/17.gif&#34; alt=&#34;17&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nashua? NO WAIT COME BACK THAT&amp;rsquo;S THE WRONG WAY.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/18.gif&#34; alt=&#34;18&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Really going for the &amp;ldquo;Lopsided scarecrow&amp;rdquo; look here . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/19.gif&#34; alt=&#34;19&#34;&gt;&lt;/p&gt;
+&lt;p&gt;. . . but at long last, the package has entered the city limits of Burlington, VT.&lt;/p&gt;
+&lt;h2 id=&#34;the-arrival&#34;&gt;The arrival&lt;/h2&gt;
+&lt;p&gt;Mailbox . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20.jpg&#34; alt=&#34;20&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Unbox . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/21.gif&#34; alt=&#34;21&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s glorious! And it&amp;rsquo;s a map 😀&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/22.gif&#34; alt=&#34;22&#34;&gt;&lt;/p&gt;
+&lt;p&gt;. . . specifically, a map of my home region, centered on the great city of Burlington. I made it using Mapbox Studio, because Google&amp;rsquo;s default cartography for these &amp;ldquo;place cases&amp;rdquo; is uninspiring. &lt;a href=&#34;https://www.dropbox.com/s/obz6pis07iupz4x/champlain.png?dl=0&#34;&gt;Here&amp;rsquo;s the static image for download&lt;/a&gt; for all the Champlain-ers out there.&lt;/p&gt;
+&lt;p&gt;This magical unsealing of what-was-last-sealed-by-the-banks-of-the-Sham-Chun-river brings me back to why I started on this thread in the first place:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Did the lineworker in Shenzhen who checked this case think for a moment about the faraway, frankly-obscure place depicted on it?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Honestly I doubt it, and can hardly blame her; Americans like me are fond of placing ourselves at the center of everyone else&amp;rsquo;s imagined worldviews. But the odd whims of a global economy have caused me to send a map of my home to the other side of the world for printing, then very slowly back to live in my pocket. I&amp;rsquo;ll keep thinking about those who saw it along the way.&lt;/p&gt;
+&lt;h2 id=&#34;coda-better-versions-of-this-tale-exist&#34;&gt;Coda: better versions of this tale exist&lt;/h2&gt;
+&lt;p&gt;I should note that the &amp;ldquo;Humans of the global supply chain&amp;rdquo; tale has been expertly told by many able investigators at this point, notably Alex Blumberg &lt;a href=&#34;https://apps.npr.org/tshirt/#/title&#34;&gt;back when he was at Planet Money&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I should also note that Vince Staples &lt;a href=&#34;https://www.youtube.com/watch?v=vz9-pXuvFEU&#34;&gt;already dunked hard&lt;/a&gt; on the genre of StreetView-curiosity-tourism I&amp;rsquo;m practicing here, and it&amp;rsquo;s glorious.&lt;/p&gt;
 </content>
     </item>
     
