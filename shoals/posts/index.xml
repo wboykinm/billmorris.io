@@ -183,6 +183,52 @@ On November 9, 1938, Goebbels turned the SA loose on Jewish communities througho
     </item>
     
     <item>
+      <title>A full-throated defense of using Zipcodes for spatial analysis</title>
+      <link>/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/</link>
+      <pubDate>Wed, 28 Aug 2019 16:16:07 -0400</pubDate>
+      
+      <guid>/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/</guid>
+      <description>We, the data-folk of Faraday, agree wholeheartedly with our colleagues at Carto on this sensitive issue: In the USA, ZIP codes(™) are the worst-case scenario base unit for measuring geospatial relationships. Because:
+They&amp;rsquo;re widely-varying in size &amp;amp; shape They contain populations that range from 0 into the hundreds of thousands They&amp;rsquo;re subject to mind-bogglingly-wide distributions in nearly every metric of human behavior (income, age, etc) The above post is exhaustive on these points.</description>
+      <content>&lt;p&gt;We, the data-folk of Faraday, agree wholeheartedly with our colleagues at
+Carto on this sensitive issue: In the USA, ZIP codes(™) &lt;a href=&#34;https://carto.com/blog/zip-codes-spatial-analysis&#34;&gt;are the worst-case scenario base unit for measuring geospatial relationships&lt;/a&gt;. Because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;They&amp;rsquo;re widely-varying in size &amp;amp; shape&lt;/li&gt;
+&lt;li&gt;They contain populations that range from 0 into the hundreds of thousands&lt;/li&gt;
+&lt;li&gt;They&amp;rsquo;re subject to mind-bogglingly-wide distributions in nearly every metric of human behavior (income, age, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The above post is exhaustive on these points. Read it, then come back. I&amp;rsquo;ll wait.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s quite clear: ZIP codes are overused, when they should be a last resort. The thing is, though ZIPs should only be used in a worst-case scenario, sometimes you find yourself presented with the worst case. And I&amp;rsquo;ll offer a few gentle nudges of reassurance to you poor souls in such circumstances:&lt;/p&gt;
+&lt;h2 id=&#34;zipzcta&#34;&gt;ZIP/ZCTA&lt;/h2&gt;
+&lt;p&gt;Sure, ZIPs aren&amp;rsquo;t areas, and US Census Bureau ZCTAs aren&amp;rsquo;t the same thing in spirit. But they&amp;rsquo;re close. Like REALLY close. &lt;a href=&#34;https://faraday.ai/blog/be-not-afraid-of-zctas/&#34;&gt;We measured it&lt;/a&gt;; you shouldn&amp;rsquo;t avoid using ZCTAs for analysis solely because they aren&amp;rsquo;t exactly like ZIPs.&lt;/p&gt;
+&lt;h2 id=&#34;known-entities&#34;&gt;Known entities&lt;/h2&gt;
+&lt;p&gt;While it&amp;rsquo;s lame to blame the zeitgeist, ZIP codes are the only thing your clients will recognize intuitively that breaks a city into smaller components.&lt;/p&gt;
+&lt;p&gt;Matt Forrest notes this &lt;a href=&#34;https://carto.com/blog/zip-codes-spatial-analysis&#34;&gt;in his post&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Finally, most people know  without looking at a map that zip codes represent a smaller area than a city, but larger than say a neighborhood. Conceptually, they feel small enough to get a very focused view of the world, and big enough to capture enough of a sample size of trends.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The short answer is that zip codes are easy to find, familiar, and provide a granular enough view of the world (or so we thought).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You have to meet the client in a place they understand if you want to impress on them that there are broader insights available in the study of location. (Though the basic workaround here is to do any analysis at the level of the census block group or smaller, then aggregate.)&lt;/p&gt;
+&lt;h2 id=&#34;inflexible-tools&#34;&gt;Inflexible tools&lt;/h2&gt;
+&lt;p&gt;Sometimes the use case requires a bad input.&lt;/p&gt;
+&lt;p&gt;Yes, it&amp;rsquo;s awful, yes you should recommend changes and build tools to that effect, but some applications will only break down a broad spatial area by ZIP. Want to target an area smaller than the Chicago DMA with Search Engine Marketing (SEM)? Your options are mostly either ZIPs or simple radii (which are arguably worse).&lt;/p&gt;
+&lt;h2 id=&#34;be-modestly-afraid&#34;&gt;Be [modestly] afraid&lt;/h2&gt;
+&lt;p&gt;In summary:&lt;/p&gt;
+&lt;p&gt;It turns out that the compact route along which a human can efficiently carry folded and stapled pieces of information-rich paper is and remains a poor heuristic for human behaviors that you might want to assess or predict.&lt;/p&gt;
+&lt;p&gt;. . . and . . .&lt;/p&gt;
+&lt;p&gt;Sometimes you have to use those routes anyway, for the above reasons and many more not detailed here (oh man, did I forget data availability?).&lt;/p&gt;
+&lt;p&gt;Do so cautiously -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aggregate from smaller units&lt;/li&gt;
+&lt;li&gt;actively assess results for hidden inequalities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;. . . but do it when you must.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Following a phone case</title>
       <link>/shoals/posts/2018-11-19_a-journey/</link>
       <pubDate>Mon, 19 Nov 2018 20:13:11 -0400</pubDate>

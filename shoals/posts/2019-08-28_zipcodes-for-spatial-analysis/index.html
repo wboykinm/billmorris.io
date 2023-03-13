@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>A full-throated defense of using Zipcodes for spatial analysis :: Shoals</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Psych. It&#39;s actually a meek defense." />
+<meta name="keywords" content="spatial analysis, zipcodes, data science" />
+<meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/shoals/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/shoals/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="/shoals/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A full-throated defense of using Zipcodes for spatial analysis">
+<meta property="og:description" content="Psych. It&#39;s actually a meek defense." />
+<meta property="og:url" content="/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/" />
+<meta property="og:site_name" content="Shoals" />
+
+  
+  
+    
+  
+  <meta property="og:image" content="/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/images/zip.jpeg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2019-08-28 16:16:07 -0400 EDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/shoals/">
+  <div class="logo">
+    Shoals
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/">A full-throated defense of using Zipcodes for spatial analysis</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2019-08-28 ::
+        
+      </time>
+    
+    
+      <span class="post-author">Bill Morris</span>
+    
+    
+  </div>
+
+  
+  
+  <img src="/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/images/zip.jpeg"
+    class="post-cover"
+    alt="A full-throated defense of using Zipcodes for spatial analysis"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <p>We, the data-folk of Faraday, agree wholeheartedly with our colleagues at
+Carto on this sensitive issue: In the USA, ZIP codes(™) <a href="https://carto.com/blog/zip-codes-spatial-analysis">are the worst-case scenario base unit for measuring geospatial relationships</a>. Because:</p>
+<ul>
+<li>They&rsquo;re widely-varying in size &amp; shape</li>
+<li>They contain populations that range from 0 into the hundreds of thousands</li>
+<li>They&rsquo;re subject to mind-bogglingly-wide distributions in nearly every metric of human behavior (income, age, etc)</li>
+</ul>
+<p>The above post is exhaustive on these points. Read it, then come back. I&rsquo;ll wait.</p>
+<p>It&rsquo;s quite clear: ZIP codes are overused, when they should be a last resort. The thing is, though ZIPs should only be used in a worst-case scenario, sometimes you find yourself presented with the worst case. And I&rsquo;ll offer a few gentle nudges of reassurance to you poor souls in such circumstances:</p>
+<h2 id="zipzcta">ZIP/ZCTA<a href="#zipzcta" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Sure, ZIPs aren&rsquo;t areas, and US Census Bureau ZCTAs aren&rsquo;t the same thing in spirit. But they&rsquo;re close. Like REALLY close. <a href="https://faraday.ai/blog/be-not-afraid-of-zctas/">We measured it</a>; you shouldn&rsquo;t avoid using ZCTAs for analysis solely because they aren&rsquo;t exactly like ZIPs.</p>
+<h2 id="known-entities">Known entities<a href="#known-entities" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>While it&rsquo;s lame to blame the zeitgeist, ZIP codes are the only thing your clients will recognize intuitively that breaks a city into smaller components.</p>
+<p>Matt Forrest notes this <a href="https://carto.com/blog/zip-codes-spatial-analysis">in his post</a>:</p>
+<blockquote>
+<p>Finally, most people know  without looking at a map that zip codes represent a smaller area than a city, but larger than say a neighborhood. Conceptually, they feel small enough to get a very focused view of the world, and big enough to capture enough of a sample size of trends.</p>
+</blockquote>
+<blockquote>
+<p>The short answer is that zip codes are easy to find, familiar, and provide a granular enough view of the world (or so we thought).</p>
+</blockquote>
+<p>You have to meet the client in a place they understand if you want to impress on them that there are broader insights available in the study of location. (Though the basic workaround here is to do any analysis at the level of the census block group or smaller, then aggregate.)</p>
+<h2 id="inflexible-tools">Inflexible tools<a href="#inflexible-tools" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Sometimes the use case requires a bad input.</p>
+<p>Yes, it&rsquo;s awful, yes you should recommend changes and build tools to that effect, but some applications will only break down a broad spatial area by ZIP. Want to target an area smaller than the Chicago DMA with Search Engine Marketing (SEM)? Your options are mostly either ZIPs or simple radii (which are arguably worse).</p>
+<h2 id="be-modestly-afraid">Be [modestly] afraid<a href="#be-modestly-afraid" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>In summary:</p>
+<p>It turns out that the compact route along which a human can efficiently carry folded and stapled pieces of information-rich paper is and remains a poor heuristic for human behaviors that you might want to assess or predict.</p>
+<p>. . . and . . .</p>
+<p>Sometimes you have to use those routes anyway, for the above reasons and many more not detailed here (oh man, did I forget data availability?).</p>
+<p>Do so cautiously -</p>
+<ul>
+<li>aggregate from smaller units</li>
+<li>actively assess results for hidden inequalities</li>
+</ul>
+<p>. . . but do it when you must.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="/shoals/posts/2021-01-10_otto-and-eugene/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Otto and Eugene</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="/shoals/posts/2018-11-19_a-journey/">
+                <span class="button__text">Following a phone case</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/shoals/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
