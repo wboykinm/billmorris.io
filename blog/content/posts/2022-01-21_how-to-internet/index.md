@@ -6,14 +6,16 @@ authorTwitter = "" #do not include @
 cover = "images/Confusion_of_Tongues_Dore.png"
 tags = []
 keywords = ["web", "blog", "dns"]
-description = ""
+description = "Instructions for getting a [mostly] static website onto a custom domain, with `https` encryption, for [mostly] free."
 showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
 
-Instructions for getting a [mostly] static website onto a custom domain, with `https` encryption, for [mostly] free. I'm finally writing this down after getting stuck on step 10 way too many times. Godspeed.
+Instructions for getting a [mostly] static website onto a custom domain, with `https` encryption, for [mostly] free. 
+
+I'm finally writing this down after getting stuck on step 10 way too many times. Godspeed.
 
 1. Purchase the top-level domain - [gandi.net](https://www.gandi.net/en-US/domain) is my current preferred registrar. Hopefully this will be the only cash you drop in this process.
 2. Create a new public repository [on github](https://github.com/new).

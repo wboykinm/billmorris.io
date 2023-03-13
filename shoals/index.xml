@@ -128,9 +128,11 @@ I&amp;rsquo;ve wandered over to Mastodon from Twitter, along with a goodly numbe
       <pubDate>Fri, 21 Jan 2022 17:13:15 -0400</pubDate>
       
       <guid>/shoals/posts/2022-01-21_how-to-internet/</guid>
-      <description>Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free. I&amp;rsquo;m finally writing this down after getting stuck on step 10 way too many times. Godspeed.
+      <description>Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free.
+I&amp;rsquo;m finally writing this down after getting stuck on step 10 way too many times. Godspeed.
 Purchase the top-level domain - gandi.net is my current preferred registrar. Hopefully this will be the only cash you drop in this process. Create a new public repository on github. Clone the new repo locally and create your site content package, even starting with something as simple as a standalone index.</description>
-      <content>&lt;p&gt;Instructions for getting a [mostly] static website onto a custom domain, with &lt;code&gt;https&lt;/code&gt; encryption, for [mostly] free. I&amp;rsquo;m finally writing this down after getting stuck on step 10 way too many times. Godspeed.&lt;/p&gt;
+      <content>&lt;p&gt;Instructions for getting a [mostly] static website onto a custom domain, with &lt;code&gt;https&lt;/code&gt; encryption, for [mostly] free.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m finally writing this down after getting stuck on step 10 way too many times. Godspeed.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Purchase the top-level domain - &lt;a href=&#34;https://www.gandi.net/en-US/domain&#34;&gt;gandi.net&lt;/a&gt; is my current preferred registrar. Hopefully this will be the only cash you drop in this process.&lt;/li&gt;
 &lt;li&gt;Create a new public repository &lt;a href=&#34;https://github.com/new&#34;&gt;on github&lt;/a&gt;.&lt;/li&gt;
@@ -177,6 +179,28 @@ On November 9, 1938, Goebbels turned the SA loose on Jewish communities througho
 &lt;blockquote&gt;
 &lt;p&gt;When any of us have a job that requires courage, and the winds are blowing against us, what will we do?&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Following a phone case</title>
+      <link>/shoals/posts/2018-11-19_a-journey/</link>
+      <pubDate>Mon, 19 Nov 2018 20:13:11 -0400</pubDate>
+      
+      <guid>/shoals/posts/2018-11-19_a-journey/</guid>
+      <description>On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!
+Hmmm . . . looks like it shipped. Lemme check the status.
+Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!
+Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a clearer window into the supply chain than what I&amp;rsquo;m accustomed to . . .</description>
+      <content>&lt;p&gt;On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!&lt;/p&gt;
+&lt;p&gt;Hmmm . . . looks like it shipped. Lemme check the status.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/1.mp4&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/2.mp4&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a clearer window into the supply chain than what I&amp;rsquo;m accustomed to . . .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/3.mp4&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Oh man, it must be at one of those massive factories I&amp;rsquo;ve been obliquely-misinformed about since I was 5. Let&amp;rsquo;s take a look.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/4.mp4&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
