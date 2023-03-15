@@ -1,7 +1,7 @@
 +++
 title = "The things he carried"
 date = "2022-03-09T20:42:22-04:00"
-author = ""
+author = "Bill Morris"
 authorTwitter = "" #do not include @
 cover = "images/cover.jpg"
 tags = []
