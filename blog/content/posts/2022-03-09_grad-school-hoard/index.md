@@ -51,7 +51,7 @@ You know what the world needs less of? Proprietary versions of data analysis pro
 ![6a](images/6a.jpg)
 ![6b](images/6b.jpg)
 
-A decade-old #foss4g textbook by [Gary Sherman](https://spatialgalaxy.net/)], who is my absolute hero for printing the term "Green-beaked Freak". The book holds up surprisingly well, with a still-applicable intro to PostGIS.
+A decade-old #foss4g textbook by [Gary Sherman](https://spatialgalaxy.net/), who is my absolute hero for printing the term "Green-beaked Freak". The book holds up surprisingly well, with a still-applicable intro to PostGIS.
 
 ## Little red book, 1/0
 
@@ -109,4 +109,4 @@ ONE SHILLING AND SIXPENCE. Predates Marie Tharp and common decency.
 
 I still reference these all the damn time. 
 
-Thanks for following along folks! Tune in next week for an exciting look through my high school yearbook! <Is dragged off stage in a straightjacket>
+Thanks for following along folks! Tune in next week for an exciting look through my high school yearbook! [Is dragged off stage in a straightjacket]
