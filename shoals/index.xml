@@ -165,7 +165,7 @@ My watch, unbeknownst to me, decided that I was actually starting 3km South, nea
 &lt;p&gt;&lt;img src=&#34;images/9.jpg&#34; alt=&#34;9&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;update-1013&#34;&gt;[UPDATE, 10/13]&lt;/h2&gt;
 &lt;p&gt;A solution has arisen, provided by &lt;a href=&#34;https://twitter.com/lemonodor&#34;&gt;John Wiseman&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;For a week this summer - including my day - a bunch of Sony-made GPS chipsets &lt;a href=&#34;https://www.dcrainmaker.com/2022/07/gps-accuracy-issue-impacted-garmin-suunto-and-polar-watches-over-past-week.html&#34;&gt;had a bug that made them look in the wrong parts of the sky for satellites.&lt;/a&gt;. I was able to get that diagnosis confirmed y Garmin support:&lt;/p&gt;
+&lt;p&gt;For a week this summer - including my day - a bunch of Sony-made GPS chipsets &lt;a href=&#34;https://www.dcrainmaker.com/2022/07/gps-accuracy-issue-impacted-garmin-suunto-and-polar-watches-over-past-week.html&#34;&gt;had a bug that made them look in the wrong parts of the sky for satellites.&lt;/a&gt;. I was able to get that diagnosis confirmed by Garmin support:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The issue in the blog was almost certainly the cause. The issue with that particular EPO file was that was entirely wrong, so satellite acquisition was completely thrown off. Normally, if the EPO file is just old, a GPS lock can take a few minutes. In this case, it may have taken minutes to hours, or it may not have locked on at all. Similar to the delay that happens when you try to acquire GPS after traveling a long distance.&lt;/p&gt;
 &lt;/blockquote&gt;

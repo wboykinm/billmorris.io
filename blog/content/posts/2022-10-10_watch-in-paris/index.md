@@ -69,7 +69,7 @@ I would *love* to hear your suspicions as well . . .
 
 A solution has arisen, provided by [John Wiseman](https://twitter.com/lemonodor): 
 
-For a week this summer - including my day - a bunch of Sony-made GPS chipsets [had a bug that made them look in the wrong parts of the sky for satellites.](https://www.dcrainmaker.com/2022/07/gps-accuracy-issue-impacted-garmin-suunto-and-polar-watches-over-past-week.html). I was able to get that diagnosis confirmed y Garmin support:
+For a week this summer - including my day - a bunch of Sony-made GPS chipsets [had a bug that made them look in the wrong parts of the sky for satellites.](https://www.dcrainmaker.com/2022/07/gps-accuracy-issue-impacted-garmin-suunto-and-polar-watches-over-past-week.html). I was able to get that diagnosis confirmed by Garmin support:
 
 > The issue in the blog was almost certainly the cause. The issue with that particular EPO file was that was entirely wrong, so satellite acquisition was completely thrown off. Normally, if the EPO file is just old, a GPS lock can take a few minutes. In this case, it may have taken minutes to hours, or it may not have locked on at all. Similar to the delay that happens when you try to acquire GPS after traveling a long distance. 
 
