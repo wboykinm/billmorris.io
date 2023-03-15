@@ -63,6 +63,8 @@ I've only got two hypotheses:
 
 I would *love* to hear your suspicions as well . . .
 
+![9](images/9.jpg)
+
 ## [UPDATE, 10/13]
 
 A solution has arisen, provided by [John Wiseman](https://twitter.com/lemonodor): 
