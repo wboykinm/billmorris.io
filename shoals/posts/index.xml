@@ -123,6 +123,56 @@ I&amp;rsquo;ve wandered over to Mastodon from Twitter, along with a goodly numbe
     </item>
     
     <item>
+      <title>Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</title>
+      <link>/shoals/posts/2022-10-10_watch-in-paris/</link>
+      <pubDate>Mon, 10 Oct 2022 10:31:42 -0400</pubDate>
+      
+      <guid>/shoals/posts/2022-10-10_watch-in-paris/</guid>
+      <description>Follow along using this map made with Felt
+One day this past July, I got up early and started a long run around Paris. I&amp;rsquo;ve found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my Garmin Forerunner 245 watch.
+My watch, unbeknownst to me, decided that I was actually starting 3km South, near the Institut Curie.</description>
+      <content>&lt;p&gt;&lt;em&gt;Follow along using &lt;a href=&#34;https://felt.com/map/A-Run-Through-Paris-July-3-2022-yU8I1K9CARgy6XKOraks4YA&#34;&gt;this map made with Felt&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One day this past July, I got up early and started a long run around Paris. I&amp;rsquo;ve found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my &lt;a href=&#34;https://www.garmin.com/en-US/p/628939&#34;&gt;Garmin Forerunner 245 watch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/1.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My watch, unbeknownst to me, decided that I was actually starting 3km South, near the Institut Curie.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/2.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My actual feet carried me through empty streets to the Palais Garnier, at the first sign of the sunrise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/3.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My watch, meanwhile, was barging directly through the Ministry of Agriculture before leaping into the Seine, despite the convenient Pont Alexandre III nearby.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/4.jpg&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My real self ran abruptly into a passel of Gendarmerie armed with automatic weapons in front of the Palais de l&amp;rsquo;Élysée. They grumpily directed me to a detour. Then, as I turned onto the Champs Élysées, some happy drunks - exiting a club after last call - joined me for a few blocks of jogging. (Mes amis, share that group selfie if you see this!)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/5.jpg&#34; alt=&#34;5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This must have been too much excitement for my watch, which until now had been approaching my true location. It took a hard left and started some wild evasion patterns, again caring not a whit for the sanctity of private property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/6.jpg&#34; alt=&#34;6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As I entered the Bois de Boulogne, my watch made a Northward leap and began a track that now seemed merely &lt;em&gt;offset&lt;/em&gt; from my real path, like a more-familiar GPS error.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/7.jpg&#34; alt=&#34;7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This offset diminished steadily, until my watch finally decided to join me at the Southern end of Lac Supérieur. It stayed credibly on my wrist for the rest of the run, now mostly along the South bank of the Seine, until I called a halt past the Île Saint-Louis and staggered off to find a scooter I could take back to the apartment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/8.jpg&#34; alt=&#34;8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So . . . what the hell happened here? I have a GPS track that looks like it was attached to a pigeon for the first half of my run, then it was perfectly accurate for the second half. I&amp;rsquo;m familiar with GPS error, from all the way back in the Selective Availability days when DGPS was essential, to the modern era where our pocket-carried receivers can be temperamental over brief periods of time.&lt;/p&gt;
+&lt;p&gt;But I&amp;rsquo;ve never seen this before (or since).&lt;/p&gt;
+&lt;p&gt;Also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My phone seems unaffected; photo locations in the same time window are accurate.&lt;/li&gt;
+&lt;li&gt;I paused logging for a few minutes just after the convergence point while I looked for an exit from the park.&lt;/li&gt;
+&lt;li&gt;I manually added the &amp;ldquo;corrected&amp;rdquo; track from memory. It&amp;rsquo;s not bulletproof.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;ve only got two hypotheses:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The watch was having a bad day, and Garmin postprocessing filled in the gaps between wild jumps until the signal locked in.&lt;/li&gt;
+&lt;li&gt;The French State (or someone else) was systematically spoofing all over Paris until about 7AM.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I would &lt;em&gt;love&lt;/em&gt; to hear your suspicions as well . . .&lt;/p&gt;
+&lt;h2 id=&#34;update-1013&#34;&gt;[UPDATE, 10/13]&lt;/h2&gt;
+&lt;p&gt;A solution has arisen, provided by &lt;a href=&#34;https://twitter.com/lemonodor&#34;&gt;John Wiseman&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;For a week this summer - including my day - a bunch of Sony-made GPS chipsets &lt;a href=&#34;https://www.dcrainmaker.com/2022/07/gps-accuracy-issue-impacted-garmin-suunto-and-polar-watches-over-past-week.html&#34;&gt;had a bug that made them look in the wrong parts of the sky for satellites.&lt;/a&gt;. I was able to get that diagnosis confirmed y Garmin support:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The issue in the blog was almost certainly the cause. The issue with that particular EPO file was that was entirely wrong, so satellite acquisition was completely thrown off. Normally, if the EPO file is just old, a GPS lock can take a few minutes. In this case, it may have taken minutes to hours, or it may not have locked on at all. Similar to the delay that happens when you try to acquire GPS after traveling a long distance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All&amp;rsquo;s well that ends well, and apparently spoofing had nothing to do with it!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>The things he carried</title>
       <link>/shoals/posts/2022-03-09_grad-school-hoard/</link>
       <pubDate>Wed, 09 Mar 2022 20:42:22 -0400</pubDate>
