@@ -16,7 +16,7 @@ color = "" #color from the theme settings
 _Photo: Sycamore Gap_
 
 ### Greenhead
-I told everyone who asked that I slept well, but I think I actually slept pretty badly. The room was very well-heated and there is nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it's impossible to complain, because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
+I told everyone who asked that I slept well, it wasn't really true. The room was well-heated and there's nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it's impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
 
 No rain is forecast for today, and I should have fewer miles, though up over steeper terrain. It's a Saturday, and I'm heading into some of the most famous sections of the wall, so I don't expect that I'll be nearly as alone as I was for much of yesterday, in the rain.
 
@@ -25,33 +25,33 @@ Strava begs to inform me that yesterday I continued my trend of sniping impossib
 ![1](images/1.jpg)
 
 ### Thirlwall Castle
-I detected the tiniest note of defensiveness in the language on the sign here. In this case it was "recycled" rather than stolen Roman stone and "meant as a defense against the Scots", which of course the wall itself had not been doing I'm sure. From what I've read, there's more than a change in defensive strategies going on here, from full frontier wall to individual keeps. There's a whole shift in political structure, with a Norman aristocracy afraid of its own people, and trying to keep them out as much as any invaders.
+I detected the tiniest note of defensiveness in the language on the intepretive sign here. In this case it was "recycled" rather than stolen Roman stone and "meant as a defense against the Scots", which of course the wall itself had not been doing 🙄. From what I've read, there's more than a change in defensive strategies going on here, from a full frontier wall to individual keeps over hundreds of years. This particular castle tells the story of a 12th-century shift in political structure, with a Norman aristocracy afraid of its own people, and trying to keep _them_ out as much as any invaders.
 
-It's fun to imagine this almost as a LEGO animation, with bricks being sucked away from the long wall and - with a satisfying clatter - forming this castle on a hill, then after some time sucked away again into individual houses and farm walls.
+It's fun to imagine this as a LEGO animation, with bricks being sucked away from the long wall and - with a satisfying clatter - forming this castle on a hill, then after some time sucked away again into individual houses and farm walls.
 
 ![2](images/2.jpg)
 
 ### Walltown
-Another contrast I'm trying to wrap my head around is the fact that here they say deliberately to walk on untrodden turf. On the Appalachian trail and its various derivatives, the ethic is always to walk in the muck or on rocks. It makes me wonder what sort of supernatural turf this is, that it can handle thousands of feet as long as they're spread out. (On reflection I realized that this is because Vermont's Alpine vegetation is so dang sensitive to boots.)
+Another contrast I'm trying to wrap my head around is the fact that here they say deliberately to walk on untrodden turf. On the Appalachian trail and its various derivatives, the ethic is always to walk in the muck or on rocks. It makes me wonder what sort of supernatural turf this is, that it can handle thousands of feet as long as they're spread out. On reflection I realized that this is probably because Vermont's Alpine vegetation is so dang sensitive to boots, and the winters there are so much harsher. 
 
 I'm in the high country now. Climbing around crags, and wondering why the Romans would even bother putting a wall at the top of some of these. They're too steep to climb as it is.
 
 The dew is still on the grass this morning, but I can see the path maybe already walked by others today snaking its way through the silvery-green pasture.
 
 ### Haltwhistle
-Doing a lot of wall jumping now. Meaning that there are three-step ladders going up one side and back down the other. One fence after another runs perpendicular into the farm wall where the defensive wall once stood, and then sweeps down the hill to the valley in the south. Long sheep paddocks, with lots of dividers to cross.
+Doing a lot of wall jumping now. There are three-step ladders going up one side and back down the other. One fence after another runs perpendicular into the farm wall where the defensive wall once stood, and then sweeps down the hill to the valley in the south. Long sheep paddocks, with lots of dividers to cross.
 
-As I walked through a farm just now, I noticed a calf laid out on its side next to a cow. It didn't look like it was feeding, it didn't look like it was moving. I wondered if it was dead. Then I saw it was breathing steadily, and I realized I don't think I've ever seen a cow sleep like that before. That calf was knackered.
+As I walked through a farm just now, I noticed a calf laid out on its side next to a cow. It didn't look like it was feeding; it didn't look like it was moving. I wondered if it was dead. Then I saw it was breathing steadily, and I realized I don't think I've ever seen a cow sleep like that before. That calf was knackered.
 
 ![3](images/3.jpg)
 
 ### Caw Gap
 And awkwardly running for a little bit there, to get ahead of at least a hundred day walkers who had just been disgorged from several tour buses. (I would later discover that this brought me another "seventh fastest in the world" record from Strava)
 
-I've identified in myself an occasional but rather ugly resentment for other people who are hiking on _my_ trail. Seems almost class-based sometimes, particularly when I start thinking about gear. I'll need to keep an eye out for that feeling, and suffocate it if it arises. 
+I've identified in myself an occasional but rather ugly resentment for _other_ people who dare to hike on _my_ trail. This seems almost like a class-based sentiment sometimes, particularly when I start thinking about the gear that others wear, or fail to bring. I'll need to keep an eye out for that feeling, and suffocate it when it arises.
 
 ### Sycamore Gap
-I had about a 10-second window between groups of day walkers, but I did manage to get a photo with no one in it. I'm a bit unhappy that I was too early at Twice Brewed for a pint, but this section seems fraught with a combination of perfect vistas, historically fascinating locations, and absolute hordes of people. I kept moving after I sent a message home.
+I had about a 10-second window between groups of day walkers, but I did manage to get a photo of the famous tree with no one around it. I'm a bit unhappy that I was too early at Twice Brewed for a pint, but this section seems fraught with a combination of perfect vistas, historically fascinating locations, and hordes of people. I kept moving after I sent a message home.
 
 ![4](images/4.jpg)
 
@@ -61,7 +61,7 @@ I've stopped for lunch now in a beautiful Grove of White pines, somewhat incongr
 ![5](images/5.jpg)
 
 ### Housteds
-I moved very quickly past the Roman Fort, as it seemed to be very crowded and was the slightest of detours. I waved back from the outside of the fence area - from the north side actually, like a barbarian - at a kid with his family inside the fort. They seemed perplexed, but I don't suppose I could blame them.
+I moved very quickly past the Roman Fort, as it seemed to be very crowded and represented the slightest of detours. I waved back from the outside of the fence area - from the north side actually, like a barbarian - at a kid with his family inside the fort. They seemed perplexed, but I don't suppose I could blame them. There are many ways to arrive at and depart from a place like this.
 
 I'm building a blister on the bottom of my right foot. The reason why this isn't causing me to panic is the fact that the soles of my feet have very few nerve endings and I think I can probably get on. However, I just looked at tomorrow's mileage, and if my vast underestimates hold, then it'll be a 25-mile day. That has me a little worried.
 
@@ -72,18 +72,18 @@ By the sheer variety of different gate latches I've encountered, I have to assum
 ![6](images/6.jpg)
 
 ### Settlingstones
-I think it's probably not actually hot, but it sure feels exposed and raw. It's entirely possible that I will have acquired that rarest of conditions, an English sunburn, by the end of the day. But the end of the day looks to be fairly close. I can see my bed and breakfast off in the distance, maybe a mile away.
+I think it's probably not a _hot_ day, but it sure feels exposed and raw. It's entirely possible that I will have acquired that rarest of conditions - an English sunburn - by the end of the day. But the end of the day looks to be fairly close. I can see my bed and breakfast off in the distance, maybe a mile away.
 
 ### Carraw
 I'm too early! But it's fine. I'm not going to screw around with the remainder of today; I'm going to rest. After I get to check in, that is. In the meantime, I'm hanging with the chickens in the garden.
 
 _[Later]_
 
-Now checked in, my feet feel very grateful. I had enough food to make a dinner of it, and an excellent cup of tea to go along with it. These hot showers at the ends of long days on the trail are an excellent reminder that I'm not so young anymore. I don't think luxury becomes me generally, but I do think that this type of accommodation is a worlds-better way to rest while backpacking than rolling out a sleeping bag in a lean-to.
+The innkeeper was apologetic that there was no dinner available, but she had a concert to attend in the evening: her daughter was singing in a choir at Hexham abbey. Her young son ran through the house kicking his soccer ball, and when I asked, he informed me that he was no Newcastle fan, but held with Blackburn.
+
+Now checked in, my feet feel very grateful. I had enough pack food to make a dinner of it, and a cup of tea to go along. These hot showers at the ends of long days on the trail are an excellent reminder that I'm not so young anymore. I don't think luxury becomes me generally, but I do think that this type of accommodation is a worlds-better way to rest while backpacking than rolling out a sleeping bag in a lean-to.
 
 The old rhythms of unpacking and packing again are resurfacing. The simple, necessary tasks and the ones that quickly become unnecessary. I look forward to tomorrow morning, with tracks already laid. Fill water, pack clean clothes, brush teeth, move out. It gets easier with repetition, with only slight variation by location.
-
-The innkeeper was apologetic that there was no dinner available, but she had a concert to attend in the evening: her daughter was singing in a choir at Hexham abbey. Her young son ran through the house kicking his soccer ball, then informed me that he was no Newcastle fan, but held with Blackburn.
 
 I slept hard.
 
