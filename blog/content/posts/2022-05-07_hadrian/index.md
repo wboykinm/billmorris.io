@@ -18,9 +18,9 @@ _Photo: Sycamore Gap_
 ### Greenhead
 I told everyone who asked that I slept well. It wasn't really true; the room was well-heated and there's nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it's impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
 
-No rain is forecast for today, and I should have fewer miles, though up over steeper terrain. It's a Saturday, and I'm heading into some of the most famous sections of the wall, so I don't expect that I'll be nearly as alone as I was for much of yesterday, in the rain.
+No rain is forecast for today, my third walking Hadrian's Wall Path. I should have fewer miles than yesterday, though up over steeper terrain. It's a Saturday, and I'm heading into some of the most famous sections of the wall, so I don't expect that I'll be nearly as alone as I was in the hills between Carlisle and this river valley.
 
-Strava begs to inform me that yesterday I continued my trend of sniping impossibly obscure records, landing the seventh fastest time on the one big hill climb yesterday. I'll bask in that for a little bit.
+Strava begs to inform me that yesterday I continued my trend of sniping impossibly obscure records, landing the seventh fastest time on the one big hill climb of the day. I'll bask in that for a little bit.
 
 ![1](images/1.jpg)
 
