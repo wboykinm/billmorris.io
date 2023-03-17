@@ -16,7 +16,7 @@ color = "" #color from the theme settings
 _Photo: Sycamore Gap_
 
 ### Greenhead
-I told everyone who asked that I slept well, it wasn't really true. The room was well-heated and there's nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it's impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
+I told everyone who asked that I slept well, but it wasn't really true. The room was well-heated and there's nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it's impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
 
 No rain is forecast for today, and I should have fewer miles, though up over steeper terrain. It's a Saturday, and I'm heading into some of the most famous sections of the wall, so I don't expect that I'll be nearly as alone as I was for much of yesterday, in the rain.
 
