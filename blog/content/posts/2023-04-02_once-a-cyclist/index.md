@@ -3,7 +3,7 @@ title = "Index"
 date = "2023-04-02T17:13:18-04:00"
 author = "Bill Morris"
 authorTwitter = "" #do not include @
-cover = "images/cover.png"
+cover = "images/cover.jpeg"
 tags = []
 keywords = ["cycling", "exercise", "urban planning", "bike"]
 description = "A short history of the author on two wheels."
@@ -37,5 +37,5 @@ The crash arrived in slow motion, and the fierce denials of culpability made it 
 
 But now, back on two wheels, I'm looking for new inspiration, because I damn well need it.
 
-![frozen](2.jpeg)
+![frozen](images/2.jpeg)
 
