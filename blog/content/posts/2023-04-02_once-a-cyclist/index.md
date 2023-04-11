@@ -27,15 +27,17 @@ Among the bucolic farm fields and hills of Addison County in Vermont lies Middle
 
 In this love letter to the cycling culture of 90s Chicago was the weight of history, the liberty of the untethered particle, and an unadulterated scorn for cars and the forces that make American cities so dangerous and inhospitable for humans. Having never set foot in Chicago I can't say how well the book has aged. Hell, I hadn't set much of a foot in _any_ city when I first read this. But after two years on a bike commuting around Boston, I do feel like I've earned some of the anger and determination that I first took on from this book. I've also [channeled some of it](https://billmorris.io/shoals/posts/2016-08-11_superblocks-for-a-small-city/) into ideas about how to make my own tiny city a better place.
 
+This book treated bicycles as tools of liberation.
+
 ## The burn
 
 Later, in the summer of 2002, I was living with a friend in Boulder, trying to find short-term jobs and coming up empty. I filled the time with a borrowed hard-fork mountain bike, zooming amateurishly around town. I struggled up Flagstaff Mountain every day in the pedals, regularly passed by much-fitter elderly Coloradans. And importantly, I was glued to the TV at a downtown bike shop for every stage of the Tour de France. 
 
-These were smack in the middle of Lance Armstrong's glory years, and I soaked it all up. I read through [his autobiography _It's Not About the Bike_](https://en.wikipedia.org/wiki/It%27s_Not_About_the_Bike) twice, searching for performance notes that actually applied to me: long hours in the saddle, less beer, less pizza, don't worry about being aerodynamic until it matters. I had set myself up for a crash, and I think I'm not alone in that.
+These were smack in the middle of Lance Armstrong's glory years, and I soaked it all up. I read through [his autobiography _It's Not About the Bike_](https://en.wikipedia.org/wiki/It%27s_Not_About_the_Bike) twice, searching for performance notes that actually applied to me: long hours in the saddle, less beer, less pizza, don't worry about being aerodynamic until it matters. As the title announced, his book was about him, about his journey and his capabilities. There was little of Culley's radicalism. But in my fandom, I had set myself up for a crash, and I think I'm not alone in that.
 
-The crash arrived in slow motion, and the fierce denials of culpability made it all the worse. By the time of Armstrong's admission of doping guilt in 2013, I had long since left my enthusiasm for bike _racing_ behind me in disgust. 
+The crash arrived in slow motion, and Armstrong's fierce denials of culpability made it all the worse. By the time of his admission of doping guilt in 2013, I had long since left my enthusiasm for bike _racing_ behind me in disgust.
 
-But now, back on two wheels, I'm looking for new inspiration, because I damn well need it.
+But now, back on two wheels, I'm looking for new inspiration, because I damn well need it, here at the onset of Spring.
 
 ![frozen](images/2.jpeg)
 
