@@ -8,7 +8,7 @@ My homepage
 ### Create a new shell post
 ```
 cd blog
-hugo new posts/my-post-whatever.md
+hugo new posts/YYYY-MM-DD_post-name/index.md
 ```
 
 Add content, save the post.
