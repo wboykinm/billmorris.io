@@ -37,12 +37,6 @@ Dammit, Calvin.
 
 Yes indeed — an android pissing on an Apple logo, rendered in the color that Google typically uses to signify a park or natural area. It was a part of the basemap! The internet [howled with glee](http://mashable.com/2015/04/24/android-bot-peeing-on-apple-logo-google-maps/?utm_cid=mash-com-Tw-main-link):
 
-{{< tweet 591613349441314817 >}}
-
-. . . and the discoveries continued:
-
-{{< tweet 591633658882215936 >}}
-
 
 ### How the android got there
 
