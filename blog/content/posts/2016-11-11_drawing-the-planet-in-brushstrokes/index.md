@@ -1,26 +1,18 @@
----
-title: "Drawing the planet in brushstrokes"
-author: "Bill Morris"
-cover: "images/cover.png"
-tags: []
-keywords: ["data science", "excel", "sql", "bigquery", "google"]
-date: 2016-11-11T15:54:52.958Z
-lastmod: 2019-07-19T09:09:33-04:00
++++
+title = "Drawing the planet in brushstrokes"
+date = "2016-11-11T15:54:52.958Z"
+author = "Bill Morris"
+authorTwitter = "" #do not include @
+cover = "images/cover.jpeg"
+tags = []
+keywords = ["satellite", "art", "planet", "ai"]
+description = "To take my mind off certain things, I’ve been experimenting with a novel style of cartography: cubism."
+showFullContent = false
+readingTime = false
+hideComments = false
+color = "" #color from the theme settings
++++
 
-description: ""
-
-subtitle: "To take my mind off certain things, I’ve been experimenting with a novel style of cartography: cubism."
-
-image: "/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/2.jpeg" 
-images:
- - "/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/1.jpeg" 
- - "/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/2.jpeg" 
- - "/posts/2016-11-11_drawing-the-planet-in-brushstrokes/images/3.png" 
-
-
-aliases:
-    - "/drawing-the-planet-in-brushstrokes-bc54a686fb30"
----
 
 To take my mind off certain things, I’ve been experimenting with a novel style of cartography: **cubism**.
 
@@ -32,7 +24,7 @@ After fiddling with the app for a few weeks and finding its limitations, on a wh
 
 With some minor adjustments, the landscape structure punched through the style while looking completely abstract — a memory of the stone walls and crops in the fields of southern France:
 
-![Bordeaux croplands](images/4.png)
+![Bordeaux croplands](images/4.jpeg)
 _Fields in Luyères, France_
 
 Aided by [a trove of openly-licensed imagery](https://www.planet.com/gallery/) from the ever-generous [Planet Labs](https://twitter.com/planetlabs), I started abstracting sites worldwide. I was particularly drawn to a pair of styles that drew from the work of the French avant-garde polymath [Francis Picabia](https://www.guggenheim.org/artwork/artist/francis-picabia). His large-scale pieces — and cubism more broadly — fit almost perfectly into the structure of the human-altered landscapes we can see from space. The deconstructionist tendency of cubism — break it apart and then piece it roughly back together — mirrors the patterns visible in agriculture and the built environment. We break apart the ground at all scales, and we put it back together, repurposed; human straightaways against nature’s arcs and bights.
