@@ -33,7 +33,7 @@ On the waterfront today, I cycled past a beach club, with its stand-up paddleboa
 
 When a tragedy hits somewhere in the world, and news reaches me, there's a natural inclination to grade its impact on me by its proximity. I don't know anyone from Tigray, I've never been to Fukushima. I note it and I move on; I educate myself and maybe I donate some money. This is a defense mechanism - I know there's only so much suffering I can let into my heart before it breaks under the strain. I have limits, honed by years of international development work and volunteering.
 
-But the corrolary of that defense mechanism is that close proximity _should have a greater impact on me._ It should move me, spur me to action.
+But the corrolary of that defense mechanism is that close proximity _should have a greater impact on me._ It should move me, spur me to action. [The climate crisis](https://vtdigger.org/2023/07/12/vermonts-flooding-this-week-is-historic-what-role-did-climate-change-play/) is a multiplier, closing the distance between all of us and danger, in one way or another. The potential for tragedy comes closer, and we feel it enter our perimeter.
 
 But today, Montpelier might as well be Port au Prince. It feels as much a world away from the tranquility and protection of Burlington, only 40 miles distant.
 
