@@ -40,5 +40,3 @@ But today, Montpelier might as well be Port au Prince. It feels as much a world 
 The governor himself [put out the word](https://web.archive.org/web/20230713014153/https://governor.vermont.gov/press-release/governor-phil-scott-provides-update-states-response-catastrophic-flooding): help out on a hyper-local basis for now. We should dig out our neighbors, not put ourselves at risk - or increase the strain on the first responders - by driving through still-flooded roads on our way to help strangers. We should prepare for a bigger effort to come, and let the initial work of lifesaving proceed. I still feel a pang of guilt looking out over that distance to the retreating floodwaters.
  
 I expect Montpelier will get closer soon. I'll keep my summer gratitude close in the meantime.
-
-![cover](images/cover.jpeg)
