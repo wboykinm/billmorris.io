@@ -27,9 +27,9 @@ Montpelier was flooded up to the steps of the gold-domed state capitol building,
 ![2](images/2.jpeg)
 _Montpelier as the Winooski river peaked; [photo by StoryWorkz/VTDigger](https://vtdigger.org/2023/07/11/photos-vermonts-capital-under-floodwaters/)_
 
-On the waterfront today, I cycled past a beach club, with its stand-up paddleboards (we have no surf, you see) arranged on racks, ready for folks to take them out on the lake. Some of them were solid core, but others were the newer, inexplicably-inflatable kind that I keep meaning to get for my family. The same kind that my best friend's wife and daughter were using earlier today to raft vegetable starts to safety, away from the waist-deep water that had flooded the greenhouses on [their farm in the Northeastern part of the state](https://www.joesbrookfarm.com/). They lost a month of crops, but they're lucky among farmers; they'll have time to plant new courses of vegetables. Others have seen their last harvests for the year.
+On the waterfront today, I cycled past a beach club, with its stand-up paddleboards (we have no surf, you see) arranged on racks, ready for folks to take them out on the lake. Some of them were solid core, but others were the newer, inexplicably-inflatable kind that I keep meaning to get for my family. The same kind that my best friend's wife and daughter were using earlier today [to raft vegetable starts to safety](https://www.instagram.com/p/CulEXI5ge2S/?img_index=1), away from the waist-deep water that had flooded the greenhouses on their farm in the Northeastern part of the state. They lost a month of crops, but they're lucky among farmers; they'll have time to plant new courses of vegetables. Others have seen their last harvests for the year.
 
-<hr>
+---
 
 When a tragedy hits somewhere in the world, and news reaches me, there's a natural inclination to grade its impact on me by its proximity. I don't know anyone from Tigray, I've never been to Fukushima. I note it and I move on; I educate myself and maybe I donate some money. This is a defense mechanism - I know there's only so much suffering I can let into my heart before it breaks under the strain. I have limits, honed by years of international development work and volunteering.
 
