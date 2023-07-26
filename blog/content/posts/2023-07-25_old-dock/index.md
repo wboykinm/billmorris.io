@@ -13,7 +13,7 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-Yesterday a friend asked for my help hauling his boat closer to shore, along Lake Champlain in the Northern part of town. [The recent flooding elsewhere in Vermont]() had now reached the lake, and he was worried that the rising waters would carry off his summer recreation plans. So I pitched in.
+Yesterday a friend asked for my help hauling his boat closer to shore, along Lake Champlain in the Northern part of town. [The recent flooding elsewhere in Vermont](https://billmorris.io/shoals/posts/2023-07-12_beautiful-summer/) had now reached the lake, and he was worried that the rising waters would carry off his summer recreation plans. So I pitched in.
 
 Wading in at the debris-filled shore, I spotted a bright, straight-edged object in the water, and hauled it out. It was a cocktail menu!
 
