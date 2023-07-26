@@ -23,7 +23,7 @@ More specifically, it was a cocktail menu from [The Old Dock](https://www.theold
 
 ![2](images/2.jpeg)
 
-The Old Dock is in Essex, on the New York side of the Southernmost ferry connection with Vermont. Essex is . . . kind of a long way from Burlington as the menu drifts. 14 miles of open water, actually. 
+The Old Dock is in Essex, on the New York side of the Southernmost ferry connection with Vermont. Essex is . . . kind of a long way from Burlington as the menu drifts. [14 miles of open water](https://felt.com/map/Old-Dock-Menu-YJvXQH1NQEmRmBOz5vVltD?loc=44.3884,-73.2569,10.64z&share=1), actually. 
 
 ![1](images/1.png)
 
