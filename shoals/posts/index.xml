@@ -17,7 +17,7 @@
       <content>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
 &lt;p&gt;Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tiled_web_map&#34;&gt;old standby Mercator/XYZ tile&lt;/a&gt;. My past and present colleagues have built some really cool tools to make these patterns easier - witness &lt;a href=&#34;https://github.com/mapbox/mercantile&#34;&gt;mercantile&lt;/a&gt; and &lt;a href=&#34;https://github.com/mapbox/supermercado&#34;&gt;supermercado&lt;/a&gt;, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc. In this case:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;How can I get the geometries of every map tile at a given zoom level &lt;strong&gt;that intersects land?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How can I get the geometry of every map tile at a given zoom level &lt;strong&gt;that intersects land?&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;There&amp;rsquo;s a whole lotta water out there, and as much as I&amp;rsquo;d like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world&amp;rsquo;s coastlines. I need to knock something together to find the tiles of dry land.&lt;/p&gt;
 &lt;h2 id=&#34;the-solution&#34;&gt;The solution&lt;/h2&gt;
