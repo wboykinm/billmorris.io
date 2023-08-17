@@ -16,7 +16,9 @@
       <description>The problem Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these patterns easier - witness mercantile and supermercado, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc.</description>
       <content>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
 &lt;p&gt;Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tiled_web_map&#34;&gt;old standby Mercator/XYZ tile&lt;/a&gt;. My past and present colleagues have built some really cool tools to make these patterns easier - witness &lt;a href=&#34;https://github.com/mapbox/mercantile&#34;&gt;mercantile&lt;/a&gt; and &lt;a href=&#34;https://github.com/mapbox/supermercado&#34;&gt;supermercado&lt;/a&gt;, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc. In this case:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;How can I get the geometries of every map tile at a given zoom level &lt;strong&gt;that intersects land?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How can I get the geometries of every map tile at a given zoom level &lt;strong&gt;that intersects land?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;There&amp;rsquo;s a whole lotta water out there, and as much as I&amp;rsquo;d like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world&amp;rsquo;s coastlines. I need to knock something together to find the tiles of dry land.&lt;/p&gt;
 &lt;h2 id=&#34;the-solution&#34;&gt;The solution&lt;/h2&gt;
 &lt;p&gt;The answer is open data. (It&amp;rsquo;s always open data.) Specifically the &lt;a href=&#34;https://www.naturalearthdata.com/&#34;&gt;Natural Earth project&lt;/a&gt;, which provides &amp;ldquo;land&amp;rdquo; polygons, in addition to all sorts of other goodies.&lt;/p&gt;
@@ -38,7 +40,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;unzip ne_10m_admin_0_countries.zip
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;images/2.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;combine-the-two&#34;&gt;Combine the two&lt;/h3&gt;
-&lt;p&gt;This is the really facinating bit. I&amp;rsquo;m accustomed to using &lt;a href=&#34;&#34;&gt;PostGIS&lt;/a&gt; for all my spatial SQL needs, but I&amp;rsquo;m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned &lt;code&gt;ogr2ogr&lt;/code&gt; toolset? Yep; SQLite. There&amp;rsquo;s actually quite a bit you can shoehorn into an inline argument:&lt;/p&gt;
+&lt;p&gt;This is the really facinating bit. I&amp;rsquo;m accustomed to using &lt;a href=&#34;https://postgis.net/&#34;&gt;PostGIS&lt;/a&gt; for all my spatial SQL needs, but I&amp;rsquo;m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned &lt;code&gt;ogr2ogr&lt;/code&gt; toolset? Yep; SQLite. There&amp;rsquo;s actually quite a bit you can shoehorn into the inline &lt;code&gt;-sql&lt;/code&gt; argument:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ogr2ogr &lt;span style=&#34;color:#ae81ff&#34;&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -f GeoJSON &lt;span style=&#34;color:#ae81ff&#34;&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_land_metatiles.geojson &lt;span style=&#34;color:#ae81ff&#34;&gt;\
@@ -100,7 +102,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Clean up&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf ne_10m_admin_0_countries.* z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Happy mapping!&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;All visualizations here were done with &lt;a href=&#34;https://geojson.io/&#34;&gt;geojson.io&lt;/a&gt;.&lt;/p&gt;
 </content>
     </item>
     

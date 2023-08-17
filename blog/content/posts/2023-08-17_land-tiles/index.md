@@ -17,7 +17,7 @@ color = "" #color from the theme settings
 
 Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. In this case:
 
-_How can I get the geometries of every map tile at a given zoom level __that intersects land?___
+> How can I get the geometries of every map tile at a given zoom level __that intersects land?__
 
 There's a whole lotta water out there, and as much as I'd like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world's coastlines. I need to knock something together to find the tiles of dry land.
 
@@ -58,7 +58,7 @@ unzip ne_10m_admin_0_countries.zip
 ![2](images/2.png)
 
 ### Combine the two
-This is the really facinating bit. I'm accustomed to using [PostGIS]() for all my spatial SQL needs, but I'm getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned `ogr2ogr` toolset? Yep; SQLite. There's actually quite a bit you can shoehorn into an inline argument:
+This is the really facinating bit. I'm accustomed to using [PostGIS](https://postgis.net/) for all my spatial SQL needs, but I'm getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned `ogr2ogr` toolset? Yep; SQLite. There's actually quite a bit you can shoehorn into the inline `-sql` argument:
 
 ```sh
 ogr2ogr \
@@ -132,4 +132,4 @@ ogr2ogr \
 rm -rf ne_10m_admin_0_countries.* z${ZOOM}_metatiles.geojsonl
 ```
 
-Happy mapping!
+All visualizations here were done with [geojson.io](https://geojson.io/).

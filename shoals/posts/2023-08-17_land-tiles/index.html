@@ -124,7 +124,9 @@
   <div class="post-content"><div>
         <h2 id="the-problem">The problem<a href="#the-problem" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Mapbox is occasionally referred to - not uncharitably - as &ldquo;The Tile Company&rdquo;. It&rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the <a href="https://en.wikipedia.org/wiki/Tiled_web_map">old standby Mercator/XYZ tile</a>. My past and present colleagues have built some really cool tools to make these patterns easier - witness <a href="https://github.com/mapbox/mercantile">mercantile</a> and <a href="https://github.com/mapbox/supermercado">supermercado</a>, for example - but sometimes there&rsquo;s a specific problem to solve ad-hoc. In this case:</p>
-<p><em>How can I get the geometries of every map tile at a given zoom level <strong>that intersects land?</strong></em></p>
+<blockquote>
+<p>How can I get the geometries of every map tile at a given zoom level <strong>that intersects land?</strong></p>
+</blockquote>
 <p>There&rsquo;s a whole lotta water out there, and as much as I&rsquo;d like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world&rsquo;s coastlines. I need to knock something together to find the tiles of dry land.</p>
 <h2 id="the-solution">The solution<a href="#the-solution" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>The answer is open data. (It&rsquo;s always open data.) Specifically the <a href="https://www.naturalearthdata.com/">Natural Earth project</a>, which provides &ldquo;land&rdquo; polygons, in addition to all sorts of other goodies.</p>
@@ -146,7 +148,7 @@
 </span></span><span style="display:flex;"><span>unzip ne_10m_admin_0_countries.zip
 </span></span></code></pre></div><p><img src="images/2.png" alt="2"></p>
 <h3 id="combine-the-two">Combine the two<a href="#combine-the-two" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
-<p>This is the really facinating bit. I&rsquo;m accustomed to using <a href="">PostGIS</a> for all my spatial SQL needs, but I&rsquo;m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned <code>ogr2ogr</code> toolset? Yep; SQLite. There&rsquo;s actually quite a bit you can shoehorn into an inline argument:</p>
+<p>This is the really facinating bit. I&rsquo;m accustomed to using <a href="https://postgis.net/">PostGIS</a> for all my spatial SQL needs, but I&rsquo;m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned <code>ogr2ogr</code> toolset? Yep; SQLite. There&rsquo;s actually quite a bit you can shoehorn into the inline <code>-sql</code> argument:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ogr2ogr <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -f GeoJSON <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    z<span style="color:#e6db74">${</span>ZOOM<span style="color:#e6db74">}</span>_land_metatiles.geojson <span style="color:#ae81ff">\
@@ -208,7 +210,7 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Clean up</span>
 </span></span><span style="display:flex;"><span>rm -rf ne_10m_admin_0_countries.* z<span style="color:#e6db74">${</span>ZOOM<span style="color:#e6db74">}</span>_metatiles.geojsonl
-</span></span></code></pre></div><p>Happy mapping!</p>
+</span></span></code></pre></div><p>All visualizations here were done with <a href="https://geojson.io/">geojson.io</a>.</p>
 
       </div></div>
 
