@@ -6,7 +6,104 @@
     <description>Recent content in Posts on Shoals</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2023 16:37:21 -0400</lastBuildDate><atom:link href="/shoals/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 09:04:44 -0400</lastBuildDate><atom:link href="/shoals/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Land ho!</title>
+      <link>/shoals/posts/2023-08-17_land-tiles/</link>
+      <pubDate>Thu, 17 Aug 2023 09:04:44 -0400</pubDate>
+      
+      <guid>/shoals/posts/2023-08-17_land-tiles/</guid>
+      <description>The problem Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these patterns easier - witness mercantile and supermercado, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc.</description>
+      <content>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tiled_web_map&#34;&gt;old standby Mercator/XYZ tile&lt;/a&gt;. My past and present colleagues have built some really cool tools to make these patterns easier - witness &lt;a href=&#34;https://github.com/mapbox/mercantile&#34;&gt;mercantile&lt;/a&gt; and &lt;a href=&#34;https://github.com/mapbox/supermercado&#34;&gt;supermercado&lt;/a&gt;, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc. In this case:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;How can I get the geometries of every map tile at a given zoom level &lt;strong&gt;that intersects land?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a whole lotta water out there, and as much as I&amp;rsquo;d like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world&amp;rsquo;s coastlines. I need to knock something together to find the tiles of dry land.&lt;/p&gt;
+&lt;h2 id=&#34;the-solution&#34;&gt;The solution&lt;/h2&gt;
+&lt;p&gt;The answer is open data. (It&amp;rsquo;s always open data.) Specifically the &lt;a href=&#34;https://www.naturalearthdata.com/&#34;&gt;Natural Earth project&lt;/a&gt;, which provides &amp;ldquo;land&amp;rdquo; polygons, in addition to all sorts of other goodies.&lt;/p&gt;
+&lt;p&gt;On top of that, we&amp;rsquo;ll use one of the tile utilities mentioned above - mercantile - plus &lt;a href=&#34;https://gdal.org/programs/ogr2ogr.html&#34;&gt;ogr2ogr&lt;/a&gt;, the general-purpose Swiss army knife of geodata.&lt;/p&gt;
+&lt;h3 id=&#34;set-some-parameters&#34;&gt;Set some parameters&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;ll want to define global variables for two things: desired tile size (set as metatile zoom level), and bounding box (the whole world in this case):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZOOM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BBOX&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[-180,-90,180,90]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;generate-global-tiles&#34;&gt;Generate global tiles&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mapbox/mercantile&#34;&gt;Mercantile&lt;/a&gt; is a python-based command line tool that can generate tile addresses and geometries. We&amp;rsquo;ll chain a few things together here to generate line-delimited GeoJSON of every tile in the world at zoom 5:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BBOX&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    mercantile tiles &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    mercantile shapes &amp;gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;images/1.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;download-the-land-data&#34;&gt;Download the land data&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;ll grab country polygons, and decompress them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;unzip ne_10m_admin_0_countries.zip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;images/2.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;combine-the-two&#34;&gt;Combine the two&lt;/h3&gt;
+&lt;p&gt;This is the really facinating bit. I&amp;rsquo;m accustomed to using &lt;a href=&#34;&#34;&gt;PostGIS&lt;/a&gt; for all my spatial SQL needs, but I&amp;rsquo;m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned &lt;code&gt;ogr2ogr&lt;/code&gt; toolset? Yep; SQLite. There&amp;rsquo;s actually quite a bit you can shoehorn into an inline argument:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ogr2ogr &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -f GeoJSON &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_land_metatiles.geojson &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -dialect sqlite &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -sql &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        SELECT 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            m.id,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            REPLACE(REPLACE(REPLACE(m.id,&amp;#39;, &amp;#39;,&amp;#39;-&amp;#39;),&amp;#39;(&amp;#39;,&amp;#39;&amp;#39;),&amp;#39;)&amp;#39;,&amp;#39;&amp;#39;) AS layer,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            m.Geometry,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            GROUP_CONCAT(c.Name) AS countries
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        FROM &amp;#39;z&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;_metatiles.geojsonl&amp;#39;.z&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;_metatiles m
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        JOIN &amp;#39;ne_10m_admin_0_countries.shp&amp;#39;.ne_10m_admin_0_countries c 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            ON ST_Intersects(m.Geometry, c.Geometry)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        WHERE c.Name NOT IN (&amp;#39;Antarctica&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        GROUP BY m.id,m.Geometry
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Catch all that? In the query above, we do a spatial INNER join between the countries and the tiles, keeping the geometries of the tiles that intersect any countries. Then we reformat the XYZ order of the tile ID to be a bit more friendly, and tack on a list of every intersecting country in a given tile. To top it off, we can exclude Antarctica (or any other named country polygon).&lt;/p&gt;
+&lt;p&gt;. . . and there&amp;rsquo;s what we were looking for in the first place! GeoJSON of all the Z5 tiles that intersect land!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/3.png&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-wrap&#34;&gt;The wrap&lt;/h3&gt;
+&lt;p&gt;Here&amp;rsquo;s &lt;a href=&#34;https://gist.github.com/wboykinm/4550c13c30baee99febc6f02028b0ec6&#34;&gt;the whole script&lt;/a&gt;, executable like so if you want all the tiles intersecting land at zoom level 5:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bash land_tiles.sh 5&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# BUILD A DATASET OF TILES AT A GIVEN ZOOM LEVEL THAT INTERSECT LAND&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# USAGE: bash land_tiles.sh &amp;lt;integer zoom level between 0 and 22&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Set target metatile zoom&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZOOM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BBOX&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[-180,-90,180,90]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Create metatiles at desired zoom&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BBOX&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    mercantile tiles &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    mercantile shapes &amp;gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Get Natural Earth countries&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -O https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;unzip ne_10m_admin_0_countries.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Join countries and metatiles&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ogr2ogr &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -f GeoJSON &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_land_metatiles.geojson &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -dialect sqlite &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -sql &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        SELECT 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            m.id,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            REPLACE(REPLACE(REPLACE(m.id,&amp;#39;, &amp;#39;,&amp;#39;-&amp;#39;),&amp;#39;(&amp;#39;,&amp;#39;&amp;#39;),&amp;#39;)&amp;#39;,&amp;#39;&amp;#39;) AS layer,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            m.Geometry,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            GROUP_CONCAT(c.Name) AS countries
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        FROM &amp;#39;z&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;_metatiles.geojsonl&amp;#39;.z&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;_metatiles m
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        JOIN &amp;#39;ne_10m_admin_0_countries.shp&amp;#39;.ne_10m_admin_0_countries c 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;            ON ST_Intersects(m.Geometry, c.Geometry)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        WHERE c.Name NOT IN (&amp;#39;Antarctica&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        GROUP BY m.id,m.Geometry
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Clean up&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf ne_10m_admin_0_countries.* z&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;ZOOM&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;_metatiles.geojsonl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Happy mapping!&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Tradewinds</title>
       <link>/shoals/posts/2023-07-25_old-dock/</link>
