@@ -1,17 +1,18 @@
-+++
-title = "Migrating with tusks and a trunk"
-date = "2022-11-13T17:35:10-04:00"
-author = "Bill Morris"
-authorTwitter = "" #do not include @
-cover = "images/mastodon.jpeg"
-tags = []
-keywords = ["twitter", "mastodon", "social media", "blog"]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+---
+title: "Migrating with tusks and a trunk"
+date: "2022-11-13T17:35:10-04:00"
+author: "Bill Morris"
+authorTwitter: "" #do not include @
+bigimg: [{src: "images/mastodon.jpeg", desc: "mastodon"}]
+cover: "images/mastodon.jpeg"
+tags: []
+keywords: ["twitter", "mastodon", "social media", "blog"]
+description: ""
+showFullContent: false
+readingTime: false
+hideComments: false
+color: "" #color from the theme settings
+---
 
 Y'all.
 
