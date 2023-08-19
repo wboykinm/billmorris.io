@@ -1,37 +1,90 @@
-#baseURL = "http://example.org/"
-#languageCode = "en-us"
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
 title = "Shoals"
-
-baseurl = "/shoals/"
-languageCode = "en-us"
 theme = "beautifulhugo"
-paginate = 6
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-[params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = true
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+[Params]
+  homeTitle = "Shoals" # Set a different text for the header on the home page
+  subtitle = "Bill Morris in blog form"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
-[languages]
-  [languages.en]
-    title = "Shoals"
-    subtitle = "Bill Morris . . . in blog form"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-    [languages.en.params.logo]
-      logoText = "Shoals - a blog by Bill Morris"
-      logoHomeLink = "/shoals/"
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Bill Morris"
+  website = "billmorris.io"
+  email = "bill@billmorris.io"
+  facebook = "username"
+  github = "wboykinm"
+  gitlab = "username"
+  bitbucket = "username"
+  twitter = "username"
+  reddit = "username"
+  linkedin = "username"
+  xing = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  soundcloud = "username"
+  spotify = "username"
+  bandcamp = "username"
+  itchio = "username"
+  vk = "username"
+  paypal = "username"
+  telegram = "username"
+  500px = "username"
+  codepen = "username"
+  mastodon = "https://vis.social/@bil"
+  kaggle = "username"
+  weibo = "username"
+  slack = "username"
+  medium = "username"
+  discord = "invite code (https://discord.gg/XXXXXXX)"
+  strava = "userid"
 
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3

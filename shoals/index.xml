@@ -2,46 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shoals</title>
-    <link>/shoals/</link>
+    <link>https://username.github.io/</link>
     <description>Recent content on Shoals</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Aug 2023 09:04:44 -0400</lastBuildDate><atom:link href="/shoals/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>bill@billmorris.io (Bill Morris)</managingEditor>
+    <webMaster>bill@billmorris.io (Bill Morris)</webMaster>
+    <lastBuildDate>Thu, 17 Aug 2023 09:04:44 -0400</lastBuildDate><atom:link href="https://username.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Land ho!</title>
-      <link>/shoals/posts/2023-08-17_land-tiles/</link>
+      <link>https://username.github.io/posts/2023-08-17_land-tiles/</link>
       <pubDate>Thu, 17 Aug 2023 09:04:44 -0400</pubDate>
-      
-      <guid>/shoals/posts/2023-08-17_land-tiles/</guid>
-      <description>The problem Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these patterns easier - witness mercantile and supermercado, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc.</description>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2023-08-17_land-tiles/</guid>
+      <description>Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these patterns easier - witness mercantile and supermercado, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc.
+The problem How can I get the geometry of every map tile at a given zoom level that intersects land?</description>
     </item>
     
     <item>
       <title>Tradewinds</title>
-      <link>/shoals/posts/2023-07-25_old-dock/</link>
+      <link>https://username.github.io/posts/2023-07-25_old-dock/</link>
       <pubDate>Tue, 25 Jul 2023 16:37:21 -0400</pubDate>
-      
-      <guid>/shoals/posts/2023-07-25_old-dock/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2023-07-25_old-dock/</guid>
       <description>Yesterday a friend asked for my help hauling his boat closer to shore, along Lake Champlain in the Northern part of town. The recent flooding elsewhere in Vermont had now reached the lake, and he was worried that the rising waters would carry off his summer recreation plans. So I pitched in.
 Wading in at the debris-filled shore, I spotted a bright, straight-edged object in the water, and hauled it out.</description>
     </item>
     
     <item>
       <title>A beautiful summer</title>
-      <link>/shoals/posts/2023-07-12_beautiful-summer/</link>
+      <link>https://username.github.io/posts/2023-07-12_beautiful-summer/</link>
       <pubDate>Wed, 12 Jul 2023 13:56:21 -0400</pubDate>
-      
-      <guid>/shoals/posts/2023-07-12_beautiful-summer/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2023-07-12_beautiful-summer/</guid>
       <description>Summer is great.
 I keep forgetting this, but the shores of Lake Champlain - for a blessed few months every year - are an absolute paradise. As I biked with my son to his summer camp this morning, I saw it in full display: boats on the water, strolling couples, picnickers, people literally pulling fragrant tree blossoms to their noses and inhaling with a smile. I took a deep breath and was grateful.</description>
     </item>
     
     <item>
       <title>Once a cyclist</title>
-      <link>/shoals/posts/2023-04-02_once-a-cyclist/</link>
+      <link>https://username.github.io/posts/2023-04-02_once-a-cyclist/</link>
       <pubDate>Sun, 02 Apr 2023 17:13:18 -0400</pubDate>
-      
-      <guid>/shoals/posts/2023-04-02_once-a-cyclist/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2023-04-02_once-a-cyclist/</guid>
       <description>Oh check it out - another middle-aged man on a bike, clad in lycra, spouting opinions.
 sigh.
 Now that I&amp;rsquo;ve been forced to ditch running, I&amp;rsquo;ve started cycling. Late in a Vermont winter, this has meant ponying up for a trainer attachment, plugging my old cross bike into it, and trying my damndest to occupy exactly the same workout schedule, but now with spins instead of paces. As new as this all feels - and as well-trodden a path it is - I do have a history with these wheels.</description>
@@ -49,10 +52,10 @@ Now that I&amp;rsquo;ve been forced to ditch running, I&amp;rsquo;ve started cyc
     
     <item>
       <title>A New Story</title>
-      <link>/shoals/posts/2023-03-08_a-new-story/</link>
+      <link>https://username.github.io/posts/2023-03-08_a-new-story/</link>
       <pubDate>Fri, 10 Mar 2023 16:01:04 -0500</pubDate>
-      
-      <guid>/shoals/posts/2023-03-08_a-new-story/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2023-03-08_a-new-story/</guid>
       <description>It&amp;rsquo;s late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner.
 This year it&amp;rsquo;s harder than ever.
 My right knee has been bothering me since last summer, after some particularly long and brutal trail runs, after 100 miles of backpacking, after .</description>
@@ -60,20 +63,20 @@ My right knee has been bothering me since last summer, after some particularly l
     
     <item>
       <title>Migrating with tusks and a trunk</title>
-      <link>/shoals/posts/2022-11-13_migrating/</link>
+      <link>https://username.github.io/posts/2022-11-13_migrating/</link>
       <pubDate>Sun, 13 Nov 2022 17:35:10 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-11-13_migrating/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-11-13_migrating/</guid>
       <description>Y&amp;rsquo;all.
 I&amp;rsquo;ve wandered over to Mastodon from Twitter, along with a goodly number of other folks from the broad geo-sphere, and it&amp;rsquo;s . . . nice. Feel easier to post random musings. Less motive, less image. But I rolled back over to Twitter right quick when I wanted to get into the discussion over a Sunday NYT article about my tiny-ass Vermont city. I have certain communities in my feed, and the #btv folks are still mostly there.</description>
     </item>
     
     <item>
       <title>Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</title>
-      <link>/shoals/posts/2022-10-10_watch-in-paris/</link>
+      <link>https://username.github.io/posts/2022-10-10_watch-in-paris/</link>
       <pubDate>Mon, 10 Oct 2022 10:31:42 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-10-10_watch-in-paris/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-10-10_watch-in-paris/</guid>
       <description>Follow along using this map made with Felt
 One day this past July, I got up early and started a long run around Paris. I&amp;rsquo;ve found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my Garmin Forerunner 245 watch.
 My watch, unbeknownst to me, decided that I was actually starting 3km South, near the Institut Curie.</description>
@@ -81,10 +84,10 @@ My watch, unbeknownst to me, decided that I was actually starting 3km South, nea
     
     <item>
       <title>A day on Hadrian&#39;s Wall</title>
-      <link>/shoals/posts/2022-05-07_hadrian/</link>
+      <link>https://username.github.io/posts/2022-05-07_hadrian/</link>
       <pubDate>Sat, 07 May 2022 16:28:36 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-05-07_hadrian/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-05-07_hadrian/</guid>
       <description>Photo: Sycamore Gap
 Greenhead I told everyone who asked that I slept well. It wasn&amp;rsquo;t really true; the room was well-heated and there&amp;rsquo;s nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it&amp;rsquo;s impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.
 No rain is forecast for today, my third walking Hadrian&amp;rsquo;s Wall Path.</description>
@@ -92,10 +95,10 @@ No rain is forecast for today, my third walking Hadrian&amp;rsquo;s Wall Path.</
     
     <item>
       <title>The things he carried</title>
-      <link>/shoals/posts/2022-03-09_grad-school-hoard/</link>
+      <link>https://username.github.io/posts/2022-03-09_grad-school-hoard/</link>
       <pubDate>Wed, 09 Mar 2022 20:42:22 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-03-09_grad-school-hoard/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-03-09_grad-school-hoard/</guid>
       <description>The time had finally come to sort through and [mostly] discard the stuff I&amp;rsquo;d accumulated in the last days when higher education was conducted on paper. What follows is merely a selection.
 Snowbowl trail map, 10/10 A seminal masterpiece of student ski cartography by the inimitable Dana Allen, lately of Backcountry Magazine.
 The last map series I ever made with an Esri product, 6/10 For an avian biology/landscape fragmentation study.</description>
@@ -103,10 +106,10 @@ The last map series I ever made with an Esri product, 6/10 For an avian biology/
     
     <item>
       <title>Compton</title>
-      <link>/shoals/posts/2022-02-14_compton/</link>
+      <link>https://username.github.io/posts/2022-02-14_compton/</link>
       <pubDate>Mon, 14 Feb 2022 11:30:19 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-02-14_compton/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-02-14_compton/</guid>
       <description>Compton streetlights Generating points with PostGIS . . . to approximate streetlight locations in Compton, Los Angeles.
 Loose homage to Kendrick Lamar, strong shouts to Snoop, Dre, Mary J., and the map underneath the 2022 Superbowl Halftime Show, and big respect to the L.A. county streetlight spacing guidelines.
 Photo by David Crane, Los Angeles Daily News/SCNG
@@ -115,10 +118,10 @@ Get streets data Openstreetmap, as always, is the perfect starting point for dat
     
     <item>
       <title>How to deploy a webpage in 2022</title>
-      <link>/shoals/posts/2022-01-21_how-to-internet/</link>
+      <link>https://username.github.io/posts/2022-01-21_how-to-internet/</link>
       <pubDate>Fri, 21 Jan 2022 17:13:15 -0400</pubDate>
-      
-      <guid>/shoals/posts/2022-01-21_how-to-internet/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2022-01-21_how-to-internet/</guid>
       <description>Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free.
 I&amp;rsquo;m finally writing this down after getting stuck on step 10 way too many times. Godspeed.
 Purchase the top-level domain - gandi.net is my current preferred registrar. Hopefully this will be the only cash you drop in this process. Create a new public repository on github. Clone the new repo locally and create your site content package, even starting with something as simple as a standalone index.</description>
@@ -126,10 +129,10 @@ Purchase the top-level domain - gandi.net is my current preferred registrar. Hop
     
     <item>
       <title>2020 Census drop, yo.</title>
-      <link>/shoals/posts/2021-08-12_2020-census/</link>
+      <link>https://username.github.io/posts/2021-08-12_2020-census/</link>
       <pubDate>Thu, 12 Aug 2021 17:50:32 -0400</pubDate>
-      
-      <guid>/shoals/posts/2021-08-12_2020-census/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2021-08-12_2020-census/</guid>
       <description>Photo via the National Archives: Fairlington, VA. A census enumerator getting data from a Virginia housewife for the 1950 Census.
 The 2020 numbers are in! Let&amp;rsquo;s take a look at the changes since 2010, Vermont-centric . . .
 Metros grew, but half of counties shrank (including 3 in VT, 👀 on Rutland)
@@ -138,10 +141,10 @@ The Burlington, VT metro grew at about the same rate as NYC: just under 7%, whic
     
     <item>
       <title>Otto and Eugene</title>
-      <link>/shoals/posts/2021-01-10_otto-and-eugene/</link>
+      <link>https://username.github.io/posts/2021-01-10_otto-and-eugene/</link>
       <pubDate>Sun, 10 Jan 2021 18:17:00 -0400</pubDate>
-      
-      <guid>/shoals/posts/2021-01-10_otto-and-eugene/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2021-01-10_otto-and-eugene/</guid>
       <description>Officer Eugene Goodman receiving the Joint Meritorious Civilian Service Award, photo by Navy Petty Officer 1st Class Carlos M. Vazquez II
 On November 9, 1938, Goebbels turned the SA loose on Jewish communities throughout Germany, in a pogrom now known as Kristallnacht. With the veneer of a &amp;ldquo;popular, spontaneous uprising&amp;rdquo;, nazis smashed Jewish business, attacked Jews, and arrested them in the thousands, heralding the horrors to come.
 1400 Synagogues were burned or broken.</description>
@@ -149,10 +152,10 @@ On November 9, 1938, Goebbels turned the SA loose on Jewish communities througho
     
     <item>
       <title>Deomocratizing data science where it counts</title>
-      <link>/shoals/posts/2020-07-14_sql/</link>
+      <link>https://username.github.io/posts/2020-07-14_sql/</link>
       <pubDate>Tue, 14 Jul 2020 16:48:15 -0400</pubDate>
-      
-      <guid>/shoals/posts/2020-07-14_sql/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2020-07-14_sql/</guid>
       <description>We at Faraday are data science experts. We have a collective century of experience in the mystical arts of data whispering; we&amp;rsquo;ve transformed oceans of rows and columns, built and discarded thousands of databases, and molded far-seeing algorithms in a dozen programming languages.
 But we mostly use SQL.
 SQL is the old-as-the-hills workhorse that is interoperable with nearly everything, vaguely-consistent across ecosystems, and hella-flexible. We use it to count people over the age of 65, and we also use it to find local spatial autocorrelation across live-aggregated geographies.</description>
@@ -160,10 +163,10 @@ SQL is the old-as-the-hills workhorse that is interoperable with nearly everythi
     
     <item>
       <title>Family artifacts</title>
-      <link>/shoals/posts/2020-03-09_chanel_number_5/</link>
+      <link>https://username.github.io/posts/2020-03-09_chanel_number_5/</link>
       <pubDate>Mon, 09 Mar 2020 18:11:09 -0400</pubDate>
-      
-      <guid>/shoals/posts/2020-03-09_chanel_number_5/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2020-03-09_chanel_number_5/</guid>
       <description>My grandmother died last Spring.
 We mourn of course, but she lived to 100, saw and did amazing things, and the family has more a sense of respectful awe than anything else. In any case this is actually about a bottle of her perfume that came to me recently.
 Chanel #5.
@@ -172,20 +175,20 @@ My grandfather was the copilot on a B-24 heavy bomber in WWII, flying from East 
     
     <item>
       <title>A full-throated defense of using Zipcodes for spatial analysis</title>
-      <link>/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/</link>
+      <link>https://username.github.io/posts/2019-08-28_zipcodes-for-spatial-analysis/</link>
       <pubDate>Wed, 28 Aug 2019 16:16:07 -0400</pubDate>
-      
-      <guid>/shoals/posts/2019-08-28_zipcodes-for-spatial-analysis/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2019-08-28_zipcodes-for-spatial-analysis/</guid>
       <description>We, the data-folk of Faraday, agree wholeheartedly with our colleagues at Carto on this sensitive issue: In the USA, ZIP codes(™) are the worst-case scenario base unit for measuring geospatial relationships. Because:
 They&amp;rsquo;re widely-varying in size &amp;amp; shape They contain populations that range from 0 into the hundreds of thousands They&amp;rsquo;re subject to mind-bogglingly-wide distributions in nearly every metric of human behavior (income, age, etc) The above post is exhaustive on these points.</description>
     </item>
     
     <item>
       <title>Following a phone case</title>
-      <link>/shoals/posts/2018-11-19_a-journey/</link>
+      <link>https://username.github.io/posts/2018-11-19_a-journey/</link>
       <pubDate>Mon, 19 Nov 2018 20:13:11 -0400</pubDate>
-      
-      <guid>/shoals/posts/2018-11-19_a-journey/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2018-11-19_a-journey/</guid>
       <description>The order is placed On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!
 Hmmm . . . looks like it shipped. Lemme check the status.
 Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!
@@ -194,10 +197,10 @@ Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a 
     
     <item>
       <title>All the Takes You’re About to See on the NYC-Snapchat Map Vandalism</title>
-      <link>/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</link>
+      <link>https://username.github.io/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</link>
       <pubDate>Thu, 30 Aug 2018 17:37:23 +0000</pubDate>
-      
-      <guid>/shoals/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/</guid>
       <description>That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
 Anti-Semitic Vandalism Lists New York as &#39;Jewtropolis&#39; on Snapchat, CitiBike, and More
 About three weeks ago, some roblox-loving, likely-gamergater mini-nazi decided to re-label New York City in OSM (along with a bunch of other landmarks). It was almost immediately caught and reverted by community members, but it somehow slipped through the Mapbox review process and made it into production today long enough for some users to notice it (though it’s since been fixed).</description>
@@ -205,10 +208,10 @@ About three weeks ago, some roblox-loving, likely-gamergater mini-nazi decided t
     
     <item>
       <title>A true map</title>
-      <link>/shoals/posts/2018-07-28_true-map/</link>
+      <link>https://username.github.io/posts/2018-07-28_true-map/</link>
       <pubDate>Sat, 28 Jul 2018 12:31:01 +0000</pubDate>
-      
-      <guid>/shoals/posts/2018-07-28_true-map/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2018-07-28_true-map/</guid>
       <description>Many an earnest cartographer/journalist/opinion-holder is currently debating — with varying degrees of condescension — the utility of the @nytimes’ latest map piece:
 Some people argued that we should have used opacity or a dot map to adjust for population density in our 2016 precinct maps. fwiw, here&amp;#39;s why we didn&amp;#39;t... https://t.co/RSqOlJx7SB
 &amp;mdash; Josh Katz (@jshkatz) July 27, 2018 While some arguments are specious (specifically, I’m not sure what species of monster you have to be to fail to enjoy a good birds-eye perspective), and others are just petty, the most valid argument wrangles with the nature of our Republic, and how best to convey that Acres don’t vote.</description>
@@ -216,30 +219,30 @@ Some people argued that we should have used opacity or a dot map to adjust for p
     
     <item>
       <title>Bonten Poad: Generating fake Vermont placenames with a neural network</title>
-      <link>/shoals/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/</link>
+      <link>https://username.github.io/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/</link>
       <pubDate>Thu, 20 Jul 2017 13:07:25 +0000</pubDate>
-      
-      <guid>/shoals/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/</guid>
       <description>“Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”
 Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this experiment in generative British placenames by Dan Hon; his workflow is 7 goddamn steps to use technology only the likes of Alan Turing could have dreamed up, until a few years ago.</description>
     </item>
     
     <item>
       <title>Drawing the planet in brushstrokes</title>
-      <link>/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/</link>
+      <link>https://username.github.io/posts/2016-11-11_drawing-the-planet-in-brushstrokes/</link>
       <pubDate>Fri, 11 Nov 2016 15:54:52 +0000</pubDate>
-      
-      <guid>/shoals/posts/2016-11-11_drawing-the-planet-in-brushstrokes/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2016-11-11_drawing-the-planet-in-brushstrokes/</guid>
       <description>To take my mind off certain things, I’ve been experimenting with a novel style of cartography: cubism.
 I arrived here on a wave of hype via an app called Prisma — a nifty take on the “filter-and-share” photo paradigm; it applies a touch of machine learning to redraw your image in an array of artistic styles. You’ve definitely seen the results in the wild, sometimes stunning, sometimes godawful, usually determined by the quality of the source image.</description>
     </item>
     
     <item>
       <title>Putting the Clinton campaign on the map</title>
-      <link>/shoals/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/</link>
+      <link>https://username.github.io/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/</link>
       <pubDate>Tue, 25 Oct 2016 13:36:01 +0000</pubDate>
-      
-      <guid>/shoals/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/</guid>
       <description>HRC campaign events and volunteer opportunities around Oakland, CA
 Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin vote margins we expect to see in battleground states.
 Hillary Clinton’s campaign has an excellent, centralized database of rallies, phone banks and canvassing efforts, all of which need volunteers. In order to lower the bar to participation as much as possible, the digital volunteers of DevProgress constructed an application on top of the campaign events database -it shows events near you.</description>
@@ -247,10 +250,10 @@ Hillary Clinton’s campaign has an excellent, centralized database of rallies, 
     
     <item>
       <title>Superblocks for a small city</title>
-      <link>/shoals/posts/2016-08-11_superblocks-for-a-small-city/</link>
+      <link>https://username.github.io/posts/2016-08-11_superblocks-for-a-small-city/</link>
       <pubDate>Thu, 11 Aug 2016 23:21:02 +0000</pubDate>
-      
-      <guid>/shoals/posts/2016-08-11_superblocks-for-a-small-city/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2016-08-11_superblocks-for-a-small-city/</guid>
       <description>Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. These are wildly-different scales (different everything, really), but when one of my legislators brought up Barcelona’s planned superblocks, I couldn’t help but imagine the radical livability experiment playing out in Burlington.
 Here&amp;#39;s an idea to incorporate into #btv mall redevelopment. @councilortracy @JaneKnodell https://t.co/c2ol8eLBZA
 &amp;mdash; Christopher Pearson (@Pearson_VT) August 8, 2016 Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area.</description>
@@ -258,10 +261,10 @@ Here&amp;#39;s an idea to incorporate into #btv mall redevelopment. @councilortr
     
     <item>
       <title>From Above</title>
-      <link>/shoals/posts/2016-04-01_from-above/</link>
+      <link>https://username.github.io/posts/2016-04-01_from-above/</link>
       <pubDate>Fri, 01 Apr 2016 13:48:19 +0000</pubDate>
-      
-      <guid>/shoals/posts/2016-04-01_from-above/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2016-04-01_from-above/</guid>
       <description>Lake Baringo, Kenya — Image by Digital Globe, 2014
 On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite has been used worldwide for rapid re-afforestation. It sinks deep roots, quickly. It fixes nitrogen and sequesters carbon.
 It’s visible from space.
@@ -270,10 +273,10 @@ In the global fight against deforestation, Earth-observing satellites have spent
     
     <item>
       <title>Primary 2016 Manifesto</title>
-      <link>/shoals/posts/2016-02-04_primary-2016-manifesto/</link>
+      <link>https://username.github.io/posts/2016-02-04_primary-2016-manifesto/</link>
       <pubDate>Thu, 04 Feb 2016 14:04:49 +0000</pubDate>
-      
-      <guid>/shoals/posts/2016-02-04_primary-2016-manifesto/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2016-02-04_primary-2016-manifesto/</guid>
       <description>Howdy folks.
 Sanderista here.
 I have some thoughts.
@@ -285,30 +288,30 @@ I prefer @BernieSanders, because — as I’ve had the privilege of being re
     
     <item>
       <title>Better friendships through mapping technology</title>
-      <link>/shoals/posts/2015-12-11_better-friendships-through-mapping-technology/</link>
+      <link>https://username.github.io/posts/2015-12-11_better-friendships-through-mapping-technology/</link>
       <pubDate>Fri, 11 Dec 2015 19:05:48 +0000</pubDate>
-      
-      <guid>/shoals/posts/2015-12-11_better-friendships-through-mapping-technology/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2015-12-11_better-friendships-through-mapping-technology/</guid>
       <description>I have trouble getting together with friends these days. I’m not alone in this — distance is a surprising obstacle to maintaining relationships in the landscape of modern America. Can a hack-of-an-app help?
 Over Thanksgiving I was traveling with my family and found out that a friend — one I don’t often see — would be nearby. As often happens in these situations, I mentally considered “what semi-decent bar is about halfway between us?</description>
     </item>
     
     <item>
       <title>Social Silos</title>
-      <link>/shoals/posts/2015-11-03_social-silos/</link>
+      <link>https://username.github.io/posts/2015-11-03_social-silos/</link>
       <pubDate>Tue, 03 Nov 2015 14:34:47 +0000</pubDate>
-      
-      <guid>/shoals/posts/2015-11-03_social-silos/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2015-11-03_social-silos/</guid>
       <description>In which I find a parallel universe in my own backyard
 Upon the occasion of Halloween, and the need to optimize, I took a look at NextDoor for the first time. They apparently had some sort of dope candy-targeting map for every neighborhood, and since that’s my catnip I had to check it out. Step 1: sign up, because the candymap is actually just a big inbound marketing trap:</description>
     </item>
     
     <item>
       <title>The cartographer’s promised land</title>
-      <link>/shoals/posts/2015-09-17_cartographers-promised-land/</link>
+      <link>https://username.github.io/posts/2015-09-17_cartographers-promised-land/</link>
       <pubDate>Thu, 17 Sep 2015 15:57:07 +0000</pubDate>
-      
-      <guid>/shoals/posts/2015-09-17_cartographers-promised-land/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2015-09-17_cartographers-promised-land/</guid>
       <description>The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
 I just hope I can start playing with the new @mapbox editor ASAP. it looks nice guys! Maps everywhere!
 &amp;mdash; saleiva (@saleiva) September 17, 2015 There’s a lot of marketing behind the new Mapbox Studio, along with a glowing review in Wired. I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.</description>
@@ -316,10 +319,10 @@ I just hope I can start playing with the new @mapbox editor ASAP. it looks nice 
     
     <item>
       <title>Caught in the Cartographic Crossfire</title>
-      <link>/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/</link>
+      <link>https://username.github.io/posts/2015-04-24_caught-in-the-cartographic-crossfire/</link>
       <pubDate>Fri, 24 Apr 2015 19:01:14 +0000</pubDate>
-      
-      <guid>/shoals/posts/2015-04-24_caught-in-the-cartographic-crossfire/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2015-04-24_caught-in-the-cartographic-crossfire/</guid>
       <description>The work of a vandal reminds us what’s missing from the map.
 The incident This morning Ahmad Babar noticed a curious feature on Google Maps just South of Rawalpindi, Pakistan:
 Dammit, Calvin.
@@ -328,20 +331,20 @@ Yes indeed — an android pissing on an Apple logo, rendered in the color th
     
     <item>
       <title>GeoASCII</title>
-      <link>/shoals/posts/2015-03-11_geoascii/</link>
+      <link>https://username.github.io/posts/2015-03-11_geoascii/</link>
       <pubDate>Wed, 11 Mar 2015 02:59:38 +0000</pubDate>
-      
-      <guid>/shoals/posts/2015-03-11_geoascii/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2015-03-11_geoascii/</guid>
       <description>A throwback mapping technique at the modern console
 My arcane problem I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.</description>
     </item>
     
     <item>
       <title>This is not a post about Ello</title>
-      <link>/shoals/posts/2014-12-01_this-is-not-a-post-about-ello/</link>
+      <link>https://username.github.io/posts/2014-12-01_this-is-not-a-post-about-ello/</link>
       <pubDate>Mon, 01 Dec 2014 15:34:19 +0000</pubDate>
-      
-      <guid>/shoals/posts/2014-12-01_this-is-not-a-post-about-ello/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2014-12-01_this-is-not-a-post-about-ello/</guid>
       <description>It’s about the political ecology of global agricultural systems, but Ello enables it.
 Update: Since February I have indeed stopped this series of imagery posts to Ello. However, this has much to do with my lack of available time to locate, assess and process the images. It was a fun and finite project.
 I’ve been posting a bunch of stuff on Ello recently. Mostly it’s big images of farmland, taken from space.</description>
@@ -349,10 +352,10 @@ I’ve been posting a bunch of stuff on Ello recently. Mostly it’s big images 
     
     <item>
       <title>Redistricting: A Question and a Query</title>
-      <link>/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/</link>
+      <link>https://username.github.io/posts/2014-11-15_redistricting-a-question-and-a-query/</link>
       <pubDate>Sat, 15 Nov 2014 04:20:01 +0000</pubDate>
-      
-      <guid>/shoals/posts/2014-11-15_redistricting-a-question-and-a-query/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2014-11-15_redistricting-a-question-and-a-query/</guid>
       <description>Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.
 Gotta love the classics
 My city is on the tail end of the country’s redistricting cycle. Somehow while Texas was marginalizing Latinos and Dennis Kucinich was getting scribbled out of his constituency, we here in Burlington were waffling over how to deal with triparty politics and the implications of our changing neighborhoods.
@@ -361,10 +364,10 @@ I was unrealistic early on about how much of a role technology could play in the
     
     <item>
       <title>Palm board and parchment</title>
-      <link>/shoals/posts/2014-11-15_palm-board-and-parchment/</link>
+      <link>https://username.github.io/posts/2014-11-15_palm-board-and-parchment/</link>
       <pubDate>Sat, 15 Nov 2014 04:04:10 +0000</pubDate>
-      
-      <guid>/shoals/posts/2014-11-15_palm-board-and-parchment/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2014-11-15_palm-board-and-parchment/</guid>
       <description>A history in cartographic tools
 The last-known record of the author using hand tools for mapping, AD 2003
 1998 The GIS lab at Middlebury College had a set of drafting pens hanging on the wall, dust on top of the box. There was also a ruler and a caliper-like thing in there, a curiosity as we labored over the new arcane of ArcView and Illustrator. Rumor had it that Professor Churchill had once used those pens in the dim ages.</description>
@@ -372,20 +375,20 @@ The last-known record of the author using hand tools for mapping, AD 2003
     
     <item>
       <title>Separation of Concerns</title>
-      <link>/shoals/posts/2014-08-24_separation-of-concerns/</link>
+      <link>https://username.github.io/posts/2014-08-24_separation-of-concerns/</link>
       <pubDate>Sun, 24 Aug 2014 18:08:18 +0000</pubDate>
-      
-      <guid>/shoals/posts/2014-08-24_separation-of-concerns/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2014-08-24_separation-of-concerns/</guid>
       <description>Working with shaded relief and satellite imagery in Mapbox Studio
 I have a minor quibble. Amid the wonders that the Mapbox team has been producing of late, they’ve rebranded the groundbreaking Tilemill as Mapbox Studio, given it a souped-up engine powered by OpenStreetmap-based vector tiles, and turned it loose on the beta crowd to a reception somewhere between “rapturous” and “bieberesque”. It makes web mapping both better-supported and more flexible, and at Faraday we quickly used it to build our basemap.</description>
     </item>
     
     <item>
       <title>Constellations of Potential</title>
-      <link>/shoals/posts/2014-06-02_constellations-of-potential/</link>
+      <link>https://username.github.io/posts/2014-06-02_constellations-of-potential/</link>
       <pubDate>Mon, 02 Jun 2014 14:40:44 +0000</pubDate>
-      
-      <guid>/shoals/posts/2014-06-02_constellations-of-potential/</guid>
+      <author>bill@billmorris.io (Bill Morris)</author>
+      <guid>https://username.github.io/posts/2014-06-02_constellations-of-potential/</guid>
       <description>How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)
 About 10PM last night, I saw some interesting news dropped:
 WSJ: @google to spend $1billion+ on ~180 @satellites_ to provide Internet access around globe http://t.co/k4LJu5CRR0 pic.twitter.com/BoaCUBzzGv

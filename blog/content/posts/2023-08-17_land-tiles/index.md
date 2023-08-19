@@ -13,9 +13,9 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-## The problem
+Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. 
 
-Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. In this case:
+## The problem
 
 > How can I get the geometry of every map tile at a given zoom level __that intersects land?__
 
