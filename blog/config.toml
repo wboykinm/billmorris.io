@@ -4,7 +4,7 @@ title = "Shoals"
 
 baseurl = "/shoals/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "beautifulhugo"
 paginate = 6
 
 [params]
