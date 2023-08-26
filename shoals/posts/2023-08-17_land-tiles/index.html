@@ -221,7 +221,7 @@
         <p><img src="../images/2023-08-17_cover.png" alt="A view of mountainous terrain"></p>
 <p>Mapbox is occasionally referred to - not uncharitably - as &ldquo;The Tile Company&rdquo;. It&rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the <a href="https://en.wikipedia.org/wiki/Tiled_web_map">old standby Mercator/XYZ tile</a>. My past and present colleagues have built some really cool tools to make these patterns easier - witness <a href="https://github.com/mapbox/mercantile">mercantile</a> and <a href="https://github.com/mapbox/supermercado">supermercado</a>, for example - but sometimes there&rsquo;s a specific problem to solve ad-hoc. In this case:</p>
 <blockquote>
-<p>How can I get the geometry of every map tile at a given zoom level <strong>that intersects land?</strong></p>
+<p>How can I get the geometries of every map tile at a given zoom level <strong>that intersects land?</strong></p>
 </blockquote>
 <p>There&rsquo;s a whole lotta water out there, and as much as I&rsquo;d like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world&rsquo;s coastlines. I need to knock something together to find the tiles of dry land.</p>
 <h2 id="the-solution">The solution</h2>

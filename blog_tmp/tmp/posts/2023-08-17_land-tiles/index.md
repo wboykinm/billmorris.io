@@ -17,7 +17,7 @@ color = "" #color from the theme settings
 
 Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. In this case:
 
-> How can I get the geometry of every map tile at a given zoom level __that intersects land?__
+> How can I get the geometries of every map tile at a given zoom level __that intersects land?__
 
 There's a whole lotta water out there, and as much as I'd like the odd view of shipping lanes, we do not render imagery beyond a few kilometers past the world's coastlines. I need to knock something together to find the tiles of dry land.
 
