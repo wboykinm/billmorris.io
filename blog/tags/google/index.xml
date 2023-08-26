@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Shoals</title>
+    <link>/tags/google/</link>
+    <description>Recent content in google on Shoals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2020 16:48:15 -0400</lastBuildDate><atom:link href="/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deomocratizing data science where it counts</title>
+      <link>/posts/2020-07-14_sql/</link>
+      <pubDate>Tue, 14 Jul 2020 16:48:15 -0400</pubDate>
+      
+      <guid>/posts/2020-07-14_sql/</guid>
+      <description>We at Faraday are data science experts. We have a collective century of experience in the mystical arts of data whispering; we&amp;rsquo;ve transformed oceans of rows and columns, built and discarded thousands of databases, and molded far-seeing algorithms in a dozen programming languages.
+But we mostly use SQL.
+SQL is the old-as-the-hills workhorse that is interoperable with nearly everything, vaguely-consistent across ecosystems, and hella-flexible. We use it to count people over the age of 65, and we also use it to find local spatial autocorrelation across live-aggregated geographies.</description>
+    </item>
+    
+    <item>
+      <title>Following a phone case</title>
+      <link>/posts/2018-11-19_a-journey/</link>
+      <pubDate>Mon, 19 Nov 2018 20:13:11 -0400</pubDate>
+      
+      <guid>/posts/2018-11-19_a-journey/</guid>
+      <description>The order is placed On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can&amp;rsquo;t wait!
+Hmmm . . . looks like it shipped. Lemme check the status.
+Holy hell, it&amp;rsquo;s a map! It shows where my phone case is!
+Looks like it&amp;rsquo;s currently in . . . Shenzhen! Sweet! This is already a clearer window into the supply chain than what I&amp;rsquo;m accustomed to .</description>
+    </item>
+    
+  </channel>
+</rss>

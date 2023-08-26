@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mapping on Shoals</title>
+    <link>/tags/mapping/</link>
+    <description>Recent content in mapping on Shoals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 09:04:44 -0400</lastBuildDate><atom:link href="/tags/mapping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Land ho!</title>
+      <link>/posts/2023-08-17_land-tiles/</link>
+      <pubDate>Thu, 17 Aug 2023 09:04:44 -0400</pubDate>
+      
+      <guid>/posts/2023-08-17_land-tiles/</guid>
+      <description>Mapbox is occasionally referred to - not uncharitably - as &amp;ldquo;The Tile Company&amp;rdquo;. It&amp;rsquo;s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these patterns easier - witness mercantile and supermercado, for example - but sometimes there&amp;rsquo;s a specific problem to solve ad-hoc. In this case:</description>
+    </item>
+    
+    <item>
+      <title>Compton</title>
+      <link>/posts/2022-02-14_compton/</link>
+      <pubDate>Mon, 14 Feb 2022 11:30:19 -0400</pubDate>
+      
+      <guid>/posts/2022-02-14_compton/</guid>
+      <description>Compton streetlights Generating points with PostGIS . . . to approximate streetlight locations in Compton, Los Angeles.
+Loose homage to Kendrick Lamar, strong shouts to Snoop, Dre, Mary J., and the map underneath the 2022 Superbowl Halftime Show, and big respect to the L.A. county streetlight spacing guidelines.
+Photo by David Crane, Los Angeles Daily News/SCNG
+Get streets data Openstreetmap, as always, is the perfect starting point for data. From overpass turbo, pull the local street grid as GeoJSON.</description>
+    </item>
+    
+  </channel>
+</rss>

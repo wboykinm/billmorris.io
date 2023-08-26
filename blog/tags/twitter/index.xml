@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitter on Shoals</title>
+    <link>/tags/twitter/</link>
+    <description>Recent content in twitter on Shoals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 17:35:10 -0400</lastBuildDate><atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating with tusks and a trunk</title>
+      <link>/posts/2022-11-13_migrating/</link>
+      <pubDate>Sun, 13 Nov 2022 17:35:10 -0400</pubDate>
+      
+      <guid>/posts/2022-11-13_migrating/</guid>
+      <description>Y&amp;rsquo;all.
+I&amp;rsquo;ve wandered over to Mastodon from Twitter, along with a goodly number of other folks from the broad geo-sphere, and it&amp;rsquo;s . . . nice. Feel easier to post random musings. Less motive, less image. But I rolled back over to Twitter right quick when I wanted to get into the discussion over a Sunday NYT article about my tiny-ass Vermont city. I have certain communities in my feed, and the #btv folks are still mostly there.</description>
+    </item>
+    
+  </channel>
+</rss>
