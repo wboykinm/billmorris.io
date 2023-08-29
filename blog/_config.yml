@@ -22,7 +22,7 @@ title: Shoals
 email: bill@billmorris.io
 description: >- # this means to ignore newlines until "baseurl:"
   An occasional blog on geography, history, culture, and code.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/shoals" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wboykinm
 
