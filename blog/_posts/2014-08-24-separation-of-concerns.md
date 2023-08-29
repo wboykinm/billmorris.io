@@ -9,7 +9,7 @@ description: ""
 
 subtitle: "I have a minor quibble."
 
-image: "/assets/img/2014-08-24_1.png" 
+image: "/shoals/assets/img/2014-08-24_1.png" 
 images:
  - "images/2014-08-24_1.png" 
  - "images/2014-08-24_2.png" 
@@ -36,7 +36,7 @@ Mapbox Studio comes with four starter templates . . .
 
 
 
-![image](/assets/img/2014-08-24_1.png)
+![image](/shoals/assets/img/2014-08-24_1.png)
 
 
 
@@ -49,7 +49,7 @@ Shaded relief maps present a stylized view of sunlight smacking terrain. Satelli
 
 
 
-![image](/assets/img/2014-08-24_2.png)
+![image](/shoals/assets/img/2014-08-24_2.png)
 
 Mapbox Satellite view of the peaks near Eldorado Canyon in Colorado. Note the sun azimuth angle from the Southeast, casting shadows on the Northwest slopes.
 
@@ -57,7 +57,7 @@ Mapbox Satellite view of the peaks near Eldorado Canyon in Colorado. Note the su
 
 
 
-![image](/assets/img/2014-08-24_3.png)
+![image](/shoals/assets/img/2014-08-24_3.png)
 
 The same view in the Mapbox Studio “Satellite Afternoon” template — the solar azimuth is almost exactly the opposite of the underlying imagery.
 
@@ -68,7 +68,7 @@ It’s a quick enough fix to reverse the terrain shadows . . .
 
 
 
-![image](/assets/img/2014-08-24_4.png)
+![image](/shoals/assets/img/2014-08-24_4.png)
 
 The Mapbox Studio “Satellite Afternoon” template with hillshade matching the solar azimuth of the underlying imagery . . . at this location
 
@@ -79,7 +79,7 @@ The Mapbox Studio “Satellite Afternoon” template with hillshade matching the
 
 
 
-![image](/assets/img/2014-08-24_5.png)
+![image](/shoals/assets/img/2014-08-24_5.png)
 
 Mapbox Studio “Satellite Afternoon” template with unfiltered imagery and azimuth-aligned, composited hillshade
 
@@ -90,7 +90,7 @@ To go completely nuts, we can layer in light contours so the shadows aren’t in
 
 
 
-![image](/assets/img/2014-08-24_6.png)
+![image](/shoals/assets/img/2014-08-24_6.png)
 
 
 
@@ -103,7 +103,7 @@ It’s solved, right? Alas, if we travel to New Hampshire and the slopes of Mt. 
 
 
 
-![image](/assets/img/2014-08-24_7.png)
+![image](/shoals/assets/img/2014-08-24_7.png)
 
 Restyled “Satellite Afternoon”; arrow indicates the azimuth angle of the sun, about 90° misaligned with the overlain hillshade
 
@@ -116,7 +116,7 @@ When using ESRI’s satellite/terrain combo basemap years ago, I ultimately deci
 
 
 
-![image](/assets/img/2014-08-24_8.jpeg)
+![image](/shoals/assets/img/2014-08-24_8.jpeg)
 
 Dynamic Hillshade demo built by Vladimir Agafonkin for Mapbox
 

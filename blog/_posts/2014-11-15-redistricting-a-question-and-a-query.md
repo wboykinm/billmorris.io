@@ -25,7 +25,7 @@ _Alert: Both policy AND technology will be discussed below. Bring both your brai
 
 
 
-![image](/assets/img/2014-11-15_1.jpg)
+![image](/shoals/assets/img/2014-11-15_1.jpg)
 
 Gotta love the classics
 
@@ -36,7 +36,7 @@ My city is on the tail end of the country’s redistricting cycle. Somehow while
 
 
 
-![image](/assets/img/2014-11-15_2.jpeg)
+![image](/shoals/assets/img/2014-11-15_2.jpeg)
 
 
 
@@ -51,7 +51,7 @@ Under the umbrella of [CodeForBTV](http://codeforbtv.org/) — the local Cod
 
 
 
-![image](/assets/img/2014-11-15_3.gif)
+![image](/shoals/assets/img/2014-11-15_3.gif)
 
 
 

@@ -19,7 +19,7 @@ aliases:
     - "/better-friendships-through-mapping-technology-294c292f41c5"
 ---
 
-![image](/assets/img/2015-12-11_1.png)
+![image](/shoals/assets/img/2015-12-11_1.png)
 
 > I have trouble getting together with friends these days. I’m not alone in this — [distance is a surprising obstacle to maintaining relationships](http://www.vox.com/2015/10/28/9622920/housing-adult-friendship) in the landscape of modern America. Can a hack-of-an-app help?
 
@@ -38,7 +38,7 @@ And it [turned out alright](http://wboykinm.github.io/midpoint/):
 
 
 
-![image](/assets/img/2015-12-11_2.gif)
+![image](/shoals/assets/img/2015-12-11_2.gif)
 
 Searching for ‘za in the Green Mountains
 

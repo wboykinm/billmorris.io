@@ -3,7 +3,7 @@ layout: post
 title: "Family artifacts"
 date: "2020-03-09T18:11:09-04:00"
 author: "Bill Morris"
-cover: "/assets/img/2020-03-09_1.jpg"
+cover: "/shoals/assets/img/2020-03-09_1.jpg"
 tags: ["family", "history", "wwii", "chanel"]
 description: "A story about a bottle and a war, with subtext about the magic of corroborating accounts."
 showFullContent: false
@@ -11,7 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/assets/img/2020-03-09_1.jpg)
+![1](/shoals/assets/img/2020-03-09_1.jpg)
 
 My grandmother died last Spring.
 
@@ -23,7 +23,7 @@ My grandfather was the copilot on a B-24 heavy bomber in WWII, flying from East 
 
 > "I had some money in Paris so I bought some perfume for you." 
 
-![2](/assets/img/2020-03-09_2.jpg)
+![2](/shoals/assets/img/2020-03-09_2.jpg)
 
 I'm sure this was confusing to my grandmother then. Paris? He was only ever supposed to have his feet on the ground in England. 
 
@@ -33,12 +33,12 @@ Fast-forward to the present, and approaching the edge of living memory for that 
 
 > "Here we were in the middle of Paris—unshaven, grubby, and in our flying clothes. But we didn’t care. Excited, we split up and explored the city that had been liberated just a week before." 
 
-![3](/assets/img/2020-03-09_3.png)
+![3](/shoals/assets/img/2020-03-09_3.png)
 _[Photo](https://commons.wikimedia.org/wiki/File:Paris,_Spring_1945-_Everyday_Life_in_Liberated_Paris,_France,_1945_D24166.jpg): "Life in Liberated Paris, Place de la Madeleine"_
 
 This is the bit of detail my family had been missing. My grandfather, stumbling up the Champs-Élysées, among the joyous Parisians, maybe seeing the Eiffel Tower, happy to have lived through another mission.
 
-![4](/assets/img/2020-03-09_4.png)
+![4](/shoals/assets/img/2020-03-09_4.png)
 _[Photo](https://commons.wikimedia.org/wiki/File:Soldiers_of_the_4th_U.S._Infantry_Division_look_at_the_Eiffel_Tower_in_Paris,_after_the_French_capital_had_been_liberated_on_August_25,_1944_HD-SN-99-02717.jpg): "4th U.S. Infantry Division in Paris"_
 
 In all this, at some point he managed to gather his wits enough to realize he should probably buy my grandmother a gift. Perfume acquired (and how Chanel #5 was kept available throughout WWII is [its own fascinating/sordid story](https://en.wikipedia.org/wiki/Chanel_No._5#Battle_for_control_of_Parfums_Chanel)), my grandfather returned to his squadron in England, and shipped the gift off to Philadelphia.
@@ -47,7 +47,7 @@ He was killed two months later. Given his own bomber command, his plane was shot
 
 My grandmother raised my mother alone, never remarried, and never opened the bottle.
 
-![5](/assets/img/2020-03-09_5.jpg)
+![5](/shoals/assets/img/2020-03-09_5.jpg)
 
 In the fog of that tragedy, it makes sense that my family never dug too deeply into how my grandfather acquired that bottle. Easier - maybe healthier - to try to forget. But I'm grateful that the artifacts of the story have come together now. Many never get this much detail from the past. 
 

@@ -30,7 +30,7 @@ This morning [Ahmad Babar noticed](https://www.facebook.com/photo.php?fbid=10155
 
 
 
-![image](/assets/img/2015-04-24_1.gif)
+![image](/shoals/assets/img/2015-04-24_1.gif)
 
 Dammit, Calvin.
 
@@ -56,7 +56,7 @@ This leadership has made Google sort of cocky in some ways. In conversations wit
 
 
 
-![image](/assets/img/2015-04-24_2.png)
+![image](/shoals/assets/img/2015-04-24_2.png)
 
 OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan
 
@@ -73,7 +73,7 @@ The urinating android (now removed) was drawn on what seemed like an empty spot 
 
 
 
-![image](/assets/img/2015-04-24_3.png)
+![image](/shoals/assets/img/2015-04-24_3.png)
 
 What lay under the android
 
@@ -84,7 +84,7 @@ Whatever the intent, this is a form of casual imperialism, and we usually just m
 
 
 
-![image](/assets/img/2015-04-24_4.png)
+![image](/shoals/assets/img/2015-04-24_4.png)
 
 [Kindu, DR Congo](http://tools.geofabrik.de/mc/#17/-2.9558/25.9534&amp;num=2&amp;mt0=google-map&amp;mt1=google-satellite)
 

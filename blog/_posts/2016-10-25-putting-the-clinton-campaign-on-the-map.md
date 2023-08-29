@@ -20,7 +20,7 @@ aliases:
     - "/putting-the-clinton-campaign-on-the-map-cb909a2241c1"
 ---
 
-![image](/assets/img/2016-10-25_1.png)
+![image](/shoals/assets/img/2016-10-25_1.png)
 
 HRC campaign events and volunteer opportunities around Oakland, CA
 
@@ -37,7 +37,7 @@ These folks are galvanized by the historic stakes of the election, and are willi
 
 
 
-![image](/assets/img/2016-10-25_2.gif)
+![image](/shoals/assets/img/2016-10-25_2.gif)
 
 Swipe to make an impact
 
@@ -50,7 +50,7 @@ The geographic perspective can give this group a sense of context. Are the canva
 
 
 
-![image](/assets/img/2016-10-25_3.png)
+![image](/shoals/assets/img/2016-10-25_3.png)
 
 An events dashboard
 

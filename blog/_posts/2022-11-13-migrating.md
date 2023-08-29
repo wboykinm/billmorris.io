@@ -4,7 +4,7 @@ title: "Migrating with tusks and a trunk"
 date: "2022-11-13T17:35:10-04:00"
 author: "Bill Morris"
 authorTwitter: "" #do not include @
-cover: "/assets/img/2022-11-13_mastodon.jpeg"
+cover: "/shoals/assets/img/2022-11-13_mastodon.jpeg"
 tags: ["twitter", "mastodon", "social media", "blog"]
 description: ""
 showFullContent: false
@@ -13,7 +13,7 @@ hideComments: false
 color: "" #color from the theme settings
 ---
 
-![1](/assets/img/2022-11-13_mastodon.jpeg)
+![1](/shoals/assets/img/2022-11-13_mastodon.jpeg)
 
 Y'all.
 
@@ -23,11 +23,11 @@ The latest drama is not the first time I've considered quitting Twitter altogeth
 
 With my complete archive since 2011 in view, I found that I've actually been steadily retreating from Twitter for years now. Hard to say what I've replaced it with, but the signs of my disenchantment are clear, even as I probably remain in the top echelon of users.
 
-![A steady decline](/assets/img/2022-11-13_1.png)
+![A steady decline](/shoals/assets/img/2022-11-13_1.png)
 
 I'm also pleased to see that I generally treat Twitter like work: I learn from colleagues, share things I think are cool, and stay the hell out of the office on weekends.
 
-![Boundaries](/assets/img/2022-11-13_2.png)
+![Boundaries](/shoals/assets/img/2022-11-13_2.png)
 
 It may be that I spend more time on Mastodon now, but I think I'll keep receding from these spaces. Facebook is already long behind me and I don't mourn.
 

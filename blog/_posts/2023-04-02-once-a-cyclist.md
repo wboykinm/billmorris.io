@@ -3,7 +3,7 @@ layout: post
 title: "Once a cyclist"
 date: "2023-04-02T17:13:18-04:00"
 author: "Bill Morris"
-cover: "/assets/img/2023-04-02_cover.jpeg"
+cover: "/shoals/assets/img/2023-04-02_cover.jpeg"
 tags: ["cycling", "exercise", "urban planning", "bike"]
 description: "A short history of the author on two wheels."
 showFullContent: false
@@ -11,7 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/assets/img/2023-04-02_cover.jpeg)
+![1](/shoals/assets/img/2023-04-02_cover.jpeg)
 
 Oh check it out - another middle-aged man on a bike, clad in lycra, spouting opinions. 
 
@@ -23,7 +23,7 @@ Now that [I've been forced to ditch running](https://billmorris.io/shoals/posts/
 
 Among the bucolic farm fields and hills of Addison County in Vermont lies Middlebury College. It was here in 2002 that a housemate gave me a reading assignment that would turn me into an insufferable, righteously-aggrieved urbanist forevermore: [Travis Hugh Culley's _The Immortal Class_](https://www.publishersweekly.com/978-0-375-50428-0). 
 
-![immortal](/assets/img/2023-04-02_1.jpeg)
+![immortal](/shoals/assets/img/2023-04-02_1.jpeg)
 
 In this love letter to the cycling culture of 90s Chicago was the weight of history, the liberty of the untethered particle, and an unadulterated scorn for cars and the forces that make American cities so dangerous and inhospitable for humans. Having never set foot in Chicago I can't say how well the book has aged. Hell, I hadn't set much of a foot in _any_ city when I first read this. But after two years on a bike commuting around Boston, I do feel like I've earned some of the anger and determination that I first took on from this book. I've also [channeled some of it](https://billmorris.io/shoals/posts/2016-08-11_superblocks-for-a-small-city/) into ideas about how to make my own tiny city a better place.
 
@@ -39,5 +39,5 @@ The crash arrived in slow motion, and Armstrong's fierce denials of culpability 
 
 But now, back on two wheels, I'm looking for new inspiration, because I damn well need it, here at the onset of Spring.
 
-![frozen](/assets/img/2023-04-02_2.jpeg)
+![frozen](/shoals/assets/img/2023-04-02_2.jpeg)
 

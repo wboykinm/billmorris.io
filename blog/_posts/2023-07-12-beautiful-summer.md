@@ -3,7 +3,7 @@ layout: post
 title: "A beautiful summer"
 date: "2023-07-12T13:56:21-04:00"
 author: "Bill Morris"
-cover: "/assets/img/2023-07-12_cover.jpeg"
+cover: "/shoals/assets/img/2023-07-12_cover.jpeg"
 tags: ["vermont", "flood", "climate"]
 description: "Can tragedy fade into the background when it's on your doorstep?"
 showFullContent: false
@@ -11,20 +11,20 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/assets/img/2023-07-12_cover.jpeg)
+![1](/shoals/assets/img/2023-07-12_cover.jpeg)
 
 Summer is great.
 
 I keep forgetting this, but the shores of Lake Champlain - for a blessed few months every year - are an absolute paradise. As I biked with my son to his summer camp this morning, I saw it in full display: boats on the water, strolling couples, picnickers, people literally pulling fragrant tree blossoms to their noses and inhaling with a smile. I took a deep breath and was grateful.
 
-![1](/assets/img/2023-07-12_1.jpeg)
+![1](/shoals/assets/img/2023-07-12_1.jpeg)
 _Burlington, VT, in perfect summer form._
 
 Ten miles away as the crow flies, the citizens of the town of Richmond were digging mud out of their basements and ground floors. They were pulling wrecked cars and downed trees out of their streets. The floodwaters had receded, but the damage will take time to undo. A great storm raked the Green Mountains for two days, dumping [previously-unknown amounts of rain](https://forecast.weather.gov/product.php?site=BTV&product=RER&issuedby=BTV) on the high ground. This swelled the streams and rivers, which duly raged over their banks and into the streets of towns and villages throughout the state. It's hard to imagine, but [it was close to being even worse](https://vtdigger.org/2023/07/11/u-s-army-corps-downgrades-flood-warning-around-ball-mountain-and-townshend-dams/).
 
 Montpelier was flooded up to the steps of the gold-domed state capitol building, and onlookers described an eerie soundscape of fire alarms going off in every direction. This is the third time in my years of being a Vermonter that Montpelier has flooded, which I'm sure is far too often for the folks who've lived through it all.
 
-![2](/assets/img/2023-07-12_2.jpeg)
+![2](/shoals/assets/img/2023-07-12_2.jpeg)
 _Montpelier as the Winooski river peaked; [photo by StoryWorkz/VTDigger](https://vtdigger.org/2023/07/11/photos-vermonts-capital-under-floodwaters/)_
 
 On the waterfront today, I cycled past a beach club, with its stand-up paddleboards (we have no surf, you see) arranged on racks, ready for folks to take them out on the lake. Some of them were solid core, but others were the newer, inexplicably-inflatable kind that I keep meaning to get for my family. The same kind that my best friend's wife and daughter were using earlier today [to raft vegetable starts to safety](https://www.instagram.com/p/CulEXI5ge2S/?img_index=1), away from the waist-deep water that had flooded the greenhouses on their farm in the Northeastern part of the state. They lost a month of crops, but they're lucky among farmers; they'll have time to plant new courses of vegetables. Others have seen their last harvests for the year.

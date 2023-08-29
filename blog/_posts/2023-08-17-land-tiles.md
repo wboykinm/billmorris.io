@@ -3,7 +3,7 @@ layout: post
 title: "Land ho!"
 date: "2023-08-17T09:04:44-04:00"
 author: "Bill Morris"
-cover: "..//assets/img/2023-08-17_cover.png"
+cover: "..//shoals/assets/img/2023-08-17_cover.png"
 tags: ["SQLite", "mapping", "GDAL", "python"]
 description: "In which I discover how much geoprocessing you can get done with inline SQLite"
 showFullContent: false
@@ -11,7 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-![A view of mountainous terrain](/assets/img/2023-08-17_cover.png)
+![A view of mountainous terrain](/shoals/assets/img/2023-08-17_cover.png)
 
 Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. In this case:
 
@@ -43,7 +43,7 @@ echo ${BBOX} | \
     z${ZOOM}_metatiles.geojsonl
 ```
 
-![1](/assets/img/2023-08-17_1.png)
+![1](/shoals/assets/img/2023-08-17_1.png)
 
 ### Download the land data
 We'll grab country polygons, and decompress them:
@@ -53,7 +53,7 @@ curl https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10
 unzip ne_10m_admin_0_countries.zip
 ```
 
-![2](/assets/img/2023-08-17_2.png)
+![2](/shoals/assets/img/2023-08-17_2.png)
 
 ### Combine the two
 This is the really facinating bit. I'm accustomed to using [PostGIS](https://postgis.net/) for all my spatial SQL needs, but I'm getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned `ogr2ogr` toolset? Yep; SQLite. There's actually quite a bit you can shoehorn into the inline `-sql` argument:
@@ -82,7 +82,7 @@ Catch all that? In the query above, we do a spatial INNER join between the count
 
 . . . and there's what we were looking for in the first place! GeoJSON of all the Z5 tiles that intersect land!
 
-![3](/assets/img/2023-08-17_3.png)
+![3](/shoals/assets/img/2023-08-17_3.png)
 
 ### The wrap
 Here's [the whole script](https://gist.github.com/wboykinm/4550c13c30baee99febc6f02028b0ec6), executable like so if you want all the tiles intersecting land at zoom level 5:

@@ -21,7 +21,7 @@ aliases:
     - "/from-above-ad77fc941072"
 ---
 
-![image](/assets/img/2016-04-01_1.jpeg)
+![image](/shoals/assets/img/2016-04-01_1.jpeg)
 
 Lake Baringo, Kenya — Image by Digital Globe, 2014
 
@@ -38,7 +38,7 @@ Business intelligence is catching on. Data that was once the purview of the mili
 
 
 
-![image](/assets/img/2016-04-01_2.png)
+![image](/shoals/assets/img/2016-04-01_2.png)
 
 Mine monitoring in Australia — Mapbox, 2014
 
@@ -51,7 +51,7 @@ From above, it looked like the local foresters had done yeoman’s work on behal
 
 
 
-![image](/assets/img/2016-04-01_3.jpeg)
+![image](/shoals/assets/img/2016-04-01_3.jpeg)
 
 Mesquite on Maui — [photo](https://commons.wikimedia.org/wiki/File:Starr_050924-4469_Prosopis_pallida.jpg) by Forest and Kim Starr
 
@@ -70,6 +70,6 @@ As spatial and temporal resolution increase exponentially, we need to increase t
 
 
 
-![image](/assets/img/2016-04-01_4.png)
+![image](/shoals/assets/img/2016-04-01_4.png)
 
 Costa Marques, Brasil — Image by DigitalGlobe, 2015

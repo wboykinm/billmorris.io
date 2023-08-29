@@ -48,7 +48,7 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/assets/img/2023-08-17_cover.png" alt="A view of mountainous terrain" /></p>
+    <p><img src="/shoals/assets/img/2023-08-17_cover.png" alt="A view of mountainous terrain" /></p>
 
 <p>Mapbox is occasionally referred to - not uncharitably - as “The Tile Company”. It’s true; we deal with big amounts of data, and the most common map/reduce unit we use is the <a href="https://en.wikipedia.org/wiki/Tiled_web_map">old standby Mercator/XYZ tile</a>. My past and present colleagues have built some really cool tools to make these patterns easier - witness <a href="https://github.com/mapbox/mercantile">mercantile</a> and <a href="https://github.com/mapbox/supermercado">supermercado</a>, for example - but sometimes there’s a specific problem to solve ad-hoc. In this case:</p>
 
@@ -80,7 +80,7 @@
     z<span class="k">${</span><span class="nv">ZOOM</span><span class="k">}</span>_metatiles.geojsonl
 </code></pre></div></div>
 
-<p><img src="/assets/img/2023-08-17_1.png" alt="1" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_1.png" alt="1" /></p>
 
 <h3 id="download-the-land-data">Download the land data</h3>
 <p>We’ll grab country polygons, and decompress them:</p>
@@ -89,7 +89,7 @@
 unzip ne_10m_admin_0_countries.zip
 </code></pre></div></div>
 
-<p><img src="/assets/img/2023-08-17_2.png" alt="2" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_2.png" alt="2" /></p>
 
 <h3 id="combine-the-two">Combine the two</h3>
 <p>This is the really facinating bit. I’m accustomed to using <a href="https://postgis.net/">PostGIS</a> for all my spatial SQL needs, but I’m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned <code class="language-plaintext highlighter-rouge">ogr2ogr</code> toolset? Yep; SQLite. There’s actually quite a bit you can shoehorn into the inline <code class="language-plaintext highlighter-rouge">-sql</code> argument:</p>
@@ -117,7 +117,7 @@ unzip ne_10m_admin_0_countries.zip
 
 <p>. . . and there’s what we were looking for in the first place! GeoJSON of all the Z5 tiles that intersect land!</p>
 
-<p><img src="/assets/img/2023-08-17_3.png" alt="3" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_3.png" alt="3" /></p>
 
 <h3 id="the-wrap">The wrap</h3>
 <p>Here’s <a href="https://gist.github.com/wboykinm/4550c13c30baee99febc6f02028b0ec6">the whole script</a>, executable like so if you want all the tiles intersecting land at zoom level 5:</p>

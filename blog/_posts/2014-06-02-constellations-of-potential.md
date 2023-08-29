@@ -9,7 +9,7 @@ description: ""
 
 subtitle: "How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)"
 
-cover: "/assets/img/2014-06-02_1.png" 
+cover: "/shoals/assets/img/2014-06-02_1.png" 
 images:
  - "images/2014-06-02_1.png" 
  - "images/2014-06-02_2.gif" 
@@ -36,7 +36,7 @@ The Global Positioning System (GPS) guides us around the world and is approachin
 
 
 
-![image](/assets/img/2014-06-02_1.png)
+![image](/shoals/assets/img/2014-06-02_1.png)
 
 Triangulation in the 16th Century — courtesy [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:CD006-Triangulation_16th_century.png)
 
@@ -47,7 +47,7 @@ If your phone can receive a signal from three satellites at once it can figure o
 
 
 
-![image](/assets/img/2014-06-02_2.gif)
+![image](/shoals/assets/img/2014-06-02_2.gif)
 
 GPS in action — graphic by [PSU](https://www.e-education.psu.edu/natureofgeoinfo/book/export/html/1620)
 

@@ -6,7 +6,7 @@ date: 2018-08-30T17:37:23.466Z
 lastmod: 2019-07-19T09:09:38-04:00
 
 description: ""
-cover: "/assets/img/2018-08-30_1.png"
+cover: "/shoals/assets/img/2018-08-30_1.png"
 
 subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:"
 
@@ -20,7 +20,7 @@ aliases:
     - "/all-the-takes-youre-about-to-see-on-the-nyc-snapchat-map-vandalism-c0e73010e90b"
 ---
 
-![1](/assets/img/2018-08-30_1.png)
+![1](/shoals/assets/img/2018-08-30_1.png)
 
 That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
 
@@ -66,7 +66,7 @@ Real talk: this last one worries me _a lot_. OpenStreetMap is a community of peo
 
 
 
-![image](/assets/img/2018-08-30_2.gif)
+![image](/shoals/assets/img/2018-08-30_2.gif)
 
 
 

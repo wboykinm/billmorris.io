@@ -3,7 +3,7 @@ layout: post
 title: "How to deploy a webpage in 2022"
 date: "2022-01-21T17:13:15-04:00"
 author: "Bill Morris"
-cover: "/assets/img/2022-01-21_Confusion_of_Tongues_Dore.png"
+cover: "/shoals/assets/img/2022-01-21_Confusion_of_Tongues_Dore.png"
 tags: ["web", "blog", "dns"]
 description: "Instructions for getting a [mostly] static website onto a custom domain, with `https` encryption, for [mostly] free."
 showFullContent: false
@@ -11,7 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/assets/img/2022-01-21_Confusion_of_Tongues_Dore.png)
+![1](/shoals/assets/img/2022-01-21_Confusion_of_Tongues_Dore.png)
 
 Instructions for getting a [mostly] static website onto a custom domain, with `https` encryption, for [mostly] free. 
 

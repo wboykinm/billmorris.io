@@ -22,7 +22,7 @@ aliases:
     - "/superblocks-for-a-small-city-4f96e0ca643a"
 ---
 
-![image](/assets/img/2016-08-11_1.png)
+![image](/shoals/assets/img/2016-08-11_1.png)
 
 Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. These are wildly-different scales (different everything, really), but when one of my legislators brought up [Barcelona’s planned superblocks](http://www.bcnecologia.net/en/conceptual-model/superblocks), I couldn’t help but imagine the radical livability experiment playing out in Burlington.
 
@@ -31,7 +31,7 @@ Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the me
 Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area. Take a square of nine city blocks, push all fast, two-way traffic to the perimeter, and make the interior roads waaaaay slower for cars in a series on one-way loops:
 
 
-![image](/assets/img/2016-08-11_2.jpeg)
+![image](/shoals/assets/img/2016-08-11_2.jpeg)
 
 [By BCN Ecologia](http://www.bcnecologia.net/en/conceptual-model/superblocks)
 
@@ -48,7 +48,7 @@ This idea is appealing — Burlington has a fabulous central pedestrian mall
 
 
 
-![image](/assets/img/2016-08-11_3.gif)
+![image](/shoals/assets/img/2016-08-11_3.gif)
 
 
 
@@ -59,7 +59,7 @@ Burlington’s layout presents all kinds of basic geometric problems, and only o
 
 
 
-![image](/assets/img/2016-08-11_4.png)
+![image](/shoals/assets/img/2016-08-11_4.png)
 
 At the bottom of the hill, the one textbook superblock
 
@@ -70,7 +70,7 @@ The rest grapple with discontinuous streets, dead-ends, angled junctions and a h
 
 
 
-![image](/assets/img/2016-08-11_5.png)
+![image](/shoals/assets/img/2016-08-11_5.png)
 
 Superblocks in Burlington’s Old North End neighborhood
 

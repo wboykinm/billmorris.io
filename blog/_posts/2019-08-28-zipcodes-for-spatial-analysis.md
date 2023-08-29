@@ -3,7 +3,7 @@ layout: post
 title: "A full-throated defense of using Zipcodes for spatial analysis"
 date: "2019-08-28T16:16:07-04:00"
 author: "Bill Morris"
-cover: "/assets/img/2019-08-28_zip.jpeg"
+cover: "/shoals/assets/img/2019-08-28_zip.jpeg"
 tags: ["spatial analysis", "zipcodes", "data science"]
 description: "Psych. It's actually a meek defense."
 showFullContent: false
@@ -11,7 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/assets/img/2019-08-28_zip.jpeg)
+![1](/shoals/assets/img/2019-08-28_zip.jpeg)
 
 We, the data-folk of Faraday, agree wholeheartedly with our colleagues at 
 Carto on this sensitive issue: In the USA, ZIP codes(™) [are the worst-case scenario base unit for measuring geospatial relationships](https://carto.com/blog/zip-codes-spatial-analysis). Because:

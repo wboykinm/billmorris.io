@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/shoals/feed.xml" rel="self" type="application/atom+xml" /><link href="/shoals/" rel="alternate" type="text/html" /><updated>2023-08-29T19:40:24-04:00</updated><id>/shoals/feed.xml</id><title type="html">Shoals</title><subtitle>An occasional blog on geography, history, culture, and code.</subtitle><entry><title type="html">Land ho!</title><link href="/shoals/2023/08/17/land-tiles.html" rel="alternate" type="text/html" title="Land ho!" /><published>2023-08-17T09:04:44-04:00</published><updated>2023-08-17T09:04:44-04:00</updated><id>/shoals/2023/08/17/land-tiles</id><content type="html" xml:base="/shoals/2023/08/17/land-tiles.html"><![CDATA[<p><img src="/assets/img/2023-08-17_cover.png" alt="A view of mountainous terrain" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/shoals/feed.xml" rel="self" type="application/atom+xml" /><link href="/shoals/" rel="alternate" type="text/html" /><updated>2023-08-29T19:54:00-04:00</updated><id>/shoals/feed.xml</id><title type="html">Shoals</title><subtitle>An occasional blog on geography, history, culture, and code.</subtitle><entry><title type="html">Land ho!</title><link href="/shoals/2023/08/17/land-tiles.html" rel="alternate" type="text/html" title="Land ho!" /><published>2023-08-17T09:04:44-04:00</published><updated>2023-08-17T09:04:44-04:00</updated><id>/shoals/2023/08/17/land-tiles</id><content type="html" xml:base="/shoals/2023/08/17/land-tiles.html"><![CDATA[<p><img src="/shoals/assets/img/2023-08-17_cover.png" alt="A view of mountainous terrain" /></p>
 
 <p>Mapbox is occasionally referred to - not uncharitably - as “The Tile Company”. It’s true; we deal with big amounts of data, and the most common map/reduce unit we use is the <a href="https://en.wikipedia.org/wiki/Tiled_web_map">old standby Mercator/XYZ tile</a>. My past and present colleagues have built some really cool tools to make these patterns easier - witness <a href="https://github.com/mapbox/mercantile">mercantile</a> and <a href="https://github.com/mapbox/supermercado">supermercado</a>, for example - but sometimes there’s a specific problem to solve ad-hoc. In this case:</p>
 
@@ -30,7 +30,7 @@
     z<span class="k">${</span><span class="nv">ZOOM</span><span class="k">}</span>_metatiles.geojsonl
 </code></pre></div></div>
 
-<p><img src="/assets/img/2023-08-17_1.png" alt="1" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_1.png" alt="1" /></p>
 
 <h3 id="download-the-land-data">Download the land data</h3>
 <p>We’ll grab country polygons, and decompress them:</p>
@@ -39,7 +39,7 @@
 unzip ne_10m_admin_0_countries.zip
 </code></pre></div></div>
 
-<p><img src="/assets/img/2023-08-17_2.png" alt="2" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_2.png" alt="2" /></p>
 
 <h3 id="combine-the-two">Combine the two</h3>
 <p>This is the really facinating bit. I’m accustomed to using <a href="https://postgis.net/">PostGIS</a> for all my spatial SQL needs, but I’m getting more and more fond of the capabilities of SpatiaLite, which is a spatial function module for SQLite. And guess what you can use right out of the box with the aforementioned <code class="language-plaintext highlighter-rouge">ogr2ogr</code> toolset? Yep; SQLite. There’s actually quite a bit you can shoehorn into the inline <code class="language-plaintext highlighter-rouge">-sql</code> argument:</p>
@@ -67,7 +67,7 @@ unzip ne_10m_admin_0_countries.zip
 
 <p>. . . and there’s what we were looking for in the first place! GeoJSON of all the Z5 tiles that intersect land!</p>
 
-<p><img src="/assets/img/2023-08-17_3.png" alt="3" /></p>
+<p><img src="/shoals/assets/img/2023-08-17_3.png" alt="3" /></p>
 
 <h3 id="the-wrap">The wrap</h3>
 <p>Here’s <a href="https://gist.github.com/wboykinm/4550c13c30baee99febc6f02028b0ec6">the whole script</a>, executable like so if you want all the tiles intersecting land at zoom level 5:</p>
@@ -114,42 +114,42 @@ ogr2ogr <span class="se">\</span>
 <span class="nb">rm</span> <span class="nt">-rf</span> ne_10m_admin_0_countries.<span class="k">*</span> z<span class="k">${</span><span class="nv">ZOOM</span><span class="k">}</span>_metatiles.geojsonl
 </code></pre></div></div>
 
-<p>All visualizations here were done with <a href="https://geojson.io/">geojson.io</a>.</p>]]></content><author><name>Bill Morris</name></author><category term="SQLite" /><category term="mapping" /><category term="GDAL" /><category term="python" /><summary type="html"><![CDATA[In which I discover how much geoprocessing you can get done with inline SQLite]]></summary></entry><entry><title type="html">Tradewinds</title><link href="/shoals/2023/07/25/old-dock.html" rel="alternate" type="text/html" title="Tradewinds" /><published>2023-07-25T16:37:21-04:00</published><updated>2023-07-25T16:37:21-04:00</updated><id>/shoals/2023/07/25/old-dock</id><content type="html" xml:base="/shoals/2023/07/25/old-dock.html"><![CDATA[<p><img src="/assets/img/2023-07-25_cover.jpeg" alt="1" /></p>
+<p>All visualizations here were done with <a href="https://geojson.io/">geojson.io</a>.</p>]]></content><author><name>Bill Morris</name></author><category term="SQLite" /><category term="mapping" /><category term="GDAL" /><category term="python" /><summary type="html"><![CDATA[In which I discover how much geoprocessing you can get done with inline SQLite]]></summary></entry><entry><title type="html">Tradewinds</title><link href="/shoals/2023/07/25/old-dock.html" rel="alternate" type="text/html" title="Tradewinds" /><published>2023-07-25T16:37:21-04:00</published><updated>2023-07-25T16:37:21-04:00</updated><id>/shoals/2023/07/25/old-dock</id><content type="html" xml:base="/shoals/2023/07/25/old-dock.html"><![CDATA[<p><img src="/shoals/assets/img/2023-07-25_cover.jpeg" alt="1" /></p>
 
 <p>Yesterday a friend asked for my help hauling his boat closer to shore, along Lake Champlain in the Northern part of town. <a href="https://billmorris.io/shoals/posts/2023-07-12_beautiful-summer/">The recent flooding elsewhere in Vermont</a> had now reached the lake, and he was worried that the rising waters would carry off his summer recreation plans. So I pitched in.</p>
 
 <p>Wading in at the debris-filled shore, I spotted a bright, straight-edged object in the water, and hauled it out. It was a cocktail menu!</p>
 
-<p><img src="/assets/img/2023-07-25_4.jpeg" alt="4" /></p>
+<p><img src="/shoals/assets/img/2023-07-25_4.jpeg" alt="4" /></p>
 
 <p>More specifically, it was a cocktail menu from <a href="https://www.theolddockhouseonchamplain.com/">The Old Dock</a>, a bar I knew from long bike rides around the lake, and from ill-advised treks up I-87 as a way of getting back to Burlington from NYC. I had actually been past there in April, though they weren’t open for the season yet, and the place had the weather-beaten look of a long winter endured.</p>
 
-<p><img src="/assets/img/2023-07-25_2.jpeg" alt="2" /></p>
+<p><img src="/shoals/assets/img/2023-07-25_2.jpeg" alt="2" /></p>
 
 <p>The Old Dock is in Essex, on the New York side of the Southernmost ferry connection with Vermont. Essex is . . . kind of a long way from Burlington as the menu drifts. <a href="https://felt.com/map/Old-Dock-Menu-YJvXQH1NQEmRmBOz5vVltD?loc=44.3884,-73.2569,10.64z&amp;share=1">14 miles of open water</a>, actually.</p>
 
-<p><img src="/assets/img/2023-07-25_1.png" alt="1" /></p>
+<p><img src="/shoals/assets/img/2023-07-25_1.png" alt="1" /></p>
 
 <p>While I was immediately compelled by the epic journey of this lonely menu, I’ve also considered the possibility that it was brought over by accident in the hands of a forgetful boater after one too many of the “Dock Fizz”.</p>
 
 <p>Or maybe it was a bored gull.</p>
 
-<p><img src="/assets/img/2023-07-25_3.jpeg" alt="3" /></p>
+<p><img src="/shoals/assets/img/2023-07-25_3.jpeg" alt="3" /></p>
 
-<p>Regardless, I’ll plan to bring it back on my next trip over there, with the tale of how far it drifted in the current.</p>]]></content><author><name>Bill Morris</name></author><category term="maps" /><category term="champlain" /><summary type="html"><![CDATA[A message in a bottle (or a laminated bar menu)]]></summary></entry><entry><title type="html">A beautiful summer</title><link href="/shoals/2023/07/12/beautiful-summer.html" rel="alternate" type="text/html" title="A beautiful summer" /><published>2023-07-12T13:56:21-04:00</published><updated>2023-07-12T13:56:21-04:00</updated><id>/shoals/2023/07/12/beautiful-summer</id><content type="html" xml:base="/shoals/2023/07/12/beautiful-summer.html"><![CDATA[<p><img src="/assets/img/2023-07-12_cover.jpeg" alt="1" /></p>
+<p>Regardless, I’ll plan to bring it back on my next trip over there, with the tale of how far it drifted in the current.</p>]]></content><author><name>Bill Morris</name></author><category term="maps" /><category term="champlain" /><summary type="html"><![CDATA[A message in a bottle (or a laminated bar menu)]]></summary></entry><entry><title type="html">A beautiful summer</title><link href="/shoals/2023/07/12/beautiful-summer.html" rel="alternate" type="text/html" title="A beautiful summer" /><published>2023-07-12T13:56:21-04:00</published><updated>2023-07-12T13:56:21-04:00</updated><id>/shoals/2023/07/12/beautiful-summer</id><content type="html" xml:base="/shoals/2023/07/12/beautiful-summer.html"><![CDATA[<p><img src="/shoals/assets/img/2023-07-12_cover.jpeg" alt="1" /></p>
 
 <p>Summer is great.</p>
 
 <p>I keep forgetting this, but the shores of Lake Champlain - for a blessed few months every year - are an absolute paradise. As I biked with my son to his summer camp this morning, I saw it in full display: boats on the water, strolling couples, picnickers, people literally pulling fragrant tree blossoms to their noses and inhaling with a smile. I took a deep breath and was grateful.</p>
 
-<p><img src="/assets/img/2023-07-12_1.jpeg" alt="1" />
+<p><img src="/shoals/assets/img/2023-07-12_1.jpeg" alt="1" />
 <em>Burlington, VT, in perfect summer form.</em></p>
 
 <p>Ten miles away as the crow flies, the citizens of the town of Richmond were digging mud out of their basements and ground floors. They were pulling wrecked cars and downed trees out of their streets. The floodwaters had receded, but the damage will take time to undo. A great storm raked the Green Mountains for two days, dumping <a href="https://forecast.weather.gov/product.php?site=BTV&amp;product=RER&amp;issuedby=BTV">previously-unknown amounts of rain</a> on the high ground. This swelled the streams and rivers, which duly raged over their banks and into the streets of towns and villages throughout the state. It’s hard to imagine, but <a href="https://vtdigger.org/2023/07/11/u-s-army-corps-downgrades-flood-warning-around-ball-mountain-and-townshend-dams/">it was close to being even worse</a>.</p>
 
 <p>Montpelier was flooded up to the steps of the gold-domed state capitol building, and onlookers described an eerie soundscape of fire alarms going off in every direction. This is the third time in my years of being a Vermonter that Montpelier has flooded, which I’m sure is far too often for the folks who’ve lived through it all.</p>
 
-<p><img src="/assets/img/2023-07-12_2.jpeg" alt="2" />
+<p><img src="/shoals/assets/img/2023-07-12_2.jpeg" alt="2" />
 <em>Montpelier as the Winooski river peaked; <a href="https://vtdigger.org/2023/07/11/photos-vermonts-capital-under-floodwaters/">photo by StoryWorkz/VTDigger</a></em></p>
 
 <p>On the waterfront today, I cycled past a beach club, with its stand-up paddleboards (we have no surf, you see) arranged on racks, ready for folks to take them out on the lake. Some of them were solid core, but others were the newer, inexplicably-inflatable kind that I keep meaning to get for my family. The same kind that my best friend’s wife and daughter were using earlier today <a href="https://www.instagram.com/p/CulEXI5ge2S/?img_index=1">to raft vegetable starts to safety</a>, away from the waist-deep water that had flooded the greenhouses on their farm in the Northeastern part of the state. They lost a month of crops, but they’re lucky among farmers; they’ll have time to plant new courses of vegetables. Others have seen their last harvests for the year.</p>
@@ -164,7 +164,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>The governor himself <a href="https://web.archive.org/web/20230713014153/https://governor.vermont.gov/press-release/governor-phil-scott-provides-update-states-response-catastrophic-flooding">put out the word</a>: help out on a hyper-local basis for now. We should dig out our neighbors, not put ourselves at risk - or increase the strain on the first responders - by driving through still-flooded roads on our way to help strangers. We should prepare for a bigger effort to come, and let the initial work of lifesaving proceed. I still feel a pang of guilt looking out over that distance to the retreating floodwaters.</p>
 
-<p>I expect Montpelier will get closer soon. I’ll keep my summer gratitude close in the meantime.</p>]]></content><author><name>Bill Morris</name></author><category term="vermont" /><category term="flood" /><category term="climate" /><summary type="html"><![CDATA[Can tragedy fade into the background when it's on your doorstep?]]></summary></entry><entry><title type="html">Once a cyclist</title><link href="/shoals/2023/04/02/once-a-cyclist.html" rel="alternate" type="text/html" title="Once a cyclist" /><published>2023-04-02T17:13:18-04:00</published><updated>2023-04-02T17:13:18-04:00</updated><id>/shoals/2023/04/02/once-a-cyclist</id><content type="html" xml:base="/shoals/2023/04/02/once-a-cyclist.html"><![CDATA[<p><img src="/assets/img/2023-04-02_cover.jpeg" alt="1" /></p>
+<p>I expect Montpelier will get closer soon. I’ll keep my summer gratitude close in the meantime.</p>]]></content><author><name>Bill Morris</name></author><category term="vermont" /><category term="flood" /><category term="climate" /><summary type="html"><![CDATA[Can tragedy fade into the background when it's on your doorstep?]]></summary></entry><entry><title type="html">Once a cyclist</title><link href="/shoals/2023/04/02/once-a-cyclist.html" rel="alternate" type="text/html" title="Once a cyclist" /><published>2023-04-02T17:13:18-04:00</published><updated>2023-04-02T17:13:18-04:00</updated><id>/shoals/2023/04/02/once-a-cyclist</id><content type="html" xml:base="/shoals/2023/04/02/once-a-cyclist.html"><![CDATA[<p><img src="/shoals/assets/img/2023-04-02_cover.jpeg" alt="1" /></p>
 
 <p>Oh check it out - another middle-aged man on a bike, clad in lycra, spouting opinions.</p>
 
@@ -178,7 +178,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>Among the bucolic farm fields and hills of Addison County in Vermont lies Middlebury College. It was here in 2002 that a housemate gave me a reading assignment that would turn me into an insufferable, righteously-aggrieved urbanist forevermore: <a href="https://www.publishersweekly.com/978-0-375-50428-0">Travis Hugh Culley’s <em>The Immortal Class</em></a>.</p>
 
-<p><img src="/assets/img/2023-04-02_1.jpeg" alt="immortal" /></p>
+<p><img src="/shoals/assets/img/2023-04-02_1.jpeg" alt="immortal" /></p>
 
 <p>In this love letter to the cycling culture of 90s Chicago was the weight of history, the liberty of the untethered particle, and an unadulterated scorn for cars and the forces that make American cities so dangerous and inhospitable for humans. Having never set foot in Chicago I can’t say how well the book has aged. Hell, I hadn’t set much of a foot in <em>any</em> city when I first read this. But after two years on a bike commuting around Boston, I do feel like I’ve earned some of the anger and determination that I first took on from this book. I’ve also <a href="https://billmorris.io/shoals/posts/2016-08-11_superblocks-for-a-small-city/">channeled some of it</a> into ideas about how to make my own tiny city a better place.</p>
 
@@ -194,7 +194,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>But now, back on two wheels, I’m looking for new inspiration, because I damn well need it, here at the onset of Spring.</p>
 
-<p><img src="/assets/img/2023-04-02_2.jpeg" alt="frozen" /></p>]]></content><author><name>Bill Morris</name></author><category term="cycling" /><category term="exercise" /><category term="urban planning" /><category term="bike" /><summary type="html"><![CDATA[A short history of the author on two wheels.]]></summary></entry><entry><title type="html">A New Story</title><link href="/shoals/2023/03/10/a-new-story.html" rel="alternate" type="text/html" title="A New Story" /><published>2023-03-10T16:01:04-05:00</published><updated>2023-03-10T16:01:04-05:00</updated><id>/shoals/2023/03/10/a-new-story</id><content type="html" xml:base="/shoals/2023/03/10/a-new-story.html"><![CDATA[<p><img src="/assets/img/2023-03-08_knee.png" alt="1" /></p>
+<p><img src="/shoals/assets/img/2023-04-02_2.jpeg" alt="frozen" /></p>]]></content><author><name>Bill Morris</name></author><category term="cycling" /><category term="exercise" /><category term="urban planning" /><category term="bike" /><summary type="html"><![CDATA[A short history of the author on two wheels.]]></summary></entry><entry><title type="html">A New Story</title><link href="/shoals/2023/03/10/a-new-story.html" rel="alternate" type="text/html" title="A New Story" /><published>2023-03-10T16:01:04-05:00</published><updated>2023-03-10T16:01:04-05:00</updated><id>/shoals/2023/03/10/a-new-story</id><content type="html" xml:base="/shoals/2023/03/10/a-new-story.html"><![CDATA[<p><img src="/shoals/assets/img/2023-03-08_knee.png" alt="1" /></p>
 
 <p>It’s late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner.</p>
 
@@ -212,7 +212,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>I’m in the dangerous position of being able to construct multiple narratives about my life as a runner. If I squint and tilt my head one way, I see a late-blooming enthusiasm of very recent years, that led me to start piling up miles and <em>seriousness</em> even before a pandemic made running the perfect obsessive coping strategy. If I tilt the other way, I read a story of a little fat kid who showed up to track practice one day; whose coach - Tim Simpson, bless you - didn’t laugh him off the field but instead got him moving; of someone who’s been running ever since. Both narratives are “correct”, but both are coming to an end.</p>
 
-<p>Time to get to work on a new story.</p>]]></content><author><name>Bill Morris</name></author><category term="running" /><category term="aging" /><category term="cycling" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Migrating with tusks and a trunk</title><link href="/shoals/2022/11/13/migrating.html" rel="alternate" type="text/html" title="Migrating with tusks and a trunk" /><published>2022-11-13T16:35:10-05:00</published><updated>2022-11-13T16:35:10-05:00</updated><id>/shoals/2022/11/13/migrating</id><content type="html" xml:base="/shoals/2022/11/13/migrating.html"><![CDATA[<p><img src="/assets/img/2022-11-13_mastodon.jpeg" alt="1" /></p>
+<p>Time to get to work on a new story.</p>]]></content><author><name>Bill Morris</name></author><category term="running" /><category term="aging" /><category term="cycling" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Migrating with tusks and a trunk</title><link href="/shoals/2022/11/13/migrating.html" rel="alternate" type="text/html" title="Migrating with tusks and a trunk" /><published>2022-11-13T16:35:10-05:00</published><updated>2022-11-13T16:35:10-05:00</updated><id>/shoals/2022/11/13/migrating</id><content type="html" xml:base="/shoals/2022/11/13/migrating.html"><![CDATA[<p><img src="/shoals/assets/img/2022-11-13_mastodon.jpeg" alt="1" /></p>
 
 <p>Y’all.</p>
 
@@ -222,11 +222,11 @@ ogr2ogr <span class="se">\</span>
 
 <p>With my complete archive since 2011 in view, I found that I’ve actually been steadily retreating from Twitter for years now. Hard to say what I’ve replaced it with, but the signs of my disenchantment are clear, even as I probably remain in the top echelon of users.</p>
 
-<p><img src="/assets/img/2022-11-13_1.png" alt="A steady decline" /></p>
+<p><img src="/shoals/assets/img/2022-11-13_1.png" alt="A steady decline" /></p>
 
 <p>I’m also pleased to see that I generally treat Twitter like work: I learn from colleagues, share things I think are cool, and stay the hell out of the office on weekends.</p>
 
-<p><img src="/assets/img/2022-11-13_2.png" alt="Boundaries" /></p>
+<p><img src="/shoals/assets/img/2022-11-13_2.png" alt="Boundaries" /></p>
 
 <p>It may be that I spend more time on Mastodon now, but I think I’ll keep receding from these spaces. Facebook is already long behind me and I don’t mourn.</p>
 
@@ -234,41 +234,41 @@ ogr2ogr <span class="se">\</span>
 
 <p>In any case, if you’ve got more than a few years on that other hellsite I strongly recommend you check out your own trajectory with <a href="https://observablehq.com/@observablehq/save-and-analyze-your-twitter-archive">this excellent tool from Ian Johnson</a>. Take care of yourselves, and you can find me here (as well as blogging more, apparently):</p>
 
-<p>https://vis.social/@bil/109524531064591079</p>]]></content><author><name>Bill Morris</name></author><category term="twitter" /><category term="mastodon" /><category term="social media" /><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</title><link href="/shoals/2022/10/10/watch-in-paris.html" rel="alternate" type="text/html" title="Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]" /><published>2022-10-10T10:31:42-04:00</published><updated>2022-10-10T10:31:42-04:00</updated><id>/shoals/2022/10/10/watch-in-paris</id><content type="html" xml:base="/shoals/2022/10/10/watch-in-paris.html"><![CDATA[<p><img src="/assets/img/2022-10-10_cover.jpg" alt="1" /></p>
+<p>https://vis.social/@bil/109524531064591079</p>]]></content><author><name>Bill Morris</name></author><category term="twitter" /><category term="mastodon" /><category term="social media" /><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</title><link href="/shoals/2022/10/10/watch-in-paris.html" rel="alternate" type="text/html" title="Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]" /><published>2022-10-10T10:31:42-04:00</published><updated>2022-10-10T10:31:42-04:00</updated><id>/shoals/2022/10/10/watch-in-paris</id><content type="html" xml:base="/shoals/2022/10/10/watch-in-paris.html"><![CDATA[<p><img src="/shoals/assets/img/2022-10-10_cover.jpg" alt="1" /></p>
 
 <p><em>Follow along using <a href="https://felt.com/map/A-Run-Through-Paris-July-3-2022-yU8I1K9CARgy6XKOraks4YA">this map made with Felt</a></em></p>
 
 <p>One day this past July, I got up early and started a long run around Paris. I’ve found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my <a href="https://www.garmin.com/en-US/p/628939">Garmin Forerunner 245 watch</a>.</p>
 
-<p><img src="/assets/img/2022-10-10_1.jpg" alt="1" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_1.jpg" alt="1" /></p>
 
 <p>My watch, unbeknownst to me, decided that I was actually starting 3km South, near the Institut Curie.</p>
 
-<p><img src="/assets/img/2022-10-10_2.jpg" alt="2" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_2.jpg" alt="2" /></p>
 
 <p>My actual feet carried me through empty streets to the Palais Garnier, at the first sign of the sunrise.</p>
 
-<p><img src="/assets/img/2022-10-10_3.jpg" alt="3" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_3.jpg" alt="3" /></p>
 
 <p>My watch, meanwhile, was barging directly through the Ministry of Agriculture before leaping into the Seine, despite the convenient Pont Alexandre III nearby.</p>
 
-<p><img src="/assets/img/2022-10-10_4.jpg" alt="4" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_4.jpg" alt="4" /></p>
 
 <p>My real self ran abruptly into a passel of Gendarmerie armed with automatic weapons in front of the Palais de l’Élysée. They grumpily directed me to a detour. Then, as I turned onto the Champs Élysées, some happy drunks - exiting a club after last call - joined me for a few blocks of jogging. (Mes amis, share that group selfie if you see this!)</p>
 
-<p><img src="/assets/img/2022-10-10_5.jpg" alt="5" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_5.jpg" alt="5" /></p>
 
 <p>This must have been too much excitement for my watch, which until now had been approaching my true location. It took a hard left and started some wild evasion patterns, again caring not a whit for the sanctity of private property.</p>
 
-<p><img src="/assets/img/2022-10-10_6.jpg" alt="6" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_6.jpg" alt="6" /></p>
 
 <p>As I entered the Bois de Boulogne, my watch made a Northward leap and began a track that now seemed merely <em>offset</em> from my real path, like a more-familiar GPS error.</p>
 
-<p><img src="/assets/img/2022-10-10_7.jpg" alt="7" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_7.jpg" alt="7" /></p>
 
 <p>This offset diminished steadily, until my watch finally decided to join me at the Southern end of Lac Supérieur. It stayed credibly on my wrist for the rest of the run, now mostly along the South bank of the Seine, until I called a halt past the Île Saint-Louis and staggered off to find a scooter I could take back to the apartment.</p>
 
-<p><img src="/assets/img/2022-10-10_8.jpg" alt="8" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_8.jpg" alt="8" /></p>
 
 <p>So . . . what the hell happened here? I have a GPS track that looks like it was attached to a pigeon for the first half of my run, then it was perfectly accurate for the second half. I’m familiar with GPS error, from all the way back in the Selective Availability days when DGPS was essential, to the modern era where our pocket-carried receivers can be temperamental over brief periods of time.</p>
 
@@ -291,7 +291,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>I would <em>love</em> to hear your suspicions as well . . .</p>
 
-<p><img src="/assets/img/2022-10-10_9.jpg" alt="9" /></p>
+<p><img src="/shoals/assets/img/2022-10-10_9.jpg" alt="9" /></p>
 
 <h2 id="update-1013">[UPDATE, 10/13]</h2>
 
@@ -303,7 +303,7 @@ ogr2ogr <span class="se">\</span>
   <p>The issue in the blog was almost certainly the cause. The issue with that particular EPO file was that was entirely wrong, so satellite acquisition was completely thrown off. Normally, if the EPO file is just old, a GPS lock can take a few minutes. In this case, it may have taken minutes to hours, or it may not have locked on at all. Similar to the delay that happens when you try to acquire GPS after traveling a long distance.</p>
 </blockquote>
 
-<p>All’s well that ends well, and apparently spoofing had nothing to do with it!</p>]]></content><author><name>Bill Morris</name></author><category term="gps" /><category term="running" /><category term="garmin" /><category term="travel" /><category term="paris" /><summary type="html"><![CDATA[In which I learn a thing or two about novel GPS errors.]]></summary></entry><entry><title type="html">A day on Hadrian’s Wall</title><link href="/shoals/2022/05/07/hadrian.html" rel="alternate" type="text/html" title="A day on Hadrian’s Wall" /><published>2022-05-07T16:28:36-04:00</published><updated>2022-05-07T16:28:36-04:00</updated><id>/shoals/2022/05/07/hadrian</id><content type="html" xml:base="/shoals/2022/05/07/hadrian.html"><![CDATA[<p><img src="/assets/img/2022-05-07_cover.jpg" alt="cover" />
+<p>All’s well that ends well, and apparently spoofing had nothing to do with it!</p>]]></content><author><name>Bill Morris</name></author><category term="gps" /><category term="running" /><category term="garmin" /><category term="travel" /><category term="paris" /><summary type="html"><![CDATA[In which I learn a thing or two about novel GPS errors.]]></summary></entry><entry><title type="html">A day on Hadrian’s Wall</title><link href="/shoals/2022/05/07/hadrian.html" rel="alternate" type="text/html" title="A day on Hadrian’s Wall" /><published>2022-05-07T16:28:36-04:00</published><updated>2022-05-07T16:28:36-04:00</updated><id>/shoals/2022/05/07/hadrian</id><content type="html" xml:base="/shoals/2022/05/07/hadrian.html"><![CDATA[<p><img src="/shoals/assets/img/2022-05-07_cover.jpg" alt="cover" />
 <em>Photo: Sycamore Gap</em></p>
 
 <h3 id="greenhead">Greenhead</h3>
@@ -313,14 +313,14 @@ ogr2ogr <span class="se">\</span>
 
 <p>Strava begs to inform me that yesterday I continued my trend of sniping impossibly obscure records, landing the seventh fastest time on the one big hill climb of the day. I’ll bask in that for a little bit.</p>
 
-<p><img src="/assets/img/2022-05-07_1.jpg" alt="1" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_1.jpg" alt="1" /></p>
 
 <h3 id="thirlwall-castle">Thirlwall Castle</h3>
 <p>I detected the tiniest note of defensiveness in the language on the intepretive sign here. In this case it was “recycled” rather than stolen Roman stone and “meant as a defense against the Scots”, which of course the wall itself had not been doing 🙄. From what I’ve read, there’s more than a change in defensive strategies going on here, from a full frontier wall to individual keeps over hundreds of years. This particular castle tells the story of a 12th-century shift in political structure, with a Norman aristocracy afraid of its own people, and trying to keep <em>them</em> out as much as any invaders.</p>
 
 <p>It’s fun to imagine this as a LEGO animation, with bricks being sucked away from the long wall and - with a satisfying clatter - forming this castle on a hill, then after some time sucked away again into individual houses and farm walls.</p>
 
-<p><img src="/assets/img/2022-05-07_2.jpg" alt="2" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_2.jpg" alt="2" /></p>
 
 <h3 id="walltown">Walltown</h3>
 <p>Another contrast I’m trying to wrap my head around is the fact that here they say deliberately to walk on untrodden turf. On the Appalachian trail and its various derivatives, the ethic is always to walk in the muck or on rocks. It makes me wonder what sort of supernatural turf this is, that it can handle thousands of feet as long as they’re spread out. On reflection I realized that this is probably because Vermont’s Alpine vegetation is so dang sensitive to boots, and the winters there are so much harsher.</p>
@@ -334,7 +334,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>As I walked through a farm just now, I noticed a calf laid out on its side next to a cow. It didn’t look like it was feeding; it didn’t look like it was moving. I wondered if it was dead. Then I saw it was breathing steadily, and I realized I don’t think I’ve ever seen a cow sleep like that before. That calf was knackered.</p>
 
-<p><img src="/assets/img/2022-05-07_3.jpg" alt="3" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_3.jpg" alt="3" /></p>
 
 <h3 id="caw-gap">Caw Gap</h3>
 <p>And awkwardly running for a little bit there, to get ahead of at least a hundred day walkers who had just been disgorged from several tour buses. (I would later discover that this brought me another “seventh fastest in the world” record from Strava)</p>
@@ -344,12 +344,12 @@ ogr2ogr <span class="se">\</span>
 <h3 id="sycamore-gap">Sycamore Gap</h3>
 <p>I had about a 10-second window between groups of day walkers, but I did manage to get a photo of the famous tree with no one around it. I’m a bit unhappy that I was too early at Twice Brewed for a pint, but this section seems fraught with a combination of perfect vistas, historically fascinating locations, and hordes of people. I kept moving after I sent a message home.</p>
 
-<p><img src="/assets/img/2022-05-07_4.jpg" alt="4" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_4.jpg" alt="4" /></p>
 
 <h3 id="north-of-vindolanda">North of Vindolanda</h3>
 <p>I’ve stopped for lunch now in a beautiful Grove of White pines, somewhat incongruously placed along the edge of the cliff above the lake. This stretch of the trail is a much more familiar kind to me, and it seems like a detour, because I hear voices nearby and see people walking in parallel through the pasture, but no one else is here. It’s a good place for a break, sitting on my pack, with my back against the wall, looking North, eating cheese and pepperoni on tortillas, listening to Miles Davis.</p>
 
-<p><img src="/assets/img/2022-05-07_5.jpg" alt="5" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_5.jpg" alt="5" /></p>
 
 <h3 id="housteds">Housteds</h3>
 <p>I moved very quickly past the Roman Fort, as it seemed to be very crowded and represented the slightest of detours. I waved back from the outside of the fence area - from the north side actually, like a barbarian - at a kid with his family inside the fort. They seemed perplexed, but I don’t suppose I could blame them. There are many ways to arrive at and depart from a place like this.</p>
@@ -360,7 +360,7 @@ ogr2ogr <span class="se">\</span>
 
 <p>By the sheer variety of different gate latches I’ve encountered, I have to assume that the sheep here are incredibly clever master escape artists. Some of these latches have taken me a minute to figure out, so I can only assume that Shaun is somewhere nearby, scheming.</p>
 
-<p><img src="/assets/img/2022-05-07_6.jpg" alt="6" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_6.jpg" alt="6" /></p>
 
 <h3 id="settlingstones">Settlingstones</h3>
 <p>I think it’s probably not a <em>hot</em> day, but it sure feels exposed and raw. It’s entirely possible that I will have acquired that rarest of conditions - an English sunburn - by the end of the day. But the end of the day looks to be fairly close. I can see my bed and breakfast off in the distance, maybe a mile away.</p>
@@ -378,81 +378,81 @@ ogr2ogr <span class="se">\</span>
 
 <p>I slept hard.</p>
 
-<p><img src="/assets/img/2022-05-07_7.jpg" alt="7" /></p>]]></content><author><name>Bill Morris</name></author><category term="history" /><category term="travel" /><category term="uk" /><summary type="html"><![CDATA[One stretch of a hike from coast to coast.]]></summary></entry><entry><title type="html">The things he carried</title><link href="/shoals/2022/03/09/grad-school-hoard.html" rel="alternate" type="text/html" title="The things he carried" /><published>2022-03-09T19:42:22-05:00</published><updated>2022-03-09T19:42:22-05:00</updated><id>/shoals/2022/03/09/grad-school-hoard</id><content type="html" xml:base="/shoals/2022/03/09/grad-school-hoard.html"><![CDATA[<p><img src="/assets/img/2022-03-09_cover.jpg" alt="1" /></p>
+<p><img src="/shoals/assets/img/2022-05-07_7.jpg" alt="7" /></p>]]></content><author><name>Bill Morris</name></author><category term="history" /><category term="travel" /><category term="uk" /><summary type="html"><![CDATA[One stretch of a hike from coast to coast.]]></summary></entry><entry><title type="html">The things he carried</title><link href="/shoals/2022/03/09/grad-school-hoard.html" rel="alternate" type="text/html" title="The things he carried" /><published>2022-03-09T19:42:22-05:00</published><updated>2022-03-09T19:42:22-05:00</updated><id>/shoals/2022/03/09/grad-school-hoard</id><content type="html" xml:base="/shoals/2022/03/09/grad-school-hoard.html"><![CDATA[<p><img src="/shoals/assets/img/2022-03-09_cover.jpg" alt="1" /></p>
 
 <p>The time had finally come to sort through and [mostly] discard the stuff I’d accumulated in the last days when higher education was conducted on paper. What follows is merely a selection.</p>
 
 <h2 id="snowbowl-trail-map-1010">Snowbowl trail map, 10/10</h2>
 
-<p><img src="/assets/img/2022-03-09_1.jpg" alt="1" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_1.jpg" alt="1" /></p>
 
 <p>A seminal masterpiece of student ski cartography by the inimitable Dana Allen, lately of <a href="https://backcountrymagazine.com/gear/testers-choice-dana-allens-picks/">Backcountry Magazine</a>.</p>
 
 <h2 id="the-last-map-series-i-ever-made-with-an-esri-product-610">The last map series I ever made with an Esri product, 6/10</h2>
 
-<p><img src="/assets/img/2022-03-09_2.jpg" alt="2" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_2.jpg" alt="2" /></p>
 
 <p>For an avian biology/landscape fragmentation study.</p>
 
 <h2 id="all-of-ed-tuftes-books-for-some-reason-210">All of Ed Tufte’s books for some reason, 2/10</h2>
 
-<p><img src="/assets/img/2022-03-09_3.jpg" alt="3" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_3.jpg" alt="3" /></p>
 
 <p><em>Note: Bill remains on <a href="https://twitter.com/i/lists/186333465">Tufte’s Twitter block list</a> as of this writing.</em></p>
 
 <h2 id="1996-geopolitics-textbook-about----now-410">1996 geopolitics textbook about . . . now, 4/10</h2>
 
-<p><img src="/assets/img/2022-03-09_4.jpg" alt="4" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_4.jpg" alt="4" /></p>
 
 <p>Somehow fails to mention Putin, Trump, Pandemics, Beyoncé. Predictions are hard, I get it.</p>
 
 <h2 id="stats-programming-textbooks-310">Stats programming textbooks, 3/10</h2>
 
-<p><img src="/assets/img/2022-03-09_5a.jpg" alt="5a" />
-<img src="/assets/img/2022-03-09_5b.jpg" alt="5b" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_5a.jpg" alt="5a" />
+<img src="/shoals/assets/img/2022-03-09_5b.jpg" alt="5b" /></p>
 
 <p>You know what the world needs less of? Proprietary versions of data analysis programming languages that today offer flourishing and dominant open-source implementations.</p>
 
 <h2 id="open-source-gis-textbook-1110">Open source GIS textbook, 11/10</h2>
 
-<p><img src="/assets/img/2022-03-09_6a.jpg" alt="6a" />
-<img src="/assets/img/2022-03-09_6b.jpg" alt="6b" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_6a.jpg" alt="6a" />
+<img src="/shoals/assets/img/2022-03-09_6b.jpg" alt="6b" /></p>
 
 <p>A decade-old #foss4g textbook by <a href="https://spatialgalaxy.net/">Gary Sherman</a>, who is my absolute hero for printing the term “Green-beaked Freak”. The book holds up surprisingly well, with a still-applicable intro to PostGIS.</p>
 
 <h2 id="little-red-book-10">Little red book, 1/0</h2>
 
-<p><img src="/assets/img/2022-03-09_7.jpg" alt="7" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_7.jpg" alt="7" /></p>
 
 <p>Jeez, how did that get in there?</p>
 
 <h2 id="internet-map-710">Internet map, 7/10</h2>
 
-<p><img src="/assets/img/2022-03-09_8.jpg" alt="8" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_8.jpg" alt="8" /></p>
 
 <p>A printed copy of the XKCD 2010 map of online communities. Much remains accurate; Facebook still controlling too much territory, tech blogs still largely on the proto-libertarian side of the Bay of Flame.</p>
 
 <h2 id="watercolor-1410">Watercolor, 14/10</h2>
 
-<p><img src="/assets/img/2022-03-09_9.jpg" alt="9" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_9.jpg" alt="9" /></p>
 
 <p>The most amazing use of newsprint by Stamen, Nathaniel Vaughn Kelso &amp; co. Still one of the best examples of map tiles making it out into the real world.</p>
 
 <h2 id="scholarly-articles-710">Scholarly articles, 7/10</h2>
 
-<p><img src="/assets/img/2022-03-09_10.jpg" alt="10" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_10.jpg" alt="10" /></p>
 
 <p>Old school satellite imagery classification papers. Maximum likelihood! Single-layer neural nets! Algorithms from before the fall of the Berlin Wall!</p>
 
 <h2 id="the-original-avhrr-paper-1210">The original AVHRR paper, 12/10</h2>
 
-<p><img src="/assets/img/2022-03-09_11.jpg" alt="11" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_11.jpg" alt="11" /></p>
 
 <p>The coarsest-resolution map of the world! Talk what smack you want about 1-degree grid cells - You can’t beat the radiometric consistency, or the fact that all pixels and bands fit on half a burned CD-ROM. I would have filled the rest with OutKast MP3s.</p>
 
 <h2 id="annals-310">Annals, 3/10</h2>
 
-<p><img src="/assets/img/2022-03-09_12.jpg" alt="12" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_12.jpg" alt="12" /></p>
 
 <p>759 hard copy issues of The Professional Geographer and The Annals of the AAG. I think I only held onto them this long out of intense guilt about how many trees went into this.</p>
 
@@ -460,30 +460,30 @@ ogr2ogr <span class="se">\</span>
 
 <h2 id="scenarios-010">Scenarios, 0/10</h2>
 
-<p><img src="/assets/img/2022-03-09_13.jpg" alt="13" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_13.jpg" alt="13" /></p>
 
 <p>Printed summaries and emissions scenarios from the IPCC 2001 report. Printed. On hundreds of pages. And distributed so broadly that an undergrad got his hands on them.</p>
 
 <h2 id="to-serve-man-110">To serve man, 1/10</h2>
 
-<p><img src="/assets/img/2022-03-09_14.jpg" alt="14" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_14.jpg" alt="14" /></p>
 
 <p>ONE SHILLING AND SIXPENCE. Predates Marie Tharp and common decency.</p>
 
 <h2 id="bibles-1510">Bibles, 15/10</h2>
 
-<p><img src="/assets/img/2022-03-09_15.jpg" alt="15" /></p>
+<p><img src="/shoals/assets/img/2022-03-09_15.jpg" alt="15" /></p>
 
 <p>I still reference these all the damn time.</p>
 
-<p>Thanks for following along folks! Tune in next week for an exciting look through my high school yearbook! [Is dragged off stage in a straightjacket]</p>]]></content><author><name>Bill Morris</name></author><category term="stuff" /><category term="personal history" /><category term="books" /><summary type="html"><![CDATA[Rating items I found while cleaning out my old grad school hoard]]></summary></entry><entry><title type="html">Compton</title><link href="/shoals/2022/02/14/compton.html" rel="alternate" type="text/html" title="Compton" /><published>2022-02-14T10:30:19-05:00</published><updated>2022-02-14T10:30:19-05:00</updated><id>/shoals/2022/02/14/compton</id><content type="html" xml:base="/shoals/2022/02/14/compton.html"><![CDATA[<p><img src="/assets/img/2022-02-14_1.png" alt="1" /></p>
+<p>Thanks for following along folks! Tune in next week for an exciting look through my high school yearbook! [Is dragged off stage in a straightjacket]</p>]]></content><author><name>Bill Morris</name></author><category term="stuff" /><category term="personal history" /><category term="books" /><summary type="html"><![CDATA[Rating items I found while cleaning out my old grad school hoard]]></summary></entry><entry><title type="html">Compton</title><link href="/shoals/2022/02/14/compton.html" rel="alternate" type="text/html" title="Compton" /><published>2022-02-14T10:30:19-05:00</published><updated>2022-02-14T10:30:19-05:00</updated><id>/shoals/2022/02/14/compton</id><content type="html" xml:base="/shoals/2022/02/14/compton.html"><![CDATA[<p><img src="/shoals/assets/img/2022-02-14_1.png" alt="1" /></p>
 
 <h1 id="compton-streetlights">Compton streetlights</h1>
 <p>Generating points with PostGIS . . . to approximate streetlight locations in Compton, Los Angeles.</p>
 
 <p>Loose homage to <a href="https://youtu.be/Z-48u_uWMHY?t=275">Kendrick Lamar</a>, strong shouts to Snoop, Dre, Mary J., and <a href="https://youtu.be/gdsUKphmB3Y?t=34">the map underneath the 2022 Superbowl Halftime Show</a>, and big respect to <a href="https://pw.lacounty.gov/tnl/streetlights/docs/guidelines.pdf">the L.A. county streetlight spacing guidelines</a>.</p>
 
-<p><img src="/assets/img/2022-02-14_3.jpeg" alt="3" />
+<p><img src="/shoals/assets/img/2022-02-14_3.jpeg" alt="3" />
 <em>Photo by David Crane, <a href="https://www.dailynews.com/2022/02/13/fans-loved-the-super-bowl-halftime-show-celebrating-la-especially-compton/">Los Angeles Daily News/SCNG</a></em></p>
 
 <h2 id="get-streets-data">Get streets data</h2>
@@ -587,4 +587,4 @@ psql <span class="nv">$DBURL</span> <span class="nt">-c</span> <span class="s2">
 
 <p>And ta-daaaaa:</p>
 
-<p><img src="/assets/img/2022-02-14_4.png" alt="4" /></p>]]></content><author><name>Bill Morris</name></author><category term="compton" /><category term="superbowl" /><category term="postgis" /><category term="football" /><category term="cartography" /><category term="mapping" /><category term="hiphop" /><summary type="html"><![CDATA[Recreating a Superbowl halftime show basemap]]></summary></entry></feed>
+<p><img src="/shoals/assets/img/2022-02-14_4.png" alt="4" /></p>]]></content><author><name>Bill Morris</name></author><category term="compton" /><category term="superbowl" /><category term="postgis" /><category term="football" /><category term="cartography" /><category term="mapping" /><category term="hiphop" /><summary type="html"><![CDATA[Recreating a Superbowl halftime show basemap]]></summary></entry></feed>

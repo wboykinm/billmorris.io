@@ -22,7 +22,7 @@ aliases:
 
 > A history in cartographic tools
 
-![image](/assets/img/2014-11-15_0.jpg)
+![image](/shoals/assets/img/2014-11-15_0.jpg)
 The last-known record of the author using hand tools for mapping, AD 2003
 
 #### 1998
@@ -40,7 +40,7 @@ Every few weeks I would go to Nagua — the nearest city — and sit in 
 
 
 
-![image](/assets/img/2014-11-15_1.png)
+![image](/shoals/assets/img/2014-11-15_1.png)
 
 h12v04
 
@@ -61,7 +61,7 @@ An army of University of Vermont undergrads carried a hundred letter-sized sheet
 
 
 
-![image](/assets/img/2014-11-15_2.png)
+![image](/shoals/assets/img/2014-11-15_2.png)
 
 clementines
 
@@ -82,4 +82,4 @@ A query — formulated in a text editor and pasted into the psql command lin
 
 
 
-![image](/assets/img/2014-11-15_3.png)
+![image](/shoals/assets/img/2014-11-15_3.png)

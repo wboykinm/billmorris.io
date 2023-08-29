@@ -3,14 +3,14 @@ layout: post
 title: "A New Story"
 date: "2023-03-10T16:01:04-05:00"
 author: "Bill Morris"
-cover: "/assets/img/2023-03-08_knee.png"
+cover: "/shoals/assets/img/2023-03-08_knee.png"
 tags: ["running", "aging", "cycling"]
 description: ""
 showFullContent: false
 readingTime: true
 ---
 
-![1](/assets/img/2023-03-08_knee.png)
+![1](/shoals/assets/img/2023-03-08_knee.png)
 
 It's late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner. 
 
