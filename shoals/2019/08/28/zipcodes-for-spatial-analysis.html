@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>A full-throated defense of using Zipcodes for spatial analysis | Shoals</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="A full-throated defense of using Zipcodes for spatial analysis" />
+<meta name="author" content="Bill Morris" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Psych. It’s actually a meek defense." />
+<meta property="og:description" content="Psych. It’s actually a meek defense." />
+<link rel="canonical" href="/2019/08/28/zipcodes-for-spatial-analysis.html" />
+<meta property="og:url" content="/2019/08/28/zipcodes-for-spatial-analysis.html" />
+<meta property="og:site_name" content="Shoals" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-08-28T16:16:07-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A full-throated defense of using Zipcodes for spatial analysis" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bill Morris"},"dateModified":"2019-08-28T16:16:07-04:00","datePublished":"2019-08-28T16:16:07-04:00","description":"Psych. It’s actually a meek defense.","headline":"A full-throated defense of using Zipcodes for spatial analysis","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/08/28/zipcodes-for-spatial-analysis.html"},"url":"/2019/08/28/zipcodes-for-spatial-analysis.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Shoals" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shoals</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">A full-throated defense of using Zipcodes for spatial analysis</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-08-28T16:16:07-04:00" itemprop="datePublished">Aug 28, 2019
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Bill Morris</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/assets/img/2019-08-28_zip.jpeg" alt="1" /></p>
+
+<p>We, the data-folk of Faraday, agree wholeheartedly with our colleagues at 
+Carto on this sensitive issue: In the USA, ZIP codes(™) <a href="https://carto.com/blog/zip-codes-spatial-analysis">are the worst-case scenario base unit for measuring geospatial relationships</a>. Because:</p>
+
+<ul>
+  <li>They’re widely-varying in size &amp; shape</li>
+  <li>They contain populations that range from 0 into the hundreds of thousands</li>
+  <li>They’re subject to mind-bogglingly-wide distributions in nearly every metric of human behavior (income, age, etc)</li>
+</ul>
+
+<p>The above post is exhaustive on these points. Read it, then come back. I’ll wait.</p>
+
+<p>It’s quite clear: ZIP codes are overused, when they should be a last resort. The thing is, though ZIPs should only be used in a worst-case scenario, sometimes you find yourself presented with the worst case. And I’ll offer a few gentle nudges of reassurance to you poor souls in such circumstances:</p>
+
+<h2 id="zipzcta">ZIP/ZCTA</h2>
+
+<p>Sure, ZIPs aren’t areas, and US Census Bureau ZCTAs aren’t the same thing in spirit. But they’re close. Like REALLY close. <a href="https://faraday.ai/blog/be-not-afraid-of-zctas/">We measured it</a>; you shouldn’t avoid using ZCTAs for analysis solely because they aren’t exactly like ZIPs.</p>
+
+<h2 id="known-entities">Known entities</h2>
+
+<p>While it’s lame to blame the zeitgeist, ZIP codes are the only thing your clients will recognize intuitively that breaks a city into smaller components.</p>
+
+<p>Matt Forrest notes this <a href="https://carto.com/blog/zip-codes-spatial-analysis">in his post</a>:</p>
+
+<blockquote>
+  <p>Finally, most people know  without looking at a map that zip codes represent a smaller area than a city, but larger than say a neighborhood. Conceptually, they feel small enough to get a very focused view of the world, and big enough to capture enough of a sample size of trends.</p>
+</blockquote>
+
+<blockquote>
+  <p>The short answer is that zip codes are easy to find, familiar, and provide a granular enough view of the world (or so we thought).</p>
+</blockquote>
+
+<p>You have to meet the client in a place they understand if you want to impress on them that there are broader insights available in the study of location. (Though the basic workaround here is to do any analysis at the level of the census block group or smaller, then aggregate.)</p>
+
+<h2 id="inflexible-tools">Inflexible tools</h2>
+
+<p>Sometimes the use case requires a bad input.</p>
+
+<p>Yes, it’s awful, yes you should recommend changes and build tools to that effect, but some applications will only break down a broad spatial area by ZIP. Want to target an area smaller than the Chicago DMA with Search Engine Marketing (SEM)? Your options are mostly either ZIPs or simple radii (which are arguably worse).</p>
+
+<h2 id="be-modestly-afraid">Be [modestly] afraid</h2>
+
+<p>In summary:</p>
+
+<p>It turns out that the compact route along which a human can efficiently carry folded and stapled pieces of information-rich paper is and remains a poor heuristic for human behaviors that you might want to assess or predict.</p>
+
+<p>. . . and . . .</p>
+
+<p>Sometimes you have to use those routes anyway, for the above reasons and many more not detailed here (oh man, did I forget data availability?).</p>
+
+<p>Do so cautiously -</p>
+
+<ul>
+  <li>aggregate from smaller units</li>
+  <li>actively assess results for hidden inequalities</li>
+</ul>
+
+<p>. . . but do it when you must.</p>
+
+
+  </div><a class="u-url" href="/2019/08/28/zipcodes-for-spatial-analysis.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shoals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shoals</li><li><a class="u-email" href="mailto:bill@billmorris.io">bill@billmorris.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wboykinm"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wboykinm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An occasional blog on geography, history, culture, and code.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Bonten Poad: Generating fake Vermont placenames with a neural network | Shoals</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Bonten Poad: Generating fake Vermont placenames with a neural network" />
+<meta name="author" content="Bill Morris" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An occasional blog on geography, history, culture, and code." />
+<meta property="og:description" content="An occasional blog on geography, history, culture, and code." />
+<link rel="canonical" href="/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html" />
+<meta property="og:url" content="/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html" />
+<meta property="og:site_name" content="Shoals" />
+<meta property="og:image" content="/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/2017-07-20_1.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-07-20T09:07:25-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/2017-07-20_1.jpeg" />
+<meta property="twitter:title" content="Bonten Poad: Generating fake Vermont placenames with a neural network" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bill Morris"},"dateModified":"2017-07-20T09:07:25-04:00","datePublished":"2017-07-20T09:07:25-04:00","description":"An occasional blog on geography, history, culture, and code.","headline":"Bonten Poad: Generating fake Vermont placenames with a neural network","image":"/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/2017-07-20_1.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html"},"url":"/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Shoals" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shoals</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Bonten Poad: Generating fake Vermont placenames with a neural network</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2017-07-20T09:07:25-04:00" itemprop="datePublished">Jul 20, 2017
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Bill Morris</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/assets/img/2017-07-20_1.jpeg" alt="image" /></p>
+
+<blockquote>
+  <p>“Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”</p>
+</blockquote>
+
+<p>Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this <a href="https://medium.com/@hondanhon/i-trained-a-neural-net-to-generate-british-placenames-9460e907e4e9">experiment in generative British placenames</a> by <a href="https://twitter.com/hondanhon">Dan Hon</a>; his workflow is <strong>7 goddamn steps</strong> to use technology only the likes of Alan Turing could have dreamed up, until a few years ago.</p>
+
+<p>Dan used a multi-layer recurrent neural net to come up with imaginary locales like “Buchraston-on-Ter-Sey”, so I thought I give it a shot and see what a complex algorithm could do with a state that includes “Ira”, “Lympus”, and “Satan’s Kingdom” IRL. Here are the choicest results of the <a href="https://gist.github.com/wboykinm/51de3208f0ab9bf00cdfac42b2fd07ec">several thousand</a> I generated; they look more Welsh than I would have expected:</p>
+
+<ul>
+  <li>Cellen Boneyboas</li>
+  <li>Macih Pond</li>
+  <li>Pendoil</li>
+  <li>Ralas Port</li>
+  <li>ClintCtow</li>
+  <li>Wi</li>
+  <li>Wont</li>
+  <li>Cissham Bond</li>
+  <li>Whortdlay Pond</li>
+  <li>Sad Cahue</li>
+  <li>Coal Bontewlu Porn</li>
+  <li>Bent Pond</li>
+  <li>Hicton</li>
+  <li>Mash dank Mount</li>
+  <li>Goryhy Pond</li>
+  <li>Ha</li>
+  <li>Dondslon</li>
+  <li>Dorits Wat Poon</li>
+  <li>Cold Bamronr</li>
+  <li>Wot Ponde</li>
+  <li>Claylelon</li>
+  <li>Golen</li>
+  <li>Cllen Boneyboas</li>
+  <li>Rut anvill</li>
+  <li>Ponk</li>
+  <li>Chomtax Bastarr</li>
+  <li>Lentrenston</li>
+  <li>Wershrok Modanton</li>
+  <li>Bonten Poad</li>
+  <li>Ponkey</li>
+  <li>Wasdesh</li>
+  <li>Vontfalilina</li>
+  <li>Kart Pond</li>
+  <li>Poon Welton</li>
+  <li>Hate Zonord</li>
+  <li>Cowrelu</li>
+  <li>Mu</li>
+</ul>
+
+<p>Now, these don’t exactly meet my not-totally-formulated standard for “Vermontyness”, but that’s the nature of machine learning in this case: <a href="https://blog.vivekpanyam.com/deep-learning-made-simple-part-1/">it’s about figuring out the question using a series of answers.</a> And to be fair, Vermont’s placenames aren’t that distinct (at least by the standards of the Northeastern U.S.): mostly English place and family names, with a very small smattering of French and Abenaki. Also, the fact that both “Ponk” and “Ponkey” show up here tells me that my training set might be a tad small — only <a href="http://geodata.vermont.gov/datasets/vt-geographic-names">~2000 placenames</a> went into the model — but overall this is good fun.</p>
+
+<p>Many thanks to Justin Johnson (whose work <a href="https://medium.com/planet-stories/drawing-the-planet-in-brushstrokes-bc54a686fb30">I’ve benefitted from before</a>) and Cristian Baldi for making such accessible tools in the brave new world of machine learning.</p>
+
+<p>Try it out yourselves: <a href="https://github.com/crisbal/docker-torch-rnn">here’s a docker image with everything you need</a>!</p>
+
+  </div><a class="u-url" href="/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shoals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shoals</li><li><a class="u-email" href="mailto:bill@billmorris.io">bill@billmorris.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wboykinm"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wboykinm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An occasional blog on geography, history, culture, and code.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

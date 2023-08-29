@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Deomocratizing data science where it counts | Shoals</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Deomocratizing data science where it counts" />
+<meta name="author" content="Bill Morris" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An occasional blog on geography, history, culture, and code." />
+<meta property="og:description" content="An occasional blog on geography, history, culture, and code." />
+<link rel="canonical" href="/2020/07/14/sql.html" />
+<meta property="og:url" content="/2020/07/14/sql.html" />
+<meta property="og:site_name" content="Shoals" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-14T16:48:15-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Deomocratizing data science where it counts" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bill Morris"},"dateModified":"2020-07-14T16:48:15-04:00","datePublished":"2020-07-14T16:48:15-04:00","description":"An occasional blog on geography, history, culture, and code.","headline":"Deomocratizing data science where it counts","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/07/14/sql.html"},"url":"/2020/07/14/sql.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Shoals" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shoals</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Deomocratizing data science where it counts</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-14T16:48:15-04:00" itemprop="datePublished">Jul 14, 2020
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Bill Morris</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/assets/img/2020-07-14_cover.png" alt="1" /></p>
+
+<p>We at <a href="https://faraday.ai/">Faraday</a> are data science experts. We have a collective century of experience in the mystical arts of data whispering; we’ve transformed oceans of rows and columns, built and discarded thousands of databases, and molded far-seeing algorithms in a dozen programming languages.</p>
+
+<p>But we mostly use SQL.</p>
+
+<p>SQL is the old-as-the-hills workhorse that is interoperable with nearly everything, vaguely-consistent across ecosystems, and hella-flexible. We use it to count people over the age of 65, and we also use it to find local spatial autocorrelation across live-aggregated geographies.</p>
+
+<p><img src="/assets/img/2020-07-14_1.gif" alt="1" /></p>
+
+<p>SQL does it all, which is why we usually preference it over Excel or Google Sheets - and frequently over python and R - for our direct data work.</p>
+
+<p>So what, you may ask, are the advanced actions that we find ourselves most-commonly performing in SQL rather than excel? What arcane rituals do we wizened elders enact by the light of the binary moon?</p>
+
+<p>Gather close . . .</p>
+
+<ul>
+  <li>
+    <p>Reading dates</p>
+  </li>
+  <li>
+    <p>Recognizing ZIP codes as not-integers</p>
+  </li>
+  <li>
+    <p>Literally looking at tables with the gall to have more than 1GB of data.</p>
+  </li>
+</ul>
+
+<p>You might think that these seem like pretty basic issues that should be fixed at the product level, and you’d be right! For better and worse, Excel is the de-facto engine of data processing worldwide, and on the “better” side of the equation, it’s been a great force for data democratization and literacy. Brian Timoney <a href="https://mapbrief.com/2020/07/01/google-knew-we-didnt-want-to-kill-spreadsheets-we-wanted-a-billion-rows/">has those deets.</a></p>
+
+<p>Anyone can do data analysis in excel, up to a point guarded by some now-pretty-trivial technical limitations, and therein lies the “worse” side:</p>
+
+<p><em>You shouldn’t need a PhD and a decade of devops experience to get past that point.</em></p>
+
+<p>You shouldn’t need SQL (at least not visibly) just because you have a large amount of data (which, increasingly, everybody has). Your spreadsheet should just carry on doing what you need it to do, like a professional. It’s therefore with joy that we see Google has announced something of a holy grail addressing one of our bugbears: BigQuery-SQL-backed spreadsheets are here, and <a href="https://workspace.google.com/blog/product-announcements/connected-sheets-is-generally-available">they can handle a billion rows.</a></p>
+
+<p>At Faraday we’ve relished using BigQuery for some time now, and we look forward to extra accessibility in Google Sheets for both our team and our clients. Our mission is to put the tools of predictive modeling in the hands of a lay audience - to be the Excel of machine learning - and Google’s move has just made our task a little bit easier.</p>
+
+<p>Returning to the original point:</p>
+
+<p><em>Data science belongs to everyone, not just the experts.</em></p>
+
+<p><img src="/assets/img/2020-07-14_2.gif" alt="2" /></p>
+
+  </div><a class="u-url" href="/2020/07/14/sql.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shoals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shoals</li><li><a class="u-email" href="mailto:bill@billmorris.io">bill@billmorris.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wboykinm"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wboykinm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An occasional blog on geography, history, culture, and code.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

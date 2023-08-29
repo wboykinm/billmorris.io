@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The cartographer’s promised land | Shoals</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="The cartographer’s promised land" />
+<meta name="author" content="Bill Morris" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An occasional blog on geography, history, culture, and code." />
+<meta property="og:description" content="An occasional blog on geography, history, culture, and code." />
+<link rel="canonical" href="/2015/09/17/cartographers-promised-land.html" />
+<meta property="og:url" content="/2015/09/17/cartographers-promised-land.html" />
+<meta property="og:site_name" content="Shoals" />
+<meta property="og:image" content="/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_1.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-09-17T11:57:07-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_1.png" />
+<meta property="twitter:title" content="The cartographer’s promised land" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bill Morris"},"dateModified":"2015-09-17T11:57:07-04:00","datePublished":"2015-09-17T11:57:07-04:00","description":"An occasional blog on geography, history, culture, and code.","headline":"The cartographer’s promised land","image":"/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_1.png","mainEntityOfPage":{"@type":"WebPage","@id":"/2015/09/17/cartographers-promised-land.html"},"url":"/2015/09/17/cartographers-promised-land.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Shoals" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shoals</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The cartographer’s promised land</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-09-17T11:57:07-04:00" itemprop="datePublished">Sep 17, 2015
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Bill Morris</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.</p>
+</blockquote>
+
+<p>There’s a lot of marketing behind <a href="https://www.mapbox.com/mapbox-studio/">the new Mapbox Studio</a>, along with <a href="http://www.wired.com/2015/09/mapbox-studio/">a glowing review in Wired</a>. I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.</p>
+
+<h3 id="the-good">The good</h3>
+
+<p>It’s a flexible adaptation of <a href="https://www.mapbox.com/developers/vector-tiles/">fast vector tile technology</a> to WebGL, which is already powering Google’s maps and represents the next generation of how we see geographic data in our daily lives. It also carries over what I loved about the previous iteration of the platform:</p>
+<blockquote>
+  <p>The world’s data is at your fingertips, and the old adage — that 90% of a cartographer’s job is data-wrangling — is no longer true.</p>
+</blockquote>
+
+<p><img src="/assets/img/2015-09-17_1.png" alt="image" /></p>
+
+<p>The new cartographic interface</p>
+
+<p>Using the new Mapbox Studio, I was able to quickly and painlessly adapt the Faraday basemap style to MapboxGL. It was even easy to include our application fonts. The result is such a different paradigm from raster tiles that I could spend hours just watching it, exploring the rendering and trying to absorb it. I suspect it’ll be many more months before <a href="http://bl.ocks.org/wboykinm/2a483a2cced4b9b38407">this ceases to feel novel</a>.</p>
+
+<p><img src="/assets/img/2015-09-17_2.gif" alt="image" /></p>
+
+<p>Flying around Seattle</p>
+
+<p>But I’m a cartographer; overanalyzing the feel of a map is what I do. The real test of the new platform will be how developers take to it, and how users react. [It might actually be a positive indicator if users don’t react at all.]</p>
+
+<h3 id="maturity-needed">Maturity needed</h3>
+
+<p>I’ve found that some roadblocks remain to using maps produced in the new Mapbox Studio in production on <a href="http://app.faraday.io">the Faraday platform</a>. There are still bugs in <a href="https://github.com/mapbox/mapbox-gl-js/issues/757">the rendering of layered labels,</a> and for a complex system of panes and API hooks like ours, the mapbox-gl.js library is not a complete replacement for the LeafletJS-based mapbox.js.</p>
+
+<p>The support architecture for the new Mapbox Studio is not yet as robust as what it seeks to replace — just count the number of examples available in the crucial Mapbox documentation: <a href="https://www.mapbox.com/mapbox-gl-js/examples/">18 for MapboxGL</a> vs. <a href="https://www.mapbox.com/mapbox.js/example/v1.0.0/">&gt; 200 for MapboxJS</a>. I’m not alone in using those examples to guide my adoption of web mapping tools — I owe them a lot, actually, and I think they’ve helped a lot of developers gravitate toward Mapbox’s offerings. The new rendering engine needs more wayfinding on markers, layers, drawings and the whole range of user expectations.</p>
+
+<p>If I’m the target audience for the new Mapbox Studio, their job is done. Its fun, beautiful and fast. But the rest of Faraday’s engineers— and application developers in general — may need more functionality before they can jump onboard.</p>
+
+  </div><a class="u-url" href="/2015/09/17/cartographers-promised-land.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shoals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shoals</li><li><a class="u-email" href="mailto:bill@billmorris.io">bill@billmorris.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wboykinm"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wboykinm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An occasional blog on geography, history, culture, and code.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to deploy a webpage in 2022 | Shoals</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="How to deploy a webpage in 2022" />
+<meta name="author" content="Bill Morris" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free." />
+<meta property="og:description" content="Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free." />
+<link rel="canonical" href="/2022/01/21/how-to-internet.html" />
+<meta property="og:url" content="/2022/01/21/how-to-internet.html" />
+<meta property="og:site_name" content="Shoals" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-21T16:13:15-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to deploy a webpage in 2022" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bill Morris"},"dateModified":"2022-01-21T16:13:15-05:00","datePublished":"2022-01-21T16:13:15-05:00","description":"Instructions for getting a [mostly] static website onto a custom domain, with https encryption, for [mostly] free.","headline":"How to deploy a webpage in 2022","mainEntityOfPage":{"@type":"WebPage","@id":"/2022/01/21/how-to-internet.html"},"url":"/2022/01/21/how-to-internet.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Shoals" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shoals</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to deploy a webpage in 2022</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-01-21T16:13:15-05:00" itemprop="datePublished">Jan 21, 2022
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Bill Morris</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/assets/img/2022-01-21_Confusion_of_Tongues_Dore.png" alt="1" /></p>
+
+<p>Instructions for getting a [mostly] static website onto a custom domain, with <code class="language-plaintext highlighter-rouge">https</code> encryption, for [mostly] free.</p>
+
+<p>I’m finally writing this down after getting stuck on step 10 way too many times. Godspeed.</p>
+
+<ol>
+  <li>Purchase the top-level domain - <a href="https://www.gandi.net/en-US/domain">gandi.net</a> is my current preferred registrar. Hopefully this will be the only cash you drop in this process.</li>
+  <li>Create a new public repository <a href="https://github.com/new">on github</a>.</li>
+  <li>Clone the new repo locally and create your <a href="https://github.com/wboykinm/wintry-mix">site content package</a>, even starting with something as simple as a standalone <code class="language-plaintext highlighter-rouge">index.html</code>.</li>
+  <li>Add <a href="https://github.com/wboykinm/wintry-mix/blob/master/CNAME">a file called <code class="language-plaintext highlighter-rouge">CNAME</code></a> to the repo, containing only a single line with your just-purchased domain in it. e.g. <code class="language-plaintext highlighter-rouge">domain.com</code>.</li>
+  <li>Commit the content to github.</li>
+  <li>In the settings –&gt; pages menu of the repository on github.com, point to the correct branch, and enter the domain under “Custom domain”.</li>
+  <li>On <a href="https://dash.cloudflare.com/">Cloudflare</a>, select “Add a site”.</li>
+  <li>Enter the domain, choose a free plan, and check that the detected <code class="language-plaintext highlighter-rouge">A</code> and <code class="language-plaintext highlighter-rouge">CNAME</code> records are listed as “proxied”.</li>
+  <li>On the registrar’s domain management console, change the default nameservers to the Cloudflare nameservers provided (e.g. <code class="language-plaintext highlighter-rouge">david.ns.cloudflare.com</code>).</li>
+  <li>Go to the DNS tab of the newly-added domain dashboard on Cloudflare, and change the <code class="language-plaintext highlighter-rouge">A</code> record IP address <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain">to one of the currently-listed github IPs</a>.</li>
+  <li>Wait up to a day for it all to settle into place, though in practice it tends to just be a few minutes.</li>
+</ol>
+
+  </div><a class="u-url" href="/2022/01/21/how-to-internet.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shoals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shoals</li><li><a class="u-email" href="mailto:bill@billmorris.io">bill@billmorris.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wboykinm"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wboykinm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An occasional blog on geography, history, culture, and code.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
