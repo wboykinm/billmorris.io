@@ -24,7 +24,7 @@ aliases:
 
 About 10PM last night, I saw some interesting news dropped:
 
-{{< tweet 473285811677691904 >}}
+![image](/shoals/assets/img/2014-06-02_3.png)
 
 
 Completely [light on details](http://www.theverge.com/2014/6/2/5771322/google-reportedly-launching-180-satellites-for-worldwide-internet) (“A **billion** dollars!” “**180** new satellites!” “Internet **everywhere**!”), the story is that Google will be pouring cash into previously-insurmountable technical challenges, and bringing satellite-borne internet to the world. Awesome! I’ll believe it when I see it, but I’m sure folks will be talking about the possibilities today (as well as about [the timing](https://developer.apple.com/wwdc/)).

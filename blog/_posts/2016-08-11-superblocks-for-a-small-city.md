@@ -26,7 +26,7 @@ aliases:
 
 Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. These are wildly-different scales (different everything, really), but when one of my legislators brought up [Barcelona’s planned superblocks](http://www.bcnecologia.net/en/conceptual-model/superblocks), I couldn’t help but imagine the radical livability experiment playing out in Burlington.
 
-{{< tweet 762489886939066369 >}}
+![image](/shoals/assets/img/2016-08-11_10.png)
 
 Superblocks, in a nutshell, are a rearrangement of transportation in a gridded urban area. Take a square of nine city blocks, push all fast, two-way traffic to the perimeter, and make the interior roads waaaaay slower for cars in a series on one-way loops:
 

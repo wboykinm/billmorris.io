@@ -47,11 +47,11 @@ Where I live, according to Front Porch Forum
 
 
 
-Leaving aside questions of geographic or customary accuracy (I’ve already [spilled too much ink there](http://geosprocket.blogspot.com/2012/10/results-of-burlington-neighborhoods.html)), I realized that these were two parallel streams of information. Maybe the reports of missing cats, rants about parking and occasional racist dogwhistles (_seriously Thad, stop it._) overlapped between FPF and NextDoor, but maybe a lot was being lost. What if someone on the next block has been posting to NextDoor for months, looking for the adorable wallaby that snacks on my azaleas every morning? The thought of such vital information missing its target because of platform lock-in is almost too much to bear.
+Leaving aside questions of geographic or customary accuracy (I’ve already [spilled too much ink there](http://geosprocket.blogspot.com/2012/10/results-of-burlington-neighborhoods.html)), I realized that these were two parallel streams of information. Maybe the reports of missing cats, rants about parking and occasional racist dogwhistles (_seriously Trent, stop it._) overlapped between FPF and NextDoor, but maybe a lot was being lost. What if someone on the next block has been posting to NextDoor for months, looking for the adorable wallaby that snacks on my azaleas every morning? The thought of such vital information missing its target because of platform lock-in is almost too much to bear.
 
 Vital information misses its target all the time because of platform lock-in.
 
-Last year at a statewide digital conference {{joke about Vermont and smoke signals}}, I met a woman who — like me — had gotten her start in online organizing during [hurricane Irene](http://usatoday30.usatoday.com/weather/storms/story/2011-08-29/Irene-leaves-waterlogged-mess-in-Vermont/50175534/1).
+Last year at a statewide digital conference `<insert joke about Vermont and smoke signals>`, I met a woman who — like me — had gotten her start in online organizing during [hurricane Irene](http://usatoday30.usatoday.com/weather/storms/story/2011-08-29/Irene-leaves-waterlogged-mess-in-Vermont/50175534/1).
 
 
 

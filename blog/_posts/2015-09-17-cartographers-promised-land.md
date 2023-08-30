@@ -21,7 +21,7 @@ aliases:
 
 > The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
 
-{{< tweet 644522465104891904 >}}
+![image](/shoals/assets/img/2015-09-17_10.png)
 
 
 There’s a lot of marketing behind [the new Mapbox Studio](https://www.mapbox.com/mapbox-studio/), along with [a glowing review in Wired](http://www.wired.com/2015/09/mapbox-studio/). I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.
