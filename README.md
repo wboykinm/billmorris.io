@@ -8,14 +8,24 @@ My homepage
 ### Create a new shell post
 ```
 cd blog
-hugo new posts/YYYY-MM-DD_post-name/index.md
+echo "
+---
+layout: post
+title: ""
+date: "YYYY-MM-DDTHH:MM:SS-04:00"
+author: "Bill Morris"
+image: "../shoals/assets/img/YYYY-MM-DD_cover.png"
+tags: []
+description: ""
+---
+" > _posts/YYYY-MM-DD-post-name.md
 ```
 
-Add content, save the post.
+Add content to the new file, save the post.
 
 ### Adding a cover image
 
-Be sure to add a cover image by using the `cover=` tag in the metadata header of the post. Add a string with the relative URL of whatever image best suits the post.
+Be sure to add a cover image by using the `image:` tag in the metadata header of the post. Add a string with the relative URL of whatever image best suits the post.
 
 ### Adding a bunch of gifs
 
@@ -32,16 +42,10 @@ for m in $(ls *.mp4); do
 done
 ```
 
-### Embedding Mastodon content
-
-Use the following shortcode example [for embedding toots](https://www.brycewray.com/posts/2022/06/static-mastodon-toots-hugo/):
-
-`{{< stoot "mastodon.social" "108335994944738270" >}}`
-
 ### Publishing a new post
 
 ```
-hugo -d ../shoals
+jekyll build -d ../shoals
 ```
 
 . . . and push the result to github.
