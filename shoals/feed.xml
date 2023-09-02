@@ -5,6 +5,8 @@
     <title>Shoals</title>
     
     
+    <description>A blog feed for Shoals</description>
+    
     <link>/shoals</link>
     <atom:link href="/shoals/feed.xml" rel="self" type="application/rss+xml" />
     

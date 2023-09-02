@@ -12,13 +12,19 @@
   <title>Shoals</title>
 
   
+  <meta name="author" content="Bill Morris">
+  
 
-  <meta name="description" content="">
+  <meta name="description" content="An occasional blog about mapping, history, art, and technology">
 
   
 
   
+  <meta name="keywords" content="maps,history,travel,vermont">
+  
 
+  
+  <link rel="alternate" type="application/rss+xml" title="Shoals" href="/shoals/feed.xml">
   
 
   
@@ -73,8 +79,10 @@
   
   <meta property="og:site_name" content="Shoals">
   <meta property="og:title" content="Shoals">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="An occasional blog about mapping, history, art, and technology">
 
+  
+  <meta property="og:image" content="/shoals/assets/img/avatar-4.png">
   
 
   
@@ -90,8 +98,10 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Shoals">
-  <meta property="twitter:description" content="">
+  <meta property="twitter:description" content="An occasional blog about mapping, history, art, and technology">
 
+  
+  <meta name="twitter:image" content="/shoals/assets/img/avatar-4.png">
   
 
   
@@ -114,14 +124,356 @@
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto"></ul>
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://billmorris.io">billmorris.io</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
   </div>
 
   
 
   
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="/shoals">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/shoals/assets/img/avatar-4.png" />
+        </a>
+      </div>
+    </div>
+  
 
 </nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Land ho!", \
+          "category" : "SQLitemappingGDALpython", \
+          "url"      : "/shoals/2023/08/17/land-tiles.html", \
+          "date"     : "August 17, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Tradewinds", \
+          "category" : "mapschamplain", \
+          "url"      : "/shoals/2023/07/25/old-dock.html", \
+          "date"     : "July 25, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "A beautiful summer", \
+          "category" : "vermontfloodclimate", \
+          "url"      : "/shoals/2023/07/12/beautiful-summer.html", \
+          "date"     : "July 12, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Once a cyclist", \
+          "category" : "cyclingexerciseurban planningbike", \
+          "url"      : "/shoals/2023/04/02/once-a-cyclist.html", \
+          "date"     : "April  2, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "A New Story", \
+          "category" : "runningagingcycling", \
+          "url"      : "/shoals/2023/03/10/a-new-story.html", \
+          "date"     : "March 10, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Migrating with tusks and a trunk", \
+          "category" : "twittermastodonsocial mediablog", \
+          "url"      : "/shoals/2022/11/13/migrating.html", \
+          "date"     : "November 13, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]", \
+          "category" : "gpsrunninggarmintravelparis", \
+          "url"      : "/shoals/2022/10/10/watch-in-paris.html", \
+          "date"     : "October 10, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "A day on Hadrian&#39;s Wall", \
+          "category" : "historytraveluk", \
+          "url"      : "/shoals/2022/05/07/hadrian.html", \
+          "date"     : "May  7, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "The things he carried", \
+          "category" : "stuffpersonal historybooks", \
+          "url"      : "/shoals/2022/03/09/grad-school-hoard.html", \
+          "date"     : "March  9, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Compton", \
+          "category" : "comptonsuperbowlpostgisfootballcartographymappinghiphop", \
+          "url"      : "/shoals/2022/02/14/compton.html", \
+          "date"     : "February 14, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to deploy a webpage in 2022", \
+          "category" : "webblogdns", \
+          "url"      : "/shoals/2022/01/21/how-to-internet.html", \
+          "date"     : "January 21, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "2020 Census drop, yo.", \
+          "category" : "censuspopulationvermontstatistics", \
+          "url"      : "/shoals/2021/08/12/2020-census.html", \
+          "date"     : "August 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Otto and Eugene", \
+          "category" : "historyfascismnazisjan 6th", \
+          "url"      : "/shoals/2021/01/10/otto-and-eugene.html", \
+          "date"     : "January 10, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Deomocratizing data science where it counts", \
+          "category" : "data scienceexcelsqlbigquerygoogle", \
+          "url"      : "/shoals/2020/07/14/sql.html", \
+          "date"     : "July 14, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Family artifacts", \
+          "category" : "familyhistorywwiichanel", \
+          "url"      : "/shoals/2020/03/09/chanel-number-5.html", \
+          "date"     : "March  9, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "A full-throated defense of using Zipcodes for spatial analysis", \
+          "category" : "spatial analysiszipcodesdata science", \
+          "url"      : "/shoals/2019/08/28/zipcodes-for-spatial-analysis.html", \
+          "date"     : "August 28, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Following a phone case", \
+          "category" : "techmanufacturingchinagooglegifs", \
+          "url"      : "/shoals/2018/11/19/a-journey.html", \
+          "date"     : "November 19, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "All the Takes You’re About to See on the NYC-Snapchat Map Vandalism", \
+          "category" : "", \
+          "url"      : "/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html", \
+          "date"     : "August 30, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "A true map", \
+          "category" : "", \
+          "url"      : "/shoals/2018/07/28/true-map.html", \
+          "date"     : "July 28, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Bonten Poad: Generating fake Vermont placenames with a neural network", \
+          "category" : "", \
+          "url"      : "/shoals/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html", \
+          "date"     : "July 20, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Drawing the planet in brushstrokes", \
+          "category" : "satelliteartplanetai", \
+          "url"      : "/shoals/2016/11/11/drawing-the-planet-in-brushstrokes.html", \
+          "date"     : "November 11, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Putting the Clinton campaign on the map", \
+          "category" : "", \
+          "url"      : "/shoals/2016/10/25/putting-the-clinton-campaign-on-the-map.html", \
+          "date"     : "October 25, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Superblocks for a small city", \
+          "category" : "", \
+          "url"      : "/shoals/2016/08/11/superblocks-for-a-small-city.html", \
+          "date"     : "August 11, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "From Above", \
+          "category" : "", \
+          "url"      : "/shoals/2016/04/01/from-above.html", \
+          "date"     : "April  1, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Primary 2016 Manifesto", \
+          "category" : "", \
+          "url"      : "/shoals/2016/02/04/primary-2016-manifesto.html", \
+          "date"     : "February  4, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Better friendships through mapping technology", \
+          "category" : "", \
+          "url"      : "/shoals/2015/12/11/better-friendships-through-mapping-technology.html", \
+          "date"     : "December 11, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Social Silos", \
+          "category" : "", \
+          "url"      : "/shoals/2015/11/03/social-silos.html", \
+          "date"     : "November  3, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "The cartographer’s promised land", \
+          "category" : "", \
+          "url"      : "/shoals/2015/09/17/cartographers-promised-land.html", \
+          "date"     : "September 17, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Caught in the Cartographic Crossfire", \
+          "category" : "", \
+          "url"      : "/shoals/2015/04/24/caught-in-the-cartographic-crossfire.html", \
+          "date"     : "April 24, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "GeoASCII", \
+          "category" : "", \
+          "url"      : "/shoals/2015/03/10/geoascii.html", \
+          "date"     : "March 10, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "This is not a post about Ello", \
+          "category" : "", \
+          "url"      : "/shoals/2014/12/01/this-is-not-a-post-about-ello.html", \
+          "date"     : "December  1, 2014" \
+        }, \
+       \
+        { \
+          "title"    : "Redistricting: A Question and a Query", \
+          "category" : "", \
+          "url"      : "/shoals/2014/11/14/redistricting-a-question-and-a-query.html", \
+          "date"     : "November 14, 2014" \
+        }, \
+       \
+        { \
+          "title"    : "Palm board and parchment", \
+          "category" : "", \
+          "url"      : "/shoals/2014/11/14/palm-board-and-parchment.html", \
+          "date"     : "November 14, 2014" \
+        }, \
+       \
+        { \
+          "title"    : "Separation of Concerns", \
+          "category" : "", \
+          "url"      : "/shoals/2014/08/24/separation-of-concerns.html", \
+          "date"     : "August 24, 2014" \
+        }, \
+       \
+        { \
+          "title"    : "Constellations of Potential", \
+          "category" : "", \
+          "url"      : "/shoals/2014/06/02/constellations-of-potential.html", \
+          "date"     : "June  2, 2014" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/shoals/404.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/shoals/tags.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/page2/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/page3/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/page4/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/page5/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Shoals", \
+          "category" : "page", \
+          "url"      : "/shoals/page6/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
 
 
 
@@ -132,7 +484,33 @@
 
 
 
-<div class="intro-header"></div>
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Shoals</h1>
+          
+            
+              <hr class="small">
+              <span class="page-subheading">An occasional blog about mapping, history, art, and technology</span>
+            
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
 
 
 
@@ -142,7 +520,6 @@
       
 
       
-
 
 
 
@@ -183,30 +560,6 @@
       
 
       
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#SQLite">SQLite</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#mapping">mapping</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#GDAL">GDAL</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#python">python</a>
-          </li>
-          
-        </ul>
-      </div>
-      
 
     </article>
   </li>
@@ -244,22 +597,6 @@
       </div>
       
 
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#maps">maps</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#champlain">champlain</a>
-          </li>
-          
-        </ul>
-      </div>
       
 
     </article>
@@ -299,26 +636,6 @@
       
 
       
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#vermont">vermont</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#flood">flood</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#climate">climate</a>
-          </li>
-          
-        </ul>
-      </div>
-      
 
     </article>
   </li>
@@ -356,30 +673,6 @@
       </div>
       
 
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#cycling">cycling</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#exercise">exercise</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#urban planning">urban planning</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#bike">bike</a>
-          </li>
-          
-        </ul>
-      </div>
       
 
     </article>
@@ -419,26 +712,6 @@
       
 
       
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#running">running</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#aging">aging</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#cycling">cycling</a>
-          </li>
-          
-        </ul>
-      </div>
-      
 
     </article>
   </li>
@@ -477,1520 +750,21 @@
       
 
       
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#twitter">twitter</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#mastodon">mastodon</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#social media">social media</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#blog">blog</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2022/10/10/watch-in-paris.html">
-        <h2 class="post-title">Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on October 10, 2022
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2022/10/10/watch-in-paris.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#gps">gps</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#running">running</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#garmin">garmin</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#travel">travel</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#paris">paris</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2022/05/07/hadrian.html">
-        <h2 class="post-title">A day on Hadrian's Wall</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on May 7, 2022
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-Photo: Sycamore Gap
-
-        
-        
-          <a href="/shoals/2022/05/07/hadrian.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#history">history</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#travel">travel</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#uk">uk</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2022/03/09/grad-school-hoard.html">
-        <h2 class="post-title">The things he carried</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on March 9, 2022
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2022/03/09/grad-school-hoard.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#stuff">stuff</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#personal history">personal history</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#books">books</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2022/02/14/compton.html">
-        <h2 class="post-title">Compton</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on February 14, 2022
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2022/02/14/compton.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#compton">compton</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#superbowl">superbowl</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#postgis">postgis</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#football">football</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#cartography">cartography</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#mapping">mapping</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#hiphop">hiphop</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2022/01/21/how-to-internet.html">
-        <h2 class="post-title">How to deploy a webpage in 2022</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on January 21, 2022
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2022/01/21/how-to-internet.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#web">web</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#blog">blog</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#dns">dns</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2021/08/12/2020-census.html">
-        <h2 class="post-title">2020 Census drop, yo.</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on August 12, 2021
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-Photo via the National Archives: Fairlington, VA. A census enumerator getting data from a Virginia housewife for the 1950 Census.
-
-        
-        
-          <a href="/shoals/2021/08/12/2020-census.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#census">census</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#population">population</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#vermont">vermont</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#statistics">statistics</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2021/01/10/otto-and-eugene.html">
-        <h2 class="post-title">Otto and Eugene</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on January 10, 2021
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2021/01/10/otto-and-eugene.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#history">history</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#fascism">fascism</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#nazis">nazis</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#jan 6th">jan 6th</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2020/07/14/sql.html">
-        <h2 class="post-title">Deomocratizing data science where it counts</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on July 14, 2020
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2020/07/14/sql.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#data science">data science</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#excel">excel</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#sql">sql</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#bigquery">bigquery</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#google">google</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2020/03/09/chanel-number-5.html">
-        <h2 class="post-title">Family artifacts</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on March 9, 2020
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2020/03/09/chanel-number-5.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#family">family</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#history">history</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#wwii">wwii</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#chanel">chanel</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2019/08/28/zipcodes-for-spatial-analysis.html">
-        <h2 class="post-title">A full-throated defense of using Zipcodes for spatial analysis</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on August 28, 2019
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2019/08/28/zipcodes-for-spatial-analysis.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#spatial analysis">spatial analysis</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#zipcodes">zipcodes</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#data science">data science</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2018/11/19/a-journey.html">
-        <h2 class="post-title">Following a phone case</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on November 19, 2018
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2018/11/19/a-journey.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#tech">tech</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#manufacturing">manufacturing</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#china">china</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#google">google</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#gifs">gifs</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html">
-        <h2 class="post-title">All the Takes You’re About to See on the NYC-Snapchat Map Vandalism</h2>
-
-        
-          <h3 class="post-subtitle">
-          That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on August 30, 2018
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2018/07/28/true-map.html">
-        <h2 class="post-title">A true map</h2>
-
-        
-          <h3 class="post-subtitle">
-          Many an earnest cartographer/journalist/opinion-holder is currently debating — with varying degrees of condescension — the utility of the…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on July 28, 2018
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2018/07/28/true-map.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html">
-        <h2 class="post-title">Bonten Poad: Generating fake Vermont placenames with a neural network</h2>
-
-        
-          <h3 class="post-subtitle">
-          Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this experiment in…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on July 20, 2017
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2016/11/11/drawing-the-planet-in-brushstrokes.html">
-        <h2 class="post-title">Drawing the planet in brushstrokes</h2>
-
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on November 11, 2016
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2016/11/11/drawing-the-planet-in-brushstrokes.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#satellite">satellite</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#art">art</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#planet">planet</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="/shoals/tags#ai">ai</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2016/10/25/putting-the-clinton-campaign-on-the-map.html">
-        <h2 class="post-title">Putting the Clinton campaign on the map</h2>
-
-        
-          <h3 class="post-subtitle">
-          Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on October 25, 2016
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2016/10/25/putting-the-clinton-campaign-on-the-map.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2016/08/11/superblocks-for-a-small-city.html">
-        <h2 class="post-title">Superblocks for a small city</h2>
-
-        
-          <h3 class="post-subtitle">
-          Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on August 11, 2016
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2016/08/11/superblocks-for-a-small-city.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2016/04/01/from-above.html">
-        <h2 class="post-title">From Above</h2>
-
-        
-          <h3 class="post-subtitle">
-          On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite has…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on April 1, 2016
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2016/04/01/from-above.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2016/02/04/primary-2016-manifesto.html">
-        <h2 class="post-title">Primary 2016 Manifesto</h2>
-
-        
-          <h3 class="post-subtitle">
-          Howdy folks.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on February 4, 2016
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2016/02/04/primary-2016-manifesto.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2015/12/11/better-friendships-through-mapping-technology.html">
-        <h2 class="post-title">Better friendships through mapping technology</h2>
-
-        
-          <h3 class="post-subtitle">
-          I have trouble getting together with friends these days. I’m not alone in this — distance is a surprising obstacle to maintaining…
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on December 11, 2015
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-        
-        
-          <a href="/shoals/2015/12/11/better-friendships-through-mapping-technology.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2015/11/03/social-silos.html">
-        <h2 class="post-title">Social Silos</h2>
-
-        
-          <h3 class="post-subtitle">
-          In which I find a parallel universe in my own backyard
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on November 3, 2015
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  In which I find a parallel universe in my own backyard
-
-
-        
-        
-          <a href="/shoals/2015/11/03/social-silos.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2015/09/17/cartographers-promised-land.html">
-        <h2 class="post-title">The cartographer’s promised land</h2>
-
-        
-          <h3 class="post-subtitle">
-          The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on September 17, 2015
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
-
-
-        
-        
-          <a href="/shoals/2015/09/17/cartographers-promised-land.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2015/04/24/caught-in-the-cartographic-crossfire.html">
-        <h2 class="post-title">Caught in the Cartographic Crossfire</h2>
-
-        
-          <h3 class="post-subtitle">
-          The work of a geographic vandal reminds us what’s missing from the map.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on April 24, 2015
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  The work of a vandal reminds us what’s missing from the map.
-
-
-        
-        
-          <a href="/shoals/2015/04/24/caught-in-the-cartographic-crossfire.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2015/03/10/geoascii.html">
-        <h2 class="post-title">GeoASCII</h2>
-
-        
-          <h3 class="post-subtitle">
-          A throwback mapping technique at the modern console
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on March 10, 2015
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  A throwback mapping technique at the modern console
-
-
-        
-        
-          <a href="/shoals/2015/03/10/geoascii.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2014/12/01/this-is-not-a-post-about-ello.html">
-        <h2 class="post-title">This is not a post about Ello</h2>
-
-        
-          <h3 class="post-subtitle">
-          It’s about the political ecology of global agricultural systems, but Ello enables it.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on December 1, 2014
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  It’s about the political ecology of global agricultural systems, but Ello enables it.
-
-
-        
-        
-          <a href="/shoals/2014/12/01/this-is-not-a-post-about-ello.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2014/11/14/redistricting-a-question-and-a-query.html">
-        <h2 class="post-title">Redistricting: A Question and a Query</h2>
-
-        
-          <h3 class="post-subtitle">
-          Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on November 14, 2014
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned.
-
-        
-        
-          <a href="/shoals/2014/11/14/redistricting-a-question-and-a-query.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2014/11/14/palm-board-and-parchment.html">
-        <h2 class="post-title">Palm board and parchment</h2>
-
-        
-          <h3 class="post-subtitle">
-          A history in cartographic tools
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on November 14, 2014
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  A history in cartographic tools
-
-
-        
-        
-          <a href="/shoals/2014/11/14/palm-board-and-parchment.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2014/08/24/separation-of-concerns.html">
-        <h2 class="post-title">Separation of Concerns</h2>
-
-        
-          <h3 class="post-subtitle">
-          I have a minor quibble.
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on August 24, 2014
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  Working with shaded relief and satellite imagery in Mapbox Studio
-
-
-        
-        
-          <a href="/shoals/2014/08/24/separation-of-concerns.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="/shoals/2014/06/02/constellations-of-potential.html">
-        <h2 class="post-title">Constellations of Potential</h2>
-
-        
-          <h3 class="post-subtitle">
-          How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)
-          </h3>
-        
-      </a>
-
-      <p class="post-meta">
-        
-        Posted on June 2, 2014
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-  How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)
-
-
-        
-        
-          <a href="/shoals/2014/06/02/constellations-of-potential.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
 
     </article>
   </li>
   
 </ul>
 
+
+<ul class="pagination main-pager">
+  
+  
+  <li class="page-item next">
+    <a class="page-link" href="/shoals/page2">Older Posts &rarr;</a>
+  </li>
+  
+</ul>
 
 
 
@@ -2007,10 +781,45 @@ Photo via the National Archives: Fairlington, VA. A census enumerator getting da
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      <ul class="list-inline text-center footer-links"></ul>
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/shoals/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:bill@billmorris.io" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/wboykinm" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a rel="me" href="https://vis.social/@bil" title="Mastodon">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Mastodon</span>
+    </a>
+  </li></ul>
 
       
       <p class="copyright text-muted">
+      
+        Bill Morris
+        &nbsp;&bull;&nbsp;
       
       2023
 

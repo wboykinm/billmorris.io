@@ -29,7 +29,7 @@ I'm sure this was confusing to my grandmother then. Paris? He was only ever supp
 
 Fast-forward to the present, and approaching the edge of living memory for that time, a few months ago I stumbled on [an informal memoir by my grandfather's CO](https://web.archive.org/web/20230314172107/https://static1.squarespace.com/static/53f7e605e4b0e6c68d78bdc4/t/5d893d23e3c0021104ea514c/1569275171695/Bill+Dewey+Interview+w+Aaron+Elson+KMHS+website.pdf). In it, the CO details how - on their way back from a raid on Germany - one of their four engines had blown out and forced the crew to make a sketchy landing in a just-liberated part of France:
 
-> "We made a good landing on the first third of the field.  I put on the brakes, and we skidded all the way to the end . . . we taxied off the landing strip and got into a six by six truck that took us right to downtown Paris and let us out, no questions asked."
+> "I put on the brakes, and we skidded all the way to the end . . . we taxied off the landing strip and got into a six by six truck that took us right to downtown Paris and let us out, no questions asked."
 
 > "Here we were in the middle of Paris—unshaven, grubby, and in our flying clothes. But we didn’t care. Excited, we split up and explored the city that had been liberated just a week before." 
 

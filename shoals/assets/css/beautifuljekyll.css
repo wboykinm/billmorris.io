@@ -116,7 +116,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #EAEAEA;
+  background-color: #FF9000;
   border-bottom: 1px solid #DDDDDD;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
@@ -181,7 +181,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #404040;
+  color: #FFFFFF;
 }
 
 .navbar-toggler {
@@ -250,10 +250,10 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: #EAEAEA;
+  background-color: #FF9000;
   text-decoration: none !important;
   font-weight: normal;
-  color: #404040;
+  color: #FFFFFF;
   
   white-space: normal;
   
