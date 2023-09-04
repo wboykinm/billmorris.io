@@ -3,15 +3,10 @@ layout: post
 title: "The things he carried"
 date: "2022-03-09T20:42:22-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2022-03-09_cover.jpg"
+cover-img: "assets/img/2022-03-09_cover.jpg"
 tags: ["stuff", "personal history", "books"]
-description: "Rating items I found while cleaning out my old grad school hoard"
-showFullContent: false
-readingTime: true
-hideComments: true
+subtitle: "Rating items I found while cleaning out my old grad school hoard"
 ---
-
-![1](/shoals/assets/img/2022-03-09_cover.jpg)
 
 The time had finally come to sort through and [mostly] discard the stuff I'd accumulated in the last days when higher education was conducted on paper. What follows is merely a selection.
 

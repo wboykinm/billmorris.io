@@ -1,21 +1,11 @@
 ---
 layout: post
-title: "Bonten Poad: Generating fake Vermont placenames with a neural network"
+title: "Bonten Poad"
 author: "Bill Morris"
 date: 2017-07-20T13:07:25.594Z
 lastmod: 2019-07-19T09:09:37-04:00
-
-description: ""
-
-subtitle: "Y’all, we’ve entered a computing epoch when AI is available to us at nearly the level of commodity entertainment. Take this experiment in…"
-
-image: "/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/2017-07-20_1.jpeg" 
-images:
- - "/posts/2017-07-20_bonten-poad-generating-fake-vermont-placenames-with-a-neural-network/images/2017-07-20_1.jpeg" 
-
-
-aliases:
-    - "/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network-ce0e8f90afbb"
+subtitle: "Generating fake Vermont placenames with a neural network"
+cover-img: "assets/img/2017-07-20_1.jpeg"
 ---
 
 ![image](/shoals/assets/img/2017-07-20_1.jpeg)

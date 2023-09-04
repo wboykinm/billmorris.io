@@ -4,20 +4,8 @@ title: "All the Takes You’re About to See on the NYC-Snapchat Map Vandalism"
 author: "Bill Morris"
 date: 2018-08-30T17:37:23.466Z
 lastmod: 2019-07-19T09:09:38-04:00
-
-description: ""
-cover: "/shoals/assets/img/2018-08-30_1.png"
-
-subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:"
-
-image: "/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2018-08-30_1.png" 
-images:
- - "/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2018-08-30_1.png" 
- - "/posts/2018-08-30_all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism/images/2018-08-30_2.gif" 
-
-
-aliases:
-    - "/all-the-takes-youre-about-to-see-on-the-nyc-snapchat-map-vandalism-c0e73010e90b"
+cover-img: "/assets/img/2018-08-30_1.png"
+subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time"
 ---
 
 ![1](/shoals/assets/img/2018-08-30_1.png)

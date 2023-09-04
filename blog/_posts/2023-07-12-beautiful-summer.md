@@ -6,12 +6,7 @@ author: "Bill Morris"
 cover-img: "/assets/img/2023-07-12_cover.jpeg"
 tags: ["vermont", "flood", "climate"]
 subtitle: "Can tragedy fade into the background when it's on your doorstep?"
-showFullContent: false
-readingTime: true
-hideComments: true
 ---
-
-![1](/shoals/assets/img/2023-07-12_cover.jpeg)
 
 Summer is great.
 
@@ -36,6 +31,8 @@ When a tragedy hits somewhere in the world, and news reaches me, there's a natur
 But the corrolary of that defense mechanism is that close proximity _should have a greater impact on me._ It should move me, spur me to action. [The climate crisis](https://vtdigger.org/2023/07/12/vermonts-flooding-this-week-is-historic-what-role-did-climate-change-play/) is a multiplier, closing the distance between all of us and danger, in one way or another. The potential for tragedy comes closer, and we feel it enter our perimeter.
 
 But today, Montpelier might as well be Port au Prince. It feels as much a world away from the tranquility and protection of Burlington, only 40 miles distant.
+
+![1](/shoals/assets/img/2023-07-12_cover.jpeg)
 
 The governor himself [put out the word](https://web.archive.org/web/20230713014153/https://governor.vermont.gov/press-release/governor-phil-scott-provides-update-states-response-catastrophic-flooding): help out on a hyper-local basis for now. We should dig out our neighbors, not put ourselves at risk - or increase the strain on the first responders - by driving through still-flooded roads on our way to help strangers. We should prepare for a bigger effort to come, and let the initial work of lifesaving proceed. I still feel a pang of guilt looking out over that distance to the retreating floodwaters.
  

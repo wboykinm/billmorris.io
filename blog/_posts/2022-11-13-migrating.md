@@ -6,14 +6,7 @@ author: "Bill Morris"
 authorTwitter: "" #do not include @
 cover-img: "/assets/img/2022-11-13_mastodon.jpeg"
 tags: ["twitter", "mastodon", "social media", "blog"]
-description: ""
-showFullContent: false
-readingTime: false
-hideComments: false
-color: "" #color from the theme settings
 ---
-
-![1](/shoals/assets/img/2022-11-13_mastodon.jpeg)
 
 Y'all.
 

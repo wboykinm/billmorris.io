@@ -4,20 +4,7 @@ title: "Putting the Clinton campaign on the map"
 author: "Bill Morris"
 date: 2016-10-25T13:36:01.761Z
 lastmod: 2019-07-19T09:09:29-04:00
-
-description: ""
-
-subtitle: "Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin…"
-
-image: "/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/2016-10-25_1.png" 
-images:
- - "/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/2016-10-25_1.png" 
- - "/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/2016-10-25_2.gif" 
- - "/posts/2016-10-25_putting-the-clinton-campaign-on-the-map/images/2016-10-25_3.png" 
-
-
-aliases:
-    - "/putting-the-clinton-campaign-on-the-map-cb909a2241c1"
+cover-img: "/assets/img/2016-10-25_1.png"
 ---
 
 ![image](/shoals/assets/img/2016-10-25_1.png)

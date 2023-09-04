@@ -3,9 +3,9 @@ layout: post
 title: "Otto and Eugene"
 date: "2021-01-10T18:17:00-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2021-01-10_goodman.jpeg"
+cover-img: "/assets/img/2021-01-10_goodman.jpeg"
 tags: ["history", "fascism", "nazis", "jan 6th"]
-description: "When any of us have a job that requires courage, and the winds are blowing against us, what will we do?"
+subtitle: "When any of us have a job that requires courage, and the winds are blowing against us, what will we do?"
 showFullContent: false
 readingTime: true
 hideComments: true

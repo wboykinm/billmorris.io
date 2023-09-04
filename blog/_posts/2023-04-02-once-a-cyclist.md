@@ -6,16 +6,7 @@ author: "Bill Morris"
 cover-img: "/assets/img/2023-04-02_cover.jpeg"
 tags: ["cycling", "exercise", "urban planning", "bike"]
 subtitle: "A short history of the author on two wheels."
-showFullContent: false
-readingTime: true
-hideComments: true
 ---
-
-![1](/shoals/assets/img/2023-04-02_cover.jpeg)
-
-Oh check it out - another middle-aged man on a bike, clad in lycra, spouting opinions. 
-
-> sigh.
 
 Now that [I've been forced to ditch running](https://billmorris.io/shoals/posts/2023-03-08_a-new-story/), I've started cycling. Late in a Vermont winter, this has meant ponying up for a trainer attachment, plugging my old cross bike into it, and trying my damndest to occupy exactly the same workout schedule, but now with spins instead of paces. As new as this all feels - and as well-trodden a path it is - I _do_ have a history with these wheels.
 

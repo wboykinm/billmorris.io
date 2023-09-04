@@ -4,22 +4,7 @@ title: "Superblocks for a small city"
 author: "Bill Morris"
 date: 2016-08-11T23:21:02.336Z
 lastmod: 2019-07-19T09:09:24-04:00
-
-description: ""
-
-subtitle: "Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7…"
-
-image: "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_1.png" 
-images:
- - "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_1.png" 
- - "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_2.jpeg" 
- - "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_3.gif" 
- - "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_4.png" 
- - "/posts/2016-08-11_superblocks-for-a-small-city/images/2016-08-11_5.png" 
-
-
-aliases:
-    - "/superblocks-for-a-small-city-4f96e0ca643a"
+cover-img: "/assets/img/2016-08-11_1.png"
 ---
 
 ![image](/shoals/assets/img/2016-08-11_1.png)

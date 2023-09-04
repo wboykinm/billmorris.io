@@ -4,21 +4,7 @@ title: "From Above"
 author: "Bill Morris"
 date: 2016-04-01T13:48:19.219Z
 lastmod: 2019-07-19T09:09:20-04:00
-
-description: ""
-
-subtitle: "On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite has…"
-
-image: "/posts/2016-04-01_from-above/images/2016-04-01_1.jpeg" 
-images:
- - "/posts/2016-04-01_from-above/images/2016-04-01_1.jpeg" 
- - "/posts/2016-04-01_from-above/images/2016-04-01_2.png" 
- - "/posts/2016-04-01_from-above/images/2016-04-01_3.jpeg" 
- - "/posts/2016-04-01_from-above/images/2016-04-01_4.png" 
-
-
-aliases:
-    - "/from-above-ad77fc941072"
+cover-img: "/assets/img/2016-04-01_1.jpeg"
 ---
 
 ![image](/shoals/assets/img/2016-04-01_1.jpeg)

@@ -5,12 +5,7 @@ date: "2023-03-10T16:01:04-05:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2023-03-08_knee.png"
 tags: ["running", "aging", "cycling"]
-description: ""
-showFullContent: false
-readingTime: true
 ---
-
-![1](/shoals/assets/img/2023-03-08_knee.png)
 
 It's late winter. I still run in the dark, though I get traces of dawn now. Surfaces are ice, the wind blows viciously, and my miles get slower and slower. This is always a hard time of year to be a runner. 
 
@@ -27,3 +22,5 @@ The one clear message I'm getting from everyone - physicians, runners, bloggers,
 I'm in the dangerous position of being able to construct multiple narratives about my life as a runner. If I squint and tilt my head one way, I see a late-blooming enthusiasm of very recent years, that led me to start piling up miles and *seriousness* even before a pandemic made running the perfect obsessive coping strategy. If I tilt the other way, I read a story of a little fat kid who showed up to track practice one day; whose coach - Tim Simpson, bless you - didn't laugh him off the field but instead got him moving; of someone who's been running ever since. Both narratives are "correct", but both are coming to an end.
 
 Time to get to work on a new story.
+
+![1](/shoals/assets/img/2023-03-08_knee.png)

@@ -3,9 +3,9 @@ layout: post
 title: "Family artifacts"
 date: "2020-03-09T18:11:09-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2020-03-09_1.jpg"
+cover-img: "/assets/img/2020-03-09_1.jpg"
 tags: ["family", "history", "wwii", "chanel"]
-description: "A story about a bottle and a war, with subtext about the magic of corroborating accounts."
+subtitle: "A story about a bottle and a war, with subtext about the magic of corroborating accounts."
 showFullContent: false
 readingTime: true
 hideComments: true

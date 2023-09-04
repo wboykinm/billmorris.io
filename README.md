@@ -11,12 +11,12 @@ cd blog
 echo "
 ---
 layout: post
-title: ""
+title: "MyTitle"
 date: "YYYY-MM-DDTHH:MM:SS-04:00"
 author: "Bill Morris"
-image: "../shoals/assets/img/YYYY-MM-DD_cover.png"
-tags: []
-description: ""
+cover-img: "/assets/img/YYYY-MM-DD_cover.png"
+tags: ["tag1", "tag2"]
+subtitle: "Punchy lead-in"
 ---
 " > _posts/YYYY-MM-DD-post-name.md
 ```

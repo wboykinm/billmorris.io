@@ -3,19 +3,12 @@ layout: post
 title: "Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]"
 date: "2022-10-10T10:31:42-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2022-10-10_cover.jpg"
+cover-img: "assets/img/2022-10-10_cover.jpg"
 tags: ["gps", "running", "garmin", "travel", "paris"]
-description: "In which I learn a thing or two about novel GPS errors."
-showFullContent: false
-readingTime: true
-hideComments: true
+subtitle: "In which I learn a thing or two about novel GPS errors."
 ---
 
-![1](/shoals/assets/img/2022-10-10_cover.jpg)
-
-_Follow along using [this map made with Felt](https://felt.com/map/A-Run-Through-Paris-July-3-2022-yU8I1K9CARgy6XKOraks4YA)_
-
-One day this past July, I got up early and started a long run around Paris. I've found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my [Garmin Forerunner 245 watch](https://www.garmin.com/en-US/p/628939).
+One day this past July, I got up early and started a long run around Paris. I've found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my [Garmin Forerunner 245 watch](https://www.garmin.com/en-US/p/628939). (_Follow along using [this map made with Felt](https://felt.com/map/A-Run-Through-Paris-July-3-2022-yU8I1K9CARgy6XKOraks4YA)_)
 
 ![1](/shoals/assets/img/2022-10-10_1.jpg)
 
