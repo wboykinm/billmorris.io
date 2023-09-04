@@ -3,9 +3,9 @@ layout: post
 title: "A beautiful summer"
 date: "2023-07-12T13:56:21-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2023-07-12_cover.jpeg"
+cover-img: "/assets/img/2023-07-12_cover.jpeg"
 tags: ["vermont", "flood", "climate"]
-description: "Can tragedy fade into the background when it's on your doorstep?"
+subtitle: "Can tragedy fade into the background when it's on your doorstep?"
 showFullContent: false
 readingTime: true
 hideComments: true

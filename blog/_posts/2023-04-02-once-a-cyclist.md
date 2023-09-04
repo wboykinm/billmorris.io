@@ -3,9 +3,9 @@ layout: post
 title: "Once a cyclist"
 date: "2023-04-02T17:13:18-04:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2023-04-02_cover.jpeg"
+cover-img: "/assets/img/2023-04-02_cover.jpeg"
 tags: ["cycling", "exercise", "urban planning", "bike"]
-description: "A short history of the author on two wheels."
+subtitle: "A short history of the author on two wheels."
 showFullContent: false
 readingTime: true
 hideComments: true

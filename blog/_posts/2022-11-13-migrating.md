@@ -4,7 +4,7 @@ title: "Migrating with tusks and a trunk"
 date: "2022-11-13T17:35:10-04:00"
 author: "Bill Morris"
 authorTwitter: "" #do not include @
-cover: "/shoals/assets/img/2022-11-13_mastodon.jpeg"
+cover-img: "/assets/img/2022-11-13_mastodon.jpeg"
 tags: ["twitter", "mastodon", "social media", "blog"]
 description: ""
 showFullContent: false

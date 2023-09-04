@@ -3,7 +3,7 @@ layout: post
 title: "A New Story"
 date: "2023-03-10T16:01:04-05:00"
 author: "Bill Morris"
-cover: "/shoals/assets/img/2023-03-08_knee.png"
+cover-img: "/assets/img/2023-03-08_knee.png"
 tags: ["running", "aging", "cycling"]
 description: ""
 showFullContent: false
