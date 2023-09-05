@@ -4,24 +4,11 @@ title: "Better friendships through mapping technology"
 author: "Bill Morris"
 date: 2015-12-11T19:05:48.018Z
 lastmod: 2019-07-19T09:09:18-04:00
+cover-img: "/assets/img/2015-12-11_1.png"
 
-description: ""
-
-subtitle: "I have trouble getting together with friends these days. I’m not alone in this — distance is a surprising obstacle to maintaining…"
-
-image: "/posts/2015-12-11_better-friendships-through-mapping-technology/images/2015-12-11_1.png" 
-images:
- - "/posts/2015-12-11_better-friendships-through-mapping-technology/images/2015-12-11_1.png" 
- - "/posts/2015-12-11_better-friendships-through-mapping-technology/images/2015-12-11_2.gif" 
-
-
-aliases:
-    - "/better-friendships-through-mapping-technology-294c292f41c5"
 ---
 
-![image](/shoals/assets/img/2015-12-11_1.png)
-
-> I have trouble getting together with friends these days. I’m not alone in this — [distance is a surprising obstacle to maintaining relationships](http://www.vox.com/2015/10/28/9622920/housing-adult-friendship) in the landscape of modern America. Can a hack-of-an-app help?
+I have trouble getting together with friends these days. I’m not alone in this — [distance is a surprising obstacle to maintaining relationships](http://www.vox.com/2015/10/28/9622920/housing-adult-friendship) in the landscape of modern America. Can a hack-of-an-app help?
 
 Over Thanksgiving I was traveling with my family and found out that a friend — one I don’t often see — would be nearby. As often happens in these situations, I mentally considered “what semi-decent bar is about halfway between us?” It’s not the first time this has happened; as my good friends from past experience have scattered around the world, it’s become harder for all of us to find those opportunities to meet.
 

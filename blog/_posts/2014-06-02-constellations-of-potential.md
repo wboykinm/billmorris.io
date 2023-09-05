@@ -4,23 +4,9 @@ title: "Constellations of Potential"
 author: "Bill Morris"
 date: 2014-06-02T14:40:44.634Z
 lastmod: 2014-06-02T14:40:44.634Z
-
-description: ""
-
+cover-img: "/assets/img/2014-06-02_1.png"
 subtitle: "How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)"
-
-cover: "/shoals/assets/img/2014-06-02_1.png" 
-images:
- - "images/2014-06-02_1.png" 
- - "images/2014-06-02_2.gif" 
-
-
-aliases:
-    - "/constellations-of-potential-6898f810da9c"
 ---
-
-
-> How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)
 
 About 10PM last night, I saw some interesting news dropped:
 

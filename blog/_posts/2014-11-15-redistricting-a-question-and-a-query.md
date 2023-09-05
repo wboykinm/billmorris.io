@@ -4,31 +4,9 @@ title: "Redistricting: A Question and a Query"
 author: "Bill Morris"
 date: 2014-11-15T04:20:01.732Z
 lastmod: 2019-07-19T09:09:10-04:00
-
-description: ""
-
+cover-img: "/assets/img/2014-11-15_1.jpg"
 subtitle: "Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned."
-
-image: "/posts/2014-11-15_redistricting-a-question-and-a-query/images/2014-11-15_1.jpg" 
-images:
- - "/posts/2014-11-15_redistricting-a-question-and-a-query/images/2014-11-15_1.jpg" 
- - "/posts/2014-11-15_redistricting-a-question-and-a-query/images/2014-11-15_2.jpeg" 
- - "/posts/2014-11-15_redistricting-a-question-and-a-query/images/2014-11-15_3.gif" 
-
-
-aliases:
-    - "/redistricting-a-question-and-a-query-7cfd3a870bef"
 ---
-
-_Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned._
-
-
-
-
-![image](/shoals/assets/img/2014-11-15_1.jpg)
-
-Gotta love the classics
-
 
 
 My city is on the tail end of the country’s redistricting cycle. Somehow while Texas was [marginalizing Latinos](http://www.huffingtonpost.com/2012/08/28/texas-redistricting-discriminated-latino-voters_n_1838030.html) and Dennis Kucinich was [getting scribbled out of his constituency](http://news.firedoglake.com/2012/03/07/kucinich-squeezed-out-by-redistricting-loses-primary-to-kaptur-in-ohio/), we here in Burlington were [waffling](http://7d.blogs.com/offmessage/2013/12/burlington-city-council-mulls-redistricting-take-457.html) over how to deal with triparty politics and the implications of our changing neighborhoods.

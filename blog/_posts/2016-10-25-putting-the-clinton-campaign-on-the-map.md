@@ -7,11 +7,9 @@ lastmod: 2019-07-19T09:09:29-04:00
 cover-img: "/assets/img/2016-10-25_1.png"
 ---
 
-![image](/shoals/assets/img/2016-10-25_1.png)
-
-HRC campaign events and volunteer opportunities around Oakland, CA
-
 Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin vote margins we expect to see in battleground states.
+
+![image](/shoals/assets/img/2016-10-25_1.png)
 
 Hillary Clinton’s campaign has an excellent, centralized database of rallies, phone banks and canvassing efforts, all of which need volunteers. In order to lower the bar to participation as much as possible, the digital volunteers of [DevProgress](https://devprogress.us/) constructed an application on top of the campaign events database -[it shows events near you](https://devprogress.us/hrc-events).
 

@@ -4,24 +4,9 @@ title: "Social Silos"
 author: "Bill Morris"
 date: 2015-11-03T14:34:47.714Z
 lastmod: 2019-07-19T09:09:17-04:00
-
-description: ""
-
+cover-img: "/assets/img/2015-11-03_3.jpeg"
 subtitle: "In which I find a parallel universe in my own backyard"
-
-image: "/posts/2015-11-03_social-silos/images/2015-11-03_1.png" 
-images:
- - "/posts/2015-11-03_social-silos/images/2015-11-03_1.png" 
- - "/posts/2015-11-03_social-silos/images/2015-11-03_2.png" 
- - "/posts/2015-11-03_social-silos/images/2015-11-03_3.jpeg" 
- - "/posts/2015-11-03_social-silos/images/2015-11-03_4.jpeg" 
-
-
-aliases:
-    - "/social-silos-7cdc8bcdef0b"
 ---
-
-> In which I find a parallel universe in my own backyard
 
 Upon the occasion of Halloween, and the need to optimize, I took a look at [NextDoor](https://nextdoor.com/) for the first time. They apparently had some sort of [dope candy-targeting map](https://blog.nextdoor.com/2015/10/14/find-the-treats-on-your-neighborhoods-streets-with-the-treat-map/) for every neighborhood, and since that’s my catnip I had to check it out. Step 1: sign up, because the candymap is actually just a big inbound marketing trap:
 
@@ -54,10 +39,7 @@ Vital information misses its target all the time because of platform lock-in.
 Last year at a statewide digital conference `<insert joke about Vermont and smoke signals>`, I met a woman who — like me — had gotten her start in online organizing during [hurricane Irene](http://usatoday30.usatoday.com/weather/storms/story/2011-08-29/Irene-leaves-waterlogged-mess-in-Vermont/50175534/1).
 
 
-
-
 ![image](/shoals/assets/img/2015-11-03_3.jpeg)
-
 Irene says hi. Photo by [Stephen Flanders](https://commons.wikimedia.org/wiki/File:Tropical_Storm_Irene_Flood-Buildings_at_Quechee_Vermont_2011-08-28.jpg)
 
 > **Quick background**: at the end of the summer in 2011, a random hurricane veered off course and wandered up the Green Mountains, cutting off whole towns, killing electricity statewide and incidentally flooding the VT office of emergency management out of their building. In the days and weeks afterward, some colleagues and I used [Ushahidi](https://www.ushahidi.com/) and [straight-up Wordpress](https://vtresponse.wordpress.com/) to fill the gap in the information plumbing, relaying help requests and offers between victims, responders and the public, over any channel we could plug into.
@@ -80,12 +62,12 @@ But there are lots of channels, with messages repeated over many of them. Adword
 
 
 ![image](/shoals/assets/img/2015-11-03_4.jpeg)
-
 Photo by [Simon Cousins](https://www.flickr.com/photos/simon_cousins/4869880958)
 
 
 
 As long as the channels are open the redundancy should do its work for the really important stuff (Twitter notifications to Slack, for instance), and at the neighborhood level the power of the analog still reigns.
+
 > _“Fluffy! I’ve got some azaleas for you! Yum! HEEEERE FLUFFYYYYYYY”_
 
 What worries me is a future where — at whatever level we call our “community” — we become partitioned from each other. Where Twitter v. Facebook is as socially-segregating a choice as Liberal v. Conservative. Where the parallel universes of NextDoor and Front Porch Forum never interact in real life either, no matter how meaningful the subject.

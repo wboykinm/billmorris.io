@@ -4,26 +4,9 @@ title: "Palm board and parchment"
 author: "Bill Morris"
 date: 2014-11-15T04:04:10.782Z
 lastmod: 2019-07-19T09:09:09-04:00
-
-description: ""
-
+cover-img: "/assets/img/2014-11-15_0.jpg"
 subtitle: "A history in cartographic tools"
-
-image: "images/2014-11-15_1.png" 
-images:
- - "images/2014-11-15_1.png" 
- - "images/2014-11-15_2.png" 
- - "images/2014-11-15_3.png" 
-
-
-aliases:
-    - "/palm-board-and-parchment-8c56cf7dfd9d"
 ---
-
-> A history in cartographic tools
-
-![image](/shoals/assets/img/2014-11-15_0.jpg)
-The last-known record of the author using hand tools for mapping, AD 2003
 
 #### 1998
 
@@ -33,6 +16,9 @@ The GIS lab at Middlebury College had a set of drafting pens hanging on the wall
 
 Openstreetmap would have been a godsend to my 23-year-old self, sweating ceaselessly over light cardstock and sheafs of tracing paper as I planned a gravity-fed aqueduct for a village in the Dominican rainforest. A survey-grade GPS would have saved weeks, replacing the hackjob of an elevation profile I cobbled together with an abney level, a twenty-foot pole, a tape measure and a Peace Corps colleague.
 
+![image](/shoals/assets/img/2014-11-15_0.jpg)
+The last-known record of the author using hand tools for mapping, AD 2003
+
 #### 2005
 
 Every few weeks I would go to Nagua — the nearest city — and sit in front of a fan in the office of a local NGO, glued to a computer equipped with manna from heaven: an ArcView 3.2 license donated by the German Development Service. I made bad maps of the nearby protected area, and worse maps of the surrounding villages.
@@ -41,7 +27,6 @@ Every few weeks I would go to Nagua — the nearest city — and sit in 
 
 
 ![image](/shoals/assets/img/2014-11-15_1.png)
-
 h12v04
 
 

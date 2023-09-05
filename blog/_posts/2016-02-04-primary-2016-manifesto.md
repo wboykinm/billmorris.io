@@ -4,21 +4,8 @@ title: "Primary 2016 Manifesto"
 author: "Bill Morris"
 date: 2016-02-04T14:04:49.448Z
 lastmod: 2019-07-19T09:09:19-04:00
-
-description: ""
-
-subtitle: "Howdy folks."
-
-image: "/posts/2016-02-04_primary-2016-manifesto/images/2016-02-04_1.png" 
-images:
- - "/posts/2016-02-04_primary-2016-manifesto/images/2016-02-04_1.png" 
-
-
-aliases:
-    - "/primary-2016-manifesto-b66690e6640a"
+cover-img: "/assets/img/2016-02-04_1.png"
 ---
-
-![image](/shoals/assets/img/2016-02-04_1.png)
 
 Howdy folks.
 

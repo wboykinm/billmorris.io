@@ -4,30 +4,11 @@ title: "Caught in the Cartographic Crossfire"
 author: "Bill Morris"
 date: 2015-04-24T19:01:14.097Z
 lastmod: 2019-07-19T09:09:14-04:00
-
-description: ""
-
+cover-img: "/assets/img/2015-04-24_2.png"
 subtitle: "The work of a geographic vandal reminds us what’s missing from the map."
-
-image: "/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2015-04-24_1.gif" 
-images:
- - "/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2015-04-24_1.gif" 
- - "/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2015-04-24_2.png" 
- - "/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2015-04-24_3.png" 
- - "/posts/2015-04-24_caught-in-the-cartographic-crossfire/images/2015-04-24_4.png" 
-
-
-aliases:
-    - "/caught-in-the-cartographic-crossfire-33b2036897b"
 ---
 
-> The work of a vandal reminds us what’s missing from the map.
-
-### The incident
-
 This morning [Ahmad Babar noticed](https://www.facebook.com/photo.php?fbid=10155581320805122&amp;set=a.10151572005255122.853730.546895121&amp;type=1&amp;comment_id=10155581348305122&amp;offset=0&amp;total_comments=5&amp;ref=notif&amp;notif_t=photo_reply) a curious feature on Google Maps just South of Rawalpindi, Pakistan:
-
-
 
 
 ![image](/shoals/assets/img/2015-04-24_1.gif)
@@ -57,7 +38,6 @@ This leadership has made Google sort of cocky in some ways. In conversations wit
 
 
 ![image](/shoals/assets/img/2015-04-24_2.png)
-
 OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan
 
 

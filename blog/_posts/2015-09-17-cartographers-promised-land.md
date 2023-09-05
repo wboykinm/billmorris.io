@@ -4,25 +4,10 @@ title: "The cartographer’s promised land"
 author: "Bill Morris"
 date: 2015-09-17T15:57:07.970Z
 lastmod: 2019-07-19T09:09:16-04:00
-
-description: ""
-
+cover-img: "/assets/img/2015-09-17_10.png"
 subtitle: "The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it."
 
-image: "/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_1.png" 
-images:
- - "/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_1.png" 
- - "/posts/2015-09-17_cartographers-promised-land/images/2015-09-17_2.gif" 
-
-
-aliases:
-    - "/the-cartographer-s-promised-land-176a3a6b1d1c"
 ---
-
-> The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.
-
-![image](/shoals/assets/img/2015-09-17_10.png)
-
 
 There’s a lot of marketing behind [the new Mapbox Studio](https://www.mapbox.com/mapbox-studio/), along with [a glowing review in Wired](http://www.wired.com/2015/09/mapbox-studio/). I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.
 

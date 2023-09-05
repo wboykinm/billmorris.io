@@ -82,7 +82,7 @@
   <meta property="og:description" content="A throwback mapping technique at the modern console">
 
   
-  <meta property="og:image" content="/shoals/assets/img/avatar-4.png">
+  <meta property="og:image" content="/shoals/assets/img/2015-03-11_11.png">
   
 
   
@@ -94,7 +94,7 @@
   
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
@@ -103,7 +103,7 @@
   <meta property="twitter:description" content="A throwback mapping technique at the modern console">
 
   
-  <meta name="twitter:image" content="/shoals/assets/img/avatar-4.png">
+  <meta name="twitter:image" content="/shoals/assets/img/2015-03-11_11.png">
   
 
   
@@ -488,8 +488,43 @@
 
 
 
+  <div id="header-big-imgs" data-num-img=1
+    
+    
+    
+      
+      data-img-src-1="/shoals/assets/img/2015-03-11_11.png"
+    
+    
+    
+  ></div>
 
-<header class="header-section ">
+
+<header class="header-section has-img">
+
+<div class="big-img intro-header">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>GeoASCII</h1>
+          
+            
+              <h2 class="post-subheading">A throwback mapping technique at the modern console</h2>
+            
+          
+
+          
+            <span class="post-meta">Posted on March 10, 2015</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
 
 <div class="intro-header no-img">
   <div class="container-md">
@@ -528,13 +563,7 @@
       
 
       <article role="main" class="blog-post">
-        <blockquote>
-  <p>A throwback mapping technique at the modern console</p>
-</blockquote>
-
-<h3 id="my-arcane-problem">My arcane problem</h3>
-
-<p>I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.</p>
+        <p>I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.</p>
 
 <p>My current workflow is to dump the geometry as geojson, grab the file to my local machine, and open it in QGIS or geojson.io — which is an extra minute at least for every look at a feature. I sometimes need to do this dozens of times an hour as I debug and optimize. Obviously this is complete crap, but there’s no easy way around it when the command line is the only window into the data.</p>
 

@@ -4,22 +4,9 @@ title: "This is not a post about Ello"
 author: "Bill Morris"
 date: 2014-12-01T15:34:19.694Z
 lastmod: 2019-07-19T09:09:11-04:00
-
-description: ""
-
+cover-img: "/assets/img/2014-12-01_1.png"
 subtitle: "It’s about the political ecology of global agricultural systems, but Ello enables it."
-
-image: "/posts/2014-12-01_this-is-not-a-post-about-ello/images/2014-12-01_1.png" 
-images:
- - "/posts/2014-12-01_this-is-not-a-post-about-ello/images/2014-12-01_1.png" 
- - "/posts/2014-12-01_this-is-not-a-post-about-ello/images/2014-12-01_2.png" 
-
-
-aliases:
-    - "/this-is-not-a-post-about-ello-91d991d00a14"
 ---
-
-> It’s about the political ecology of global agricultural systems, but Ello enables it.
 
 _Update: Since February I have indeed stopped this series of imagery posts to Ello. However, this has much to do with my lack of available time to locate, assess and process the images. It was a fun and finite project._
 

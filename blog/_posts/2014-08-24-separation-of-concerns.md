@@ -4,30 +4,12 @@ title: "Separation of Concerns"
 author: "Bill Morris"
 date: 2014-08-24T18:08:18.106Z
 lastmod: 2019-07-19T09:09:06-04:00
+cover-img: "/assets/img/2014-08-24_6.png"
 
-description: ""
-
-subtitle: "I have a minor quibble."
-
-image: "/shoals/assets/img/2014-08-24_1.png" 
-images:
- - "images/2014-08-24_1.png" 
- - "images/2014-08-24_2.png" 
- - "images/2014-08-24_3.png" 
- - "images/2014-08-24_4.png" 
- - "images/2014-08-24_5.png" 
- - "images/2014-08-24_6.png" 
- - "images/2014-08-24_7.png" 
- - "images/2014-08-24_8.jpeg" 
-
-
-aliases:
-    - "/separation-of-concerns-35a7dae3e78e"
+subtitle: "Working with shaded relief and satellite imagery in Mapbox Studio"
 ---
 
-> Working with shaded relief and satellite imagery in Mapbox Studio
-
-### I have a minor quibble.
+I have a minor quibble.
 
 Amid the wonders that the Mapbox team has been producing of late, they’ve rebranded the groundbreaking Tilemill as [Mapbox Studio](https://www.mapbox.com/mapbox-studio/#darwin), given it a souped-up engine powered by OpenStreetmap-based vector tiles, and turned it loose on the beta crowd to a reception somewhere between “rapturous” and “bieberesque”. It makes web mapping both better-supported and more flexible, and at [Faraday](http://faraday.io/) we quickly used it to build [our basemap](https://api.tiles.mapbox.com/v4/faraday2.74974c94/page.html?access_token=pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ#14/42.3591/-71.0639).
 
