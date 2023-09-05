@@ -9,8 +9,6 @@ cover-img: "/assets/img/2016-08-11_1.png"
 
 Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. 
 
-![image](/shoals/assets/img/2016-08-11_1.png)
-
 These are wildly-different scales (different everything, really), but when one of my legislators brought up [Barcelona’s planned superblocks](http://www.bcnecologia.net/en/conceptual-model/superblocks), I couldn’t help but imagine the radical livability experiment playing out in Burlington.
 
 ![image](/shoals/assets/img/2016-08-11_10.png)
@@ -84,3 +82,5 @@ For any urban planners or map nerds who are interested, my Burlington datasets a
 *   [Slow streets](https://gist.github.com/wboykinm/b0e82567dc37b9ac6f4f834b8ebe6356)
 
 You can fiddle with them in your browser [using geojson.io like so](http://geojson.io/#id=gist:wboykinm/b07b2e9be43faab0a5ce7775e755262e&amp;map=14/44.4779/-73.2122).
+
+![image](/shoals/assets/img/2016-08-11_1.png)

@@ -9,13 +9,13 @@
 
   
 
-  <title>Separation of Concerns</title>
+  <title>Imagination Vs The Moat</title>
 
   
   <meta name="author" content="Bill Morris">
   
 
-  <meta name="description" content="Working with shaded relief and satellite imagery in Mapbox Studio">
+  <meta name="description" content="layout: post title: “Imagination vs. the Moat” date: 2017-12-20T12:00:00-04:00 author: Bill Morris cover-img: “/assets/img/2017-12-20_cover.jpeg” tags: [“mapping”, “google”, “apple”, “osm”] subtitle: “Some thoughts on Justin O’Beirne’s meticulous reverse-engineering of Google’s geodata infrastructure” — I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has...">
 
   
 
@@ -78,32 +78,32 @@
 
   
   <meta property="og:site_name" content="Shoals">
-  <meta property="og:title" content="Separation of Concerns">
-  <meta property="og:description" content="Working with shaded relief and satellite imagery in Mapbox Studio">
+  <meta property="og:title" content="Imagination Vs The Moat">
+  <meta property="og:description" content="layout: post title: “Imagination vs. the Moat” date: 2017-12-20T12:00:00-04:00 author: Bill Morris cover-img: “/assets/img/2017-12-20_cover.jpeg” tags: [“mapping”, “google”, “apple”, “osm”] subtitle: “Some thoughts on Justin O’Beirne’s meticulous reverse-engineering of Google’s geodata infrastructure” — I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has...">
 
   
-  <meta property="og:image" content="/shoals/assets/img/2014-08-24_6.png">
+  <meta property="og:image" content="/shoals/assets/img/avatar-4.png">
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Bill Morris">
-  <meta property="og:article:published_time" content="2014-08-24T14:08:18-04:00">
-  <meta property="og:url" content="/shoals/2014/08/24/separation-of-concerns.html">
-  <link rel="canonical" href="/shoals/2014/08/24/separation-of-concerns.html">
+  <meta property="og:article:published_time" content="2017-12-20T00:00:00-05:00">
+  <meta property="og:url" content="/shoals/2017/12/20/imagination-vs-the-moat.html">
+  <link rel="canonical" href="/shoals/2017/12/20/imagination-vs-the-moat.html">
   
 
   
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Separation of Concerns">
-  <meta property="twitter:description" content="Working with shaded relief and satellite imagery in Mapbox Studio">
+  <meta property="twitter:title" content="Imagination Vs The Moat">
+  <meta property="twitter:description" content="layout: post title: “Imagination vs. the Moat” date: 2017-12-20T12:00:00-04:00 author: Bill Morris cover-img: “/assets/img/2017-12-20_cover.jpeg” tags: [“mapping”, “google”, “apple”, “osm”] subtitle: “Some thoughts on Justin O’Beirne’s meticulous reverse-engineering of Google’s geodata infrastructure” — I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has...">
 
   
-  <meta name="twitter:image" content="/shoals/assets/img/2014-08-24_6.png">
+  <meta name="twitter:image" content="/shoals/assets/img/avatar-4.png">
   
 
   
@@ -495,58 +495,19 @@
 
 
 
-  <div id="header-big-imgs" data-num-img=1
-    
-    
-    
-      
-      data-img-src-1="/shoals/assets/img/2014-08-24_6.png"
-    
-    
-    
-  ></div>
 
-
-<header class="header-section has-img">
-
-<div class="big-img intro-header">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>Separation of Concerns</h1>
-          
-            
-              <h2 class="post-subheading">Working with shaded relief and satellite imagery in Mapbox Studio</h2>
-            
-          
-
-          
-            <span class="post-meta">Posted on August 24, 2014</span>
-            
-            
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  <span class='img-desc'></span>
-</div>
+<header class="header-section ">
 
 <div class="intro-header no-img">
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Separation of Concerns</h1>
-          
-            
-              <h2 class="post-subheading">Working with shaded relief and satellite imagery in Mapbox Studio</h2>
-            
+          <h1>Imagination Vs The Moat</h1>
           
 
           
-            <span class="post-meta">Posted on August 24, 2014</span>
+            <span class="post-meta">Posted on December 20, 2017</span>
             
             
           
@@ -570,65 +531,104 @@
       
 
       <article role="main" class="blog-post">
-        <p>I have a minor quibble.</p>
+        
+<hr />
+<p>layout: post
+title: “Imagination vs. the Moat”
+date: 2017-12-20T12:00:00-04:00
+author: Bill Morris
+cover-img: “/assets/img/2017-12-20_cover.jpeg”
+tags: [“mapping”, “google”, “apple”, “osm”]
+subtitle: “Some thoughts on Justin O’Beirne’s meticulous reverse-engineering of Google’s geodata infrastructure”
+—</p>
 
-<p>Amid the wonders that the Mapbox team has been producing of late, they’ve rebranded the groundbreaking Tilemill as <a href="https://www.mapbox.com/mapbox-studio/#darwin">Mapbox Studio</a>, given it a souped-up engine powered by OpenStreetmap-based vector tiles, and turned it loose on the beta crowd to a reception somewhere between “rapturous” and “bieberesque”. It makes web mapping both better-supported and more flexible, and at <a href="http://faraday.io/">Faraday</a> we quickly used it to build <a href="https://api.tiles.mapbox.com/v4/faraday2.74974c94/page.html?access_token=pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ#14/42.3591/-71.0639">our basemap</a>.</p>
+<p>I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”.</p>
 
-<p>Mapbox Studio comes with four starter templates . . .</p>
+<p><img src="/shoals/assets/img/2017-12-20_1.png" alt="1" /></p>
 
-<p><img src="/shoals/assets/img/2014-08-24_1.png" alt="image" /></p>
+<p>Google has been the mapping incumbent for a decade. They’ve surprised everyone before with their ability to build a smart, disruptive (ugh) map hack and then capitalize on it. But <a href="https://www.justinobeirne.com/google-maps-moat">the sort of long-view thinking Justin exposes here</a> is way beyond what I (a lowly map-saltminer) was imagining. Here’s what I honestly thought Google was up to over the past ten years to keep their edge:</p>
 
-<p>. . . and my quibble is with the <a href="https://github.com/mapbox/satellite-afternoon.tm2">“Satellite Afternoon” template</a>. I played with it for awhile before I noticed I was unhappy with it in a familiar way. Back in my desktop GIS days I had frequently used an ESRI-provided basemap that tried to do the same thing: Overlay shaded relief on satellite imagery. At the time I couldn’t quite place what I found wrong with this kind of basemap, but it’s now clear looking at the Mapbox version:</p>
+<ol>
+  <li>Hire thousands of analysts, to pore over and digitize . . .</li>
+  <li>A big pile of satellite and aerial imagery, while</li>
+  <li>Manually ground-truthing addresses with these nifty Streetview cameras, and</li>
+  <li>Hiring thousands of additional analysts/salesfolk to manage a large DB of POIs.</li>
+</ol>
 
-<h3 id="the-shadows-arent-lining-up">The shadows aren’t lining up.</h3>
+<p>Bonus, “Wow, they’re on the cutting edge”, imagined-Google-activities:</p>
 
-<p>Shaded relief maps present a stylized view of sunlight smacking terrain. Satellite imagery — unless acquired at nadir angle — shows actual sunlight on terrain. It’s very unlikely that the two will have exactly the same zenith and azimuth angles by chance:</p>
+<ol>
+  <li>Build custom tools for the 1000s of analysts (“Looks like JOSM!”)</li>
+  <li>Buy satellites instead of imagery (“So forward-thinking!”)</li>
+  <li>Experiment with auto-extracting features (“We’ve been trying since 2002!”)</li>
+</ol>
 
-<p><img src="/shoals/assets/img/2014-08-24_2.png" alt="image" /></p>
+<p>I assumed these things because this is what everyone else has been up to, to one degree or another. Mapping the world is a cumbersome, resource-intensive, largely-manual process. Whew, I’m tired and my hand hurts from all the digitizing.</p>
 
-<p>Mapbox Satellite view of the peaks near Eldorado Canyon in Colorado. Note the sun azimuth angle from the Southeast, casting shadows on the Northwest slopes.</p>
+<p><strong>Reader, my imagination was puny.</strong></p>
 
-<p><img src="/shoals/assets/img/2014-08-24_3.png" alt="image" /></p>
+<p>What Justin makes clear is that Google has vertically-integrated their ubiquitous technology in ways that seem handed down from Carto-Olympus. Google bought satellites (&amp; probably planes &amp; helos), sure, but the buried lede is that they’ve NAILED DOWN the machine intelligence needed for feature extraction. Their long experience in ML, parallelization, &amp; data organization likely let them brute-force this hard problem.</p>
 
-<p>The same view in the Mapbox Studio “Satellite Afternoon” template — the solar azimuth is almost exactly the opposite of the underlying imagery.</p>
+<p><img src="/shoals/assets/img/2017-12-20_2.jpeg" alt="1" /></p>
 
-<p>It’s a quick enough fix to reverse the terrain shadows . . .</p>
+<p><em>Sidebar: This is a HARD goddamned problem - one that I’ve worked on - and so this point impresses the hell out of me (and makes me jealous, but hey).</em></p>
 
-<p><img src="/shoals/assets/img/2014-08-24_4.png" alt="image" /></p>
+<p>Google also hired lots of analysts, sure, but they’re not likely to be the tip of the mapping spear. Instead, that would be you and me, training a collection of algorithms with our phones in a mad swirl of telemetry and aggro crowdsourcing.</p>
 
-<p>The Mapbox Studio “Satellite Afternoon” template with hillshade matching the solar azimuth of the underlying imagery . . . at this location</p>
+<p><img src="/shoals/assets/img/2017-12-20_3.jpeg" alt="1" /></p>
 
-<p>. . . and now the hillshade compliments the imagery underneath, instead of fighting with it. This even allows us to reduce the desaturated feel of the imagery in the template, and bring up what is essentially terrain-enhanced imagery:</p>
+<p>Google has a huge team grooming their “Places” dataset, sure, but those entries aren’t all recorded by someone sitting next to a phone, waiting for Papa Luciano to call in with the location of his pizzeria, because Google has <a href="https://blog.research.google/2017/05/updating-google-maps-with-deep-learning.html">nailed down that type of feature extraction as well</a>.</p>
 
-<p><img src="/shoals/assets/img/2014-08-24_5.png" alt="image" /></p>
+<p>And most importantly, they’re not doing all this in a vacuum, and it’s not just for maintenance. Google is integrating these datasets to automate the creation of other datasets, and god knows what else.</p>
 
-<p>Mapbox Studio “Satellite Afternoon” template with unfiltered imagery and azimuth-aligned, composited hillshade</p>
+<p><img src="/shoals/assets/img/2017-12-20_4.jpeg" alt="1" /></p>
 
-<p>To go completely nuts, we can layer in light contours so the shadows aren’t information vacuums:</p>
+<p>They’re doing these things in a properly-imagined effort to map our world at the highest spatial, temporal, and social resolutions we’ve ever dreamed of. (Contact your local Borges or Saramagó enthusiast today)</p>
 
-<p><img src="/shoals/assets/img/2014-08-24_6.png" alt="image" /></p>
+<p><em>(FOR PROFIT)</em></p>
 
-<p>And now we’ve basically reversed the conceit of the “Satellite Afternoon” template, going from the stylized terrain map created by Mapbox to more of a terrain-accented satellite basemap. This is more of an information-dense basemap, so it probably won’t serve the same purpose as the original template. <a href="https://gist.github.com/wboykinm/8bd89a8b4ef0d489a4ba"><em>(Here’s the revised CartoCSS)</em></a></p>
+<p>And at this point I need to take a step back and say again that this is all sort of awe-inspiring. I am amazed at the grandeur of it all. I’m envious, because my own imagination was only nibbling around the edges of this holistic approach. I’m also frightened. This is a lot of power, and it’s concentrated by a company that has built some of the most restrictive walls in the business around its data and services.</p>
 
-<h3 id="back-to-the-quibble">Back to the quibble.</h3>
+<p><img src="/shoals/assets/img/2017-12-20_5.jpeg" alt="1" /></p>
 
-<p>It’s solved, right? Alas, if we travel to New Hampshire and the slopes of Mt. Washington, we find that hillshade and satellite shadows are again mismatched:</p>
+<p>I’m frightened, but in a bleak-comedy kind of way, when I consider how far behind the competition is, and how little they collaborate. Apple? HERE? Uber? How many smart folks are doing the carto-labor of Sisyphus in back rooms right now? I’m frightened when I consider that my own favorite windmill-tilt-of-a-project - <a href="https://www.openstreetmap.org/">Openstreetmap</a> - is eating itself alive instead of getting ahead of this tidal wave.</p>
 
-<p><img src="/shoals/assets/img/2014-08-24_7.png" alt="image" /></p>
+<p>The Google context makes the nonsense politics of OSM . . .</p>
 
-<p>Restyled “Satellite Afternoon”; arrow indicates the azimuth angle of the sun, about 90° misaligned with the overlain hillshade</p>
+<ul>
+  <li>Driving away newcomers and force multipliers</li>
+  <li>Alienating whole demographics</li>
+  <li>Dismissing any technology more elaborate than a GPS and a bicycle</li>
+</ul>
 
-<p>In fact, despite <a href="https://www.mapbox.com/blog/processing-raw-naip-into-seamless-imagery/">the awesome work the Mapbox Satellite team has done standardizing colors and resolutions</a> in a globe of mismatched satellite imagery, it is essentially impossible to standardize solar angle. You can simulate shaded relief for any one image/location/date/time, but it cannot be made globally applicable.</p>
+<p>. . . frustratingly insignificant but also completely defeating.</p>
 
-<p>When using ESRI’s satellite/terrain combo basemap years ago, I ultimately decided the best solution was to simply stop trying, and to go with either a shaded relief or a satellite surface. But in the intervening time my relationship with mapping problem solving has changed — helped by the open-source community and by Mapbox in particular — from “The platform can’t do it” to “How can we make the platform do it?” And their team has already <a href="https://www.mapbox.com/blog/dynamic-hill-shading/">had a few thoughts on the matter</a>:</p>
+<p>I’ve seen glimmers of Google’s approach in the OSM world . . .</p>
 
-<p><img src="/shoals/assets/img/2014-08-24_8.jpeg" alt="image" /></p>
+<ul>
+  <li>Feature extraction by the Development Seed crew</li>
+  <li>Mapbox fusing sources for QA/QC</li>
+  <li>Facebook literally donating data</li>
+</ul>
 
-<p>Dynamic Hillshade demo built by Vladimir Agafonkin for Mapbox</p>
+<p>. . . get shot down by an unbendable - if surficially-admirable - John Henry mentality.</p>
 
-<p>If combining hillshade with satellite imagery is a cartographic problem that enough people want solved, I suspect it will get solved. In the meantime I’m going to continue working with Mapbox Studio and having a blast.</p>
+<p>But Michelle Lee has a better perspective than I do - we can’t stop waving the flag for openness:</p>
 
-<p><em>(Cover image of the Himalayas</em> <a href="http://eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS008&amp;roll=E&amp;frame=13304"><em>taken from on board the ISS</em></a><em>, provided by NASA)</em></p>
+<p><img src="/shoals/assets/img/2017-12-20_6.jpeg" alt="1" /></p>
+
+<p>. . . and indeed, Tom Lee thinks it’s the only sustainable approach (People not named “Lee” also have good opinions, I know):</p>
+
+<p><img src="/shoals/assets/img/2017-12-20_7.jpeg" alt="1" /></p>
+
+<p>I think I just need to take a minute,</p>
+
+<p>let this glimpse of the current state of things sink in,</p>
+
+<p>take a deep breath,</p>
+
+<p>and then flex my imagination.</p>
+
 
       </article>
 
@@ -648,12 +648,12 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/shoals/2014/06/02/constellations-of-potential.html" data-toggle="tooltip" data-placement="top" title="Constellations of Potential">&larr; Previous Post</a>
+          <a class="page-link" href="/shoals/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html" data-toggle="tooltip" data-placement="top" title="Bonten Poad">&larr; Previous Post</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/shoals/2014/11/14/palm-board-and-parchment.html" data-toggle="tooltip" data-placement="top" title="Palm board and parchment">Next Post &rarr;</a>
+          <a class="page-link" href="/shoals/2018/07/28/true-map.html" data-toggle="tooltip" data-placement="top" title="A true map">Next Post &rarr;</a>
         </li>
         
       </ul>

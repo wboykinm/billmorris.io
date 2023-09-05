@@ -43,4 +43,4 @@ Perhaps it's some exceptional bravery and foresight, to know what's morally corr
 
 Police are hit by crosswinds in these cases: a natural fit with the "order" of fascism, but with a charge to protect their communities above all. Our country (or at least those of us slow to wake) has felt this tension more than usual this past year. I don't expect that Officer Goodman is the only hero whose story will emerge from last week's events, but it echoes with Bellgardt's act. And I wonder, again . . .
 
-> When any of us have a job that requires courage, and the winds are blowing against us, what will we do?
+__When any of us have a job that requires courage, and the winds are blowing against us, what will we do?__
