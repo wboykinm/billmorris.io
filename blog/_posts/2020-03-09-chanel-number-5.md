@@ -11,9 +11,7 @@ readingTime: true
 hideComments: true
 ---
 
-My grandmother died last Spring.
-
-We mourn of course, but she lived to 100, saw and did amazing things, and the family has more a sense of respectful awe than anything else. In any case this is actually about a bottle of her perfume that came to me recently.
+My grandmother died last Spring. We mourn of course, but she lived to 100, saw and did amazing things, and the family has more a sense of respectful awe than anything else. In any case this is actually about a bottle of her perfume that came to me recently.
 
 Chanel #5.
 
