@@ -51,7 +51,7 @@ _(FOR PROFIT)_
 
 And at this point I need to take a step back and say again that this is all sort of awe-inspiring. I am amazed at the grandeur of it all. I'm envious, because my own imagination was only nibbling around the edges of this holistic approach. I'm also frightened. This is a lot of power, and it's concentrated by a company that has built some of the most restrictive walls in the business around its data and services.
 
-![1](/shoals/assets/img/2017-12-20_5.jpeg)
+![1](/shoals/assets/img/2017-12-20_5.png)
 
 I'm frightened, but in a bleak-comedy kind of way, when I consider how far behind the competition is, and how little they collaborate. Apple? HERE? Uber? How many smart folks are doing the carto-labor of Sisyphus in back rooms right now? I'm frightened when I consider that my own favorite windmill-tilt-of-a-project - [Openstreetmap](https://www.openstreetmap.org/) - is eating itself alive instead of getting ahead of this tidal wave.
 
@@ -73,11 +73,11 @@ I've seen glimmers of Google's approach in the OSM world . . .
 
 But Michelle Lee has a better perspective than I do - we can't stop waving the flag for openness:
 
-![1](/shoals/assets/img/2017-12-20_6.jpeg)
+![1](/shoals/assets/img/2017-12-20_6.png)
 
 . . . and indeed, Tom Lee thinks it's the only sustainable approach (People not named "Lee" also have good opinions, I know):
 
-![1](/shoals/assets/img/2017-12-20_7.jpeg)
+![1](/shoals/assets/img/2017-12-20_7.png)
 
 I think I just need to take a minute, 
 
