@@ -12,7 +12,7 @@
     
     
       <item>
-        <title>Land ho!</title>
+        <title>Dryland XYZ tiles</title>
         <description>
           In which I discover how much geoprocessing you can get done with inline SQLite - 
           Mapbox is occasionally referred to - not uncharitably - as “The Tile Company”. It’s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these...
@@ -136,7 +136,7 @@
         <title>2020 Census drop, yo.</title>
         <description>
           A look at the implications in the Green Mountains. - 
-          The 2020 numbers are in! Let’s take a look at the changes since 2010, Vermont-centric . . . Photo via the National Archives: Fairlington, VA. A census enumerator getting data from a Virginia housewife for the 1950 Census. Metros grew, but half of counties shrank (including 3 in VT, 👀...
+          The 2020 numbers are in! Let’s take a look at the changes since 2010, Vermont-centric . . . Metros grew, but half of counties shrank (including 3 in VT, 👀 on Rutland) The Burlington, VT metro grew at about the same rate as NYC: just under 7%, which is respectable...
         </description>
         <pubDate>Thu, 12 Aug 2021 17:50:32 -0400</pubDate>
         <link>/shoals/2021/08/12/2020-census.html</link>
@@ -147,7 +147,7 @@
         <title>Otto and Eugene</title>
         <description>
           When any of us have a job that requires courage, and the winds are blowing against us, what will we do? - 
-          Officer Eugene Goodman receiving the Joint Meritorious Civilian Service Award, photo by Navy Petty Officer 1st Class Carlos M. Vazquez II On November 9, 1938, Goebbels turned the SA loose on Jewish communities throughout Germany, in a pogrom now known as Kristallnacht. With the veneer of a “popular, spontaneous uprising”,...
+          On November 9, 1938, Goebbels turned the SA loose on Jewish communities throughout Germany, in a pogrom now known as Kristallnacht. With the veneer of a “popular, spontaneous uprising”, nazis smashed Jewish business, attacked Jews, and arrested them in the thousands, heralding the horrors to come. 1400 Synagogues were burned...
         </description>
         <pubDate>Sun, 10 Jan 2021 17:17:00 -0500</pubDate>
         <link>/shoals/2021/01/10/otto-and-eugene.html</link>
@@ -174,6 +174,17 @@
         <pubDate>Mon, 09 Mar 2020 18:11:09 -0400</pubDate>
         <link>/shoals/2020/03/09/chanel-number-5.html</link>
         <guid isPermaLink="true">/shoals/2020/03/09/chanel-number-5.html</guid>
+      </item>
+    
+      <item>
+        <title>How I use Twitter in 2019</title>
+        <description>
+          
+          I’ve been on a long ride with this microblogging-whatever-the-hell-it-is platform, and I’ve noticed a few patterns in my usage evolving over the years. So here, at the end of the decade, is: How I use Twitter To learn - There is a wealth of knowledge being casually thrown around here,...
+        </description>
+        <pubDate>Mon, 11 Nov 2019 11:00:00 -0500</pubDate>
+        <link>/shoals/2019/11/11/twitter-in-2019.html</link>
+        <guid isPermaLink="true">/shoals/2019/11/11/twitter-in-2019.html</guid>
       </item>
     
       <item>
@@ -218,17 +229,6 @@
         <pubDate>Sat, 28 Jul 2018 08:31:01 -0400</pubDate>
         <link>/shoals/2018/07/28/true-map.html</link>
         <guid isPermaLink="true">/shoals/2018/07/28/true-map.html</guid>
-      </item>
-    
-      <item>
-        <title>Imagination vs. the Moat</title>
-        <description>
-          Some thoughts on Justin O&apos;Beirne&apos;s meticulous reverse-engineering of Google&apos;s geodata infrastructure - 
-          I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has been the mapping incumbent for a decade. They’ve surprised everyone before with their ability to build a smart, disruptive (ugh) map hack and then capitalize on it. But the sort of long-view...
-        </description>
-        <pubDate>Wed, 20 Dec 2017 11:00:00 -0500</pubDate>
-        <link>/shoals/2017/12/20/imagination-vs-the-moat.html</link>
-        <guid isPermaLink="true">/shoals/2017/12/20/imagination-vs-the-moat.html</guid>
       </item>
     
   </channel>

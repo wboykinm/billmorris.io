@@ -8,9 +8,7 @@ tags: ["vermont", "flood", "climate"]
 subtitle: "Can tragedy fade into the background when it's on your doorstep?"
 ---
 
-Summer is great.
-
-I keep forgetting this, but the shores of Lake Champlain - for a blessed few months every year - are an absolute paradise. As I biked with my son to his summer camp this morning, I saw it in full display: boats on the water, strolling couples, picnickers, people literally pulling fragrant tree blossoms to their noses and inhaling with a smile. I took a deep breath and was grateful.
+Summer is great. I keep forgetting this, but the shores of Lake Champlain - for a blessed few months every year - are an absolute paradise. As I biked with my son to his summer camp this morning, I saw it in full display: boats on the water, strolling couples, picnickers, people literally pulling fragrant tree blossoms to their noses and inhaling with a smile. I took a deep breath and was grateful.
 
 ![1](/shoals/assets/img/2023-07-12_1.jpeg)
 _Burlington, VT, in perfect summer form._

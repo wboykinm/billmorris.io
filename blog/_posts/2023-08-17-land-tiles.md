@@ -6,7 +6,6 @@ author: "Bill Morris"
 cover-img: "/assets/img/2023-08-17_cover.png"
 tags: ["sqlite", "maps", "gdal", "python", "spatial analysis"]
 subtitle: "In which I discover how much geoprocessing you can get done with inline SQLite"
-readingTime: true
 ---
 
 Mapbox is occasionally referred to - not uncharitably - as "The Tile Company". It's true; we deal with big amounts of data, and the most common map/reduce unit we use is the [old standby Mercator/XYZ tile](https://en.wikipedia.org/wiki/Tiled_web_map). My past and present colleagues have built some really cool tools to make these patterns easier - witness [mercantile](https://github.com/mapbox/mercantile) and [supermercado](https://github.com/mapbox/supermercado), for example - but sometimes there's a specific problem to solve ad-hoc. In this case:
