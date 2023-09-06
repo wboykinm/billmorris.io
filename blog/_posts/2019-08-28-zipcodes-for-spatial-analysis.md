@@ -4,11 +4,8 @@ title: "A full-throated defense of using Zipcodes for spatial analysis"
 date: "2019-08-28T16:16:07-04:00"
 author: "Bill Morris"
 cover-img: "/shoals/assets/img/2019-08-28_zip.jpeg"
-tags: ["spatial analysis", "zipcodes", "data science"]
+tags: ["spatial analysis", "zipcodes", "data science", "mapping"]
 subtitle: "Psych. It's actually a meek defense."
-showFullContent: false
-readingTime: true
-hideComments: true
 ---
 
 We, the data-folk of Faraday, agree wholeheartedly with our colleagues at 

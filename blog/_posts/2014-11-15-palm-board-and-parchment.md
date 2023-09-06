@@ -6,6 +6,7 @@ date: 2014-11-15T04:04:10.782Z
 lastmod: 2019-07-19T09:09:09-04:00
 cover-img: "/assets/img/2014-11-15_0.jpg"
 subtitle: "A history in cartographic tools"
+tags: ["personal history","mapping"]
 ---
 
 #### 1998

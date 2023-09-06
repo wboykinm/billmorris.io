@@ -5,6 +5,7 @@ author: "Bill Morris"
 date: 2016-10-25T13:36:01.761Z
 lastmod: 2019-07-19T09:09:29-04:00
 cover-img: "/assets/img/2016-10-25_1.png"
+tags: ["politics","mapping"]
 ---
 
 Everything happens somewhere. In the home stretch of this epic presidential campaign season, location awareness can impact the razor-thin vote margins we expect to see in battleground states.

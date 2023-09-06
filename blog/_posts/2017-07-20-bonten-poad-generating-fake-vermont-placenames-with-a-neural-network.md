@@ -6,6 +6,7 @@ date: 2017-07-20T13:07:25.594Z
 lastmod: 2019-07-19T09:09:37-04:00
 subtitle: "Generating fake Vermont placenames with a neural network"
 cover-img: "assets/img/2017-07-20_1.jpeg"
+tags: ["llm","ml","ai","vermont"]
 ---
 
 > “Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”

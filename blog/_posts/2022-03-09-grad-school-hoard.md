@@ -4,7 +4,7 @@ title: "The things he carried"
 date: "2022-03-09T20:42:22-04:00"
 author: "Bill Morris"
 cover-img: "assets/img/2022-03-09_cover.jpg"
-tags: ["stuff", "personal history", "books"]
+tags: ["stuff", "personal history", "books", "maps"]
 subtitle: "Rating items I found while cleaning out my old grad school hoard"
 ---
 

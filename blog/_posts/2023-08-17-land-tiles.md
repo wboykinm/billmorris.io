@@ -4,7 +4,7 @@ title: "Dryland XYZ tiles"
 date: "2023-08-17T09:04:44-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2023-08-17_cover.png"
-tags: ["SQLite", "mapping", "GDAL", "python"]
+tags: ["sqlite", "maps", "gdal", "python", "spatial analysis"]
 subtitle: "In which I discover how much geoprocessing you can get done with inline SQLite"
 readingTime: true
 ---

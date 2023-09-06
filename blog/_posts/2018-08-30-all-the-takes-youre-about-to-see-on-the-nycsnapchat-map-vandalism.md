@@ -5,6 +5,7 @@ author: "Bill Morris"
 date: 2018-08-30T17:37:23.466Z
 lastmod: 2019-07-19T09:09:38-04:00
 cover-img: "/assets/img/2018-08-30_1.png"
+tags: ["osm","maps","vandalism"]
 subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time"
 ---
 

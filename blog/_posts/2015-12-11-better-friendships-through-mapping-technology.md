@@ -5,7 +5,7 @@ author: "Bill Morris"
 date: 2015-12-11T19:05:48.018Z
 lastmod: 2019-07-19T09:09:18-04:00
 cover-img: "/assets/img/2015-12-11_1.png"
-
+tags: ["mapping","travel"]
 ---
 
 I have trouble getting together with friends these days. I’m not alone in this — [distance is a surprising obstacle to maintaining relationships](http://www.vox.com/2015/10/28/9622920/housing-adult-friendship) in the landscape of modern America. Can a hack-of-an-app help?

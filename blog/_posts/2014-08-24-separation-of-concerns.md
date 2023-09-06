@@ -5,8 +5,8 @@ author: "Bill Morris"
 date: 2014-08-24T18:08:18.106Z
 lastmod: 2019-07-19T09:09:06-04:00
 cover-img: "/assets/img/2014-08-24_6.png"
-
 subtitle: "Working with shaded relief and satellite imagery in Mapbox Studio"
+tags: ["mapping"]
 ---
 
 I have a minor quibble.

@@ -5,6 +5,7 @@ author: "Bill Morris"
 date: 2016-08-11T23:21:02.336Z
 lastmod: 2019-07-19T09:09:24-04:00
 cover-img: "/assets/img/2016-08-11_1.png"
+tags: ["urban planning","mapping","cities","vermont","burlington"]
 ---
 
 Bernie Sanders’ hometown of Burlington, VT is tiny: just 200k people in the metro area. Barcelona, on the other hand, clocks in at 4.7 million. 

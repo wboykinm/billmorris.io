@@ -5,6 +5,7 @@ author: "Bill Morris"
 date: 2016-02-04T14:04:49.448Z
 lastmod: 2019-07-19T09:09:19-04:00
 cover-img: "/assets/img/2016-02-04_1.png"
+tags: ["politics"]
 ---
 
 Howdy folks.

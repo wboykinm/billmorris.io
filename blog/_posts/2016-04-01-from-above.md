@@ -5,6 +5,7 @@ author: "Bill Morris"
 date: 2016-04-01T13:48:19.219Z
 lastmod: 2019-07-19T09:09:20-04:00
 cover-img: "/assets/img/2016-04-01_1.jpeg"
+tags: ["culture","satellite","climate","politics","forests"]
 ---
 
 On a plain in western Kenya, mesquite trees flourish where a river spills out of the mountains. Introduced from North America, mesquite [has been used worldwide](http://researchpub.org/journal/jfpi/number/vol3-no4/vol3-no4-1.pdf) for rapid re-afforestation. It sinks deep roots, quickly. It fixes nitrogen and sequesters carbon.
@@ -12,7 +13,7 @@ On a plain in western Kenya, mesquite trees flourish where a river spills out of
 ![image](/shoals/assets/img/2016-04-01_1.jpeg)
 Lake Baringo, Kenya — Image by Digital Globe, 2014
 
-__It’s visible from space.__
+__. . . and it’s visible from space.__
 
 In the global fight against deforestation, Earth-observing satellites have spent decades whirling around the planet, [confirming](http://bassinducongo.reddspot.org/web/en/118-forest-maps.php) successful conservation projects and sounding seemingly-endless [new alarms](http://mashable.com/2015/04/22/forests-artificial-intelligence/#74j9hEsl4uqq) on wildcat miners and on seasonal slash and burn. And the eyes in the sky are about to gain undreamed-of acuity; hundreds of instruments — streaming trillions of pixels dozens of times daily over anywhere on Earth — will be online within the next year or two, part of [a massive space expansion in the private sector](http://www.sparkgeo.com/blog/the-great-space-race-pt1/#.Vv1SqBHaW7Q.twitter). Google, Digital Globe, Planet Labs and a veritable horde of space travelers are headed into orbit.
 

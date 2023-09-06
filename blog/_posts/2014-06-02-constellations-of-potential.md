@@ -6,6 +6,7 @@ date: 2014-06-02T14:40:44.634Z
 lastmod: 2014-06-02T14:40:44.634Z
 cover-img: "/assets/img/2014-06-02_1.png"
 subtitle: "How Google should be thinking about their rumored satellites if they aren’t already (but I bet they are)"
+tags: ["google","mapping", "gps"]
 ---
 
 About 10PM last night, I saw some interesting news dropped:

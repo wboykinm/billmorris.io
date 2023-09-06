@@ -4,7 +4,7 @@ title: "Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]"
 date: "2022-10-10T10:31:42-04:00"
 author: "Bill Morris"
 cover-img: "assets/img/2022-10-10_cover.jpg"
-tags: ["gps", "running", "garmin", "travel", "paris"]
+tags: ["gps", "running", "garmin", "travel", "paris", "maps"]
 subtitle: "In which I learn a thing or two about novel GPS errors."
 ---
 

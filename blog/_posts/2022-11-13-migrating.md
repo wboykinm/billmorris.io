@@ -8,9 +8,7 @@ cover-img: "/assets/img/2022-11-13_mastodon.jpeg"
 tags: ["twitter", "mastodon", "social media", "blog"]
 ---
 
-Y'all.
-
-I've wandered over to Mastodon from Twitter, along with a goodly number of other folks from the broad geo-sphere, and it's . . . nice. Feel easier to post random musings. Less motive, less image. But I rolled back over to Twitter right quick when I wanted to get into the discussion over [a Sunday NYT article about my tiny-ass Vermont city](https://www.nytimes.com/2022/11/12/business/burlington-police-stolen-bikes.html). I have certain communities in my feed, and the #btv folks are still mostly there.
+Y'all. I've wandered over to Mastodon from Twitter, along with a goodly number of other folks from the broad geo-sphere, and it's . . . nice. Feel easier to post random musings. Less motive, less image. But I rolled back over to Twitter right quick when I wanted to get into the discussion over [a Sunday NYT article about my tiny-ass Vermont city](https://www.nytimes.com/2022/11/12/business/burlington-police-stolen-bikes.html). I have certain communities in my feed, and the #btv folks are still mostly there.
 
 The latest drama is not the first time I've considered quitting Twitter altogether. Hell, I probably have another thread exactly like this one from 2016 over there that I've long since forgotten about. But I finally decided to look at my involvement holistically.
 

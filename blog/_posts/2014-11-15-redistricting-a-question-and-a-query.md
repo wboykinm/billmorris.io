@@ -6,6 +6,7 @@ date: 2014-11-15T04:20:01.732Z
 lastmod: 2019-07-19T09:09:10-04:00
 cover-img: "/assets/img/2014-11-15_1.jpg"
 subtitle: "Alert: Both policy AND technology will be discussed below. Bring both your brains. You’ve been warned."
+tags: ["politics","mapping","vermont","burlington"]
 ---
 
 

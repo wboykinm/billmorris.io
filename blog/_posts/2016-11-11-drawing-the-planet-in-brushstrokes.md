@@ -4,7 +4,7 @@ title: "Drawing the planet in brushstrokes"
 date: "2016-11-11T15:54:52.958Z"
 author: "Bill Morris"
 cover-img: "/assets/img/2016-11-11_cover.jpeg"
-tags: ["satellite", "art", "planet", "ai"]
+tags: ["satellite", "art", "planet", "ai", "ml", "mapping"]
 ---
 
 To take my mind off certain things, I’ve been experimenting with a novel style of cartography: **cubism**.
