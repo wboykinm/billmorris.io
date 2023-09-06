@@ -3,7 +3,7 @@ layout: post
 title: "Imagination vs. the Moat"
 date: 2017-12-20T12:00:00-04:00
 author: Bill Morris
-cover-img: "/assets/img/2017-12-20_cover.jpeg"
+cover-img: "/assets/img/2017-12-20_cover.png"
 tags: ["mapping", "google", "apple", "osm"]
 subtitle: "Some thoughts on Justin O'Beirne's meticulous reverse-engineering of Google's geodata infrastructure"
 ---
