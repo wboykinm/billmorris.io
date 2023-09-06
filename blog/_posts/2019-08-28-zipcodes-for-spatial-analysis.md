@@ -11,8 +11,6 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/shoals/assets/img/2019-08-28_zip.jpeg)
-
 We, the data-folk of Faraday, agree wholeheartedly with our colleagues at 
 Carto on this sensitive issue: In the USA, ZIP codes(™) [are the worst-case scenario base unit for measuring geospatial relationships](https://carto.com/blog/zip-codes-spatial-analysis). Because:
 
@@ -62,5 +60,7 @@ Do so cautiously -
 - actively assess results for hidden inequalities
 
 . . . but do it when you must.
+
+![1](/shoals/assets/img/2019-08-28_zip.jpeg)
 
 

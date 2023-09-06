@@ -11,13 +11,13 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/shoals/assets/img/2020-03-09_1.jpg)
-
 My grandmother died last Spring.
 
 We mourn of course, but she lived to 100, saw and did amazing things, and the family has more a sense of respectful awe than anything else. In any case this is actually about a bottle of her perfume that came to me recently.
 
 Chanel #5.
+
+![1](/shoals/assets/img/2020-03-09_1.jpg)
 
 My grandfather was the copilot on a B-24 heavy bomber in WWII, flying from East Anglia to the heart of the third reich. He wrote to my grandmother regularly while he was there, and in September 1944 sent her a small package containing the bottle in question. Letters were scrubbed for operational details at the time, so his only explanation was 
 

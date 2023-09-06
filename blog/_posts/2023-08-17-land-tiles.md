@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Land ho!"
+title: "Dryland XYZ tiles"
 date: "2023-08-17T09:04:44-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2023-08-17_cover.png"

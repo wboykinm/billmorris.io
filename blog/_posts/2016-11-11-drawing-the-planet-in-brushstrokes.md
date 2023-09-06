@@ -7,8 +7,6 @@ cover-img: "/assets/img/2016-11-11_cover.jpeg"
 tags: ["satellite", "art", "planet", "ai"]
 ---
 
-![1](/shoals/assets/img/2016-11-11_cover.jpeg)
-
 To take my mind off certain things, I’ve been experimenting with a novel style of cartography: **cubism**.
 
 I arrived here on a wave of hype via an app called [Prisma](http://prisma-ai.com/) — a nifty take on the “filter-and-share” photo paradigm; it applies a touch of machine learning to redraw your image in an array of artistic styles. You’ve _definitely_ seen the results in the wild, sometimes stunning, sometimes godawful, usually determined by the quality of the source image.

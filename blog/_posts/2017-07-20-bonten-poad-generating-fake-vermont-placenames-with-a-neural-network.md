@@ -8,8 +8,6 @@ subtitle: "Generating fake Vermont placenames with a neural network"
 cover-img: "assets/img/2017-07-20_1.jpeg"
 ---
 
-![image](/shoals/assets/img/2017-07-20_1.jpeg)
-
 > “Yup, take the Pendoil bridge just past Sad Cahue Village, and you’ll be up ta’ Ponkey before ya know it!”
 
 
@@ -60,3 +58,5 @@ Now, these don’t exactly meet my not-totally-formulated standard for “Vermon
 Many thanks to Justin Johnson (whose work [I’ve benefitted from before](https://medium.com/planet-stories/drawing-the-planet-in-brushstrokes-bc54a686fb30)) and Cristian Baldi for making such accessible tools in the brave new world of machine learning.
 
 Try it out yourselves: [here’s a docker image with everything you need](https://github.com/crisbal/docker-torch-rnn)!
+
+![image](/shoals/assets/img/2017-07-20_1.jpeg)

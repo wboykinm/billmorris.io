@@ -11,10 +11,6 @@ readingTime: true
 hideComments: true
 ---
 
-![1](/shoals/assets/img/2021-01-10_goodman.jpeg)
-
-_Officer Eugene Goodman receiving the Joint Meritorious Civilian Service Award, photo by Navy Petty Officer 1st Class Carlos M. Vazquez II_
-
 On November 9, 1938, Goebbels turned the SA loose on Jewish communities throughout Germany, in a pogrom now known as Kristallnacht. With the veneer of a "popular, spontaneous uprising", nazis smashed Jewish business, attacked Jews, and arrested them in the thousands, heralding the horrors to come.
 
 1400 Synagogues were burned or broken.
@@ -44,3 +40,7 @@ Perhaps it's some exceptional bravery and foresight, to know what's morally corr
 Police are hit by crosswinds in these cases: a natural fit with the "order" of fascism, but with a charge to protect their communities above all. Our country (or at least those of us slow to wake) has felt this tension more than usual this past year. I don't expect that Officer Goodman is the only hero whose story will emerge from last week's events, but it echoes with Bellgardt's act. And I wonder, again . . .
 
 __When any of us have a job that requires courage, and the winds are blowing against us, what will we do?__
+
+![1](/shoals/assets/img/2021-01-10_goodman.jpeg)
+
+_Officer Eugene Goodman receiving the Joint Meritorious Civilian Service Award, photo by Navy Petty Officer 1st Class Carlos M. Vazquez II_

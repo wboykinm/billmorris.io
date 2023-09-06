@@ -8,8 +8,6 @@ cover-img: "/assets/img/2018-08-30_1.png"
 subtitle: "That’s right folks, it happened - an OpenStreetMap vandal made it to prime time"
 ---
 
-![1](/shoals/assets/img/2018-08-30_1.png)
-
 That’s right folks, it happened - an OpenStreetMap vandal made it to prime time:
 
 [Anti-Semitic Vandalism Lists New York as &#39;Jewtropolis&#39; on Snapchat, CitiBike, and More](https://gizmodo.com/anti-semitic-vandalism-lists-new-york-as-jewtropolis-on-1828712009)
