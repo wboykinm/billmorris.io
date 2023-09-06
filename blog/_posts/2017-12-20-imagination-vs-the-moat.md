@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Imagination vs. the Moat"

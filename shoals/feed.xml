@@ -221,12 +221,12 @@
       </item>
     
       <item>
-        <title>Imagination Vs The Moat</title>
+        <title>Imagination vs. the Moat</title>
         <description>
-          
-          layout: post title: “Imagination vs. the Moat” date: 2017-12-20T12:00:00-04:00 author: Bill Morris cover-img: “/assets/img/2017-12-20_cover.jpeg” tags: [“mapping”, “google”, “apple”, “osm”] subtitle: “Some thoughts on Justin O’Beirne’s meticulous reverse-engineering of Google’s geodata infrastructure” — I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has...
+          Some thoughts on Justin O&apos;Beirne&apos;s meticulous reverse-engineering of Google&apos;s geodata infrastructure - 
+          I did some doomsaying last night, and it needs following-up, wrapped around the idea of “imagination”. Google has been the mapping incumbent for a decade. They’ve surprised everyone before with their ability to build a smart, disruptive (ugh) map hack and then capitalize on it. But the sort of long-view...
         </description>
-        <pubDate>Wed, 20 Dec 2017 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 20 Dec 2017 11:00:00 -0500</pubDate>
         <link>/shoals/2017/12/20/imagination-vs-the-moat.html</link>
         <guid isPermaLink="true">/shoals/2017/12/20/imagination-vs-the-moat.html</guid>
       </item>

@@ -8,8 +8,7 @@ My homepage
 ### Create a new shell post
 ```
 cd blog
-echo "
----
+echo "---
 layout: post
 title: "MyTitle"
 date: "YYYY-MM-DDTHH:MM:SS-04:00"
