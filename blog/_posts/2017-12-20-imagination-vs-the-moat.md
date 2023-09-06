@@ -21,9 +21,9 @@ Google has been the mapping incumbent for a decade. They've surprised everyone b
 
 Bonus, "Wow, they're on the cutting edge", imagined-Google-activities:
 
-5. Build custom tools for the 1000s of analysts ("Looks like JOSM!")
-6. Buy satellites instead of imagery ("So forward-thinking!")
-7. Experiment with auto-extracting features ("We've been trying since 2002!")
+- Build custom tools for the 1000s of analysts ("Looks like JOSM!")
+- Buy satellites instead of imagery ("So forward-thinking!")
+- Experiment with auto-extracting features ("We've been trying since 2002!")
 
 I assumed these things because this is what everyone else has been up to, to one degree or another. Mapping the world is a cumbersome, resource-intensive, largely-manual process. Whew, I'm tired and my hand hurts from all the digitizing.
 
