@@ -8,7 +8,7 @@ tags: ["satellites", "landsat", "google", "sahara", "agriculture"]
 subtitle: Captivated by timelapses of agriculture in the Sahara.
 ---
 
-[Landsat 1]() launched in 1973, and the world hasn't been the same since. Nearly 50 years later, Google has provided a way of realizing the promise of such a long transect of data, offering [a viewing portal for timelapses anywhere on earth](https://earthengine.google.com/timelapse/) (well, anywhere that the clouds occasionally part).
+[Landsat 1](https://www.usgs.gov/landsat-missions/landsat-1) launched in 1973, and the world hasn't been the same since. Nearly 50 years later, Google has provided a way of realizing the promise of such a long transect of data, offering [a viewing portal for timelapses anywhere on earth](https://earthengine.google.com/timelapse/) (well, anywhere that the clouds occasionally part).
 
 I refer to this tool regularly, but most recently I found examples of amazing human activity, here, in **the middle of the Algerian Sahara**
 
