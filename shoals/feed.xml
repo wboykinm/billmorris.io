@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Perception and reality</title>
+        <description>
+          In which I fall into a well-documented trap of my [our] own devising. - 
+          I was at an amazing conference last week. The combination of a great setting, a warm and welcoming crowd - and a novel format that had us outdoors as much as we were in - led to a feeling of progress and connection that I don’t often get at events...
+        </description>
+        <pubDate>Thu, 21 Sep 2023 12:00:00 -0400</pubDate>
+        <link>/shoals/2023/09/21/perception-and-reality.html</link>
+        <guid isPermaLink="true">/shoals/2023/09/21/perception-and-reality.html</guid>
+      </item>
+    
+      <item>
         <title>Dryland XYZ tiles</title>
         <description>
           In which I discover how much geoprocessing you can get done with inline SQLite - 
@@ -218,17 +229,6 @@
         <pubDate>Thu, 30 Aug 2018 13:37:23 -0400</pubDate>
         <link>/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html</link>
         <guid isPermaLink="true">/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html</guid>
-      </item>
-    
-      <item>
-        <title>A true map</title>
-        <description>
-          The quest for the base unit of Democracy - 
-          Many an earnest cartographer/journalist/opinion-holder is currently debating — with varying degrees of condescension — the utility of the @nytimes’ latest map piece: While some arguments are specious (specifically, I’m not sure what species of monster you have to be to fail to enjoy a good birds-eye perspective), and others are just petty, the most...
-        </description>
-        <pubDate>Sat, 28 Jul 2018 08:31:01 -0400</pubDate>
-        <link>/shoals/2018/07/28/true-map.html</link>
-        <guid isPermaLink="true">/shoals/2018/07/28/true-map.html</guid>
       </item>
     
   </channel>
