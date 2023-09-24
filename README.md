@@ -8,23 +8,29 @@ My homepage
 ### Create a new shell post
 ```
 cd blog
+
+DATE_ISO=$(date +%Y-%m-%d)
 echo "---
 layout: post
-title: "MyTitle"
-date: "YYYY-MM-DDTHH:MM:SS-04:00"
-author: "Bill Morris"
-cover-img: "/assets/img/YYYY-MM-DD_cover.png"
-tags: ["tag1", "tag2"]
-subtitle: "Punchy lead-in"
+title: \"MyTitle\"
+date: \"${DATE_ISO}T12:00:00-04:00\"
+author: \"Bill Morris\"
+cover-img: \"/assets/img/${DATE_ISO}_cover.png\"
+tags: [\"tag1\", \"tag2\"]
+subtitle: \"Punchy lead-in\"
 ---
-" > _posts/YYYY-MM-DD-post-name.md
+" > _posts/${DATE_ISO}-post-name.md
 ```
 
 Add content to the new file, save the post.
 
 ### Adding a cover image
 
-Be sure to add a cover image by using the `image:` tag in the metadata header of the post. Add a string with the relative URL of whatever image best suits the post.
+Be sure to add a cover image by using the `cover-img:` tag in the metadata header of the post. Add a string with the relative URL of whatever image best suits the post.
+
+### Citing publications
+
+When adding footnotes in the markdown syntax (`[^note1]`, etc), refer to [WorldCat](https://www.worldcat.org/title/49206476) to easily copy Chicago-format citations.
 
 ### Adding a bunch of gifs
 
