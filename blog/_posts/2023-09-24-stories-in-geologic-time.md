@@ -44,11 +44,11 @@ I'm reminded of something a teacher suggested to me many years ago: that the fai
 
 I lean toward Kehlmann's perspective, and that of my teacher: that our stories reflect the darkness we visit on _ourselves_, and the hollows we inhabit are just the stages. This is also Carl Sagan's view, beautifully expressed in "The Demon-Haunted World"[^demon] . . .
 
-> The gods watch over us and guide our destinies, many human cultures teach; other entities, more malevolent, are responsible for the existence of evil. Both classes of beings, wether considered natural or supernatural, real or imaginary, serve human needs.
+> The gods watch over us and guide our destinies, many human cultures teach; other entities, more malevolent, are responsible for the existence of evil. Both classes of beings, whether considered natural or supernatural, real or imaginary, serve human needs.
 
 I sit in old mountains as I write this, but they don't feel sinister; they're solemn. They're often described as gentle, and lush with green[^albers]. I think it's no accidental contribution to that vibe that the last cannon was fired in anger here over two hundred years ago, though Vermonters have intimately known the wars of other places in that time[^wilder]. Dark ages result in dark tales, and sometimes the converse is true.
 
-I have great respect for the citizens of Southern Appalachia, but I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
+I have great respect for the folk of Southern Appalachia, and in many ways their lot has been harder than ours up here. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
 
 ## Notes and reading list
 
