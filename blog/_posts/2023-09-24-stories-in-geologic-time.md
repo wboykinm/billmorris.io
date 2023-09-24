@@ -21,7 +21,7 @@ While the complete tapestry of the Appalachian experience is big and complex[^ki
 
 > If you are out in the wilderness and you see something strange, no you didn’t. If you hear something call your name, no you definitely didn’t.
 
-From the start, the Old Gods of Appalachia stories are woven into the fabric of the mountains themselves, partly explained by a vague evil lurking in the bedrock. This will sound familiar[^fellowship] to Tolkein fans:
+From the start, the Old Gods of Appalachia stories are woven into the fabric of the mountains themselves, partly explained by a vague evil lurking in the bedrock. This will sound familiar to Tolkein fans[^fellowship]:
 
 > The dwarves delved too greedily and too deep. You know what they awoke in the darkness of Khazad-dûm: shadow and flame.
 
