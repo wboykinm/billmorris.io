@@ -43,13 +43,13 @@ Of course there's drama, but the _darkness_ is all but absent. To the extent tha
 
 I'm reminded of something a teacher suggested to me many years ago: that the fairy tales collected and compiled by the Brothers Grimm - the "Kinder-und Hausmärchen"[^grimm], laden with violence, gore, cannibalism, and dark forces - were a product of things that the tale-tellers had themselves seen, and perhaps been party to. These fairy tales originated in the period of Central European history defined by the Thirty Years' War[^thirty], the most horrific multigenerational conflict imaginable, full of crimes both documented and hinted at; humans unleashing their own darkness on each other. Daniel Kehlmann takes these stories a step further in his book "Tyll"[^kehlmann], placing the reader in the position of a lore-born figure from that time - a trickster demigod who witnesses the worst we can do.
 
-I lean toward Kehlmann's perspective, and that of my teacher: that our stories reflect the darkness we visit on _ourselves_, and the hollows we inhabit are just the stages. This is also Carl Sagan's view, beautifully expressed in "The Demon-Haunted World"[^demon] . . .
+I lean toward Kehlmann's perspective, and that of my teacher: that our stories reflect the darkness we visit on _ourselves_, and the hollows we inhabit are just the stages. This is also Carl Sagan's view[^demon]:
 
-> The gods watch over us and guide our destinies, many human cultures teach; other entities, more malevolent, are responsible for the existence of evil. Both classes of beings, whether considered natural or supernatural, real or imaginary, serve human needs.
+> The gods watch over us and guide our destinies, many human cultures teach; other entities, more malevolent, are responsible for the existence of evil. Both classes of beings, whether considered natural or supernatural, real or imaginary, serve _human_ needs.
 
 I sit in old mountains as I write this, but they don't feel sinister; they're solemn. They're often described as gentle, and lush with green[^albers]. I think it's no accidental contribution to that vibe that the last cannon was fired in anger here over two hundred years ago, though Vermonters have intimately known the wars of other places in that time[^wilder]. Dark ages result in dark tales, and sometimes the converse is true.
 
-I have great respect for the folk of Southern Appalachia, and in many ways their lot has been harder than ours up here. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
+I have great respect for the folk of Southern Appalachia, and in many ways their lot has been much harder than ours up here. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
 
 ![3](/shoals/assets/img/2023-09-24_3.png)
 <small>The ridges, valleys, and hollers of Grant County, West Virginia (map by me)</small>
