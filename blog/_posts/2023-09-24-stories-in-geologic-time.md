@@ -25,7 +25,7 @@ From the start, the Old Gods of Appalachia stories are woven into the fabric of 
 
 > The dwarves delved too greedily and too deep. You know what they awoke in the darkness of Khazad-dûm: shadow and flame.
 
-Tolkein was drawing on his own intimacy with Norse, Saxon, and Celtic lore - with the tales that suggest there can be more than optical darkness beneath our feet, and that the pre-human histories of those depths can cause all manner of peril for us on the surface. And the bent ridges of Appalachia and the craggy hills of the British Isles are both very old indeed; "ancient" is too new a word[^tacker].
+Tolkein was drawing on his own intimacy with Norse, Saxon, and Celtic lore - with the tales that suggest there can be more than optical darkness beneath our feet, and that the pre-human histories of those depths can cause all manner of peril for us on the surface. And the bent ridges of Appalachia and the craggy hills of the British Isles are both very old indeed; "ancient" is too new a word to describe them[^tacker].
 
 ![1](/shoals/assets/img/2023-09-24_1.png)
 <small>The geological subdivisions of greater Appalachia, grouped by maximum age (data source: [USGS GMNA](https://ngmdb.usgs.gov/gmna/), map by me, full size download [here](https://www.dropbox.com/scl/fi/sondfosw4rqiqc1xcaxsq/Greater_Appalachia_Max_Age_20_6.png?rlkey=x7lle1ay6vphsam47sqzhyaa5&dl=0))</small>
