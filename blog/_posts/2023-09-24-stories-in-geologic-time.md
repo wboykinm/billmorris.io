@@ -13,7 +13,7 @@ Steve Shell and his collaborators have an excellent anthology of gothic horror s
 
 > Long before our kind ever set foot in these mountains, when the peaks of the Blue Ridge towered above the stars, and the heart of the plateau still rolled with ridges tough as pine knobs, darkness was brought here in cages made of fear . . . These are some of the oldest mountains in the world. How dare we think we could break the skin of a god and try to dig out its heart without bringing forth blood and darkness?
 
-Now, I'm not typically one for horror as a genre, but I'm a sucker for a well-told story, in sharp language, particularly if it's been dropped into the slipstream of verifiable history. And the stories that Shell & co go on to tell are familiar to historians and bards both: tales of mine distasters, strikes broken in company towns, of witches and wards and wolves. 
+Now, I'm not typically one for horror as a genre, but I'm a sucker for a well-told story, in sharp language, particularly if it's been dropped into the slipstream of verifiable history. And the stories that Shell & co go on to tell are familiar to historians and bards both: tales of mine disasters, strikes broken in company towns, of witches and wards and wolves. 
 
 ## Chilling stories from bleak mountains
 
@@ -49,7 +49,7 @@ I lean toward Kehlmann's perspective, and that of my teacher: that our stories r
 
 I sit in old mountains as I write this, but they don't feel sinister; they're solemn. They're often described as gentle, and lush with green[^albers]. I think it's no accidental contribution to that vibe that the last cannon was fired in anger here over two hundred years ago, though Vermonters have intimately known the wars of other places in that time[^wilder]. Dark ages result in dark tales, and sometimes the converse is true.
 
-I have great respect for the folk of Southern Appalachia, and in many ways their lot has been much harder than ours up here. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
+I have great respect for the folk of Southern Appalachia, and in many ways their lot has been much harder than ours up here; our extractive period is largely undone[^forest], but the legacy of theirs will linger for centuries[^strip]. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
 
 ![3](/shoals/assets/img/2023-09-24_3.png)
 <small>The ridges, valleys, and hollers of Grant County, West Virginia (map by me)</small>
@@ -77,3 +77,5 @@ Thanks for enduring my first experiment with markdown footnotes. I'm pleased tha
 [^demon]: page 115: Sagan Carl. 1997. _The Demon-Haunted World._ New York: Ballantine Books.
 [^albers]: Albers Jan. 2002. _Hands on the Land : A History of the Vermont Landscape._ Cambridge Mass: MIT.
 [^wilder]: Wilder Frankie. 1862. _The Death of Henry Harrison Wilder._ Burlington: University of Vermont. <https://cdi.uvm.edu/manuscript/uvmcdi-95736>.
+[^forest]: Vermont in particular was famously 80% deforested a century ago; now it is close to 80% afforested. The secret? [Economic inversion and flat population growth](https://web.archive.org/web/20211027162650/https://vtdigger.org/2018/07/15/green-mountains-not-green/).
+[^strip]: The scars are [visible from space](https://web.archive.org/web/20201119091255/https://earthobservatory.nasa.gov/world-of-change/Hobet), and will be for a long time to come.
