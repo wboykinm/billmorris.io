@@ -28,16 +28,16 @@ From the start, the Old Gods of Appalachia stories are woven into the fabric of 
 Tolkein was drawing on his own intimacy with Norse, Saxon, and Celtic lore - with the tales that suggest there can be more than optical darkness beneath our feet, and that the pre-human histories of those depths can cause all manner of peril for us on the surface. And the bent ridges of Appalachia and the craggy hills of the British Isles are both very old indeed; "ancient" is too new a word[^tacker].
 
 ![1](/shoals/assets/img/2023-09-24_1.png)
-<small>The geological subdivisions of greater Appalachia, grouped by maximum age (source: [USGS GMNA](https://ngmdb.usgs.gov/gmna/), map by me.)</small>
+<small>The geological subdivisions of greater Appalachia, grouped by maximum age (data source: [USGS GMNA](https://ngmdb.usgs.gov/gmna/), map by me)</small>
 
-I have a different perspective than Shell and Tolkein. I've lived most of my life among the mountains of _Northern_ Appalachia - "Apple-ayshia", or what the Canadians call the "Uplands". This is the Western part of a once-joined shield; when it split it waved goodbye to what is now Ireland and Scotland, its siblings[^scotland]. This stretch of mountains is partly new. I grew up among the fresh batholiths that form the White Mountains in New Hampshire and the Kingdom Plateau in Vermont, relative newcomers that are still old enough to have since been split by the upstart Connecticut river. But these mountains are a riot of histories. Dozens of orogenies have formed them, and the oldest parts are old like the Earth itself. More than a billion years have passed since some of the stone in my neighborhood was first pushed above the surface.
+I have a different perspective than Shell and Tolkein. I've lived most of my life among the mountains of _Northern_ Appalachia - "Apple-ayshia", or what the Canadians call the "Uplands". This is the Western part of a once-joined shield; when it split it waved goodbye to what are now Ireland and Scotland, its siblings[^scotland]. This stretch of mountains is partly new. I grew up among the fresh granite batholiths that form the White Mountains in New Hampshire and the Kingdom Plateau in Vermont, relative newcomers that are still old enough to have since been split by the upstart Connecticut river. But these mountains are a riot of histories. Dozens of orogenies have formed them, and the oldest parts are old like the Earth itself. More than a billion years have passed since some of the stone in my neighborhood was first pushed above the surface.
 
 ![2](/shoals/assets/img/2023-09-24_2.jpeg)
 <small>Cambrian bedrock thrust above Ordovician shale [in Burlington, Vermont](https://dec.vermont.gov/geological-survey/vermont-geology/CHT), overgrown by tenacious conifers and flooded by the remnants of the Champlain Sea.</small>
 
-Our stories here are different than the ones told by our Southern cousins. The Wabanaki and Mi'kmaq tell of Gluscabi the trickster[^gluscabi], an earthly, meddling god, who is himself very young - whose wise old grandmother keeps trying to set him straight. James Fenimore Cooper gave us heroics and travails and epic journeys[^cooper]. Joe Citro has tried his damnedest to build horrible legends here[^citro], but when he succeeds it's with the raw material of modern lore. Robert Frost[^frost] and David Budbill[^budbill] gift us reflective, playful nature-poems, and Howard Frank Mosher[^mosher] writes about community and redemption in the cross-border culture of these hills. 
+Our stories here are different than the ones told by our Southern cousins. The Wabanaki and Mi'kmaq tell of Gluscabi the trickster[^gluscabi], an earthly, meddling god, who is himself very young - whose wise old grandmother keeps trying to set him straight. James Fenimore Cooper gave us heroics and travails and epic journeys[^cooper]. Joe Citro has tried his damnedest to build horrible legends here[^citro], but when he succeeds it's with the raw material of modern lore. Robert Frost[^frost] and David Budbill[^budbill] gifted us reflective, playful nature-poems, and Howard Frank Mosher[^mosher] wrote about community and redemption in the cross-border culture of these hills. 
 
-Of course there's drama, but the _darkness_ is all but absent. To the extent that it's here, it's because we've brought it on our backs from wherever we wandered. The mountains up here are silent observers, with no stake in our games. But this is the same range where other inhabitants say "No, you didn't. Keep walking."
+Of course there's drama, but the _darkness_ is all but absent. To the extent that it's here, it's because we've brought it on our backs from wherever we wandered. The mountains up here are silent observers, with no stake in our games. But this is the same rock spine that wends its way down to West Virginia and beyond. Ten miles from my house is a storied long-distance hiking trail[^trail] that could take me all the way to "No, you didn't" territory if I followed it. What's at the heart of the difference?
 
 ## Whence the darkness?
 
@@ -52,6 +52,7 @@ I sit in old mountains as I write this, but they don't feel sinister; they're so
 I have great respect for the folk of Southern Appalachia, and in many ways their lot has been harder than ours up here. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
 
 ![3](/shoals/assets/img/2023-09-24_3.png)
+<small>The ridges, valleys, and hollers of Grant County, West Virginia (map by me)</small>
 
 ## Notes and reading list
 
@@ -69,6 +70,7 @@ Thanks for enduring my first experiment with markdown footnotes. I'm pleased tha
 [^frost]: Frost Robert. 1977. _North of Boston : Poems._ New York: Dodd Mead.
 [^budbill]: Budbill David. 1991. _Judevine : The Complete Poems 1970-1990._ Post Mills Vt: Chelsea Green Pub.
 [^mosher]: Mosher Howard Frank. 1985/1978. _Where the Rivers Flow North._ New York N.Y: Penguin Books.
+[^trail]: Shouts to my friend Brendan, currently Southbound on [the Appalachian Trail](https://www.nps.gov/appa/index.htm) and somewhere in the spooky Alleghenies as of this writing.
 [^grimm]: Grimm Wilhelm Jacob Grimm and Oliver Loo. 2014. _The Original 1812 Grimm Fairy Tales : A New Translation of the 1812 First Edition Kinder- Und Hausmärchen Children's and Household Tales._ Pennsylvania: publisher not identified.
 [^thirty]: The brutality of the Thirty Years' War really cannot be overstated. [Millions died in Germany alone](https://en.wikipedia.org/wiki/Thirty_Years%27_War), in a time when that was a big proportion of the total population.
 [^kehlmann]: Kehlmann Daniel and Ross Benjamin. 2020. _Tyll._ First American ed. New York: Pantheon Books.
