@@ -49,7 +49,7 @@ I lean toward Kehlmann's perspective, and that of my teacher: that our stories r
 
 I sit in old mountains as I write this, but they don't feel sinister; they're solemn. They're often described as gentle, and lush with green[^albers]. I think it's no accidental contribution to that vibe that the last cannon was fired in anger here over two hundred years ago, though Vermonters have intimately known the wars of other places in that time[^wilder]. Dark ages result in dark tales, and sometimes the converse is true.
 
-I have great respect for the folk of Southern Appalachia, and in many ways their lot has been much harder than ours up here; our extractive period is largely undone[^forest], but the legacy of theirs will linger for centuries[^strip]. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
+I have great respect for the folk of Southern Appalachia, and in many ways their lot has been much harder than ours up here; our extractive period is largely undone[^forest], while the legacy of theirs will linger for centuries[^strip]. But I think their talent for tying good yarns to the old earth might mask a hard truth: __that we are the cause of our own sorrows.__ To say so doesn't diminish them, but lets us look them straight in the eye.
 
 ![3](/shoals/assets/img/2023-09-24_3.png)
 <small>The ridges, valleys, and hollers of Grant County, West Virginia (map by me)</small>
