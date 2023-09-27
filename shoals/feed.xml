@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>The Latest From Lower Saxony</title>
+        <description>
+          
+          I had given up. My previously-documented enthusiasm for SQLite had run dry, and I had already hammered out another solution. Then Charlie stepped in and saved the day with a window function. The background I’m currently perusing the open data portals of The Bundesrepublik Deutschland, looking at the wealth of...
+        </description>
+        <pubDate>Wed, 27 Sep 2023 12:00:00 -0400</pubDate>
+        <link>/shoals/2023/09/27/lower-saxony.html</link>
+        <guid isPermaLink="true">/shoals/2023/09/27/lower-saxony.html</guid>
+      </item>
+    
+      <item>
         <title>Human stories in geologic time</title>
         <description>
           Recommended reading for disentangling our own curses from the bedrock below - 
@@ -218,17 +229,6 @@
         <pubDate>Wed, 28 Aug 2019 16:16:07 -0400</pubDate>
         <link>/shoals/2019/08/28/zipcodes-for-spatial-analysis.html</link>
         <guid isPermaLink="true">/shoals/2019/08/28/zipcodes-for-spatial-analysis.html</guid>
-      </item>
-    
-      <item>
-        <title>Following a phone case</title>
-        <description>
-          A good old-fashioned ridealong through the global supply chain. - 
-          The order is placed On CyberMonday I ordered one of those custom-printed phone case thingies because Google ran a hard sell. Can’t wait! Hmmm . . . looks like it shipped. Lemme check the status. Holy hell, it’s a map! It shows where my phone case is! Looks like it’s...
-        </description>
-        <pubDate>Mon, 19 Nov 2018 19:13:11 -0500</pubDate>
-        <link>/shoals/2018/11/19/a-journey.html</link>
-        <guid isPermaLink="true">/shoals/2018/11/19/a-journey.html</guid>
       </item>
     
   </channel>
