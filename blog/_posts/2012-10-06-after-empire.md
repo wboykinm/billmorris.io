@@ -7,6 +7,10 @@ cover-img: "/assets/img/2012-10-06_cover.jpg"
 tags: ["history", "literature", "travel", "rome"]
 ---
 
+_AUTHOR'S NOTE, 2023: Heaven help those who revisit their decade-old writing. The piece below is over-the-top, post-apocalytic-zeitgeist-driven, and - worst of all - factually incorrect. At the time I was frankly guessing about the history of Mauretania Tingitana, I name-checked the wrong Ptolemey, and I referenced the Ostrogothic sack of Rome rather than the Visigothic. I have no excuse other than the whimsy of travel at the tail end of an era when the internet wasn't available in everyone's pockets all the time. I leave the text unedited as a warning to my own damn self. For the facts about Sala Colonia, [Wikipedia remains a reasonable starting point](https://en.wikipedia.org/wiki/Chellah#History)._
+
+<hr>
+
 I have the germ of a story for anyone inclined to write a novel of historical fiction:
 
 The Phoenecians came to the mouth of the Bou Regreg river in the 6th century B.C., trading with Berbers who populated the stony but fertile sweep of land between the high Atlas and the open Atlantic. They were succeeded by the Carthaginian empire and then by the Romans at the dawn of the first century, who built a fortified outpost on the site called Sala Colonia. Ptolemy spared a few sentences for it. This was the Southwestern edge of the empire, but they appointed it with paved streets, running water and baths, with statues and temples. Unlike other outposts, it was garrisoned by legionnaires, Roman citizens far from home.
