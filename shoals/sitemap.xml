@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/shoals/2012/10/06/after-empire.html</loc>
+<lastmod>2012-10-06T12:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/shoals/2014/06/02/constellations-of-potential.html</loc>
 <lastmod>2014-06-02T10:40:44-04:00</lastmod>
 </url>
@@ -169,6 +173,10 @@
 <lastmod>2023-09-27T12:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>/shoals/2023/10/22/just-another-dark-age.html</loc>
+<lastmod>2023-10-22T12:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/shoals/</loc>
 </url>
 <url>
@@ -191,5 +199,8 @@
 </url>
 <url>
 <loc>/shoals/page7/</loc>
+</url>
+<url>
+<loc>/shoals/page8/</loc>
 </url>
 </urlset>
