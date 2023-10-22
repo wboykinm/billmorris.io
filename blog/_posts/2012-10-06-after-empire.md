@@ -3,7 +3,7 @@ layout: post
 title: "After Empire"
 date: "2012-10-06T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2012-10-06_cover.png"
+cover-img: "/assets/img/2012-10-06_cover.jpg"
 tags: ["history", "literature", "travel", "rome"]
 ---
 
