@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Political Ppace"
+title: "Political Space"
 date: "2010-11-26T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2010-11-26_cover.png"
@@ -15,11 +15,11 @@ Two recent projects have sought to shed some light on the process of redistricti
 
 > . . . When I, as a mapmaker, have more of an impact than the voters, the system is out of whack.
 
-![1](shoals/assets/img/2010-11-26_2.jpeg)
+![1](/shoals/assets/img/2010-11-26_2.jpeg)
 
 - David Sparks could be referred to as a "Cartographic Political Scientist". [His recent work on redistricting alternatives](https://web.archive.org/web/20120329165333/https://dsparks.wordpress.com/2010/10/18/k-means-redistricting/) should - and most likely will not - be considered at the national level as a fairest way to subdivide the population into voting units. In a manner not unlike the geodemographic segmentation analyses offered by GeoSprocket, he's created voting districts based on the greatest possible contiguity, or the shortest travel distance for voters to their district center. This is a stated - but largely ignored - goal of redistricting today; contiguity is usually only considered when it works to party advantage.
 
-![1](shoals/assets/img/2010-11-26_1.png)
+![1](/shoals/assets/img/2010-11-26_1.png)
 <small>Demo "Contiguous" Districts in North Carolina</small>
 
 Geospatial technologies have proven to be essential tools for partisan demographic division in politics.  In a representative democracy, how can spatial analysis be used to promote real representation?
