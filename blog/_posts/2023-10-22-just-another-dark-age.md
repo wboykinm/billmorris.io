@@ -8,8 +8,6 @@ tags: ["history", "literature", "travel", "rome"]
 subtitle: "Illuminating the things that grow in our gaps of perspective"
 ---
 
-## Cluj-Napoca
-
 In the Summer of 1934, author Patrick Leigh-Fermor entered the Transylvanian city of Kolozsvár, accompanied by his aristocratic lover and chauffered by their enthusiastic wingman. Even distracted as he was by such great company, he took note of his surroundings:
 
 > The old city was full of town-houses and palaces, most of them empty now, with their owners away for the harvest . . . in the great market square, a magnificent equestrian statue showed king Matthias Corvinus in full armour, surrounded by his knights and commanders, while armfuls of crescented and horse-tailed banners were piled as trophies at his feet . . . we had a quick look at the baroque arcades and books and treasures in the splendid Bánffy palace . . . we entered the great Catholic church of St. Michael just as everyone was streaming out from Vespers, and the dusk indoors, lit only by flickering racks of tapers, looked vaster still, and umbrageously splendid . . . an hotel at the end of the main square, called the New York - a great meeting place in the winter season - drew my companions like a magnet.[^woods]
