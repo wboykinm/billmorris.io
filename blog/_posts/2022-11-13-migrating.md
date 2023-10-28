@@ -26,6 +26,6 @@ __I'll be reading more books and going outside. I know that sounds like a weak n
 
 In any case, if you've got more than a few years on that other hellsite I strongly recommend you check out your own trajectory with [this excellent tool from Ian Johnson](https://observablehq.com/@observablehq/save-and-analyze-your-twitter-archive). Take care of yourselves, and you can find me here (as well as blogging more, apparently):
 
-https://vis.social/@bil/109524531064591079
+[https://mastodon.social/@bil](https://mastodon.social/@bil)
 
 
