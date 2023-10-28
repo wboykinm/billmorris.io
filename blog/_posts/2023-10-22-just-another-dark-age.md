@@ -19,7 +19,7 @@ He moved on from the city after a few glorious days, to continue [his fabled foo
 
 <hr>
 
-In the Spring of 1991, author Dervla Murphy - forced by injury to take the train instead of [her own customary walking or cycling](https://en.wikipedia.org/wiki/Dervla_Murphy#Publications) - alighted into the same Transylvanian city. She had headed for Romania within weeks of Ceaușescu's deposition, in the tumult of the USSR's dissolution, looking for stories from the ground. An ardent listener and observer, she noted:
+In the Spring of 1991, author Dervla Murphy - forced by injury to take the train instead of [her own customary walking or cycling](https://en.wikipedia.org/wiki/Dervla_Murphy#Publications) - alighted into the same Transylvanian city. She had headed for Romania within weeks of Ceaușescu's deposition, in the tumult of the USSR's dissolution, looking for stories from the ground. She was a skilled listener, researcher, and observer - and she noted:
 
 > On the summit of Cetatuia Hill I sat on a grassy slope, with my back to the hotel, and gazed over Cluj. To the Dacians and Romans it was Napoca, to the Saxons who founded the modern city Klausenburg, to the Magyars Kolozsvar. In 1974 Ceaușescu decreed that it be known henceforth as Cluj-Napoca, to remind everyone that the Rumanians' forefathers had been settled here a thousand years before the Magyars' forefathers moved west from who-knows-where. Frenetic industrialisation has transformed Cluj since 1970 and from Cetatuia Hill its ancient Centru seems a compact oasis of faded beauty, surrounded by mile after monotonous mile of Ceausescu-land.[^murphy]
 
