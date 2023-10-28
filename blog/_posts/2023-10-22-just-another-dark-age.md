@@ -51,7 +51,7 @@ In the English-speaking world, centuries of historians held to the narrative tha
 
 <small>"Arthur Leading the Charge at Mount Badon", from Tennyson's "Idylls of the King" - by [George Wooliscroft Rhead & Louis Rhead](https://en.wikipedia.org/wiki/Battle_of_Badon#/media/File:Arthur_Leading_the_Charge_at_Mount_Badon.png), 1898</small>
 
-This is, of course, baloney. We now know - through a wealth of secondary and archaeological sources - that culture, trade, and population flourished in Britain between the retreat of Rome and the onslaught of the late medieval rulers and writers, in a rollercoaster of alternating prosperity and decay that would be familiar to us in better-recorded eras. It would have been familiar to other parts of Europe through those centuries as well. Social entropy is perennial, but so is social progress.
+This is, of course, baloney. We now know - through a wealth of secondary and archaeological sources - that culture, trade, and population flourished in Britain between the retreat of Rome and the onslaught of the late medieval rulers and their chroniclers, in a rollercoaster of alternating prosperity and decay that would be familiar to us in better-recorded eras. It would have been familiar to other parts of Europe through those centuries as well. Social entropy is perennial, but so is social progress.
 
 In [their 2022 book "The Bright Ages"](https://www.harpercollins.com/products/the-bright-ages-matthew-gabrieledavid-m-perry) (I'm sure you can see where this is going), Matthew Gabriele and David M. Perry are a bit more direct: 
 
