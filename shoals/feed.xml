@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Just Another Dark Age</title>
+        <description>
+          Illuminating the things that grow in our gaps of perspective - 
+          Cluj-Napoca In the Summer of 1934, author Patrick Leigh-Fermor entered the Transylvanian city of Kolozsvár, accompanied by his aristocratic lover and chauffered by their enthusiastic wingman. Even distracted as he was by such great company, he took note of his surroundings: The old city was full of town-houses and palaces,...
+        </description>
+        <pubDate>Sat, 28 Oct 2023 12:00:00 -0400</pubDate>
+        <link>/shoals/2023/10/28/just-another-dark-age.html</link>
+        <guid isPermaLink="true">/shoals/2023/10/28/just-another-dark-age.html</guid>
+      </item>
+    
+      <item>
         <title>The Latest From Lower Saxony</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Mon, 11 Nov 2019 11:00:00 -0500</pubDate>
         <link>/shoals/2019/11/11/twitter-in-2019.html</link>
         <guid isPermaLink="true">/shoals/2019/11/11/twitter-in-2019.html</guid>
-      </item>
-    
-      <item>
-        <title>A full-throated defense of using Zipcodes for spatial analysis</title>
-        <description>
-          Psych. It&apos;s actually a meek defense. - 
-          We, the data-folk of Faraday, agree wholeheartedly with our colleagues at Carto on this sensitive issue: In the USA, ZIP codes(™) are the worst-case scenario base unit for measuring geospatial relationships. Because: They’re widely-varying in size &amp;amp; shape They contain populations that range from 0 into the hundreds of thousands...
-        </description>
-        <pubDate>Wed, 28 Aug 2019 16:16:07 -0400</pubDate>
-        <link>/shoals/2019/08/28/zipcodes-for-spatial-analysis.html</link>
-        <guid isPermaLink="true">/shoals/2019/08/28/zipcodes-for-spatial-analysis.html</guid>
       </item>
     
   </channel>
