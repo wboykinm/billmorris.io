@@ -79,7 +79,7 @@ A dark age is a gap in perspective - the perspective of the observer. In the cas
 ![1](/shoals/assets/img/2023-10-22_5.jpeg)
 <small>Standing Lamp With Running Dogs, Byzantine, ca. 400-600CE, [Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search/468593)</small>
 
-The folks who _really_ have no excuse are the historians - armchair and professional - who persist in maintaining the construct of the unknowable, chaotic medieval period; mercifully their numbers seem to have receded in the 20th and 21st centuries. Also excuseless - and troublingly, more plentiful - are the leaders who invoke the dark ages to draw fear out of their constituents and subjects, who liken Honduran or Syrian refugees to Visigoths, who equate capital-P-progress with the collapse of empire. 
+The folks who _really_ have no excuse are the historians - armchair and professional - who persist in maintaining the construct of the unknowable, chaotic medieval period; mercifully their numbers seem to have receded in the 20th and 21st centuries. Also excuseless - and troublingly, more plentiful - are the leaders who [invoke the dark ages](https://www.bbc.com/news/live/world-middle-east-67258466?ns_mchannel=social&ns_source=twitter&ns_campaign=bbc_live&ns_linkname=653fe8708ae7803bb6845b25%26Netanyahu%20says%20world%20must%20be%20%27willing%20to%20fight%20the%20barbarians%27%262023-10-30T17%3A42%3A17.693Z&ns_fee=0&pinned_post_locator=urn:asset:5554d60f-439e-4d2a-b813-c5ed29fb9934&pinned_post_asset_id=653fe8708ae7803bb6845b25&pinned_post_type=share) to draw fear out of their constituents and subjects, who liken Honduran or Syrian refugees to Visigoths, who equate capital-P-progress with the collapse of empire. 
 
 As Gabriele and Perry put it:
 
