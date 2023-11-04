@@ -5,7 +5,6 @@ date: "2011-07-25T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2011-07-25_cover.png"
 tags: ["mapping", "history"]
-draft: true
 ---
 
 Herodotus laid down his world on parchment with ink. Samuel de Champlain traveled with paper and pencil. They - and every mapmaker in between and since - created map objects that were imbued with authority.
