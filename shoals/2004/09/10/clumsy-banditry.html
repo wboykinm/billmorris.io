@@ -9,13 +9,13 @@
 
   
 
-  <title>GeoASCII</title>
+  <title>Clumsy banditry</title>
 
   
   <meta name="author" content="Bill Morris">
   
 
-  <meta name="description" content="A throwback mapping technique at the modern console">
+  <meta name="description" content="Here I sit in air-conditioned Santo Domingo, typing with my left hand because my right is currently in a cast, wrist sprained but fortunately not broken. I will likely soon be found by the Dominican constabulary and disavowed by the US embassy. For those of you who are interested and...">
 
   
 
@@ -78,19 +78,19 @@
 
   
   <meta property="og:site_name" content="Shoals">
-  <meta property="og:title" content="GeoASCII">
-  <meta property="og:description" content="A throwback mapping technique at the modern console">
+  <meta property="og:title" content="Clumsy banditry">
+  <meta property="og:description" content="Here I sit in air-conditioned Santo Domingo, typing with my left hand because my right is currently in a cast, wrist sprained but fortunately not broken. I will likely soon be found by the Dominican constabulary and disavowed by the US embassy. For those of you who are interested and...">
 
   
-  <meta property="og:image" content="/shoals/assets/img/2015-03-11_11.png">
+  <meta property="og:image" content="/shoals/assets/img/2004-09-10_cover.jpeg">
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Bill Morris">
-  <meta property="og:article:published_time" content="2015-03-10T22:59:38-04:00">
-  <meta property="og:url" content="/shoals/2015/03/10/geoascii.html">
-  <link rel="canonical" href="/shoals/2015/03/10/geoascii.html">
+  <meta property="og:article:published_time" content="2004-09-10T12:00:00-04:00">
+  <meta property="og:url" content="/shoals/2004/09/10/clumsy-banditry.html">
+  <link rel="canonical" href="/shoals/2004/09/10/clumsy-banditry.html">
   
 
   
@@ -99,11 +99,11 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="GeoASCII">
-  <meta property="twitter:description" content="A throwback mapping technique at the modern console">
+  <meta property="twitter:title" content="Clumsy banditry">
+  <meta property="twitter:description" content="Here I sit in air-conditioned Santo Domingo, typing with my left hand because my right is currently in a cast, wrist sprained but fortunately not broken. I will likely soon be found by the Dominican constabulary and disavowed by the US embassy. For those of you who are interested and...">
 
   
-  <meta name="twitter:image" content="/shoals/assets/img/2015-03-11_11.png">
+  <meta name="twitter:image" content="/shoals/assets/img/2004-09-10_cover.jpeg">
   
 
   
@@ -633,7 +633,7 @@
     
     
       
-      data-img-src-1="/shoals/assets/img/2015-03-11_11.png"
+      data-img-src-1="/shoals/assets/img/2004-09-10_cover.jpeg"
     
     
     
@@ -647,15 +647,11 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>GeoASCII</h1>
-          
-            
-              <h2 class="post-subheading">A throwback mapping technique at the modern console</h2>
-            
+          <h1>Clumsy banditry</h1>
           
 
           
-            <span class="post-meta">Posted on March 10, 2015</span>
+            <span class="post-meta">Posted on September 10, 2004</span>
             
             
           
@@ -671,15 +667,11 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>GeoASCII</h1>
-          
-            
-              <h2 class="post-subheading">A throwback mapping technique at the modern console</h2>
-            
+          <h1>Clumsy banditry</h1>
           
 
           
-            <span class="post-meta">Posted on March 10, 2015</span>
+            <span class="post-meta">Posted on September 10, 2004</span>
             
             
           
@@ -703,61 +695,32 @@
       
 
       <article role="main" class="blog-post">
-        <p>I’ve recently been spending a lot of time on Faraday’s remote servers, running one PostGIS operation after another in search of idealized geometries or custom market borders. In each case, I like to do a visual check to see that I haven’t created a node-sharing, topologically-laughable geo-monster before handing it off to another process on the same server.</p>
+        <p>Here I sit in air-conditioned Santo Domingo, typing with my left hand because my right is currently in a cast, wrist sprained but fortunately not broken. I will likely soon be found by the Dominican constabulary and disavowed by the US embassy. For those of you who are interested and have the time, I herein relate the explanation.</p>
 
-<p>My current workflow is to dump the geometry as geojson, grab the file to my local machine, and open it in QGIS or geojson.io — which is an extra minute at least for every look at a feature. I sometimes need to do this dozens of times an hour as I debug and optimize. Obviously this is complete crap, but there’s no easy way around it when the command line is the only window into the data.</p>
+<h2 id="the-background">The Background</h2>
 
-<h3 id="the-old-ways">The old ways</h3>
+<p>The village of Vuelta Larga is located just within the boundaries of the Mount Guaconejo Scientific Reserve. In 1999, the newly-formed department of the environment put the area under state protection for its fairly remarkable biodiversity, but the locals had already earned a regional (the region being primarily a bastion of slash-and-burn) reputation for being “Crazy bastards who keep their trees” (Although perhaps something is lost there in the translation). Point being, there exists a goodly amount of rare old growth around town, and the people are pretty careful with it.</p>
 
-<p><img src="/shoals/assets/img/2015-03-11_1.gif" alt="image" /></p>
+<p>But really, they just want a road. The 225 citizens of Vuelta Larga have spent twenty years petitioning the government for access into the Nagua river valley, but the excuses from the public works office have only become more creative (“Um . . . a woodpecker hijacked the backhoe?”). Crops have been lost, people have died because of medivac impossibility, and the inexorable migration to the cities continues, three or four families per year.</p>
 
-<p>Multispectral classification of Landsat MSS data from the Salton Sea in California. From “Remote Sensing: Principles and Interpretation” by Floyd Sabins, 1978</p>
+<p>Enter gringo power. Perhaps (i.e.: assuredly) it was a stroke of luck, but when I found out that a road was the village’s priority, and began making inquiries at the regional planning offices, the engineers were happy to help. A battle-scarred, exhaust-belching bulldozer – driven by a large man with a generally bitter disposition – arrived in August, and has to date plowed four kilometers of undulating road just uphill from the river; by following an old herd path, it mostly avoided any protected trees. A grader is promised to follow. What has not been promised, however, is a bridge to span the wide tributary stream called the Arroyo Bellaco (If one takes anthropomorphism to heart, it’s worth noting that this translates to “The Deceitful Villain”).</p>
 
-<p>From my remote sensing days at BU, I recalled my professors chuckling about how — in the dim ages before Arc/Info and most other raster processing systems — they would classify Landsat MSS data and then print out the results using ASCII characters in a grid. (After which they’d open beers with their teeth, calibrate their spectroradiometer lens with a hammer and toss the instrument into orbit with their bare hands. Those were the days).</p>
+<p>Calling a meeting last Friday night, Jacinto – the village’s “Go-To” guy – outlined a plan for building a bridge with local materials: some big trees. The forty men in attendance were hugely enthusiastic for the plan, although the several handles of rum also present were most likely to blame for that. Still, they all agreed that work would begin the following morning; it was uncertain if anyone actually knew how to build a bridge, but come hell or high water (both likely) they’d damn well try.</p>
 
-<p>So why not check to see if this sort of thing exists today? I floated a not-too-desperate-sounding trial balloon on twitter:</p>
+<p>I stood silently in the back for most of the meeting, trying to piece together an argument for not using any protected wood, but I simply discovered that I didn’t know my own stance on the issue. Ethics escaped me. I was horrified that they would take down any tree protected by law, but I started thinking of some darn valid justifications. The government would only help so much before you had to bribe them, so this was simply local initiative at work to solve a problem. They would only take twenty trees in a forest of thousands, and from dispersed locations. Moving into overanalysis, I thought that protecting land without alleviating the pressures of poverty was foolish of the department of the environment to begin with. But ultimately I was still just the foreigner trying to fit in, so I showed up to work the next morning alongside the hungover farmers.
+The day of tree-jacking did not go well for me.</p>
 
-<p><img src="/shoals/assets/img/2015-03-11_10.png" alt="image" /></p>
+<h2 id="the-brief-aside">The Brief Aside</h2>
 
-<p>And let me remind you all that the internet is indeed awesome, because . . .</p>
+<p>There comes to every life certain moments where the negative overload produces a blessed influx of bleak comedy. I reference the new year’s eve spent as a waiter at a less-than-fine dining establishment. A buddy and I had both reached a critical mass of tables served simultaneously, customers pissed off by the wait and champagne corks fired at unsuspecting chandeliers; we were frazzled, spines compressing under the weight of the trays we bore into the dining room. When the cheap-hire band – dipping deep into their drying reservoir of material – broke into “The Battle Hymn of the Republic,” we exchanged a look of despair breaking rapidly to laughter. Dark humor was the only mood possible.</p>
 
-<h3 id="solutions">Solutions</h3>
+<h2 id="the-incident">The Incident</h2>
 
-<p>Three separate tools were thrown at me:</p>
+<p>So it was concerning that morning. By the time the logs were downed, squared and ready for moving, I had already smashed a neighbor’s axe handle to bits on a particularly resilient bit of heartwood. I had already been growled at for bringing up the nagging point that the forestry service might notice if we took two trees from any one spot. I had already floundered fully-clothed into a neck-deep pool while running a log down the river. I had even performed some show-stopping acrobatics, slipping downhill on an exposed root, flinging my unsheathed machete out of the way and landing on my ass, rapidly jumping to my feet while shouting “I’m okay!” and promptly slamming my head into a low cocoa branch. My reputation as the accident-prone gringo was being steadily solidified.</p>
 
-<h4 id="gj2ascii">gj2ascii</h4>
+<p>The next evolution found me holding up the back end of a half-ton section of protected tropical hardwood, straining along with seven locals to bring it to the construction site. The others suddenly let go, thoughtfully leaving me the entire weight, which promptly floored me. When I got out from under the log and found I couldn’t move my right wrist, the only thing to do was laugh.</p>
 
-<p><a href="https://twitter.com/geowurster">Kevin Wurster</a> wrote <a href="https://github.com/geowurster/gj2ascii">gs2ascii</a>, a fully-formed python module that cycles well through multiple features:</p>
-
-<p><img src="/shoals/assets/img/2015-03-11_2.png" alt="image" /></p>
-
-<p><strong>Update — August 13, 2015:</strong> Kevin added emoji functions. Heaven help us.</p>
-
-<p><img src="/shoals/assets/img/2015-03-11_3.png" alt="image" /></p>
-
-<h4 id="geojsontoascii"><a href="https://gist.github.com/dnomadb/62d629216e19906c53d3"><strong>geojsontoascii</strong></a></h4>
-
-<p><a href="https://twitter.com/DnomadB">Damon Burgett</a> put together a streamlined <a href="https://gist.github.com/dnomadb/62d629216e19906c53d3">script</a> (also python — I blame <a href="https://twitter.com/sgillies">Sean Gillies</a> for this nonsense) to do the same:</p>
-
-<p><img src="/shoals/assets/img/2015-03-11_4.png" alt="image" /></p>
-
-<h4 id="geotype">geotype</h4>
-
-<p>And <a href="https://twitter.com/morganherlocker">Morgan Herlocker</a> cryptically teased something called <a href="https://github.com/morganherlocker/geotype">“GeoType”</a> that seems to do %$#&amp;in’ <strong>colors</strong> at the command line:</p>
-
-<p><img src="/shoals/assets/img/2015-03-11_11.png" alt="image" /></p>
-
-<p>. . . then upped the craziness:</p>
-
-<p><img src="/shoals/assets/img/2015-03-11_12.png" alt="image" /></p>
-
-<p>I thank you all — this is exactly the sort of thing I was looking for.</p>
-
-<h3 id="alternatives">Alternatives</h3>
-
-<p>My colleagues <a href="https://twitter.com/devTristan">Tristan Davies</a> and <a href="https://twitter.com/TeslaNick">Nick Husher</a> pointed out two other solutions to my original problem: Use the <a href="https://github.com/mapbox/geojson.io/blob/gh-pages/API.md#datadataapplicationjson">geojson.io API</a> (if the geometry is simple enough), or <a href="https://gist.github.com/caspyin/2288960#post">POST to a gist</a> using the github API. Then in both cases just visit the URL. <a href="https://twitter.com/jwass2000">Jake Wasserman</a> built <a href="https://github.com/jwass/geojsonio.py">yet another python tool</a> to make that easier.</p>
-
-<p>But I’m a geohipster, and I prefer the cartographic equivalent of hand-milled artisanal mustache wax.</p>
+<p>So I chortled at the bleakness, splinted the wrist and sat out the afternoon heat with the farmers in the shade by the side of the road. There I observed the bulldozer – on cleanup duty after the logs had been taken down – lose a half-hour battle with the stump of a hundred-year-old tree, and I continued the laughter well out of the driver’s earshot.</p>
 
       </article>
 
@@ -765,7 +728,11 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/shoals/tags#mapping">mapping</a>
+            <a href="/shoals/tags#peace corps">peace corps</a>
+          
+            <a href="/shoals/tags#tropics">tropics</a>
+          
+            <a href="/shoals/tags#travel">travel</a>
           
         </div>
       
@@ -784,12 +751,12 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/shoals/2014/12/01/this-is-not-a-post-about-ello.html" data-toggle="tooltip" data-placement="top" title="This is not a post about Ello">&larr; Previous Post</a>
+          <a class="page-link" href="/shoals/2004/07/01/happenings.html" data-toggle="tooltip" data-placement="top" title="Happenings about town">&larr; Previous Post</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/shoals/2015/04/24/caught-in-the-cartographic-crossfire.html" data-toggle="tooltip" data-placement="top" title="Caught in the Cartographic Crossfire">Next Post &rarr;</a>
+          <a class="page-link" href="/shoals/2010/11/26/political-space.html" data-toggle="tooltip" data-placement="top" title="Political Space">Next Post &rarr;</a>
         </li>
         
       </ul>
