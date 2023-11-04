@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Happenings about town"
-date: "2004-07-01T12:00:00-04:00"
+date: "2003-11-01T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2004-07-01_cover.jpeg"
+cover-img: "/assets/img/2003-11-01_cover.jpeg"
 tags: ["peace corps", "tropics", "travel"]
 ---
 

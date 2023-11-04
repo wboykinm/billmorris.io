@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Clumsy banditry"
-date: "2004-09-10T12:00:00-04:00"
+date: "2004-02-10T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2004-09-10_cover.jpeg"
+cover-img: "/assets/img/2004-02-10_cover.jpeg"
 tags: ["peace corps", "tropics", "travel"]
 ---
 
