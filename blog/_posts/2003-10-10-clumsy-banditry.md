@@ -33,3 +33,6 @@ So it was concerning that morning. By the time the logs were downed, squared and
 The next evolution found me holding up the back end of a half-ton section of protected tropical hardwood, straining along with seven locals to bring it to the construction site. The others suddenly let go, thoughtfully leaving me the entire weight, which promptly floored me. When I got out from under the log and found I couldn’t move my right wrist, the only thing to do was laugh.
 
 So I chortled at the bleakness, splinted the wrist and sat out the afternoon heat with the farmers in the shade by the side of the road. There I observed the bulldozer – on cleanup duty after the logs had been taken down – lose a half-hour battle with the stump of a hundred-year-old tree, and I continued the laughter well out of the driver’s earshot.
+
+![1](/shoals/assets/img/2003-10-10_1.jpeg)
+<small>The bridge, in the end.</small>
