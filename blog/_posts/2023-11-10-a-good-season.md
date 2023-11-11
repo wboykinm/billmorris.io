@@ -4,7 +4,7 @@ title: "A good season"
 date: "2023-11-10T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2023-11-10_cover.jpeg"
-tags: ["climate", "dataviz", "winter", "skiing"]
+tags: ["climate", "dataviz", "winter", "skiing", "vermont"]
 ---
 
 The snow is flying this morning in Vermont - early, it seems - and therefore it's as good a time as any to reflect on _last_ winter in the Northeastern mountains.
