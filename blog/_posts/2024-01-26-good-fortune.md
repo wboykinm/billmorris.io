@@ -33,4 +33,6 @@ _Handling "The World in Terms of General Motors", 1937_
 I think Ben was only a little disappointed to learn that his collection was worth more as spiritual and creative currency to us nerds than as hard cash to the general public. He had originally been attracted to Fortune because of the artistry of the covers, and it was an additional victory to find such amazing work within.
 
 ![1](/shoals/assets/img/2024-01-26_1.jpeg)
-_Ben's copy of "South American in Globular Perspective", 1937_
+_Ben's copy of "South America in Globular Perspective", 1937_
+
+. . . and I was lucky to hold some originals in my own paws, before returning to my daily work of pixels.
