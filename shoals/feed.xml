@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Good Fortune</title>
+        <description>
+          
+          Last week I was visiting Ben, a friend of mine, and - as middle-aged men are wont to do - we got onto the subject of collections. While my own accumulative tendencies are focused on backpacks and skis, it emerged that Ben is a collector of vintage posters and magazines....
+        </description>
+        <pubDate>Fri, 26 Jan 2024 11:00:00 -0500</pubDate>
+        <link>/shoals/2024/01/26/good-fortune.html</link>
+        <guid isPermaLink="true">/shoals/2024/01/26/good-fortune.html</guid>
+      </item>
+    
+      <item>
         <title>Thank your heroes</title>
         <description>
           In memoriam: Jarlath O&apos;Neil-Dunne - 
@@ -218,17 +229,6 @@
         <pubDate>Sun, 10 Jan 2021 17:17:00 -0500</pubDate>
         <link>/shoals/2021/01/10/otto-and-eugene.html</link>
         <guid isPermaLink="true">/shoals/2021/01/10/otto-and-eugene.html</guid>
-      </item>
-    
-      <item>
-        <title>Democratizing data science where it counts</title>
-        <description>
-           - 
-          We at Faraday are data science experts. We have a collective century of experience in the mystical arts of data whispering; we’ve transformed oceans of rows and columns, built and discarded thousands of databases, and molded far-seeing algorithms in a dozen programming languages. But we mostly use SQL. SQL is...
-        </description>
-        <pubDate>Tue, 14 Jul 2020 16:48:15 -0400</pubDate>
-        <link>/shoals/2020/07/14/sql.html</link>
-        <guid isPermaLink="true">/shoals/2020/07/14/sql.html</guid>
       </item>
     
   </channel>
