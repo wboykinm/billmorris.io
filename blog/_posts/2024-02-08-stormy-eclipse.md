@@ -39,3 +39,5 @@ The gist seems to be that local relief (i.e. the presence of mountains) increase
 <small><i>Transect map by J. Anderson</i></small>
 
 I'm not actually surprised that I haven't seen this potential for cloudy party-ruination mentioned in the [increasingly breathless local press about the event](https://www.sevendaysvt.com/news/from-the-deputy-publisher-there-goes-the-sun-40145321). We're Vermonters; we may seem cold (Thanks, Noah), but deep down we're an optimistic lot. I'll be crossing my fingers.
+
+<i>([Here's a GeoJSON file of the eclipse centerline](https://gist.github.com/wboykinm/9b9f15cc15068b93b6da0084f94fd3ee), if you're looking to do some mapping of your own.)</i>
