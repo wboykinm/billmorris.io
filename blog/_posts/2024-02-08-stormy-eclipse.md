@@ -10,7 +10,7 @@ subtitle: "An apprehensive survey of solar eclipse mapping, as it pertains to Ve
 
 A total solar eclipse is coming to Vermont! Burlington is right in the path of the totality! [Every hotel room and rental](https://www.wcax.com/2023/10/13/hotels-lodgings-book-up-anticipation-total-solar-eclipse/) in Chittenden, Franklin, and Grand Isle counties is booked! [Transports are sold out!](https://www.powder.com/trending-news/jay-peak-whiteout) The scale of the tourism impact [is being compared to multipliers of Super Bowls](https://www.forbes.com/sites/jamiecartereurope/2023/12/19/it-will-be-like-50-super-bowls-happening-at-the-same-time/?sh=361bc79a497b)! 
 
-A quick look at this [Great American Eclipse](https://www.greatamericaneclipse.com/) map of - for lack of a better term - "drivesheds" suggests that the entire populations of Boston, Hartford, and New Haven will be motoring North to join us for the event:
+A quick look at this [Great American Eclipse](https://www.greatamericaneclipse.com/) map of - for lack of a better term - "drivesheds" suggests that the entire populations of Boston and New York will be motoring North to join us for the event:
 
 ![1](/shoals/assets/img/2024-02-08_4.png)
 <small><i>Map by M. Zeiler</i></small>
@@ -26,12 +26,14 @@ I'm as happy as the next green-blooded Vermonter about being the center of atten
 
 __Seattle has more sunny days per year than Burlington.__
 
-We turn now to a _different_ map; perhaps a less-joyful one. [A map by the data-ninja Chris Ingraham](https://www.washingtonpost.com/news/wonk/wp/2015/07/13/map-where-americas-sunniest-and-least-sunny-places-are/) from his days at the Washington Post. A map that makes it clear we're dealing with a potentially bleak roll of the dice for being able to actually _see_ the totality when it rolls overhead. (This piece is 8 years old, reflecting data that is over a decade old, but if anything the cloudiness situation [may be trending _worse_](https://www.nhpr.org/nh-news/2023-08-21/new-england-whats-up-with-the-wet-weather-this-summer).)
+We turn now to a _different_ map; perhaps a less-joyful one. [A map by the data-ninja Chris Ingraham](https://www.washingtonpost.com/news/wonk/wp/2015/07/13/map-where-americas-sunniest-and-least-sunny-places-are/) from his days at the Washington Post. A map that makes it clear we're dealing with a potentially bleak roll of the dice for being able to actually _see_ the totality when it flies overhead. (This piece is 8 years old, reflecting data that is over a decade old, but if anything the cloudiness situation [may be trending _worse_](https://www.nhpr.org/nh-news/2023-08-21/new-england-whats-up-with-the-wet-weather-this-summer).)
 
 ![2](/shoals/assets/img/2024-02-08_2.png)
 <small><i>Map by C. Ingraham</i></small>
 
-Other sky-watchers _have_ taken the clouds into consideration when planning for the eclipse. This [thorough report from Eclipsophile (an actual website!)](https://eclipsophile.com/2024tse/#Vermont_New_Hampshire_Quebec_and_Maine_to_New_Brunswick) shows that we're likely to have 70% cloud cover in April! But it could be worse - we could be in Jackson New Hampshire, pushing 90% coverage. The gist seems to be that local relief (i.e. the presence of mountains) increases the likelihood for cloud cover. Plattsburgh might be your best bet for the Northeast, and lord knows they could use the tourism. If you're up for a beast of a road trip, Prince Edward Island could be the only clearer look this side of the Mississippi.
+Other sky-watchers _have_ taken the clouds into consideration when planning for the eclipse. This [thorough report from Eclipsophile](https://eclipsophile.com/2024tse/#Vermont_New_Hampshire_Quebec_and_Maine_to_New_Brunswick) shows that we're likely to have 70% cloud cover in April! But it could be worse - heaven help the folks in Montpelier, or [those likely ascending into the Jay Cloud](https://www.powder.com/trending-news/jay-peak-whiteout). Hell, we could be in Jackson New Hampshire, pushing 90% likelihood of overcast. 
+
+The gist seems to be that local relief (i.e. the presence of mountains) increases the likelihood for cloud cover. Plattsburgh might be your best bet for the Northeast, and lord knows they could use the tourism. If you're up for a beast of a road trip, Prince Edward Island could be the only clearer look this side of the Mississippi.
 
 ![3](/shoals/assets/img/2024-02-08_3.png)
 <small><i>Transect map by J. Anderson</i></small>
