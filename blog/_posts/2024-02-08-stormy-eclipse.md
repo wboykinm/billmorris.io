@@ -24,7 +24,7 @@ The path of the eclipse leaps away from the St. Lawrence as though it simply _mu
 
 I'm as happy as the next green-blooded Vermonter about being the center of attention during a momentous event (I've bulk-purchased viewing glasses for the friends and family who'll be rolling in for the festivities). But as a longtime Burlingtonian, I'm . . . uneasy. You see, beneath our veneer of majestic mountain vistas and pristine natural environment lurks a dark secret:
 
-__Seattle has more sunny days per year than Burlington.__
+> _Seattle_ has more sunny days per year than Burlington.
 
 We turn now to a _different_ map; perhaps a less-joyful one. [A map by the data-ninja Chris Ingraham](https://www.washingtonpost.com/news/wonk/wp/2015/07/13/map-where-americas-sunniest-and-least-sunny-places-are/) from his days at the Washington Post. A map that makes it clear we're dealing with a potentially bleak roll of the dice for being able to actually _see_ the totality when it flies overhead. (This piece is 8 years old, reflecting data that is over a decade old, but if anything the cloudiness situation [may be trending _worse_](https://www.nhpr.org/nh-news/2023-08-21/new-england-whats-up-with-the-wet-weather-this-summer).)
 
