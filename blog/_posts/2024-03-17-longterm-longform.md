@@ -3,7 +3,7 @@ layout: post
 title: "Long-term longform"
 date: "2024-03-17T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2024-03-17_cover.png"
+cover-img: "/assets/img/2024-03-17_cover.jpeg"
 tags: ["history", "media", "podcasts"]
 subtitle: "I am not a podcaster. I would never dare. But I am a ravenous listener of a certain kind."
 ---
