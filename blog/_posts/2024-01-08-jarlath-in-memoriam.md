@@ -3,7 +3,7 @@ layout: post
 title: "Thank your heroes"
 date: "2024-01-08T12:00:00-04:00"
 author: "Bill Morris"
-tags: ["memorial", "mapping", "vermont", "geography"]
+tags: ["memorial", "mapping", "vermont", "geography", "gratitude"]
 subtitle: "In memoriam: Jarlath O'Neil-Dunne"
 ---
 

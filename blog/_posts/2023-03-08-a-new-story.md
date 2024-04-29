@@ -24,3 +24,5 @@ I'm in the dangerous position of being able to construct multiple narratives abo
 Time to get to work on a new story.
 
 ![1](/shoals/assets/img/2023-03-08_knee.png)
+
+_Update April 2024: The author was being understandably dramatic above, but [things got better](https://billmorris.io/shoals/2024/04/29/cycling-gratitude.html)._
