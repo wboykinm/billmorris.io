@@ -27,7 +27,7 @@ navbar-links:
 baseurl: "/shoals" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-avatar: "/assets/img/avatar-4.png"
+avatar: "/assets/img/avatar-5.webp"
 round-avatar: true
 
 social-network-links:
