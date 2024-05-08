@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Krakow, October 2021</title>
+        <description>
+          
+          There is a square in Krakow, Poland, a place I have never been and likely will never have the opportunity to go. Late on an October morning in that square several years ago, the sun slashed in low between cathedral and town hall and onto the intricate patterns of the...
+        </description>
+        <pubDate>Wed, 08 May 2024 12:00:00 -0400</pubDate>
+        <link>/shoals/2024/05/08/krakow-october.html</link>
+        <guid isPermaLink="true">/shoals/2024/05/08/krakow-october.html</guid>
+      </item>
+    
+      <item>
         <title>One for the cyclists</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Wed, 09 Mar 2022 19:42:22 -0500</pubDate>
         <link>/shoals/2022/03/09/grad-school-hoard.html</link>
         <guid isPermaLink="true">/shoals/2022/03/09/grad-school-hoard.html</guid>
-      </item>
-    
-      <item>
-        <title>Compton</title>
-        <description>
-          Recreating a Superbowl halftime show basemap - 
-          Generating points with PostGIS . . . to approximate streetlight locations in Compton, Los Angeles. Loose homage to Kendrick Lamar, strong shouts to Snoop, Dre, Mary J., and the map underneath the 2022 Superbowl Halftime Show, and big respect to the L.A. county streetlight spacing guidelines. Photo by David Crane,...
-        </description>
-        <pubDate>Mon, 14 Feb 2022 10:30:19 -0500</pubDate>
-        <link>/shoals/2022/02/14/compton.html</link>
-        <guid isPermaLink="true">/shoals/2022/02/14/compton.html</guid>
       </item>
     
   </channel>

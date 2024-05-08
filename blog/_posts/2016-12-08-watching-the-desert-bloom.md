@@ -4,7 +4,7 @@ title: Watching the Desert Bloom
 date: 2016-12-08T12:00:00-04:00
 author: Bill Morris
 cover-img: /assets/img/2016-12-08_2.jpeg
-tags: ["satellites", "landsat", "google", "sahara", "agriculture"]
+tags: ["satellite", "landsat", "google", "sahara", "agriculture"]
 subtitle: Captivated by timelapses of agriculture in the Sahara.
 ---
 
