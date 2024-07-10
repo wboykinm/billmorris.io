@@ -7,7 +7,7 @@ cover-img: "/assets/img/2024-07-10_cover.png"
 tags: ["mapping", "policy", "china", "google"]
 ---
 
-The practical work of digital mapping varies pretty wildly from place to place. I was reminded of this as I stumbled onto a great example of [the infamous displacement of imagery and road vectors in Google Maps](https://www.reddit.com/r/geography/comments/11s9r7o/why_are_chinese_roads_on_google_maps_in_the_wrong/):
+The practical work of digital mapping varies pretty wildly from place to place. I was reminded of this as I stumbled onto a great example of [the infamous displacement of imagery and road vectors in Google Maps within Chinese territory](https://www.reddit.com/r/geography/comments/11s9r7o/why_are_chinese_roads_on_google_maps_in_the_wrong/):
 
 ![1](/shoals/assets/img/2024-07-10_1.png)
 <small>If you can find it, "Fishing Fun Island" actually sounds kind of awesome.</small>
