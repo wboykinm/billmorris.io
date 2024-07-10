@@ -786,24 +786,20 @@
       
 
       <article role="main" class="blog-post">
-        <p>The practical work of digital mapping varies pretty wildly from place to place.</p>
-
-<p>I was reminded of this as I stumbled onto a great example of <a href="https://www.reddit.com/r/geography/comments/11s9r7o/why_are_chinese_roads_on_google_maps_in_the_wrong/">the infamous displacement of imagery and road vectors in Google Maps</a>:</p>
+        <p>The practical work of digital mapping varies pretty wildly from place to place. I was reminded of this as I stumbled onto a great example of <a href="https://www.reddit.com/r/geography/comments/11s9r7o/why_are_chinese_roads_on_google_maps_in_the_wrong/">the infamous displacement of imagery and road vectors in Google Maps</a>:</p>
 
 <p><img src="/shoals/assets/img/2024-07-10_1.png" alt="1" />
 <small>If you can find it, “Fishing Fun Island” actually sounds kind of awesome.</small></p>
 
 <p>I’m hardly the first geographer to be both appalled and mesmerized by this policy - very much in keeping with <a href="https://web.archive.org/web/20061020234453/https://www.gearthblog.com/blog/archives/2006/08/china_announces.html">China’s general digital control strategy</a> - but this encounter also turned up new information for me about how it works.</p>
 
-<blockquote>
-  <p><strong>A quick napkin sketch about <a href="https://en.wikipedia.org/wiki/Map_projection">map proections</a></strong>: because the world is not actually flat (nor actually spherical, unfortunately), mapmakers rely on mathematical models to transform the world into a two-dimensional representation. And there are thousands of different such models - called datums to represent the shape of the Earth, or projections to represent how that shape is warped onto paper or phone screens - each with a specific application.</p>
-</blockquote>
+<p><strong><em>A quick napkin sketch about <a href="https://en.wikipedia.org/wiki/Map_projection_">map projections</a>:</em></strong> <em>Because the world is not actually flat (nor actually spherical, unfortunately), mapmakers rely on mathematical models to transform the world into a two-dimensional representation. And there are thousands of different such models - called datums to represent the shape of the Earth, or projections to represent how that shape is warped onto paper or phone screens - each with a specific application.</em></p>
 
-<p>My assumption about China’s national security concern was that they required a blanket offset - say, a half kilometer or so - between different base data types and real-world coordinates. I also assumed that it was largely optional; if you mostly don’t offer services in China (<a href="https://geojson.io/#map=16.15/29.57809/118.9399">like my employer</a>), you can ignore the offset.</p>
+<p>My assumption about China’s national security concern was that they required a blanket offset - say, half a kilometer or so - between different base data types and real-world coordinates. I also assumed that it was largely optional; if you mostly don’t offer services in China (<a href="https://geojson.io/#map=16.15/29.57809/118.9399">like my employer</a>), you can ignore the offset.</p>
 
-<p>What I had gotten wrong about this was the consistency, or the guess that the offset was the same distance and direction everywhere, with some curvature-of-the-earth variations. But the actual implementation <em>is of a randomized offset, baked into a custom datum <a href="https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02">designated GCJ-02</a></em>. All mapping data providers and application developers active in China <a href="https://web.archive.org/web/20240617102329/https://www.serviceobjects.com/blog/why-gps-coordinates-look-wrong-on-maps-of-china/">must use this datum - or its relatives - as the basis of their maps, and it is technically against the law to provide transforms to more open standards like WGS.</a></p>
+<p>What I had gotten wrong about this was the consistency, or the guess that the offset was the same distance and direction everywhere, with some curvature-of-the-earth variations. But the actual implementation <em>is of a decentralized offset, baked into a custom datum <a href="https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02">designated GCJ-02</a></em>. All mapping data providers and application developers active in China <a href="https://web.archive.org/web/20240617102329/https://www.serviceobjects.com/blog/why-gps-coordinates-look-wrong-on-maps-of-china/">must use this datum - or its relatives - as the basis of their maps</a>, and it is technically against the law to provide transforms to more open standards like <a href="https://en.wikipedia.org/wiki/World_Geodetic_System#WGS_84">WGS84</a>.</p>
 
-<p>The notes from <a href="https://archive.ph/20110804185923/http://cxzy.people.com.cn/GB/196034/14908095.html">this 2011 party bulletin</a> about the development of GCJ-02 are a fascinating study of the cultural and political considerations that always float over the heads of cartographers working in their field:</p>
+<p>The notes from <a href="https://archive.ph/20110804185923/http://cxzy.people.com.cn/GB/196034/14908095.html">this 2011 party bulletin</a> about the development of GCJ-02 are a fascinating study of the cultural and political considerations that always surround cartographers working in their field:</p>
 
 <blockquote>
   <p>‘Li Chengming was confident: “In the war years, Communist Party members were not afraid of death, so what is this little difficulty! We must do it! And we must do it beautifully!” Under the guidance of veteran experts, he led his team to work for more than a thousand days and nights to develop a set of nonlinear confidentiality processing technology for topographic maps suitable for national series scales. This technology not only meets the national security confidentiality requirements, but also meets the public’s application needs for topographic maps.’</p>
@@ -813,7 +809,7 @@
 
 <p><img src="/shoals/assets/img/2024-07-10_2.png" alt="2" /></p>
 
-<p>I look at this and have to add “impressed” to my “appalled and mesmerized” feelings mentioned above. Obfuscation by datum is not something I would have really considered possible before, and it really is effective at reeling open standards into the net of state control. But cartography has a long and colorful history of serving Truth on the surface and Politics at its heart, and GCJ-02 is just another entry.</p>
+<p>I look at this and have to add “impressed” to my “appalled and mesmerized” feelings mentioned above. Obfuscation by datum is not something I would have really considered possible before, and it really is effective at reeling open standards into the net of state control. Cartography has a long and colorful history of serving Truth on the surface and Politics at its heart, and GCJ-02 is another entry alongside <a href="https://www.nationalgeographic.com/culture/article/pirate-maps-all-over-the-map">silver atlases</a>, <a href="https://en.wikipedia.org/wiki/Trap_street">trap streets</a>, and <a href="https://www.bbc.com/news/technology-45681213">imagery blurring</a>.</p>
 
       </article>
 
