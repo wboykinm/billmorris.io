@@ -18,13 +18,14 @@ The sun is up at 5:38 AM and it's projected to be 92° today. The National Weath
 I like to run in new places and traveling is exactly the opportunity to do so. I'm usually a morning runner - sometimes _very_ early morning - so perhaps this dovetails with the first problem and I can get out around or before sunrise, before the massive nuclear fusion reactor is over the horizon. But I can't expect to go all that far, and Manhattan is vast. I should keep my radius tight around the North end of the island.
 
 ### The third problem: 
-. . . is the stuff I want to visit and the things I want to obtain for my family, still sleeping peacefully. Actually, there are several sub-problems to the third problem. First: __Hungarian pastries__. There's a legendary shop in Morningside Heights. It doesn't open until 7:30. Next stuff to obtain: __bagels__. Lord help me, there's a Dunkin' that opens at 6:00 but ain't nobody want that so I need to wait until a reasonably high quality bagel shop opens at 8:00. Next stuff to obtain, and the most complicated, is __coffee__. If I run before coffee it's a slog. If I get coffee while running it's passable. I also would like to - /I feel obligated to - bring coffee to my wife who will wake up at some unspecified time between 6:30 and 8:30. The first decent espresso joint isn't open until 6:30 (I dunno Jay, this city [sure seems to sleep quite a bit](https://youtu.be/vk6014HuxcE?si=BXPbyX2pGhnzldfU&t=197)). The first decent espresso that I could safely carry back - i.e. less than a mile away - isn't open until 7:00. 
+. . . is the stuff I want to visit and the things I want to obtain for my family, still sleeping peacefully. Actually, there are several sub-problems to the third problem. First: __Hungarian pastries__. There's a legendary shop in Morningside Heights. It doesn't open until 7:30. Next stuff to obtain: __bagels__. Lord help me, there's a Dunkin' that opens at 6:00 but ain't nobody want that so I need to wait until a reasonably high quality bagel shop opens at 8:00. Next stuff to obtain, and the most complicated, is __coffee__. If I run before coffee it's a slog. If I get coffee while running it's passable. I also would like to - /I feel obligated to - bring coffee to my wife who will wake up at some unspecified time between 6:30 and 8:30. The first decent espresso joint isn't open until 6:30 (I dunno Jay, this city [sure seems to sleep quite a bit](https://youtu.be/vk6014HuxcE?si=BXPbyX2pGhnzldfU&t=197)). The first decent espresso that I could safely carry back - i.e. less than a mile away - isn't open until 7:00. And hey, I wouldn't mind seeing Grant's Tomb while I'm in the neighborhood.
 
 The approximate distance order of these places from our lodging is as follows, closest to farthest:
 
 - 7:00 AM espresso place
 - Bagel place
 - Hungarian pastry place
+- Grant
 - 6:30 AM espresso place
 
 > _How do I fit all this in?_
@@ -41,7 +42,7 @@ I could put it all together, but the question now changes to:
 
 > _Why the hell would I do that?_ 
  
-I'm presenting myself with this complex time management problem and it's . . . unnecessary. This coordination "problem" is at least partly an outgrowth of my own style of getting around, as well as my own anxieties and desires. I could see a series of API calls that would string together a lovely route, matching bakery hours, and maybe even including some peripherals like park benches on which to stretch while waiting for cafes to open. But I don't think that the market for this is terribly large, nor frankly is this mindset anything that I would wish on someone else. 
+I'm presenting myself with this complex time management problem and it's . . . unnecessary. It exists as an outgrowth of my own travel style, as well as my anxieties and desires. I could see a series of API calls that would string together a lovely route, matching bakery hours, and maybe even including some peripherals like park benches on which to stretch while waiting for cafes to open. But I don't think that the market for this is terribly large, nor frankly is this mindset anything that I would wish on someone else. 
 
 Rather than building the perfect app to make all of this craziness go more efficiently, I would instead recommend that someone else __slow the hell down. Sleep in. Get the late coffee. Get the late bagel. Don't try to please everyone. Don't try to show off.__ All of these drives and pathologies are baked into my synthetic coordination problem, and they suggest that I need a therapist more than I need One App to Rule Them All (Don't worry, I'm on it). I don't begrudge anyone else who feels that such an app would help them, but I suspect it's not the solution to anything that bedevils _me_ this morning.
 
