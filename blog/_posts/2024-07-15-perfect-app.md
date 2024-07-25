@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Draft about The perfect app"
+title: "The perfect app"
 date: "2024-07-15T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2024-07-15_cover.png"
+cover-img: "/assets/img/2024-07-15_cover.jpg"
 tags: ["work", "maps", "technology", "travel"]
 ---
 
