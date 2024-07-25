@@ -7,25 +7,26 @@ cover-img: "/assets/img/2024-07-15_cover.jpg"
 tags: ["work", "maps", "technology", "travel"]
 ---
 
-This morning when I woke up in Harlem I was faced with a series of problems.
+This morning, when I woke up in Harlem, I was faced with a series of problems.
 
 We are in the city for a mere 12 hours, staying at a friend's place on our way back to Vermont, but as is usually the case, and is maybe an example of my excessive enthusiasm for travel and novelty, I find myself wanting to do everything in that brief span of time.
 
-### The first problem 
-The sun is up at 5:38 and it's projected to be 92° today. The National Weather Service has issued a heat warning and that puts some constraints on when I might safely get up and go about the city. I wilt easily.
+### The first problem: 
+The sun is up at 5:38 AM and it's projected to be 92° today. The National Weather Service has issued a heat warning and that puts some constraints on when I might safely get up and go about the city. I wilt easily.
 
-### The second problem
+### The second problem:
 I like to run in new places and traveling is exactly the opportunity to do so. I'm usually a morning runner - sometimes _very_ early morning - so perhaps this dovetails with the first problem and I can get out around or before sunrise, before the massive nuclear fusion reactor is over the horizon. But I can't expect to go all that far, and Manhattan is vast. I should keep my radius tight around the North end of the island.
 
-### The third problem 
+### The third problem: 
 . . . is the stuff I want to visit and the things I want to obtain. Actually, there are several sub-problems to the third problem. First: __Hungarian pastries__. There's a legendary shop in Morningside Heights. It doesn't open until 7:30. Next stuff to obtain: __bagels__. Lord help me. There's a Dunkin' that opens at 6:00 but ain't nobody want that so I need to wait until a reasonably high quality bagel shop opens at 8:00. Next stuff to obtain, and the most complicated, is __coffee__. If I run before coffee it's a slog. If I get coffee while running it's passable. I also would like to - /I feel obligated to - bring coffee to my wife who will wake up at some unspecified time between 6:30 and 8:30. The first decent espresso joint isn't open until 6:30 (I dunno Jay, this city [sure seems to sleep quite a bit](https://youtu.be/vk6014HuxcE?si=BXPbyX2pGhnzldfU&t=197)). The first decent espresso that I could safely carry back for less than a mile isn't open until 7:00. 
 
-The approximate distance order of these places from our lodging is as follows closest to farthest:
-- 7:00 a.m. espresso place 
-- bagel place 
-- Hungarian pastry place 
-- 6:30 a.m. espresso place 
- 
+The approximate distance order of these places from our lodging is as follows, closest to farthest:
+
+- 7:00 AM espresso place
+- Bagel place
+- Hungarian pastry place
+- 6:30 AM espresso place
+
 > _How do I fit all this in?_
 
 ## Swimming in data
