@@ -155,6 +155,17 @@
       </item>
     
       <item>
+        <title>The B-Sides of Remote Sensing</title>
+        <description>
+          Some of the edgier things to which humans have attached cameras in the hope of gaining contextual knowledge of their surroundings - 
+          In the course of a lifetime of almost-accidental study of Earth observation, I’ve acquired a collection of craaaaaazy stories from the field. Some of the wildest turn out to be true. Over centuries of innovation, humans have tried a million strategies to build the Tower of Babel - not to...
+        </description>
+        <pubDate>Sun, 10 Sep 2023 12:00:00 -0400</pubDate>
+        <link>/shoals/2023/09/10/rs-b-sides.html</link>
+        <guid isPermaLink="true">/shoals/2023/09/10/rs-b-sides.html</guid>
+      </item>
+    
+      <item>
         <title>Dryland XYZ tiles</title>
         <description>
           In which I discover how much geoprocessing you can get done with inline SQLite - 
@@ -218,17 +229,6 @@
         <pubDate>Sun, 13 Nov 2022 16:35:10 -0500</pubDate>
         <link>/shoals/2022/11/13/migrating.html</link>
         <guid isPermaLink="true">/shoals/2022/11/13/migrating.html</guid>
-      </item>
-    
-      <item>
-        <title>Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</title>
-        <description>
-          In which I learn a thing or two about novel GPS errors. - 
-          One day this past July, I got up early and started a long run around Paris. I’ve found this practice to be the easiest way to explore without being an insufferable tourist. As I usually do, I started tracking the run with my Garmin Forerunner 245 watch. (Follow along using...
-        </description>
-        <pubDate>Mon, 10 Oct 2022 10:31:42 -0400</pubDate>
-        <link>/shoals/2022/10/10/watch-in-paris.html</link>
-        <guid isPermaLink="true">/shoals/2022/10/10/watch-in-paris.html</guid>
       </item>
     
   </channel>
