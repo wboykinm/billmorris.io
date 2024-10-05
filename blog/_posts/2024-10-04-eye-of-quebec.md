@@ -9,13 +9,13 @@ tags: ["satellite", "history", "canada"]
 
 [Landsat](https://billmorris.io/shoals/2016/12/08/watching-the-desert-bloom.html) has spoiled me. I've grown accustomed to seeing historical time series of what a place looks like from above, in this era where we've been recording those views for half a century. Of course, I very occasionally find myself wondering how [Cahokia in the 11th century](https://en.wikipedia.org/wiki/Cahokia) would have appeared from space - or Paris before [the Haussmann renovations](https://en.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann#Rebuilding_of_Paris) - but when considering access to historical overhead views, I'm usually able to keep a clear line between "BL" (Before Landsat, e.g. pre-1973), and "AL" (Anno Landsatus). But sometimes something is riiiiiight on the line.
 
-I don't remember when my attention was first grabbed by "The Eye of Quebec":
+I don't remember when my attention was first grabbed by "The Eye of Quebec" . . .
 
 ![1](/shoals/assets/img/2024-10-04_1.jpg)
 
 _[Sentinel 2A winter image of a frozen Lake Manicouagan, Quebec](https://en.wikipedia.org/wiki/Manicouagan_Reservoir#/media/File:Manicouagan_Reservoir_in_winter_by_Sentinel-2.jpg)_
 
-. . . but I recalled the general details when my wife asked me about it a little while ago: Lake Manicouagan, in an old impact crater from some large chunk of debris intersecting our orbit, filled in with water, just far enough from the Saint Lawrence that there are no real settlements, though there's plenty of logging up that way, etc.
+. . . but I recalled the general details when my wife asked me last week if I'd seen it before: Lake Manicouagan, in an old impact crater from some large chunk of debris intersecting our orbit, filled in with water, just far enough from the Saint Lawrence that there are no real settlements, though there's plenty of logging up that way, etc.
 
 I frequently make the mistake of trying to sound authoritative with partial, half-remembered knowledge of a subject. This is no way to go through life, so I went to rectify that situation here, and in the process I encountered information I hadn't come across before _(Canadians, you can skip ahead)_: 
 
@@ -51,6 +51,6 @@ _USGS Earth Explorer preview images (I haven't sought better resolution because 
 
 These winter images show the separated bodies of water and the hints of a round shape, but the Eye is not yet complete. This is exactly what I had been looking for, courtesy of a crazy and probably very expensive effort to spy on the Soviets. And I'm pleased to learn that I'm not the only civilian making use of these views: [recent work  by the Landscape Archaeology Research Group](https://www.sciencedirect.com/science/article/pii/S0305440324001213) shows that it's possible to apply deep learning methods to Corona imagery to map ancient irrigation systems around the world, in hard-to-reach places.
 
-The film strips currently sit in canisters at the National Archives and Records Administration, waiting to be scanned and applied. What other ancient (i.e. pre-1973) secrets do they contain?
+The film strips currently sit in canisters at the National Archives and Records Administration, waiting to be scanned and applied. What other ancient (i.e. pre-1973) secrets do they contain? Maybe visions of [Ada Kaleh](https://en.wikipedia.org/wiki/Ada_Kaleh)?
 
 ![6](/shoals/assets/img/2024-10-04_6.jpg)
