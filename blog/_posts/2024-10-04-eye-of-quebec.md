@@ -3,7 +3,7 @@ layout: post
 title: "The Eye of Quebec: before/after"
 date: "2024-10-04T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2024-10-04_cover.png"
+cover-img: "/assets/img/2024-10-04_cover.jpg"
 tags: ["satellite", "history", "canada"]
 ---
 
