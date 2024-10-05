@@ -35,7 +35,7 @@ A more recent - and accurate - look is [from the 1955 Geological Survey of Canad
 
 _[Manicouagan lake - mushalagan lake area, Quebec](https://ostrnrcan-dostrncan.canada.ca/entities/publication/fbd676d2-9160-4739-934a-8aeb4cdce3bf)_
 
-The crater structure is very clear in this geologically-focused delineation, with smaller bodies of water occupying the fringes. By 1955, this map was likely informed by aerial photography and photogrammetry, so at least someone had seen this crater from the air. But _what did it look like from space? How could I get a satellite view from before 1973?_
+The crater structure is very clear in this geologically-focused delineation, with smaller bodies of water occupying the fringes. By 1955, this map was likely informed by aerial photography and photogrammetry, so at least someone had seen this crater from the air before the dam was completed. But _what did the crater look like from space? How could I get a satellite view from before 1973?_
 
 This line of thinking set off mental alarm bells. In a survey I wrote last year [covering some of the weird ways we've remotely-sensed things](https://billmorris.io/shoals/2023/09/10/rs-b-sides.html), I dug a bit into the CIA's Corona spy satellite program, which ran from 1959 to 1972, snapping photos of earth on honest-to-god film and sending them back into the atmosphere on parachutes to be snagged by well-timed planes:
 
@@ -51,6 +51,6 @@ _USGS Earth Explorer preview images (I haven't sought better resolution because 
 
 These winter images show the separated bodies of water and the hints of a round shape, but the Eye is not yet complete. This is exactly what I had been looking for, courtesy of a crazy and probably very expensive effort to spy on the Soviets. And I'm pleased to learn that I'm not the only civilian making use of these views: [recent work  by the Landscape Archaeology Research Group](https://www.sciencedirect.com/science/article/pii/S0305440324001213) shows that it's possible to apply deep learning methods to Corona imagery to map ancient irrigation systems around the world, in hard-to-reach places.
 
-The film strips currently sit in canisters at the National Archives and Records Administration, waiting to be scanned and applied. What other ancient (i.e. pre-1973) secrets to they contain?
+The film strips currently sit in canisters at the National Archives and Records Administration, waiting to be scanned and applied. What other ancient (i.e. pre-1973) secrets do they contain?
 
-![6](/shoals/assets/img/2024-10-04_6.png)
+![6](/shoals/assets/img/2024-10-04_6.jpg)
