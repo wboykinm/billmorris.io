@@ -48,7 +48,7 @@ Larger questions haunt the edges of this one. I'm in no position to say what it 
 
 ## Welcoming
 
-The warm greeting, the open door of a new place - welcome brings the world into focus, even when it doesn't mean belonging.I have been and remain welcome in many places to which I do not belong. I'm welcome with my in-laws in Boston, with mountaineers in Colorado, with colleagues in Valencia. I don't belong to any of those places, but the people there know me and let me be comfortable in their company. My gratitude for this is incalculable, and I am fierce in my determination to extend that welcome to those who come to _this_ place to which _I_ belong.
+The warm greeting, the open door of a new place - welcome brings the world into focus, even when it doesn't mean belonging. I have been and remain welcome in many places to which I do not belong. I'm welcome with my in-laws in Boston, with mountaineers in Colorado, with colleagues in Valencia. I don't belong to any of those places, but the people there know me and let me be comfortable in their company. My gratitude for this is incalculable, and I am determined to extend that welcome to those who come to _this_ place.
 
 ![4](/shoals/assets/img/2024-11-17_4.jpg)
 
@@ -64,7 +64,7 @@ Giray Dadali is a Turkish American skier who has inadvertently addressed my ques
 
 This point rotates a bit in my mind, from influence to belonging, and from a sense of society to a sense of place. 
 
-Skiing is one of the ways I express my own belonging, my own weave in these mountains and among the people here. It is an easily-intimate activity, full of potential for respect and stewardship. I intimately know the lines and groves of Vermont and I've shared them with locals and visitors alike, but truthfully my explorations beyond the Appalachian range have been furtive. As I hone in on what it would mean for me to ski beyond my home ranges, I see the contours forming of a welcome without ownership or belonging.
+Skiing is one of the ways I express my own belonging, my own weave in these mountains and among the people here. It is an easily-shared activity, full of potential for respect and stewardship. I intimately know the lines and groves of Vermont and I've shared them with locals and visitors alike, but truthfully my explorations beyond the Appalachian range have been furtive. As I hone in on what it would mean for me to ski beyond my home ranges, I see the contours forming of a welcome without ownership or belonging.
 
 Maybe knowing the difference between seeking and belonging is one of the ways skiing can be meaningful.
 
