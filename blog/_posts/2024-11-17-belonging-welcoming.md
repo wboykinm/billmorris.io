@@ -20,7 +20,7 @@ tags: ["travel", "skiing", "reflections", "history"]
 
 These are the interlocking questions that occur to me on this Sunday morning at the edge of winter, as the last leaves dangle from one tenacious Norway maple, making a mockery of our attempts to rake. Skiing enters my mind this time of year. I make my preparations. I turn my mind to past experiences. I question - again and again, like skipping vinyl - if there is _real_ value to the practice of careening down mountains on highly-engineered planks. If there is spirituality or meaning to it. If I should be spending my precious energy on something more important.
 
-I am close to the ground here in Vermont. I've ranged these mountains and forests since before I could walk. I know them better than I do any place else on Earth. To the extent that I can feel like a landscape belongs to me, this is the one I claim. But it isn't _mine_ in any real sense. 
+I am close to the ground here in Vermont. I've ranged these mountains and forests since before I could walk. I know them better than I do any place else on Earth. To the extent that I could feel like a landscape belongs to me, this is the one I would claim. But it isn't _mine_ in any real sense. 
 
 ### Paper
 
