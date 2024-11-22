@@ -4,7 +4,7 @@ title: "Perception and reality"
 date: "2023-09-21T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2023-09-21_cover.png"
-tags: ["equity", "equality" , "gender", "representation", "conference", "tech"]
+tags: ["equity", "equality" , "gender", "representation", "conference", "technology"]
 subtitle: "In which I fall into a well-documented trap of my [our] own devising."
 ---
 
