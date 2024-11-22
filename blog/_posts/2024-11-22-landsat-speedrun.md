@@ -45,7 +45,6 @@ That scene ID copied from Earth Explorer is the only thing we need to start.
 
 ```
 # Define the scene ID
-# from https://landsatlook.usgs.gov/explore
 SCENE="LC08_L1TP_006038_20230925_20231002_02_T1"
 
 # Extract components from SCENE
@@ -115,7 +114,7 @@ gdal_translate \
 ![3](/shoals/assets/img/2024-11-22_3.jpg)
 
 
-With the above tracks laid, total time from search to final render is under 15 minutes. You can't really even make a cup of tea in that time.
+With the above tracks laid, total time from search to final render is under 15 minutes. You can barely make a proper cup of tea in that time.
 
 If this is the sort of operation you find yourself doing frequently, [here's an executable bash script for you](https://gist.github.com/wboykinm/95524eb05cbabdc4f579d914da3a27d8); the only argument is the scene ID. Happy mapping!
 
