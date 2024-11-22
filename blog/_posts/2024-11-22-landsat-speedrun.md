@@ -7,7 +7,7 @@ cover-img: "/assets/img/2024-11-22_cover.jpg"
 tags: ["mapping", "satellite", "landsat", "space", "imagery", "gdal"]
 ---
 
-I had an imagery problem this week that required a quick fix: I needed moderate resolution, truecolor imagery of Bermuda. It turned into an exercise in processing speed, aided by some wonderful tools and open data programs. As 2024 draws to a close there are _many_ different ways to put together a decent picture of somewhere on Earth from space; I aimed for something quick and repeatable here.
+I needed moderate resolution, truecolor satellite imagery of Bermuda earlier this week, and I needed it _fast_. It turned into an exercise in processing efficiency, aided by some wonderful tools and open data programs. As 2024 draws to a close there are _many_ different ways to put together a decent picture of somewhere on Earth from space; I aimed for something quick and repeatable here.
 
 Prerequisites:
 
