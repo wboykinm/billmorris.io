@@ -3,7 +3,7 @@ layout: post
 title: "Atlas Miscellaneous: edition 1736977234"
 date: "2025-01-15T12:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2025-01-15_cover.png"
+cover-img: "/assets/img/2025-01-15_cover.jpg"
 tags: ["maps", "satellite", "mapbox"]
 ---
 
@@ -35,7 +35,7 @@ Local news. Relatable all over the world.
 
 ![3](/shoals/assets/img/2025-01-15_3.jpg)
 
-[Built for the 2015 African Games](https://web.archive.org/web/20240812010503/https://architizer.com/projects/brazzaville-stadium/), the Stade Municipal de Kintélé - outside of Brazzaville in the Republic of the Congo caught my attention because of the road transitions at the corners. The massive, roughly-rectangular plot of the sports complex contains facilities and playing fields, connected by swooping walkways and passages. At two corners along the perimeter of the complex, the wide boulevards connect by enlightened-urban-design roundabouts to an extended fast-transportation network. However, at two other corners, the four-way intersections lead off into dirt tracks or dead-end into scrubland.
+[Built outside of Brazzaville in the Republic of the Congo for the 2015 African Games](https://web.archive.org/web/20240812010503/https://architizer.com/projects/brazzaville-stadium/), the Stade Municipal de Kintélé caught my attention because of the road transitions at the corners. The massive, roughly-rectangular plot of the sports complex contains facilities and playing fields, connected by swooping walkways and passages. At two corners along the perimeter of the complex, the wide boulevards connect by enlightened-urban-design roundabouts to an extended fast-transportation network. However, at two other corners, the four-way intersections lead off into dirt tracks or dead-end into scrubland.
 
 I am familiar with the kind of urban optimism that may come with the boom-and-bust cycles of cash availability; it can affect any form of government and any level of planning. My own town [has been trying to extend a dead-end highway for fifty years.](https://web.archive.org/web/20240923100704/http://www.champlainparkway.com/history) 
 

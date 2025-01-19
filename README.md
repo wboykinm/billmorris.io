@@ -15,7 +15,7 @@ layout: post
 title: \"MyTitle\"
 date: \"${DATE_ISO}T12:00:00-04:00\"
 author: \"Bill Morris\"
-cover-img: \"/assets/img/${DATE_ISO}_cover.png\"
+cover-img: \"/assets/img/${DATE_ISO}_cover.jpg\"
 tags: [\"tag1\", \"tag2\"]
 subtitle: \"Punchy lead-in\"
 ---
