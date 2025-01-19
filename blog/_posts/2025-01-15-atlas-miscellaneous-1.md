@@ -7,7 +7,7 @@ cover-img: "/assets/img/2025-01-15_cover.jpg"
 tags: ["maps", "satellite", "mapbox"]
 ---
 
-As a part of my day job, I spend time on a grand but perplexing tour of the Earth, do QA/QC on the Mapbox Satellite project. It's my intent to occasionally share some of the views I come across, but more importantly the unexpected things I discover about places I've never been. At this point there are a plethora of blogs and social media accounts that [give you](https://bsky.app/profile/landsat.bsky.social/post/3lfsojllwg22g) a window into [new and interesting places](https://www.planet.com/latest-satellite-imagery-gallery/#!/post/forest-fires-near-rubizhne) from [the vertical perspective](https://www.instagram.com/p/DExkT-DukTz/?img_index=1), but here I aim to go a bit deeper, while hopefully still avoiding the sophomoric. And who doesn't love a wikpedia rabbit hole?
+As a part of my day job, I spend time on a grand but perplexing tour of the Earth, running QA/QC on the Mapbox Satellite project. It's my intent to occasionally share some of the views I come across, but more importantly the unexpected things I discover about places I've never been. At this point there are a plethora of blogs and social media accounts that [give you](https://bsky.app/profile/landsat.bsky.social/post/3lfsojllwg22g) a window into [new and interesting places](https://www.planet.com/latest-satellite-imagery-gallery/#!/post/forest-fires-near-rubizhne) from [the vertical perspective](https://www.instagram.com/p/DExkT-DukTz/?img_index=1), but here I aim to go a bit deeper, while hopefully still avoiding the sophomoric. And who doesn't love a wikpedia rabbit hole?
 
 # Atlas Miscellaneous, 2025-01-15
 
@@ -35,7 +35,7 @@ Local news. Relatable all over the world.
 
 ![3](/shoals/assets/img/2025-01-15_3.jpg)
 
-[Built outside of Brazzaville in the Republic of the Congo for the 2015 African Games](https://web.archive.org/web/20240812010503/https://architizer.com/projects/brazzaville-stadium/), the Stade Municipal de Kintélé caught my attention because of the road transitions at the corners. The massive, roughly-rectangular plot of the sports complex contains facilities and playing fields, connected by swooping walkways and passages. At two corners along the perimeter of the complex, the wide boulevards connect by enlightened-urban-design roundabouts to an extended fast-transportation network. However, at two other corners, the four-way intersections lead off into dirt tracks or dead-end into scrubland.
+[Built outside of Brazzaville in the Republic of the Congo for the 2015 African Games](https://web.archive.org/web/20240812010503/https://architizer.com/projects/brazzaville-stadium/), the Stade Municipal de Kintélé caught my attention because of the road transitions at the corners. The massive, roughly-rectangular plot of the sports complex contains facilities and playing fields connected by swooping walkways and passages. At two corners along the perimeter of the complex, the wide boulevards join via enlightened-urban-design roundabouts to an extended fast-transportation network. However, at two other corners, the four-way intersections lead off into dirt tracks or dead-end into scrubland.
 
 I am familiar with the kind of urban optimism that may come with the boom-and-bust cycles of cash availability; it can affect any form of government and any level of planning. My own town [has been trying to extend a dead-end highway for fifty years.](https://web.archive.org/web/20240923100704/http://www.champlainparkway.com/history) 
 
