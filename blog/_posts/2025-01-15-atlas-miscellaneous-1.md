@@ -7,7 +7,7 @@ cover-img: "/assets/img/2025-01-15_cover.jpg"
 tags: ["maps", "satellite", "mapbox"]
 ---
 
-As a part of my day job, I spend time on a grand but perplexing tour of the Earth, running QA/QC on the Mapbox Satellite project. It's my intent to occasionally share some of the views I come across, but more importantly the unexpected things I discover about places I've never been. At this point there are a plethora of blogs and social media accounts that [give you](https://bsky.app/profile/landsat.bsky.social/post/3lfsojllwg22g) a window into [new and interesting places](https://www.planet.com/latest-satellite-imagery-gallery/#!/post/forest-fires-near-rubizhne) from [the vertical perspective](https://www.instagram.com/p/DExkT-DukTz/?img_index=1), but here I aim to go a bit deeper, while hopefully still avoiding the sophomoric. And who doesn't love a wikpedia rabbit hole?
+As a part of my day job, I spend time on a grand but perplexing tour of the Earth, running QA/QC on the [Mapbox Satellite](https://www.mapbox.com/imagery) project. It's my intent to occasionally share some of the views I come across, but more importantly the unexpected things I discover about places I've never been. At this point there are a plethora of blogs and social media accounts that [give you](https://bsky.app/profile/landsat.bsky.social/post/3lfsojllwg22g) a window into [new and interesting places](https://www.planet.com/latest-satellite-imagery-gallery/#!/post/forest-fires-near-rubizhne) from [the vertical perspective](https://www.instagram.com/p/DExkT-DukTz/?img_index=1), but here I aim to go a bit deeper, while hopefully still avoiding the sophomoric. And who doesn't love a wikpedia rabbit hole?
 
 # Atlas Miscellaneous, 2025-01-15
 
