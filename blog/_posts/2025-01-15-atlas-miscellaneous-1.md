@@ -15,7 +15,7 @@ As a part of my day job, I spend time on a grand but perplexing tour of the Eart
 
 ![1](/shoals/assets/img/2025-01-15_1.jpg)
 
-Typically in the course of my overhead travels, dear reader, if I see two bodies of surface water that are completeley different colors, I assume that there is a capture stitch of some kind between them. For example, a plane flies over on a windy day and the pond below looks choppy and very reflective - then the plane flies over a nearby lake on a calm day and the water is dark and broody, that sort of thing.
+Typically in the course of my overhead travels, dear reader, if I see two bodies of surface water that are completely different colors, I assume that there is a capture stitch of some kind between them. For example, a plane flies over on a windy day and the pond below looks choppy and very reflective - then the plane flies over a nearby lake on a calm day and the water is dark and broody, that sort of thing.
 
 Not so with the crater lakes of Kelimutu on Flores Island in Indonesia! These [are adjacent lakes with completely different mineral compositions](https://en.wikipedia.org/wiki/Kelimutu#Geochemistry), hence the different colors. And the extra surprise is that there's actually a _third_ lake hiding under that cloud, and it's got it's own distinct hue.
 
