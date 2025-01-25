@@ -51,7 +51,7 @@ I'm not a demographer, I'm a geographer (and I already decided my analysis toolk
 
 __In the U.S. Northeast, private school diversity seems greater than public school diversity in rural, non-diverse states.__
 
-## Update, post-discourse
+## Post-discourse update
 
 Eagle-eyed reader Dan [pointed out](https://bsky.app/profile/scoiattolo.mountainherder.xyz/post/3lgekq2ez6227) that this could at least partly be explained by the handful of districts where the de facto public school is actually a private school, owing to odd-but-established New England traditions: 
 
