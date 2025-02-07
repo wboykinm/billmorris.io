@@ -51,3 +51,7 @@ Rather than building the perfect app to make all of this craziness go more effic
 But there's hope as I sit here at the [Carl Schurz](https://www.nycgovparks.org/parks/morningside-park/monuments/1408) statue in Morningside Heights, overlooking a truly beautiful-if-terrifying dawn, and metabolizing my 6:30 espresso. There's hope as I ponder turning off the damn running log on my watch, strolling over through Columbia (if it's even possible anymore) and down Amsterdam Avenue to get some strudel. There's hope because I've paused to think about it all. And because Schurz has a very comfortable bench dedicated in his name, I'm going to take some deep breaths. I'm going to start observing the city as it wakes up, and I'm going to cast all that data into the Hudson River.
 
 ![2](/shoals/assets/img/2024-07-15_2.jpg)
+
+### Update, months later
+
+[Lizzie Siegle built the app](https://medium.com/@lizziepika/build-a-route-generator-app-with-cloudflare-workers-ai-langchain-streamlit-and-mapbox-c52405b120a6). I'll probably try it out at some point but I'll attempt to maintain my zen.
