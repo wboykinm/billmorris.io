@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Atlas Miscellaneous: edition 1739568084</title>
+        <description>
+          
+          Atlas Miscellaneous, 2025-02-15 Amsterdam Centraal You could be forgiven for missing the huge bike parking facility at Centraal Station. A colleague of mine pointed out that our previous imagery here showed hundreds [thousands?] of bicycles tied up on the landward side of the station, so we were curious about where...
+        </description>
+        <pubDate>Sat, 15 Feb 2025 11:00:00 -0500</pubDate>
+        <link>/shoals/2025/02/15/atlas-miscellaneous-2.html</link>
+        <guid isPermaLink="true">/shoals/2025/02/15/atlas-miscellaneous-2.html</guid>
+      </item>
+    
+      <item>
         <title>School diversity in the Northeastern U.S.</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Sun, 10 Sep 2023 12:00:00 -0400</pubDate>
         <link>/shoals/2023/09/10/rs-b-sides.html</link>
         <guid isPermaLink="true">/shoals/2023/09/10/rs-b-sides.html</guid>
-      </item>
-    
-      <item>
-        <title>Dryland XYZ tiles</title>
-        <description>
-          In which I discover how much geoprocessing you can get done with inline SQLite - 
-          Mapbox is occasionally referred to - not uncharitably - as “The Tile Company”. It’s true; we deal with big amounts of data, and the most common map/reduce unit we use is the old standby Mercator/XYZ tile. My past and present colleagues have built some really cool tools to make these...
-        </description>
-        <pubDate>Thu, 17 Aug 2023 09:04:44 -0400</pubDate>
-        <link>/shoals/2023/08/17/land-tiles.html</link>
-        <guid isPermaLink="true">/shoals/2023/08/17/land-tiles.html</guid>
       </item>
     
   </channel>
