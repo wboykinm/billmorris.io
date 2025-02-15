@@ -5,7 +5,6 @@ date: "2025-01-25T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2025-01-25_cover.jpg"
 tags: ["vermont", "politics", "race", "education"]
-subtitle: "Another batch of places that caught my eye from above . . ."
 ---
 
 With all that's underway (_waves hands around, wildly_), I'm narrowing the focus to my interior [sphere of attention](https://www.ifyoucankeepit.org/p/how-you-can-protect-democracy), to look at local stats on education.

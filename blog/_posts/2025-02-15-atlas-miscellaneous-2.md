@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Atlas Miscellaneous: edition 1739568084"
+title: "Atlas Miscellaneous - 2025-02-12"
 date: "2025-02-15T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2025-02-15_cover.jpg"
 tags: ["maps", "satellite", "mapbox", "politics"]
+subtitle: "Another batch of places that caught my eye from above . . ."
 ---
-
-# Atlas Miscellaneous, 2025-02-15
 
 ## Amsterdam Centraal
 
