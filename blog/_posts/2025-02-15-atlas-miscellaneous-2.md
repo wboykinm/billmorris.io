@@ -11,7 +11,7 @@ tags: ["maps", "satellite", "mapbox", "politics"]
 
 ## Amsterdam Centraal
 
-You could be forgiven for missing the huge bike parking facility at Centraal Station. A colleague of mine pointed out that our previous imagery here showed hundreds [thousands?] of bicycles tied up on the landward side of the station, so we were curious about where they'd gone. Turns out [they're all underground](https://www.theverge.com/23572761/amsterdam-underwater-bike-garage-future-of-transport), as many at 11,000 of them at a time. Underground, yes, but also underwater, with canal boats motoring in and out above them. 
+You could be forgiven for missing the huge bike parking facility at Centraal Station. A colleague of mine pointed out that our previous imagery here showed hundreds [thousands?] of bicycles tied up on the landward side of the station, so when we recently updated the view, we were curious about where they'd gone. Turns out [they're all underground](https://www.theverge.com/23572761/amsterdam-underwater-bike-garage-future-of-transport), as many at 11,000 of them at a time. Underground, yes, but also underwater, with canal boats motoring in and out above them. 
 
 There's [a woderful timelapse video of the facility's construction process](https://www.youtube.com/watch?v=QZcq3R91YZM&t=9s), reinforcing that - while they have a healthy respect - the Dutch are _very_ good at making water do what they want it to.
 
