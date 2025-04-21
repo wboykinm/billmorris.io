@@ -3,7 +3,7 @@ layout: post
 title: "Atlas Miscellaneous - April 2025"
 date: "2025-04-21T09:00:00-04:00"
 author: "Bill Morris"
-cover-img: "/assets/img/2025-04-18_cover.jpg"
+cover-img: "/assets/img/2025-04-21_cover.jpg"
 tags: ["maps", "satellite", "mapbox", "history", "poetry", "uk", "pakistan"]
 subtitle: "Victorian Ghosts in the water"
 ---
@@ -20,7 +20,7 @@ I didn't spot this one from above, and I've never been to Brighton, but [a video
 
 --from "The Fall of the West Pier", 2010
 
-![1](/shoals/assets/img/2025-04-18_1.jpg)
+![1](/shoals/assets/img/2025-04-21_1.jpg)
 
 ## Karachi Harbor, Pakistan
 
@@ -28,7 +28,7 @@ In the gravity of [the world's 12th-largest city](https://en.wikipedia.org/wiki/
 
 Though they host a large fishing industry, [most food and medical services are transported to the islands by boat](https://tribune.com.pk/story/2465296/baba-bhit-shams-pir-in-need-of-healthcare-facilities), and until 2023 a single hydrant provided drinking water. Since then [a reverse-osmosis processing plant](https://www.dawn.com/news/1779350) has been in operation.
 
-![2](/shoals/assets/img/2025-04-18_2.jpg)
+![2](/shoals/assets/img/2025-04-21_2.jpg)
 
 ## Harwood, Arkansas
 
@@ -38,4 +38,4 @@ A tug labors against the flow, pushing a huge barge train Northward on the Missi
 
 --Mark Twain
 
-![3](/shoals/assets/img/2025-04-18_3.jpg)
+![3](/shoals/assets/img/2025-04-21_3.jpg)
