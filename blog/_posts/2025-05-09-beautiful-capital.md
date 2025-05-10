@@ -35,7 +35,7 @@ That urge for craft is not a bad thing, but I fear the market often prices it lo
 
 I can't cast too broad of a net here. I only have my own experience to draw from and what I see in that is a happy accident where in I flip back and forth between automation work and manual work - however one may wish to define those - and most days I am able to take aesthetic pleasure in both of them. I am under no illusions that this is a widespread phenomenon, and I'm appreciative of these unlikely circumstances.
 
-Take all of these sophomoric musings with skepticism. William Morris was a canonical polymath. Bill Morris is a full-stack dilettante. But I find comfort in [the internet-crafting directive of Sacha Judd](https://www.sachajudd.com/the-good-internet/): "Build something small, weird, and entirely yours."
+Take all of these sophomoric musings with skepticism. William Morris was a canonical polymath. Bill Morris is a full-stack dilettante.
 
 ![3](/shoals/assets/img/2025-05-09_3.jpg)
 
