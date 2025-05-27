@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This Is Just to Say</title>
+  <!-- Google Font: Crimson Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Minimalist reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+      background-color: #f4ecd8; /* weathered book page tan */
+      color: #111;
+      padding: 1em;
+    }
+    .poem-container {
+      max-width: 500px;
+      text-align: left;
+      line-height: 1.6;
+    }
+    h1 {
+      font-family: 'Crimson Pro', 'Palatino Linotype', 'Book Antiqua', serif;
+      font-weight: 700;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      text-align: center;
+    }
+    .author {
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+    .stanza {
+      margin-bottom: 1.5em;
+    }
+    #food {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="poem-container">
+    <h1>This Is Just To Say</h1>
+    <div class="author">By William Carlos Williams</div>
+    <div class="stanza">
+      I have eaten<br>
+      the <span id="food">plums</span><br>
+      that <span id="verb1">were</span> in<br>
+      the icebox
+    </div>
+    <div class="stanza">
+      and which<br>
+      you were probably<br>
+      saving<br>
+      for breakfast
+    </div>
+    <div class="stanza">
+      Forgive me<br>
+      <span id="pronoun">they</span> <span id="verb2">were</span> delicious<br>
+      so sweet<br>
+      and so cold
+    </div>
+  </div>
+  <script>
+    (function() {
+      function getParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+      }
+      function isPlural(word) {
+        // Simple heuristic: if ends with 's' and not with 'ss'
+        const lower = word.trim().toLowerCase();
+        return lower.endsWith('s') && !lower.endsWith('ss');
+      }
+      const raw = getParam('food');
+      if (raw !== null) {
+        const limited = raw.substring(0, 300);
+        const decoded = decodeURIComponent(limited.replace(/\+/g, ' '));
+        const foodEl = document.getElementById('food');
+        foodEl.textContent = decoded;
+
+        // Determine plurality
+        const plural = isPlural(decoded);
+
+        // Adjust verbs/pronouns
+        document.getElementById('verb1').textContent = plural ? 'were' : 'was';
+        document.getElementById('pronoun').textContent = plural ? 'they' : 'it';
+        document.getElementById('verb2').textContent = plural ? 'were' : 'was';
+      }
+    })();
+  </script>
+</body>
+</html>
