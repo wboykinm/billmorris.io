@@ -15,6 +15,7 @@
     html, body { height: 100%; }
     body {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
@@ -26,6 +27,7 @@
       max-width: 500px;
       text-align: left;
       line-height: 1.6;
+      /* no padding here to keep on-screen minimal */
     }
     h1 {
       font-family: 'Crimson Pro', 'Palatino Linotype', 'Book Antiqua', serif;
@@ -45,10 +47,27 @@
     #food {
       font-weight: bold;
     }
+    footer {
+      margin-top: auto;
+      width: 100%;
+      background-color: #e0d8c0;
+      padding: 0.5em 0;
+      text-align: center;
+    }
+    #download-btn {
+      font-size: 0.8em;
+      color: #333;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    #download-btn:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <div class="poem-container">
+  <div class="poem-container" id="poem">
     <h1>This Is Just To Say</h1>
     <div class="author">By William Carlos Williams</div>
     <div class="stanza">
@@ -70,33 +89,61 @@
       and so cold
     </div>
   </div>
+  <footer>
+    <button id="download-btn">🖼️</button>
+  </footer>
+
+  <!-- html2canvas for client-side image capture -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+
   <script>
-    (function() {
+    document.addEventListener('DOMContentLoaded', function() {
       function getParam(name) {
         const params = new URLSearchParams(window.location.search);
         return params.get(name);
       }
       function isPlural(word) {
-        // Simple heuristic: if ends with 's' and not with 'ss'
         const lower = word.trim().toLowerCase();
         return lower.endsWith('s') && !lower.endsWith('ss');
       }
       const raw = getParam('food');
+      const foodEl = document.getElementById('food');
       if (raw !== null) {
         const limited = raw.substring(0, 300);
         const decoded = decodeURIComponent(limited.replace(/\+/g, ' '));
-        const foodEl = document.getElementById('food');
         foodEl.textContent = decoded;
-
-        // Determine plurality
         const plural = isPlural(decoded);
-
-        // Adjust verbs/pronouns
         document.getElementById('verb1').textContent = plural ? 'were' : 'was';
         document.getElementById('pronoun').textContent = plural ? 'they' : 'it';
         document.getElementById('verb2').textContent = plural ? 'were' : 'was';
       }
-    })();
+
+      // Download button handler
+      document.getElementById('download-btn').addEventListener('click', function() {
+        if (typeof html2canvas !== 'function') {
+          alert('Preview generation is not available.');
+          return;
+        }
+        const poemEl = document.getElementById('poem');
+        // Temporarily add padding for capture
+        const originalPadding = poemEl.style.padding;
+        const originalBackground = poemEl.style.backgroundColor;
+        poemEl.style.padding = '50px';
+        poemEl.style.backgroundColor = '#f4ecd8';
+
+        html2canvas(poemEl).then(canvas => {
+          // restore original styles
+          poemEl.style.padding = originalPadding;
+          poemEl.style.backgroundColor = originalBackground;
+
+          const link = document.createElement('a');
+          const foodName = foodEl.textContent.replace(/[^a-z0-9]/gi, '_').toLowerCase() || 'poem';
+          link.download = `poem_${foodName}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      });
+    });
   </script>
 </body>
 </html>
