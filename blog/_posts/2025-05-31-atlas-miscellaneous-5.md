@@ -5,6 +5,7 @@ date: "2025-05-31T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2025-05-31_cover.jpg"
 tags: ["maps", "satellite", "mapbox", "history", "art", "culture", "bolivia", "texas", "russia"]
+subtitle: "Light it up, up, up, light it up, up, up . . ."
 ---
 
 ## Shoyna, Russia
