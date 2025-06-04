@@ -25,7 +25,7 @@ The sand colors caught me here, in Bolivia, where sediment fans from mountain ri
 
 Hear me out: fire unites us.
 
-In my youth I was a member of the [Bread and Puppet Theater](https://www.sevendaysvt.com/arts-culture/inside-bread-and-puppet-theater-as-founder-peter-schumann-89-contemplates-his-final-act-38993741) in the Northeastern highlands. I formed my political consciousness among the back-to-the-landers and unapoligetic socialists who would gather every year to put on massive festivals of massive art and performance. And at the end of every festival - echoing traditions that would also be cribbed by [better-known artisting gatherings](https://journal.burningman.org/2020/09/philosophical-center/spirituality/we-will-always-burn-the-man/) - a huge puppet would be burned to represent freedom from material evil.
+In my youth I was a member of the [Bread and Puppet Theater](https://www.sevendaysvt.com/arts-culture/inside-bread-and-puppet-theater-as-founder-peter-schumann-89-contemplates-his-final-act-38993741) in the Northeastern highlands. I formed my political consciousness among the back-to-the-landers and unapoligetic socialists who would gather every year to put on massive festivals of massive art and massive performance. And at the end of every festival - echoing traditions that would also be cribbed by [better-known artistic gatherings](https://journal.burningman.org/2020/09/philosophical-center/spirituality/we-will-always-burn-the-man/) - a huge puppet would be burned to represent freedom from material evil.
 
 ![4](/shoals/assets/img/2025-05-31_4.jpg)
 
