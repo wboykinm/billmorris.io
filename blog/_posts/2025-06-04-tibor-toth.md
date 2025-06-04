@@ -19,7 +19,7 @@ The path to an answer was shorter than usual this time. The helpful credits page
 
 ![2](/shoals/assets/img/2025-06-04_2.jpg)
 
-And Mr. Tóth himself was able to answer my question, with [a detailed piece in Cartographic Perspectives about his methods over the years (PDF)](https://web.archive.org/web/20250604130334/https://cartographicperspectives.org/index.php/journal/article/download/cp67-toth/pdf/882). It's worth a full read, but some parts stood out for me:
+And Mr. Tóth himself was able to answer my question, with [a detailed piece from 2010 in Cartographic Perspectives about his methods over the years (PDF)](https://web.archive.org/web/20250604130334/https://cartographicperspectives.org/index.php/journal/article/download/cp67-toth/pdf/882). It's worth a full read, but some parts stood out for me:
 
 > Because National Geographic Society had no in-house expertise in [the Swiss topographic style], they engaged the services of a retired Swiss cartographer, Paul Ulmer, to instruct a number of us in the relief presentation style made famous by Professor Eduard Imhof, Swiss Federal Institute of Technology (Eidgenössische Technische Hochschule), Zurich. At the end of the training program, Ulmer selected me to draw the relief for the map of Mt. Kennedy published in August 1968.
 
