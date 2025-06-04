@@ -21,17 +21,23 @@ The path to an answer was shorter than usual this time. The helpful credits page
 
 And Mr. Tóth himself was able to answer my question, with [a detailed piece from 2010 in Cartographic Perspectives about his methods over the years (PDF)](https://web.archive.org/web/20250604130334/https://cartographicperspectives.org/index.php/journal/article/download/cp67-toth/pdf/882). It's worth a full read, but some parts stood out for me:
 
+## Learning Imhof
+
 > Because National Geographic Society had no in-house expertise in [the Swiss topographic style], they engaged the services of a retired Swiss cartographer, Paul Ulmer, to instruct a number of us in the relief presentation style made famous by Professor Eduard Imhof, Swiss Federal Institute of Technology (Eidgenössische Technische Hochschule), Zurich. At the end of the training program, Ulmer selected me to draw the relief for the map of Mt. Kennedy published in August 1968.
 
 ![3](/shoals/assets/img/2025-06-04_3.jpg)
 
 _The massif of Mount Hubbard, Mount Alverstone, and Mount Kennedy. 1968_
 
+## Switching tools
+
 > When compared to the pencil shading technique, the airbrush’s greatest benefit is that it cuts back on the production time by as much as one half. Unlike the reflective art produced by graphite pencil, which requires special care in camera reproduction, airbrush art has a matte surface conducive to photography. 
 
 ![4](/shoals/assets/img/2025-06-04_4.jpg)
 
 _Precision airbrushing on The Heart of the Grand Canyon. 1978_
+
+## Fixing data by hand
 
 > [Re: his shift to digital mapping in the 1990s] . . . I start by producing a base relief image with resolution-bumped DEMs ([Patterson 2001](https://web.archive.org/web/20240716050255/https://mountaincartography.icaci.org/publications/papers/cartographica/carto_38-1_10_nationalpark.pdf)). As good as these images may appear at first glance, closer inspection reveals data-related deficiencies requiring retouching or, in extreme cases, more extensive over-painting. For these tasks I am grateful for all those years of conventional relief experience. 
 
