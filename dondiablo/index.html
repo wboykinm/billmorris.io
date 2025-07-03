@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Don Diablo's Theodolite</title>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.css" rel="stylesheet" />
-  <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" rel="stylesheet" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" rel="stylesheet" />
   <style>
     body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
     #map { position: absolute; top: 0; bottom: 0; width: 100%; }
@@ -96,7 +96,7 @@
   </div>
 
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.js"></script>
-  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoibGFuZHBsYW5uZXIiLCJhIjoiY21jbDc3aDh1MDd4MTJrb3I1eTJ6czNhaSJ9.moDLyEFcNqMwyryQdlwTcA';
 
@@ -111,11 +111,14 @@
     infoClose.addEventListener('click', hideModal);
 
     // Initialize map
+    const initLat = 18.867;
+    const initLng = -70.97996;
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/satellite-v9',
-      center: [-156.3229, 20.7709],
-      zoom: 10
+      style: 'mapbox://styles/mapbox/standard-satellite',
+      center: [initLng, initLat],
+      zoom: 14,
+      hash: true
     });
 
     let marker;
@@ -124,7 +127,7 @@
       mapboxgl: mapboxgl,
       marker: false,
       placeholder: 'Search for a place',
-      proximity: { longitude: -156.3229, latitude: 20.7709 }
+      proximity: { longitude: initLng, latitude: initLat }
     });
     map.addControl(geocoder);
     geocoder.on('result', e => handlePoint(e.result.center[1], e.result.center[0]));
