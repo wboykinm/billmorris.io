@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Don Diablo's Theodolite</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" rel="stylesheet" />
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+    /* Footer styling */
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 40px 0;
+      text-align: center;
+      font-family: "Georgia", serif;
+      font-size: 1.2em;
+      z-index: 1;
+    }
+    #footer div { margin: 4px 0; }
+
+    /* Geocoder control styling */
+    .mapboxgl-ctrl-geocoder {
+      z-index: 2;
+      min-width: 50%;
+      margin: 10px auto;
+      position: relative;
+    }
+
+    /* Modal styling */
+    #infoModal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      align-items: center;
+      justify-content: center;
+      z-index: 3;
+    }
+    #infoModalContent {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+    #infoModalContent h2 { margin-top: 0; }
+    #infoModalClose {
+      margin-top: 20px;
+      display: block;
+      cursor: pointer;
+    }
+
+    /* Info button styling */
+    #infoBtn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255,255,255,0.8);
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      cursor: pointer;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <button id="infoBtn" title="About">i</button>
+
+  <div id="footer">
+    <div id="elevation">Elevation: —</div>
+    <div id="slope">Slope: —</div>
+    <div id="azimuth">Azimuth: —</div>
+  </div>
+
+  <!-- Info Modal -->
+  <div id="infoModal">
+    <div id="infoModalContent">
+      <h2>Don Diablo's Theodolite</h2>
+      <p>Click anywhere on the map or search for a location to see terrain statistics. Caveat: Elevation data is based on SRTM30, with precision limited to approximately 30 meters. This is not a replacement for a proper ground survey.</p>
+      <p><i>Adapted from an <a href="https://observablehq.com/@slutske22/slope-as-a-function-of-latlng-in-leaflet" target="_blank">Observable notebook prototype by Seth Lutske.</a> Built out with love by <a href="https://billmorris.io/" target="_blank">Bill.</a></i></p>
+      <button id="infoModalClose">Close</button>
+    </div>
+  </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibGFuZHBsYW5uZXIiLCJhIjoiY21jbDc3aDh1MDd4MTJrb3I1eTJ6czNhaSJ9.moDLyEFcNqMwyryQdlwTcA';
+
+    // Modal logic
+    const infoModal = document.getElementById('infoModal');
+    const infoBtn = document.getElementById('infoBtn');
+    const infoClose = document.getElementById('infoModalClose');
+    function showModal() { infoModal.style.display = 'flex'; }
+    function hideModal() { infoModal.style.display = 'none'; }
+    window.addEventListener('load', showModal);
+    infoBtn.addEventListener('click', showModal);
+    infoClose.addEventListener('click', hideModal);
+
+    // Initialize map
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/satellite-v9',
+      center: [-156.3229, 20.7709],
+      zoom: 10
+    });
+
+    let marker;
+    const geocoder = new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl,
+      marker: false,
+      placeholder: 'Search for a place',
+      proximity: { longitude: -156.3229, latitude: 20.7709 }
+    });
+    map.addControl(geocoder);
+    geocoder.on('result', e => handlePoint(e.result.center[1], e.result.center[0]));
+    map.on('click', e => handlePoint(e.lngLat.lat, e.lngLat.lng));
+
+    const tileSize = 256;
+    const canvas = document.createElement('canvas');
+    canvas.width = canvas.height = tileSize;
+    const ctx = canvas.getContext('2d');
+    const info = {
+      elevation: document.getElementById('elevation'),
+      slope: document.getElementById('slope'),
+      azimuth: document.getElementById('azimuth')
+    };
+
+    async function handlePoint(lat, lng) {
+      if (marker) marker.remove();
+      marker = new mapboxgl.Marker({ draggable: false }).setLngLat([lng, lat]).addTo(map);
+      map.flyTo({ center: [lng, lat], zoom: 15 });
+
+      const zoomLevel = 15;
+      const coords = lngLatToTile(lng, lat, zoomLevel);
+      const imageUrl = `https://api.mapbox.com/v4/mapbox.terrain-rgb/${zoomLevel}/${coords.x}/${coords.y}.pngraw?access_token=${mapboxgl.accessToken}`;
+      const image = await loadImage(imageUrl);
+      ctx.drawImage(image, 0, 0);
+
+      const projected = project(lat, lng, zoomLevel);
+      const pixel = { x: Math.floor(projected.x % tileSize), y: Math.floor(projected.y % tileSize) };
+
+      const center = getElevationAtPixel(pixel);
+      const N = getElevationAtPixel({ x: pixel.x, y: pixel.y - 4 });
+      const S = getElevationAtPixel({ x: pixel.x, y: pixel.y + 4 });
+      const E = getElevationAtPixel({ x: pixel.x + 4, y: pixel.y });
+      const W = getElevationAtPixel({ x: pixel.x - 4, y: pixel.y });
+
+      const dy = distanceLat(lat, 4, zoomLevel);
+      const dx = distanceLng(lat, 4, zoomLevel);
+      const dzdx = (E - W) / dx;
+      const dzdy = (N - S) / dy;
+
+      const slope = Math.atan(Math.sqrt(dzdx**2 + dzdy**2)) * 180 / Math.PI;
+      let az = (270 - (Math.atan2(dzdy, dzdx) * 180 / Math.PI)) % 360;
+      if (az < 0) az += 360;
+
+      info.elevation.innerText = `Elevation: ${center.toFixed(1)} m`;
+      info.slope.innerText = `Slope: ${slope.toFixed(1)}°`;
+      info.azimuth.innerText = `Azimuth: ${az.toFixed(1)}°`;
+    }
+
+    function loadImage(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = 'Anonymous';
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+      });
+    }
+
+    function getElevationAtPixel({ x, y }) {
+      const { data } = ctx.getImageData(x, y, 1, 1);
+      return -10000 + ((data[0] * 256 * 256 + data[1] * 256 + data[2]) * 0.1);
+    }
+
+    function lngLatToTile(lng, lat, zoom) {
+      const scale = Math.pow(2, zoom);
+      const x = Math.floor((lng + 180) / 360 * scale);
+      const y = Math.floor((1 - Math.log(Math.tan(lat * Math.PI/180) + 1 / Math.cos(lat * Math.PI/180)) / Math.PI) / 2 * scale);
+      return { x, y };
+    }
+
+    function project(lat, lng, zoom) {
+      const scale = tileSize * Math.pow(2, zoom);
+      const x = (lng + 180) / 360 * scale;
+      const y = (1 - Math.log(Math.tan(lat * Math.PI / 180) + 1 / Math.cos(lat * Math.PI / 180)) / Math.PI) / 2 * scale;
+      return { x, y };
+    }
+
+    function distanceLat(lat, px, zoom) {
+      const latPerPx = 360 / (tileSize * Math.pow(2, zoom));
+      return px * latPerPx * 111320;
+    }
+
+    function distanceLng(lat, px, zoom) {
+      const lngPerPx = 360 / (tileSize * Math.pow(2, zoom));
+      const metersPerDeg = 111320 * Math.cos(lat * Math.PI / 180);
+      return px * lngPerPx * metersPerDeg;
+    }
+  </script>
+</body>
+</html>
