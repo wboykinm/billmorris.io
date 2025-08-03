@@ -50,7 +50,7 @@ done
 ### Publishing a new post
 
 ```
-jekyll build -d ../shoals
+bundle exec jekyll build -d ../shoals
 ```
 
 . . . and push the result to github.
