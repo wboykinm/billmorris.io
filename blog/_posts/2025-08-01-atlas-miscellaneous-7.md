@@ -18,11 +18,13 @@ Credit where it's due: the [linked photos via Google Maps](https://www.google.co
 
 ![3](/shoals/assets/img/2025-08-03_3b.jpg)
 
+I cannot even begin to imagine how much it costs to keep this road open.
+
 ## Pyongyang, North Korea
 
 ![1](/shoals/assets/img/2025-08-03_1.jpg)
 
-The hermit kingdom is trolling me. Or more accurately, they're trolling the many foreigners whose only window into North Korean life is from satellite imagery. The national Sci-Tech Complex is - yes - built in the shape of an atom, suggesting that Kim Jong-un's nuclear-obsessed regime is aware of and poking at the rest of the world's equal obsession with North Korean nuclear capabilities.
+The hermit kingdom is trolling me. Or more accurately, they're trolling the many foreigners whose only window into North Korean life is from satellite imagery. The national Sci-Tech Complex in the capital city is - yes - built in the shape of an atom, suggesting that Kim Jong-un's nuclear-obsessed regime is aware of and poking at the rest of the world's equal obsession with North Korean nuclear capabilities.
 
 According to [state photos and statements](https://www.theguardian.com/world/gallery/2015/oct/29/north-korea-atom-nuclear-science-centre-pictures), the not-unattractive structure is basically a big, ruthlessly-curated library. Books on the shelves are notably in English and French. And of course there's a big-ol' ICBM in the very center of the atom's nucleus, but let he who has never [used a missle as a public art installation](https://www.ksnt.com/news/kansas/monument-vandalized-in-lawrence/) cast the first stone.
 
