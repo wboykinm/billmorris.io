@@ -7,7 +7,7 @@ cover-img: "/assets/img/2025-08-11_cover.jpg"
 tags: ["maps", "writing", "ai", "llm", "engineering"]
 ---
 
-We're neck-deep in AI these days, the era of the Large Language Model (LLM). It's all over the news, but also in many of our day to day tasks, as the digital products threaded through our lives race to catch up. I'm not sure I've ever in my lifetime seen a technology adopted so fast, both organically and pushed from above. So here we all are, familiar with these fundamentally-predictive machines; my opinion is one among a billion. So this feels more like a testimony for the record:
+We're neck-deep in AI these days, the era of the Large Language Model (LLM). It's [all over the news](https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html), but also in many of our day to day tasks, as the digital products threaded through our lives race to catch up. I'm not sure I've ever in my lifetime seen a technology adopted so fast, both organically and pushed from above. So here we all are, familiar with these fundamentally-predictive machines; my opinion is one among a billion. So this feels more like a testimony for the record:
 
 I have quickly come to the conclusion that __LLM-generated writing in English is not meaningful for communication between people.__
 
