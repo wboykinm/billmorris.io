@@ -7,7 +7,7 @@ cover-img: "/assets/img/2025-08-11_cover.jpg"
 tags: ["maps", "writing", "ai", "llm", "engineering"]
 ---
 
-We're neck-deep in AI these days. It's all over the news, but also in many of our day to day tasks, as the digital products threaded through our lives race to catch up. I'm not sure I've ever in my lifetime seen a technology adopted so fast, both organically and pushed from above. So here we all are, familiar with these fundamentally-predictive machines; my opinion is one among a billion. So this feels more like a testimony for the record:
+We're neck-deep in AI these days, the era of the Large Language Model (LLM). It's all over the news, but also in many of our day to day tasks, as the digital products threaded through our lives race to catch up. I'm not sure I've ever in my lifetime seen a technology adopted so fast, both organically and pushed from above. So here we all are, familiar with these fundamentally-predictive machines; my opinion is one among a billion. So this feels more like a testimony for the record:
 
 I have quickly come to the conclusion that __LLM-generated writing in English is not meaningful for communication between people.__
 
@@ -15,7 +15,7 @@ I mean a few things by this.
 
 ## . . . Between people
 
-For two years now I've dabbled in the sort of prompting for text output that made ChatGPT famous. I've observed the results mostly with the sort of pleased detachment that might accompany a fisherman practicing catch-and-release. It's experimentation and appreciation. I've grasped that business emails are almost easier to write myself than to comprehensively prompt, and that my kids [will likely see the death of the five-paragraph essay](https://reason.com/2024/05/30/long-live-the-five-paragraph-essay/). 
+For two years now I've dabbled in the sort of prompting for text output that made ChatGPT famous. I've observed the results mostly with a sort of pleased detachment - like a fisherman practicing catch-and-release. It's experimentation and appreciation. I've grasped that business emails are almost easier to write myself than to comprehensively prompt, and that my kids [will likely see the death of the five-paragraph essay](https://reason.com/2024/05/30/long-live-the-five-paragraph-essay/). 
 
 But recently I've begun to note when I am the probable recipient of AI-generated writing. It's inconsequential stuff in niche news sites that sold their souls for popup ad revenue long ago, but it feels somehow like I'm the victim of fraud. I don't know, maybe I was hoping for some sort of thoughtful communion, however small, with the intern who was tasked to write a review of Death Stranding 2, or the editor with a thinkpiece on paying NCAA athletes. When instead I find myself descending a chain of paragraphs that [inelegantly expand on a bulleted prompt list](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), I know in my bones I've wasted my time. There's no one on the other end of the line.
 
@@ -23,7 +23,7 @@ That feeling - surely not shared by all, and maybe a sign of nascent age-related
 
 ## . . . Meaning
 
-Not all writing has to be meaningful. This has been true since cuneiform was first used to inscribe a contract for a delivery of wheat four thousand years ago. Communication is often rote, boring, transactional, and formulaic. The business email, the todo list, the feature documentation - all of these seem to me unburdened by the lofty goals of interpersonal meaning. I don't personally feel troubled if an LLM wrote this kind of material, as I wasn't in search of a capital-r _Reading_ experience; I just want to get a job done.
+Not all writing has to be meaningful. This has been true since cuneiform was first used to inscribe a contract for a delivery of wheat four thousand years ago. Communication is often rote, boring, transactional, and formulaic. The business email, the todo list, the feature documentation - all of these seem to me unburdened by the lofty goals of interpersonal meaning. I don't feel troubled if an LLM wrote this kind of material, as I wasn't in search of a capital-r _Reading_ experience; I just want to get a job done.
 
 As it matters less who _wrote_, I see it mattering less who _reads_. I have colleagues who have quickly grasped that [there are now multiple audiences for their work](https://www.kapa.ai/blog/optimizing-technical-documentation-for-llms): people and AI in equal measure. Machine-legibility has long been important in software, but it's usually been through the lens of a markup language or object notation. Now we're all [debatably] speaking the same language. Which brings me to . . .
 
@@ -35,7 +35,9 @@ __However under the umbrella of "language", there's also code.__ The engineers I
 
 ### The efficiency gains are astonishing. 
 
-I'm not a great engineer. I don't bleed Python type checks or exhale Rust compilers, and mostly that's fine because I know my way around tools and [how to automate tasks using whatever is lying around](https://billmorris.io/shoals/2025/05/09/beautiful-capital.html). However, I am quite slow to write code, constantly looking up documentation and going down procedural dead-ends. With team assistance and good design planning, I can put together a moderately-complex piece of software in a few weeks of work. Codegen AI will help me through it in a few hours. 
+I'm not a great engineer. I don't bleed Python type checks or exhale Rust compilers, and mostly that's fine because I know my way around tools and [how to automate tasks using whatever is lying around](https://billmorris.io/shoals/2025/05/09/beautiful-capital.html). However, I am quite slow to write code, constantly looking up documentation and going down procedural dead-ends. With team assistance and good design planning, I can put together a moderately-complex piece of software in a few weeks of work. 
+
+Codegen AI will help me through the same task in a few hours. 
 
 This has also shifted my thinking about the realm of the possible. Projects that had languished on my pipe-dream list - "Man, that would be fun and useful but I'll never have the time" - are now within easier striking distance. I find myself checking things off that list with regularity over the past few months, as codegen has become a part of my workflow.
 
@@ -47,7 +49,7 @@ The most fundamental, accurate complaint about AI today is that __it's an engine
 
 [Open-source software](https://en.wikipedia.org/wiki/Open-source_software) is a utopian ideal, that - messily - has worked as advertised for decades now. It's not an exaggeration to say that I became an engineer because of the swirling maelstrom of sharing, using, and improving in the OSS ecosystem. The intent of this openness has always been [to encourage collaboration and advancement](https://macwright.com/2025/07/03/epanet-placemark) with a minimum of friction. I'll argue that it makes the use of [specifically open-source] code as LLM training data a valid and even transcendent action, fundamentally different than the theft of copyrighted works from authors whose livelihoods are undercut. I have a vested interest in believing this, I know, but it's a point that I can earnestly defend, for now.[^whoathere]
 
-Lurking behind my enthusiasm is a deep distrust of the companies that provide AI codegen services to me and my colleagues. I don't trust [their motivations](https://blog.samaltman.com/the-gentle-singularity), I don't like [their profligate spending](https://www.theguardian.com/technology/2025/aug/02/big-tech-ai-spending), and I don't like [their flexible politics](https://www.cnn.com/2025/07/15/business/us-department-defense-google-musk-xai). My fear isn't that they'll take away my shiny new toys - indeed, they'll be happy to sell those to me as long as they can - but rather that they'll provoke a cold war that forces open source projects to close themselves off to avoid abuse.
+Lurking behind my enthusiasm is a deep distrust of the companies that provide AI codegen services to me and my colleagues. I don't trust [their motivations](https://blog.samaltman.com/the-gentle-singularity), I don't like [their profligate spending](https://www.theguardian.com/technology/2025/aug/02/big-tech-ai-spending), and I don't like their [flexible](https://www.nytimes.com/2025/08/11/business/dealbook/nvidia-amd-chip-payoff-trump.html) [politics](https://www.cnn.com/2025/07/15/business/us-department-defense-google-musk-xai). My fear isn't that they'll take away my shiny new toys - indeed, they'll be happy to sell those to me as long as they can - but rather that they'll provoke a cold war that forces open source projects to close themselves off to avoid abuse.
 
 # Where do we go from here?
 
