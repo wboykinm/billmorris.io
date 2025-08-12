@@ -9,13 +9,13 @@
 
   
 
-  <title>A day on Hadrian&apos;s Wall</title>
+  <title>Archives</title>
 
   
   <meta name="author" content="Bill Morris">
   
 
-  <meta name="description" content="One stretch of a hike from coast to coast.">
+  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- assign posts_by_year = site.posts | group_by_exp: &quot;post&quot;, &quot;post.date | date: &apos;%Y&apos;&quot; -%} {%- for year_group in posts_by_year -%} &amp;nbsp;{{- year_group.name -}} ({{ year_group.items.size }} posts) {%- for post in year_group.items -%} {{- post.title | strip_html -}} {{- post.date...">
 
   
 
@@ -78,32 +78,30 @@
 
   
   <meta property="og:site_name" content="Shoals">
-  <meta property="og:title" content="A day on Hadrian&apos;s Wall">
-  <meta property="og:description" content="One stretch of a hike from coast to coast.">
+  <meta property="og:title" content="Archives">
+  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- assign posts_by_year = site.posts | group_by_exp: &quot;post&quot;, &quot;post.date | date: &apos;%Y&apos;&quot; -%} {%- for year_group in posts_by_year -%} &amp;nbsp;{{- year_group.name -}} ({{ year_group.items.size }} posts) {%- for post in year_group.items -%} {{- post.title | strip_html -}} {{- post.date...">
 
   
-  <meta property="og:image" content="/shoals/assets/img/2022-05-07_cover.jpg">
-  
-
-  
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="Bill Morris">
-  <meta property="og:article:published_time" content="2022-05-07T16:28:36-04:00">
-  <meta property="og:url" content="/shoals/2022/05/07/hadrian.html">
-  <link rel="canonical" href="/shoals/2022/05/07/hadrian.html">
+  <meta property="og:image" content="/shoals/assets/img/avatar-5.webp">
   
 
   
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/shoals/archives.html">
+  <link rel="canonical" href="/shoals/archives.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
   
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="A day on Hadrian&apos;s Wall">
-  <meta property="twitter:description" content="One stretch of a hike from coast to coast.">
+  <meta property="twitter:title" content="Archives">
+  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- assign posts_by_year = site.posts | group_by_exp: &quot;post&quot;, &quot;post.date | date: &apos;%Y&apos;&quot; -%} {%- for year_group in posts_by_year -%} &amp;nbsp;{{- year_group.name -}} ({{ year_group.items.size }} posts) {%- for post in year_group.items -%} {{- post.title | strip_html -}} {{- post.date...">
 
   
-  <meta name="twitter:image" content="/shoals/assets/img/2022-05-07_cover.jpg">
+  <meta name="twitter:image" content="/shoals/assets/img/avatar-5.webp">
   
 
   
@@ -855,60 +853,17 @@
 
 
 
-  <div id="header-big-imgs" data-num-img=1
-    
-    
-    
-      
-      data-img-src-1="/shoals/assets/img/2022-05-07_cover.jpg"
-    
-    
-    
-  ></div>
 
-
-<header class="header-section has-img">
-
-<div class="big-img intro-header">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>A day on Hadrian's Wall</h1>
-          
-            
-              <h2 class="post-subheading">One stretch of a hike from coast to coast.</h2>
-            
-          
-
-          
-            <span class="post-meta">Posted on May 7, 2022</span>
-            
-            
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  <span class='img-desc'></span>
-</div>
+<header class="header-section ">
 
 <div class="intro-header no-img">
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>A day on Hadrian's Wall</h1>
-          
-            
-              <h2 class="post-subheading">One stretch of a hike from coast to coast.</h2>
-            
+        <div class="page-heading">
+          <h1>Archives</h1>
           
 
-          
-            <span class="post-meta">Posted on May 7, 2022</span>
-            
-            
           
         </div>
       </div>
@@ -921,142 +876,526 @@
 
 
 
-<div class=" container-md ">
+<div class=" container-md " role="main">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <div id="archives-list"><h2 id="2025" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2025(11 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2025/08/11/meaningful-communion.html">Meaningful Communion</a>
+                <div class="entry-date">
+                    <time datetime="2025-08-11T08:00:00-04:00">August 11, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/08/03/atlas-miscellaneous-7.html">Atlas Miscellaneous - August 2025</a>
+                <div class="entry-date">
+                    <time datetime="2025-08-03T10:00:00-04:00">August 3, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/07/06/atlas-miscellaneous-6.html">Atlas Miscellaneous - July 2025</a>
+                <div class="entry-date">
+                    <time datetime="2025-07-06T12:00:00-04:00">July 6, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/06/04/tibor-toth.html">Tibor G. Tóth</a>
+                <div class="entry-date">
+                    <time datetime="2025-06-04T08:00:00-04:00">June 4, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/05/31/atlas-miscellaneous-5.html">Atlas Miscellaneous - May 2025</a>
+                <div class="entry-date">
+                    <time datetime="2025-05-31T12:00:00-04:00">May 31, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/05/09/beautiful-capital.html">Beautiful Capital</a>
+                <div class="entry-date">
+                    <time datetime="2025-05-09T12:00:00-04:00">May 9, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/04/21/atlas-miscellaneous-4.html">Atlas Miscellaneous - April 2025</a>
+                <div class="entry-date">
+                    <time datetime="2025-04-21T09:00:00-04:00">April 21, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/03/15/atlas-miscellaneous-3.html">Atlas Miscellaneous - 2025-03-15</a>
+                <div class="entry-date">
+                    <time datetime="2025-03-15T02:00:00-04:00">March 15, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/02/15/atlas-miscellaneous-2.html">Atlas Miscellaneous - 2025-02-12</a>
+                <div class="entry-date">
+                    <time datetime="2025-02-15T11:00:00-05:00">February 15, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/01/25/school-diversity.html">School diversity in the Northeastern U.S.</a>
+                <div class="entry-date">
+                    <time datetime="2025-01-25T11:00:00-05:00">January 25, 2025</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2025/01/15/atlas-miscellaneous-1.html">Atlas Miscellaneous: edition 1736977234</a>
+                <div class="entry-date">
+                    <time datetime="2025-01-15T11:00:00-05:00">January 15, 2025</time>
+                </div>
+            </div></div><h2 id="2024" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2024(11 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2024/11/22/landsat-speedrun.html">How to speedrun Landsat truecolor processing in 2024</a>
+                <div class="entry-date">
+                    <time datetime="2024-11-22T11:00:00-05:00">November 22, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/11/17/belonging-welcoming.html">Belonging and welcoming</a>
+                <div class="entry-date">
+                    <time datetime="2024-11-17T11:00:00-05:00">November 17, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/10/04/eye-of-quebec.html">The Eye of Quebec: before/after</a>
+                <div class="entry-date">
+                    <time datetime="2024-10-04T12:00:00-04:00">October 4, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/07/15/perfect-app.html">The perfect app</a>
+                <div class="entry-date">
+                    <time datetime="2024-07-15T12:00:00-04:00">July 15, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/07/10/you-are-here-there.html">You are here/there</a>
+                <div class="entry-date">
+                    <time datetime="2024-07-10T12:00:00-04:00">July 10, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/05/08/krakow-october.html">Krakow, October 2021</a>
+                <div class="entry-date">
+                    <time datetime="2024-05-08T12:00:00-04:00">May 8, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/04/29/cycling-gratitude.html">One for the cyclists</a>
+                <div class="entry-date">
+                    <time datetime="2024-04-29T06:00:00-04:00">April 29, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/03/17/longterm-longform.html">Long-term longform</a>
+                <div class="entry-date">
+                    <time datetime="2024-03-17T12:00:00-04:00">March 17, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/02/08/stormy-eclipse.html">The wrong cloudy day</a>
+                <div class="entry-date">
+                    <time datetime="2024-02-08T11:00:00-05:00">February 8, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/01/26/good-fortune.html">Good Fortune</a>
+                <div class="entry-date">
+                    <time datetime="2024-01-26T11:00:00-05:00">January 26, 2024</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2024/01/08/jarlath-in-memoriam.html">Thank your heroes</a>
+                <div class="entry-date">
+                    <time datetime="2024-01-08T11:00:00-05:00">January 8, 2024</time>
+                </div>
+            </div></div><h2 id="2023" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2023(11 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2023/11/10/a-good-season.html">A good season</a>
+                <div class="entry-date">
+                    <time datetime="2023-11-10T11:00:00-05:00">November 10, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/10/28/just-another-dark-age.html">Just Another Dark Age</a>
+                <div class="entry-date">
+                    <time datetime="2023-10-28T12:00:00-04:00">October 28, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/09/27/lower-saxony.html">The Latest From Lower Saxony</a>
+                <div class="entry-date">
+                    <time datetime="2023-09-27T12:00:00-04:00">September 27, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/09/24/stories-in-geologic-time.html">Human stories in geologic time</a>
+                <div class="entry-date">
+                    <time datetime="2023-09-24T12:00:00-04:00">September 24, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/09/21/perception-and-reality.html">Perception and reality</a>
+                <div class="entry-date">
+                    <time datetime="2023-09-21T12:00:00-04:00">September 21, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/09/10/rs-b-sides.html">The B-Sides of Remote Sensing</a>
+                <div class="entry-date">
+                    <time datetime="2023-09-10T12:00:00-04:00">September 10, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/08/17/land-tiles.html">Dryland XYZ tiles</a>
+                <div class="entry-date">
+                    <time datetime="2023-08-17T09:04:44-04:00">August 17, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/07/25/old-dock.html">Tradewinds</a>
+                <div class="entry-date">
+                    <time datetime="2023-07-25T16:37:21-04:00">July 25, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/07/12/beautiful-summer.html">A beautiful summer</a>
+                <div class="entry-date">
+                    <time datetime="2023-07-12T13:56:21-04:00">July 12, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/04/02/once-a-cyclist.html">Once a cyclist</a>
+                <div class="entry-date">
+                    <time datetime="2023-04-02T17:13:18-04:00">April 2, 2023</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2023/03/10/a-new-story.html">A New Story</a>
+                <div class="entry-date">
+                    <time datetime="2023-03-10T16:01:04-05:00">March 10, 2023</time>
+                </div>
+            </div></div><h2 id="2022" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2022(6 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2022/11/13/migrating.html">Migrating with tusks and a trunk</a>
+                <div class="entry-date">
+                    <time datetime="2022-11-13T16:35:10-05:00">November 13, 2022</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2022/10/10/watch-in-paris.html">Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]</a>
+                <div class="entry-date">
+                    <time datetime="2022-10-10T10:31:42-04:00">October 10, 2022</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2022/05/07/hadrian.html">A day on Hadrian's Wall</a>
+                <div class="entry-date">
+                    <time datetime="2022-05-07T16:28:36-04:00">May 7, 2022</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2022/03/09/grad-school-hoard.html">The things he carried</a>
+                <div class="entry-date">
+                    <time datetime="2022-03-09T19:42:22-05:00">March 9, 2022</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2022/02/14/compton.html">Compton</a>
+                <div class="entry-date">
+                    <time datetime="2022-02-14T10:30:19-05:00">February 14, 2022</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2022/01/21/how-to-internet.html">How to deploy a webpage in 2022</a>
+                <div class="entry-date">
+                    <time datetime="2022-01-21T16:13:15-05:00">January 21, 2022</time>
+                </div>
+            </div></div><h2 id="2021" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2021(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2021/08/12/2020-census.html">2020 Census drop, yo.</a>
+                <div class="entry-date">
+                    <time datetime="2021-08-12T17:50:32-04:00">August 12, 2021</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2021/01/10/otto-and-eugene.html">Otto and Eugene</a>
+                <div class="entry-date">
+                    <time datetime="2021-01-10T17:17:00-05:00">January 10, 2021</time>
+                </div>
+            </div></div><h2 id="2020" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2020(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2020/07/14/sql.html">Democratizing data science where it counts</a>
+                <div class="entry-date">
+                    <time datetime="2020-07-14T16:48:15-04:00">July 14, 2020</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2020/03/09/chanel-number-5.html">Family artifacts</a>
+                <div class="entry-date">
+                    <time datetime="2020-03-09T18:11:09-04:00">March 9, 2020</time>
+                </div>
+            </div></div><h2 id="2019" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2019(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2019/11/11/twitter-in-2019.html">How I use Twitter in 2019</a>
+                <div class="entry-date">
+                    <time datetime="2019-11-11T11:00:00-05:00">November 11, 2019</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2019/08/28/zipcodes-for-spatial-analysis.html">A full-throated defense of using Zipcodes for spatial analysis</a>
+                <div class="entry-date">
+                    <time datetime="2019-08-28T16:16:07-04:00">August 28, 2019</time>
+                </div>
+            </div></div><h2 id="2018" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2018(4 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2018/11/19/a-journey.html">Following a phone case</a>
+                <div class="entry-date">
+                    <time datetime="2018-11-19T19:13:11-05:00">November 19, 2018</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2018/08/30/all-the-takes-youre-about-to-see-on-the-nycsnapchat-map-vandalism.html">All the Takes You’re About to See on the NYC-Snapchat Map Vandalism</a>
+                <div class="entry-date">
+                    <time datetime="2018-08-30T13:37:23-04:00">August 30, 2018</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2018/07/28/true-map.html">A true map</a>
+                <div class="entry-date">
+                    <time datetime="2018-07-28T08:31:01-04:00">July 28, 2018</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2018/07/10/new-belgium.html">New Belgium, 1650</a>
+                <div class="entry-date">
+                    <time datetime="2018-07-10T12:00:00-04:00">July 10, 2018</time>
+                </div>
+            </div></div><h2 id="2017" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2017(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2017/12/20/imagination-vs-the-moat.html">Imagination vs. the Moat</a>
+                <div class="entry-date">
+                    <time datetime="2017-12-20T11:00:00-05:00">December 20, 2017</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2017/07/20/bonten-poad-generating-fake-vermont-placenames-with-a-neural-network.html">Bonten Poad</a>
+                <div class="entry-date">
+                    <time datetime="2017-07-20T09:07:25-04:00">July 20, 2017</time>
+                </div>
+            </div></div><h2 id="2016" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2016(6 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2016/12/08/watching-the-desert-bloom.html">Watching the Desert Bloom</a>
+                <div class="entry-date">
+                    <time datetime="2016-12-08T11:00:00-05:00">December 8, 2016</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2016/11/11/drawing-the-planet-in-brushstrokes.html">Drawing the planet in brushstrokes</a>
+                <div class="entry-date">
+                    <time datetime="2016-11-11T10:54:52-05:00">November 11, 2016</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2016/10/25/putting-the-clinton-campaign-on-the-map.html">Putting the Clinton campaign on the map</a>
+                <div class="entry-date">
+                    <time datetime="2016-10-25T09:36:01-04:00">October 25, 2016</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2016/08/11/superblocks-for-a-small-city.html">Superblocks for a small city</a>
+                <div class="entry-date">
+                    <time datetime="2016-08-11T19:21:02-04:00">August 11, 2016</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2016/04/01/from-above.html">From Above</a>
+                <div class="entry-date">
+                    <time datetime="2016-04-01T09:48:19-04:00">April 1, 2016</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2016/02/04/primary-2016-manifesto.html">Primary 2016 Manifesto</a>
+                <div class="entry-date">
+                    <time datetime="2016-02-04T09:04:49-05:00">February 4, 2016</time>
+                </div>
+            </div></div><h2 id="2015" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2015(5 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2015/12/11/better-friendships-through-mapping-technology.html">Better friendships through mapping technology</a>
+                <div class="entry-date">
+                    <time datetime="2015-12-11T14:05:48-05:00">December 11, 2015</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2015/11/03/social-silos.html">Social Silos</a>
+                <div class="entry-date">
+                    <time datetime="2015-11-03T09:34:47-05:00">November 3, 2015</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2015/09/17/cartographers-promised-land.html">The cartographer’s promised land</a>
+                <div class="entry-date">
+                    <time datetime="2015-09-17T11:57:07-04:00">September 17, 2015</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2015/04/24/caught-in-the-cartographic-crossfire.html">Caught in the Cartographic Crossfire</a>
+                <div class="entry-date">
+                    <time datetime="2015-04-24T15:01:14-04:00">April 24, 2015</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2015/03/10/geoascii.html">GeoASCII</a>
+                <div class="entry-date">
+                    <time datetime="2015-03-10T22:59:38-04:00">March 10, 2015</time>
+                </div>
+            </div></div><h2 id="2014" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2014(5 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2014/12/01/this-is-not-a-post-about-ello.html">This is not a post about Ello</a>
+                <div class="entry-date">
+                    <time datetime="2014-12-01T10:34:19-05:00">December 1, 2014</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2014/11/14/redistricting-a-question-and-a-query.html">Redistricting: A Question and a Query</a>
+                <div class="entry-date">
+                    <time datetime="2014-11-14T23:20:01-05:00">November 14, 2014</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2014/11/14/palm-board-and-parchment.html">Palm board and parchment</a>
+                <div class="entry-date">
+                    <time datetime="2014-11-14T23:04:10-05:00">November 14, 2014</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2014/08/24/separation-of-concerns.html">Separation of Concerns</a>
+                <div class="entry-date">
+                    <time datetime="2014-08-24T14:08:18-04:00">August 24, 2014</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2014/06/02/constellations-of-potential.html">Constellations of Potential</a>
+                <div class="entry-date">
+                    <time datetime="2014-06-02T10:40:44-04:00">June 2, 2014</time>
+                </div>
+            </div></div><h2 id="2013" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2013(3 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2013/08/18/piano-source.html">Piano/Source</a>
+                <div class="entry-date">
+                    <time datetime="2013-08-18T12:00:00-04:00">August 18, 2013</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2013/08/06/tiled-basemaps-survey.html">Tiled Basemaps Survey 2013 - Results!</a>
+                <div class="entry-date">
+                    <time datetime="2013-08-06T12:00:00-04:00">August 6, 2013</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2013/01/18/open-thresholds.html">Open thresholds</a>
+                <div class="entry-date">
+                    <time datetime="2013-01-18T11:00:00-05:00">January 18, 2013</time>
+                </div>
+            </div></div><h2 id="2012" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2012(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2012/11/25/secession-racism.html">Secession & Racism: a Spatial Analysis</a>
+                <div class="entry-date">
+                    <time datetime="2012-11-25T11:00:00-05:00">November 25, 2012</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2012/10/06/after-empire.html">After Empire</a>
+                <div class="entry-date">
+                    <time datetime="2012-10-06T12:00:00-04:00">October 6, 2012</time>
+                </div>
+            </div></div><h2 id="2011" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2011(3 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2011/08/30/crowdsourcing-high-water.html">Crowdsourcing the high water</a>
+                <div class="entry-date">
+                    <time datetime="2011-08-30T12:00:00-04:00">August 30, 2011</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2011/07/25/cartodynamism.html">Cartodynamism</a>
+                <div class="entry-date">
+                    <time datetime="2011-07-25T12:00:00-04:00">July 25, 2011</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2011/03/01/agriculture-food-poverty.html">Agriculture, Food and Poverty</a>
+                <div class="entry-date">
+                    <time datetime="2011-03-01T11:00:00-05:00">March 1, 2011</time>
+                </div>
+            </div></div><h2 id="2010" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2010(1 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2010/11/26/political-space.html">Political Space</a>
+                <div class="entry-date">
+                    <time datetime="2010-11-26T11:00:00-05:00">November 26, 2010</time>
+                </div>
+            </div></div><h2 id="2005" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2005(1 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2005/05/25/haiti.html">Of Guinness, Lug Nuts, and Blue Helmets</a>
+                <div class="entry-date">
+                    <time datetime="2005-05-25T12:00:00-04:00">May 25, 2005</time>
+                </div>
+            </div></div><h2 id="2004" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2004(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2004/09/25/blowdown.html">Blowdown</a>
+                <div class="entry-date">
+                    <time datetime="2004-09-25T12:00:00-04:00">September 25, 2004</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2004/07/10/traverse.html">Traverse: Midsummer</a>
+                <div class="entry-date">
+                    <time datetime="2004-07-10T12:00:00-04:00">July 10, 2004</time>
+                </div>
+            </div></div><h2 id="2003" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;2003(2 posts)
+    </h2>
+    <div class="post-list"><div class="archive-entry">
+                <a href="/shoals/2003/10/10/clumsy-banditry.html">Clumsy banditry</a>
+                <div class="entry-date">
+                    <time datetime="2003-10-10T12:00:00-04:00">October 10, 2003</time>
+                </div>
+            </div><div class="archive-entry">
+                <a href="/shoals/2003/07/01/happenings.html">Happenings about town</a>
+                <div class="entry-date">
+                    <time datetime="2003-07-01T12:00:00-04:00">July 1, 2003</time>
+                </div>
+            </div></div></div>
+
+<style>
+.archive-entry {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.archive-entry:last-child {
+    border-bottom: none;
+}
+
+.archive-entry a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.entry-date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.linked-section {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+</style>
 
       
 
       
-
-      <article role="main" class="blog-post">
-        <h3 id="greenhead">Greenhead</h3>
-<p>I told everyone who asked that I slept well. It wasn’t really true; the room was well-heated and there’s nothing but a comforter, reinforcing the fact that I sleep best in the cold. On the flip side, it’s impossible to complain because thanks to the over-powered heaters, every scrap of clothing and shoe I have is completely dry.</p>
-
-<p>No rain is forecast for today, my third walking Hadrian’s Wall Path. I should have fewer miles than yesterday, though up over steeper terrain. It’s a Saturday, and I’m heading into some of the most famous sections of the wall, so I don’t expect that I’ll be nearly as alone as I was in the hills between Carlisle and this river valley.</p>
-
-<p>Strava begs to inform me that yesterday I continued my trend of sniping impossibly obscure records, landing the seventh fastest time on the one big hill climb of the day. I’ll bask in that for a little bit.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_1.jpg" alt="1" /></p>
-
-<h3 id="thirlwall-castle">Thirlwall Castle</h3>
-<p>I detected the tiniest note of defensiveness in the language on the intepretive sign here. In this case it was “recycled” rather than stolen Roman stone and “meant as a defense against the Scots”, which of course the wall itself had not been doing 🙄. From what I’ve read, there’s more than a change in defensive strategies going on here, from a full frontier wall to individual keeps over hundreds of years. This particular castle tells the story of a 12th-century shift in political structure, with a Norman aristocracy afraid of its own people, and trying to keep <em>them</em> out as much as any invaders.</p>
-
-<p>It’s fun to imagine this as a LEGO animation, with bricks being sucked away from the long wall and - with a satisfying clatter - forming this castle on a hill, then after some time sucked away again into individual houses and farm walls.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_2.jpg" alt="2" /></p>
-
-<h3 id="walltown">Walltown</h3>
-<p>Another contrast I’m trying to wrap my head around is the fact that here they say deliberately to walk on untrodden turf. On the Appalachian trail and its various derivatives, the ethic is always to walk in the muck or on rocks. It makes me wonder what sort of supernatural turf this is, that it can handle thousands of feet as long as they’re spread out. On reflection I realized that this is probably because Vermont’s Alpine vegetation is so dang sensitive to boots, and the winters there are so much harsher.</p>
-
-<p>I’m in the high country now. Climbing around crags, and wondering why the Romans would even bother putting a wall at the top of some of these. They’re too steep to climb as it is.</p>
-
-<p>The dew is still on the grass this morning, but I can see the path maybe already walked by others today snaking its way through the silvery-green pasture.</p>
-
-<h3 id="haltwhistle">Haltwhistle</h3>
-<p>Doing a lot of wall jumping now. There are three-step ladders going up one side and back down the other. One fence after another runs perpendicular into the farm wall where the defensive wall once stood, and then sweeps down the hill to the valley in the south. Long sheep paddocks, with lots of dividers to cross.</p>
-
-<p>As I walked through a farm just now, I noticed a calf laid out on its side next to a cow. It didn’t look like it was feeding; it didn’t look like it was moving. I wondered if it was dead. Then I saw it was breathing steadily, and I realized I don’t think I’ve ever seen a cow sleep like that before. That calf was knackered.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_3.jpg" alt="3" /></p>
-
-<h3 id="caw-gap">Caw Gap</h3>
-<p>And awkwardly running for a little bit there, to get ahead of at least a hundred day walkers who had just been disgorged from several tour buses. (I would later discover that this brought me another “seventh fastest in the world” record from Strava)</p>
-
-<p>I’ve identified in myself an occasional but rather ugly resentment for <em>other</em> people who dare to hike on <em>my</em> trail. This seems almost like a class-based sentiment sometimes, particularly when I start thinking about the gear that others wear, or fail to bring. I’ll need to keep an eye out for that feeling, and suffocate it when it arises.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_cover.jpg" alt="cover" /></p>
-
-<h3 id="sycamore-gap">Sycamore Gap</h3>
-<p>I had about a 10-second window between groups of day walkers, but I did manage to get a photo of the famous tree with no one around it. I’m a bit unhappy that I was too early at Twice Brewed for a pint, but this section seems fraught with a combination of perfect vistas, historically fascinating locations, and hordes of people. I kept moving after I sent a message home.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_4.jpg" alt="4" /></p>
-
-<h3 id="north-of-vindolanda">North of Vindolanda</h3>
-<p>I’ve stopped for lunch now in a beautiful Grove of White pines, somewhat incongruously placed along the edge of the cliff above the lake. This stretch of the trail is a much more familiar kind to me, and it seems like a detour, because I hear voices nearby and see people walking in parallel through the pasture, but no one else is here. It’s a good place for a break, sitting on my pack, with my back against the wall, looking North, eating cheese and pepperoni on tortillas, listening to Miles Davis.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_5.jpg" alt="5" /></p>
-
-<h3 id="housteds">Housteds</h3>
-<p>I moved very quickly past the Roman Fort, as it seemed to be very crowded and represented the slightest of detours. I waved back from the outside of the fence area - from the north side actually, like a barbarian - at a kid with his family inside the fort. They seemed perplexed, but I don’t suppose I could blame them. There are many ways to arrive at and depart from a place like this.</p>
-
-<p>I’m building a blister on the bottom of my right foot. The reason why this isn’t causing me to panic is the fact that the soles of my feet have very few nerve endings and I think I can probably get on. However, I just looked at tomorrow’s mileage, and if my vast underestimates hold, then it’ll be a 25-mile day. That has me a little worried.</p>
-
-<p>The section of trail I just left was in the care of Heritage England. But not too long before that I had passed the Vindolanda private trust, and the Fort at Wallsend is a separate private trust. And I’m also not sure at all who’s in charge of the trail I’m walking on right now. It seems to me that there are historic preservation turf wars in England, and I’d love to read about them if anybody has an oral history.</p>
-
-<p>By the sheer variety of different gate latches I’ve encountered, I have to assume that the sheep here are incredibly clever master escape artists. Some of these latches have taken me a minute to figure out, so I can only assume that Shaun is somewhere nearby, scheming.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_6.jpg" alt="6" /></p>
-
-<h3 id="settlingstones">Settlingstones</h3>
-<p>I think it’s probably not a <em>hot</em> day, but it sure feels exposed and raw. It’s entirely possible that I will have acquired that rarest of conditions - an English sunburn - by the end of the day. But the end of the day looks to be fairly close. I can see my bed and breakfast off in the distance, maybe a mile away.</p>
-
-<h3 id="carraw">Carraw</h3>
-<p>I’m too early! But it’s fine. I’m not going to screw around with the remainder of today; I’m going to rest. After I get to check in, that is. In the meantime, I’m hanging with the chickens in the garden.</p>
-
-<p><em>[Later]</em></p>
-
-<p>The innkeeper was apologetic that there was no dinner available, but she had a concert to attend in the evening: her daughter was singing in a choir at Hexham abbey. Her young son ran through the house kicking his soccer ball, and when I asked, he informed me that he was no Newcastle fan, but held with Blackburn.</p>
-
-<p>Now checked in, my feet feel very grateful. I had enough pack food to make a dinner of it, and a cup of tea to go along. These hot showers at the ends of long days on the trail are an excellent reminder that I’m not so young anymore. I don’t think luxury becomes me generally, but I do think that this type of accommodation is a worlds-better way to rest while backpacking than rolling out a sleeping bag in a lean-to.</p>
-
-<p>The old rhythms of unpacking and packing again are resurfacing. The simple, necessary tasks and the ones that quickly become unnecessary. I look forward to tomorrow morning, with tracks already laid. Fill water, pack clean clothes, brush teeth, move out. It gets easier with repetition, with only slight variation by location.</p>
-
-<p>I slept hard.</p>
-
-<p><img src="/shoals/assets/img/2022-05-07_7.jpg" alt="7" /></p>
-
-      </article>
-
-      
-        <div class="blog-tags">
-          <span>Tags:</span>
-          
-            <a href="/shoals/tags#history">history</a>
-          
-            <a href="/shoals/tags#travel">travel</a>
-          
-            <a href="/shoals/tags#uk">uk</a>
-          
-        </div>
-      
-
-      
-
-      
-        <!-- Check if any share-links are active -->
-
-
-
-
-
-      
-
-      <ul class="pagination blog-pager">
-        
-        <li class="page-item previous">
-          <a class="page-link" href="/shoals/2022/03/09/grad-school-hoard.html" data-toggle="tooltip" data-placement="top" title="The things he carried">&larr; Previous Post</a>
-        </li>
-        
-        
-        <li class="page-item next">
-          <a class="page-link" href="/shoals/2022/10/10/watch-in-paris.html" data-toggle="tooltip" data-placement="top" title="Adventures of a smartwatch in Paris [UPDATE: MYSTERY SOLVED]">Next Post &rarr;</a>
-        </li>
-        
-      </ul>
-      
-  
-  
-  
-
-  
-
-
-  
-
-  
-
-
 
     </div>
   </div>

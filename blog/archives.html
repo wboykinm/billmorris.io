@@ -1,0 +1,56 @@
+---
+layout: page
+title: 'Archives'
+---
+
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+{%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+
+<div id="archives-list">
+{%- for year_group in posts_by_year -%}
+    <h2 id="{{- year_group.name -}}" class="linked-section">
+        <i class="fas fa-calendar" aria-hidden="true"></i>
+        &nbsp;{{- year_group.name -}} &nbsp;({{ year_group.items.size }} posts)
+    </h2>
+    <div class="post-list">
+        {%- for post in year_group.items -%}
+            <div class="archive-entry">
+                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endfor -%}
+</div>
+
+<style>
+.archive-entry {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.archive-entry:last-child {
+    border-bottom: none;
+}
+
+.archive-entry a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.entry-date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.linked-section {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+</style>
