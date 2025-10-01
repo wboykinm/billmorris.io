@@ -5,6 +5,7 @@ date: "2025-10-01T08:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2025-10-01_cover.jpg"
 tags: ["maps", "satellite", "baseball", "netherlands", "scotland", "cape cod", "fishing"]
+subtitle: "Cultural exports, petroleum imports, and shellfish reports"
 ---
 
 ## Hoofddorp, Netherlands
