@@ -40,7 +40,7 @@ It's getting toward cranberry harvest time on Cape Cod. Bogs there tend to be en
 
 ![3](/shoals/assets/img/2025-10-01_3.jpg)
 
-My Mother-in-Law works for the town of Wellfleet, and alongside the usual permit applications she handles are the aquaculture permits. The rich harbor waters around Lieutenant Island shown here are perfect for oyster farming, and the waters within and beyond are excellent for scallop-hunting. Coincidentally (I swear I just learned this), scallop season in Wellfleet [begins today](https://www.wellfleet-ma.gov/sites/g/files/vyhlif16026/f/uploads/shellfishing_policy_and_regulations_01-14-2020_0.pdf). Some things to keep in mind, per the regulations:
+My Mother-in-Law works for the town of Wellfleet, and alongside the usual permit applications, she handles the aquaculture permits. The rich harbor waters around Lieutenant Island shown here are perfect for oyster farming, and the waters within and beyond are excellent for scallop-hunting. Coincidentally (I swear I just learned this), scallop season in Wellfleet [begins today](https://www.wellfleet-ma.gov/sites/g/files/vyhlif16026/f/uploads/shellfishing_policy_and_regulations_01-14-2020_0.pdf). Some things to keep in mind, per the regulations:
 
 - Permits cost $70 if you're a resident, and $200 if you rolled down from Boston in your Lexus with nothing more than a snorkel and some high hopes.
 - Scallops have a special exemption to the rule that all shellfish must be brought to land before shucking.
