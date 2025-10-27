@@ -34,3 +34,5 @@ And these are functionally identical:
 ## What I do about it
 
 This is the _tiniest_ of oversimplifications, but color in the digital sphere is basically just numbers. 
+
+I've spent most of my life, perhaps not celebrating, but at least appreciating the difference of my perspective. I know that my world looks different from everyone else's, but it's never felt like a less than. But in working on this piece. I finally earnestly solicited some opinions from friends and colleagues about what they saw in the same images that I was looking at. In particular in the comparison between, the true color image of the airstrip above with its protonopia simulation. Version next to it. The words, I heard to describe my simulated view of the world were leached desaturated sepia. This was honestly shocking, and perhaps the first hint. I've had since I was very young that the world might. Possibly be more vibrant than I ever imagined.
