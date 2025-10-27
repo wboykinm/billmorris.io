@@ -5,7 +5,7 @@ date: "2025-10-27T08:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2025-10-27_cover.jpg"
 tags: ["history", "film", "music", "ireland", "race"]
-subtitle: "I haven't been able to get the song out of my head in months."
+subtitle: "I haven't been able to get the song out of my head for months."
 ---
 
 Paul Thomas Anderson's _One Battle After Another_ is currently dominating the talk of the critics. It's an obvious Best Picture nominee for the Oscars, it's a lock, [don't give out the award at all unless it goes to OBAA](https://www.theringer.com/2025/09/24/movies/one-battle-after-another-movie-review-paul-thomas-anderson), etc, etc - It's a good movie; I saw it on opening weekend and enjoyed it. My marker for "Good art" is if it lives on in my head long after I've left its presence or duration, and indeed I've been thinking about the themes of failed revolutions and generational responsibility in the days since.
