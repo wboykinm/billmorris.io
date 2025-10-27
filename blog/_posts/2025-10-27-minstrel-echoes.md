@@ -53,7 +53,7 @@ _Time for a sidebar: The ancestors of the Irish and their diaspora suffered imme
 
 <hr>
 
-But the "The Rocky Road to Dublin" _is_ worth looking at more closely, and its politics are . . . complicated. 
+But "The Rocky Road to Dublin" _is_ worth looking at more closely, and its politics are . . . complicated. 
 
 The song [was written by an Irishman, D.K. Gavan](https://en.wikipedia.org/wiki/Rocky_Road_to_Dublin#Origin), in the 1840s or 1850s for an Englishman, [Harry Clifton](https://en.wikipedia.org/wiki/Harry_Clifton_(singer)) to sing on the [Music Hall](https://en.wikipedia.org/wiki/Music_hall) circuit. Clifton was one of the most popular performers of the day, and as part of his large repertoire he included this one by Gavan, listed as an "Irish Comic Song". Listening to the lyrics, it's _very_ easy to imagine Clifton putting on an exaggerated brogue and waving his walking stick as he sings from the perspective of his drunken, brawling, seasick protagonist. The song contains a multitude of stereotypes, and in malicious hands they would be at best unflattering to the Irish. 
 
