@@ -4,8 +4,8 @@ title: "Old Beginnings"
 date: "2025-12-31T06:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2026-01-01_cover.jpg"
-tags: ["literature", "history", "vermont"]
-subtitle: ""
+tags: ["literature", "history", "vermont", "quebec", "tibet", "montreal", "holiday"]
+subtitle: "Seasonal traversals"
 ---
 
 ## Portsmouth, UK
@@ -30,7 +30,7 @@ Ice is winter's best magic. Sure, it's not great to slip on in the streets, and 
 
 Ice is temporary geography.
 
-This is all to say that the morning of New Year's Eve 2025, a friend suggested we get out for a skate on a flash-frozen Lake Champlain in Vermont. So we bundled up and navigated the window-surface, seeing silver Perch swimming four inches down from our blades, while the spindrift swept topside.
+This is all to say that on the morning of New Year's Eve 2025, a friend suggested we get out for a skate on a flash-frozen Lake Champlain in Vermont. So we bundled up and navigated the window-surface, seeing silver Perch swimming four inches down from our blades, while the spindrift swept topside.
 
 ![2b](/shoals/assets/img/2026-01-01_2b.jpg)
 
