@@ -12,7 +12,7 @@ subtitle: ""
 
 ![1](/shoals/assets/img/2026-01-01_1.jpg)
 
-Though the Christmas tree was first imported to the English-speaking world [by the House of Saxe-Coburg and Gotha](https://www.townandcountrymag.com/society/tradition/a25619292/queen-victoria-prince-albert-christmas-tree-holiday-tradition/), Charles Dickens tends to claim the credit for bottling up and distributing the seasonal vibe that we still use to celebrate the holiday in all corners of the former empire. So it is appropriate at the turn of the year to consider the statue of him that stands in front of the Guildhall in the city of his birth: Portsmouth.
+Though the Christmas tree was first imported to the English-speaking world [by the House of Saxe-Coburg and Gotha](https://www.townandcountrymag.com/society/tradition/a25619292/queen-victoria-prince-albert-christmas-tree-holiday-tradition/), Charles Dickens tends to get the credit for bottling up and distributing the seasonal vibe that we still use to celebrate the holiday in all corners of the former empire. So it is appropriate at the turn of the year to consider the statue of him that stands in front of the Guildhall in the city of his birth: Portsmouth.
 
 Dickens was an amazing salesman of his own - admittedly excellent - product. He took maximum advantage of the press of the day, of the serial format, and of the furious wars between publishing houses. He loomed large over English literature even while he was alive, and continues to do so today; Zadie Smith tried her damndest to leave him out of her period novel _The Fraud_, but in the end had to capitulate and [include the inveterate attention-hound](https://www.newyorker.com/magazine/2023/07/10/on-killing-charles-dickens).
 
@@ -40,6 +40,7 @@ This is all to say that the morning of New Year's Eve 2025, a friend suggested w
 
 Speaking of the city from which Dickens was embarking, This New Year's Day 2026 I am more or less _in_ this image, a summer capture of the Place des Arts in Montreal, Quebec. This is my family's spot for the festivities, in part because it's at the center of our nearest big city, but also because Montreal is so good at living through the deep cold parts of the year. Probably for reasons of colonial culture long settled, South of the border we stoically _endure_ winter. But in Montreal they seem to celebrate it, and so it's the most appropriate place we can think of to welcome 2026 in the coldest, darkest times: with lights, with fire, with warmth, and with hope.
 
+![cover](/shoals/assets/img/2026-01-01_cover.jpg)
 
 
 
