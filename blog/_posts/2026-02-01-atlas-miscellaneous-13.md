@@ -4,7 +4,7 @@ title: "Atlas Miscellaneous, Feb 13"
 date: "2026-02-01T06:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2026-02-01_cover.jpg"
-tags: ["drc", "hydropower"]
+tags: ["drc", "hydropower", "greenland", "racing", "abu dhabi", "climate"]
 ---
 
 ## Bukavu, Democratic Republic of Congo
