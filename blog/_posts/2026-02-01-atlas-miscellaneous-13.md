@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Atlas Miscellaneous, Feb 13"
+title: "Atlas Miscellaneous - February 2026"
 date: "2026-02-01T06:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2026-02-01_cover.jpg"
