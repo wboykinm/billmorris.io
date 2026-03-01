@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Atlas Miscellaneous - March 2026</title>
+        <description>
+          Unknown unknowns - 
+          There is a lot that I’m able to learn from my desk in a now-frosty corner of Northern New England, and that remoteness is part of my delight in scanning the world like this. But sometimes I stumble on locations and features that don’t tie easily to ground-level history, news,...
+        </description>
+        <pubDate>Sun, 01 Mar 2026 06:00:00 -0500</pubDate>
+        <link>/shoals/2026/03/01/atlas-miscellaneous-14.html</link>
+        <guid isPermaLink="true">/shoals/2026/03/01/atlas-miscellaneous-14.html</guid>
+      </item>
+    
+      <item>
         <title>Atlas Miscellaneous - February 2026</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Wed, 15 Jan 2025 11:00:00 -0500</pubDate>
         <link>/shoals/2025/01/15/atlas-miscellaneous-1.html</link>
         <guid isPermaLink="true">/shoals/2025/01/15/atlas-miscellaneous-1.html</guid>
-      </item>
-    
-      <item>
-        <title>How to speedrun Landsat truecolor processing in 2024</title>
-        <description>
-          
-          I needed moderate resolution, truecolor satellite imagery of Bermuda earlier this week, and I needed it fast. It turned into an exercise in processing efficiency, aided by some wonderful tools and open data programs. As 2024 draws to a close there are many different ways to put together a decent...
-        </description>
-        <pubDate>Fri, 22 Nov 2024 11:00:00 -0500</pubDate>
-        <link>/shoals/2024/11/22/landsat-speedrun.html</link>
-        <guid isPermaLink="true">/shoals/2024/11/22/landsat-speedrun.html</guid>
       </item>
     
   </channel>
