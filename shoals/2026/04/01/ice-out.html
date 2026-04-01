@@ -1007,7 +1007,7 @@
       
 
       <article role="main" class="blog-post">
-        <p>Yes, obviously, ICE out as well. Because f<strong>* those cowardly, anti-American f</strong>*s.</p>
+        <p>Yes, obviously, ICE out as well. Because f&amp;%$ those cowardly, anti-American f&amp;%$s.</p>
 
 <p>But today we’re going to be talking about Ice Out, the time-honored tradition in the Northeast Kingdom of Vermont of <a href="https://www.joespondvermont.com/history-of-joes-pond-ice-out.html">predicting the date and time that Joe’s Pond in West Danville finally thaws</a>.</p>
 
@@ -1029,9 +1029,15 @@
 
 <h2 id="skipping-why-lets-try-how">Skipping “Why?”, let’s try “How?”</h2>
 
-<p>On the Joe’s Pond webpage, there is a <a href="https://www.joespondvermont.com/historical-datestimes.html">helpful record of winning dates an times going back to 1988</a>. From a statistical standpoint, <em>this is a wicked small sample size, buddy,</em> but we can put some guardrails around it to maximize information gain. So that’s our training set - 38 observations. Why not just take the averages and submit those? The answer is both “weather” and “climate”. The ice out from last year might be a better predictor for 2026 than the ice out from 1991, because our big macro patterns all show measurable warming in Northern Vermont over the past four decades. But any single year is going to be subject to some pretty big error bars, particularly as the climate gives us wilder stretches.</p>
+<p>On the Joe’s Pond webpage, there is a <a href="https://www.joespondvermont.com/historical-datestimes.html">helpful record of winning dates and times going back to 1988</a>. From a statistical standpoint, <em>this is a wicked small sample size, buddy,</em> but we can put some guardrails around it to maximize information gain. So that’s our training set - 38 observations. Why not just take the averages and submit those? The answer is both “weather” and “climate”. The ice out from last year might be a better predictor for 2026 than the ice out from 1991, because our big macro patterns all show measurable warming in Northern Vermont over the past four decades. But any single year is going to be subject to some pretty big error bars, particularly as the climate gives us wilder stretches.</p>
 
-<p>But there are other ways of looking at what “wild” means from year to year, and other ways of looking at how an ice pack forms and breaks. Here’s my hypothesis going in: <em>A selection of measured and modeled climate variables from the three months leading up to April can be used to predict the eventual ice out date and time of Joe’s Pond</em>. This is my hunch because I think the character of a specific winter matters more to the final prediction than when the ice went out three, twelve, or twenty years ago. I suspect that the one week of deep freeze in February, or the massive rainstorm in late March, have a detectable impact on the result.</p>
+<p>But there are other ways of looking at what “wild” means from year to year, and other ways of looking at how an ice pack forms and breaks. Here’s my hypothesis going in:</p>
+
+<blockquote>
+  <p>A selection of measured and modeled climate variables from the three months leading up to April can be used to predict the eventual ice out date and time of Joe’s Pond.</p>
+</blockquote>
+
+<p>This is my hunch because I think the character of a specific winter matters more to the final prediction than when the ice went out three, twelve, or twenty years ago. I suspect that the one week of deep freeze in February, or the massive rainstorm in late March, have a detectable impact on the result.</p>
 
 <p>Fortunately, data for all of that exists, back to 1988 and beyond. There are weather stations around the region, with records for temperature, pressure, precipitation, etc, that in some cases go back more than a century. In perusing these I found the closest stations to have data gaps, and more distant ones can be difficult to weight. But the <a href="https://prism.oregonstate.edu/">PRISM</a> group at Oregon State University has already done the work of smoothing all of this out: they model and provide historical, daily climate observations for the whole country going back to 1981. While it’s always a tiny bit dodgy to make a predictive model based on already-modeled inputs, this is really the most consistent set of records out there. Using these, I pulled out some features that I thought might characterize a winter leading up to ice out:</p>
 
