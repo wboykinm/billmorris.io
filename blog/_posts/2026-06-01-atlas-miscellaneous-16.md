@@ -34,7 +34,8 @@ The palace was destroyed in 1860 during the second opium war, by French and Brit
 
 During that first . . . unfortunate misunderstanding . . . in 1860, the British commissioner to China was [James Bruce, 8th Lord Elgin](https://en.wikipedia.org/wiki/James_Bruce,_8th_Earl_of_Elgin). You may recognize that name, but don't worry, it was his _father_ who looted the Elgin Marbles from the Acropolis and stashed them in the British museum, where they remain to this day to the consternation of Greece. Not wanting to fail the family tradition, it was Elgin the younger who ordered the burning of the Summer Palace to force Qing capitulation, directing his troops to liberate one or two items along the way. One of these was a Pekingese dog presented to a delighted Queen Victoria, who added her to the royal dog collection [and named her "Looty"](https://en.wikipedia.org/wiki/Looty_(dog)). I did not make that up.
 
-*Cover image: [Looty](https://en.wikipedia.org/wiki/Looty_(dog)#/media/File:Friedrich_Wilhelm_Keyl_-_Looty_(1861).jpg), painted by Friedrich_Wilhelm_Keyl*
+
+*Cover image: [Looty](https://en.wikipedia.org/wiki/Looty_(dog)#/media/File:Friedrich_Wilhelm_Keyl_-_Looty_(1861).jpg), painted by Friedrich Wilhelm Keyl*
 
 ![cover](/shoals/assets/img/2026-06-01_cover.jpg)
 
