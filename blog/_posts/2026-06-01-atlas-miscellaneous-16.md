@@ -4,7 +4,7 @@ title: "Atlas Miscellaneous - June 2026"
 date: "2026-06-01T12:00:00-04:00"
 author: "Bill Morris"
 cover-img: "/assets/img/2026-06-01_cover.jpg"
-tags: ["coratia", "norway", "russia", "queen victoria"]
+tags: ["croatia", "sailing", "arctic", "norway", "russia", "queen victoria", "china", "dogs", "history"]
 subtitle: "Thefts and repossessions"
 ---
 
