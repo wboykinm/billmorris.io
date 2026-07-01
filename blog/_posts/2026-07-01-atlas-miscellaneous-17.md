@@ -17,7 +17,7 @@ The Aral Sea is in fast retreat. This isn't news, exactly; [it's been underway f
 ![2b](/shoals/assets/img/2026-07-01_2b.jpg)
 _The Kokaral Dam, Kazakhstan_
 
-But by this decade the broad sea had been reduced to 10% of its former surface area.
+But by 2020, the broad sea had been reduced to 10% of its former surface area.
 
 ![2](/shoals/assets/img/2026-07-01_2.jpg)
 _Imagery captured by USGS Landsat instruments over nearly 40 years, via [Google Earth Engine](https://earthengine.google.com/timelapse/)_
@@ -27,7 +27,7 @@ The increased salinity of the remaining water [drove fish species to extinction]
 ![3](/shoals/assets/img/2026-07-01_3.jpg)
 _The Kantubek facility, present day_
 
-This brings us back to those furrows. Without water to hold down the dust, and without vegetation to slow the winds, various projects have begun to tame the new landscape, most notably with the system of windbreak trenches that is clearly visible in satellite imagery along the Southern and Eastern shores of what now remains of the Western Aral Sea. In some cases, these are the groundwork of massive planting campaigns, [using native Black Saxaul shrubs](https://pulitzercenter.org/stories/bringing-life-back-central-asias-desertified-aral-sea) to bind the sand from the relative protection of the dug rows. Thousands of miles of trench have already been plowed, [funded partly by the now-dismembered USAID](https://web.archive.org/web/20250330051122/https://kz.usembassy.gov/usg-celebrates-oasis-project-to-restore-aral-sea-ecosystem/), as well as by the World Bank. On the vast open desert that once was a seabed, some of the workers have taken the time to carve the names of Uzbek cities into the ground: 
+This brings us back to those furrows. Without water to hold down the dust, and without vegetation to slow the winds, various projects have begun to tame the new landscape. This includes the system of windbreak trenches that is clearly visible in satellite imagery along the Southern and Eastern shores of what now remains of the Western Aral Sea. In some cases, these are the groundwork of massive planting campaigns, [using native Black Saxaul shrubs](https://pulitzercenter.org/stories/bringing-life-back-central-asias-desertified-aral-sea) to bind the sand from the relative protection of the dug rows. Thousands of miles of trench have already been plowed, [funded partly by the now-dismembered USAID](https://web.archive.org/web/20250330051122/https://kz.usembassy.gov/usg-celebrates-oasis-project-to-restore-aral-sea-ecosystem/), as well as by the World Bank. On the vast open desert that once was a seabed, some of the workers have taken the time to carve the names of Uzbek cities into the ground: 
 
 ![3b](/shoals/assets/img/2026-07-01_3b.jpg)
 
