@@ -11,8 +11,8 @@ I watched from the uppermost row of the balcony, seated on a folding chair, as t
 
 I say "every performance" because I saw at least seven of them. In 2001, I was working at the summer festival of the [Central City Opera](https://en.wikipedia.org/wiki/Central_City_Opera), high in the Rockies outside of Denver, housed in an opera house built by Welsh miners in the 19th century. I presume that professional and apprentice singers appreciate this setting for the same reasons that marathoners train at altitude: thin air makes for strong lungs. But I was a generalist college student, and I was there to work on the staff as a music librarian and usher. In rehearsals I would distribute scores and parts, marking bowings for the strings and scrambling to rewrite sections as the conductor adjusted to conditions. But during performances I would wear the most elaborate tuxedo of my subsequent lifetime, taking tickets, directing patrons, and finally, when all was settled and the curtain rose, unfolding my chair near to the rafters and drinking in the unexpected pleasures of real opera.
 
-![1](/shoals/assets/img/2026-09-27_2.jpg)
-_The author (left) and a fellow usher tending a possibly-informal bar during the summer season, ca. 2000_
+![1](/shoals/assets/img/2026-09-27_1.jpg)
+_View from the balcony of the Central City Opera House, ca. 1932, [historical photo by CCOHA](https://centralcityopera.org/the-history-of-central-city-operas-hickory-memorial-chairs/)_
 
 What I have forgotten from two summers there is voluminous. I've lost so many names. I can't picture where I slept, where I bathed. My sense of the geography of the old mining town has warped, with steeply-sloping streets melting into each other. I remember that I kissed a girl for the first time there, while we sat on a boulder above it all, but I couldn't say how we got there or what the weather was like. I recall that I walked for miles and miles into the hills on my days off, but I can't picture any of those roads. I have no recollection of what foods I ate or where they came from. I don't know if I started my mornings with coffee.
 
@@ -26,7 +26,7 @@ In another phase of my education I was in a music therapy class, and one day we 
 
 [The SSA's actuarial tables](https://www.ssa.gov/oact/STATS/table4c6.html) suggest that I will die in the year 2059, and there is dementia in my family history, so I can't expect to be of sound mind at the end. By then it will have been nearly sixty years since I heard Adamo's _Kennst du das Land_ live. But if someone were to sing it for me in whatever institution I inhabit, I do expect to recognize it. To remember.
 
-![1](/shoals/assets/img/2026-09-27_1.jpg)
-_View from the balcony of the Central City Opera House, ca. 1932, [historical photo by CCOHA](https://centralcityopera.org/the-history-of-central-city-operas-hickory-memorial-chairs/)_
+![2](/shoals/assets/img/2026-09-27_2.jpg)
+_The author (left) and a fellow usher tending a possibly-informal bar during the summer season, ca. 2000_
 
 
