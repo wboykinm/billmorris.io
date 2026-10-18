@@ -49,7 +49,7 @@ This is the _tiniest_ of oversimplifications, but color in the digital sphere is
 
 In order to slap a name on a color that I see on my screen, I have an OS-wide color picker that can give me the value of any pixel in any [colorspace](https://en.wikipedia.org/wiki/Color_space). There exists a plethora of tools to take this a step further and identify [which spans of the color wheel](https://paletton.com/#uid=74A0u0kllllaFw0g0qFqFg0w0aF) serve best to compliment or contrast with any given color value. There are ways for the color-sighted to see [simulations of colorblindness](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html) as well, with the opportunity to account for it in their choices. 
 
-In the cartographic world, we are particularly fortunate to have the work of Dr. Cynthia Brewer available as [a handy web toolkit](https://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=5) for planning out thematic color schemes.
+In the cartographic world, we are particularly fortunate to have the work of Dr. Cynthia Brewer available as [a handy web toolkit](https://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=5) for planning out thematic color schemes, as well as [more recent work by Joshua Stevens](https://www.joshuastevens.net/blog/introducing-phosphor/) on complex thematic pallettes.
 
 ![6](/shoals/assets/img/2026-10-18_6.jpg)
 
