@@ -1265,10 +1265,10 @@
       
 
       <article role="main" class="blog-post">
-        <p>As evidenced by <a href="https://www.mapbox.com/blog/vector-terrain-outdoors/">AJ Ashton’s announcement</a> this week, <a href="https://www.mapbox.com/tilemill/">Tilemill</a> keeps getting cooler. With <a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a> and <a href="http://geosprocket.blogspot.com/2013/05/taking-tilemill-2-for-spin.html">Tilemill 2</a> on the horizon it seems like anything will be cartographically possible, but I’ve been having fun while we wait.
+        <p>As evidenced by <a href="https://www.mapbox.com/blog/vector-terrain-outdoors/">AJ Ashton’s announcement</a> this week, <a href="https://www.mapbox.com/tilemill/">Tilemill</a> keeps getting cooler. With <a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a> and <a href="https://billmorris.io/shoals/gis/cartography/2013/05/19/taking-tilemill-2-for-a-spin.html">Tilemill 2</a> on the horizon it seems like anything will be cartographically possible, but I’ve been having fun while we wait.
 Tilemill allows you to fill a polygon or feature with an image instead of a plain color, which makes for some cool pattern and feel options:</p>
 
-<p><a href="http://farm6.staticflickr.com/5523/10461249344_07b45248ac_c.jpg"><img src="/shoals/assets/img/2013-10-24_1.png" alt="1" /></a></p>
+<p><img src="/shoals/assets/img/2013-10-24_1.png" alt="1" /></p>
 
 <p>However, you need to be careful not to run afoul of the tiling system that repeats any such image in gridded 512px intervals. You can get some funky edges if you’re not paying attention. The solution to this is to use a seamless image - i.e. an image where every edge matches up with its opposite. There are quite a few options out there for seamless backgrounds, but not very many that are both square and 512px on a side. So I followed <a href="http://content.stamen.com/watercolor_process">the lead</a> of the talented artists at Stamen and reluctantly opened photoshop to make some seamless texture images of my own for Tilemill.</p>
 

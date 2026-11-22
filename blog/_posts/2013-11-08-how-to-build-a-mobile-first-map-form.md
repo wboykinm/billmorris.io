@@ -9,7 +9,7 @@ cover-img: "/assets/img/2013-11-08_cover.jpg"
 
 |  |
 | --- |
-| [![1](/shoals/assets/img/2013-11-08_1.png)](http://farm6.staticflickr.com/5494/10743436475_90e2c676d1.jpg) |
+| ![1](/shoals/assets/img/2013-11-08_1.png) |
 | Find me, small screen. |
 
 I've spent a lot of time thinking about the incredibly rich experiences we're getting these days from a digital map paradigm basically invented by Google in 2005.
@@ -48,7 +48,7 @@ Then the user can drag the map around under the crosshair to where they actually
 
 Using a [new tool they've made available to sync tables](http://blog.cartodb.com/post/65639747344/create-real-time-maps-from-data-anywhere-on-the-web), there's almost no code involved in this step. All I needed to do was go to "File-->Publish" in the form target spreadsheet, then copy the .csv URL into the "New Table" creation dialog in CartoDB. Then a bit of easy styling created a custom-mapped results page:
 
-[![2](/shoals/assets/img/2013-11-08_2.png)](http://farm6.staticflickr.com/5534/10744155515_4f69154576.jpg)
+![2](/shoals/assets/img/2013-11-08_2.png)
 
 The page itself is pretty simple, and you can [grab it as a gist here](https://gist.github.com/wboykinm/7373634). It'd be pretty easy to fork it and replace the form parameters with one of your own. As always, please share if you use it; I'd love to see where others take this.
 

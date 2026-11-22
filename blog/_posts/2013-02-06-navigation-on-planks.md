@@ -9,7 +9,7 @@ cover-img: "/assets/img/2013-02-06_cover.jpg"
 
 |  |
 | --- |
-| [![1](/shoals/assets/img/2013-02-06_1.png)](http://farm9.staticflickr.com/8242/8451103999_9c97e44642_o.png) |
+| ![1](/shoals/assets/img/2013-02-06_1.png) |
 | We're not there yet . . . (Skier dude by Saman Bemel Benrud) |
 
 The news yesterday was that [Google has added the trails of 38 ski resorts](http://google-latlong.blogspot.com/2013/02/ski-resorts-now-on-google-maps.html) in the US and Canada to its Maps database. Here in Vermont, my stashes are safe from further encroachment, since the only two Green Mountain resorts on the list are perennial tourist-bait favorites [Okemo](https://maps.google.com/maps?ll=43.405702,-72.729278&spn=0.021357,0.052314&t=m&z=15) and [Stowe](https://maps.google.com/maps?ll=44.530902,-72.789316&spn=0.020956,0.052314&t=m&z=15). That said, this is a cool move by Google in its desire to permeate our mobile world. I'm used to leaving my phone behind while I ski, but this sort of information would be useful to have at my fingertips if I were in unfamiliar terrain at a new resort. It could also be useful in tandem with the ski-run-tracking apps that are proliferating these days.
@@ -17,7 +17,7 @@ However, one item is missing from the new functionality: ski navigation. You can
 
 |  |
 | --- |
-| [![2](/shoals/assets/img/2013-02-06_2.png)](http://farm9.staticflickr.com/8100/8451062891_6328500df6_z.jpg) |
+| ![2](/shoals/assets/img/2013-02-06_2.png) |
 | The longest way around |
 
 I can see why Google would be nervous about offering directions in this context - There are two problems that are unique to alpine skiing as a navigation paradigm:

@@ -1265,14 +1265,14 @@
       
 
       <article role="main" class="blog-post">
-        <p><a href="http://farm8.staticflickr.com/7307/9361470537_3e739d2181_z.jpg"><img src="/shoals/assets/img/2013-07-24_1.png" alt="1" /></a></p>
+        <p><img src="/shoals/assets/img/2013-07-24_1.png" alt="1" /></p>
 
 <h2 id="a-bolt-of-gis-manna-from-heaven">A bolt of GIS-Manna from Heaven</h2>
 
 <p>A dedicated and talented GIS developer at the VT Agency of Natural Resources just finished compiling the most-comprehensive cadastral dataset to which our small state has ever had access. Coincidentally he sent out the announcement while <a href="https://twitter.com/BenBalter/status/359323562147983363">I was annoying a few githubbers</a> about their new geodata capabilities. What luck: a test case.
 The dataset - as a shapefile - clocks in at 250MB, representing 289,000 parcel polygons in 191 towns. [The 46 VT towns not included tend to have populations under 200 and a blithe commitment to dusty paper records.] It turns out that this is over the <a href="https://github.com/blog/1533-new-file-size-limits">100MB limit</a> imposed on individual files, so I pulled the dataset, split it by town and converted the outputs to geojson, then pushed them to <a href="https://github.com/wboykinm/vcgi">a repository</a> I just set up. The <a href="https://github.com/wboykinm/vcgi/blob/master/cadastral/vt_parcels_BURLINGTON.geojson">largest of these</a> is juuuuust over the maximum file size to be renderable in Github’s <a href="https://github.com/blog/1528-there-s-a-map-for-that">snazzy new Mapbox-based interactive maps</a>, but most of the town parcel maps <a href="https://github.com/wboykinm/vcgi/blob/master/cadastral/vt_parcels_WOODSTOCK.geojson">pop up just fine</a>.</p>
 
-<p><a href="http://farm3.staticflickr.com/2863/9361380819_d06d1cac66_z.jpg"><img src="/shoals/assets/img/2013-07-24_2.png" alt="2" /></a></p>
+<p><img src="/shoals/assets/img/2013-07-24_2.png" alt="2" /></p>
 
 <h2 id="the-implications">The Implications</h2>
 

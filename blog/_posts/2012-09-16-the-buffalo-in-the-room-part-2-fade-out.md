@@ -7,7 +7,7 @@ author: "Bill Morris"
 cover-img: "/assets/img/2012-09-16_cover.jpg"
 ---
 
-[In the last post](http://geosprocket.blogspot.com/2012/09/the-buffalo-in-room-part-1.html) we looked at the many difficult paths that can take us to the summit of cartographic nirvana known as the "Buffalo Tint", [as rocked by National Geographic Maps and others](http://maps.nationalgeographic.com/maps/print-collection/colorado-basin1-map.html)
+[In the last post](https://billmorris.io/shoals/gis/cartography/2012/09/12/the-buffalo-in-the-room-part-1-fade-in.html) we looked at the many difficult paths that can take us to the summit of cartographic nirvana known as the "Buffalo Tint", [as rocked by National Geographic Maps and others](http://maps.nationalgeographic.com/maps/print-collection/colorado-basin1-map.html)
 As I noted, this effect has traditionally been impossible to pull off in a GIS platform like ArcMap or QGIS. [Tilemill](http://mapbox.com/tilemill/) initially got us a little bit closer by giving us full control over styling possibilities with [CartoCSS code](http://mapbox.com/tilemill/docs/manual/carto/).
 But now, as of Tilemill 0.10.0, compositing functions make this kind of effect a snap. Let's look at making a full Buffalo Fade, still using South Sudan as an example. Specifically, we're going to make a fade mask in Tilemill that can be laid over some [Mapbox base layers](http://mapbox.com/tour/design/) in a web map.
 

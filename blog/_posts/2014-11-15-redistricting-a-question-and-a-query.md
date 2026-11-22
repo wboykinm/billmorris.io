@@ -42,4 +42,4 @@ The question of individual impact can be answered with a simple spatial query: r
 
 The user-selected address gets converted to lat/lon, then [sent to the CartoDB API in an ST_Intersects() query](https://github.com/codeforbtv/votefinder/blob/master/votefind.js#L57). It returns a map overlay of the old and new district boundaries at the site, and a set of answers to some FAQs about redistricting. It’s a simple app, relying on some robust APIs. I hope it’s useful in getting my neighbors oriented to the landscape of the proposed redistricting. At the very least it’ll save people some time peering at a large paper map in city hall, and at best it’ll head off 40,000 individual “how will this affect me” emails directed at the city councilors and GIS manager. I also hope it’ll be of use to anyone else who wants to present geographic change over time at a user-selected location.
 
-Get the code [on github](https://github.com/codeforbtv/votefinder)._Originally published at_ [_geosprocket.blogspot.com_](http://geosprocket.blogspot.com/2014/01/redistricting-question-and-query.html) _on January 15, 2014._
+Get the code [on github](https://github.com/codeforbtv/votefinder).

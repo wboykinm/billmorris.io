@@ -7,7 +7,7 @@ author: "Bill Morris"
 cover-img: "/assets/img/2013-07-21_cover.jpg"
 ---
 
-[![1](/shoals/assets/img/2013-07-21_1.png)](http://farm4.staticflickr.com/3794/9337797984_ca595d2a46.jpg)
+![1](/shoals/assets/img/2013-07-21_1.png)
 
 Heaven help me - I've been building a responsive infographic.
 Specifically, I used [Bootstrap](http://twitter.github.io/bootstrap/scaffolding.html#responsive) to flesh out [a not-really-infinite-scroll site](http://wboykinm.github.io/vtpolitech) that summarizes the findings of a survey - done by some #opengov types on social media use in the Vermont legislature. Getting the infographic confession aside, my point in mentioning it is that I wanted to include a map of responses by county, and that posed a dilemma.
@@ -20,11 +20,11 @@ I knocked together a dynamic map using [Tilemill](http://www.mapbox.com/tilemill
 In Mr. Frost's original his "embed" option for larger screens is the standard google maps embed string. I wanted more features than were available with a standard mapbox embed, so I built the site separately with mapbox.js and ["iframed" it in](https://github.com/wboykinm/vtpolitech/blob/master/index.html#L163). This is just as much of an ugly hack as it seems, but it works.
 The result is a map that renders big and fully-interactive on tablets and larger:
 
-[![2](/shoals/assets/img/2013-07-21_2.png)](http://farm8.staticflickr.com/7321/9332664438_7c14348f73_b.jpg)
+![2](/shoals/assets/img/2013-07-21_2.png)
 
 But shows a teaser image and a link to see more on a small screen:
 
-[![3](/shoals/assets/img/2013-07-21_3.png)](http://farm3.staticflickr.com/2846/9332670064_9114436529_o.png)
+![3](/shoals/assets/img/2013-07-21_3.png)
 
 This is obviously not a perfect solution, but it fits the purpose here. And it's also extendable - consider if you had to generate dozens of pages like this - you could do it just by programmatically changing the lat/lon or index value of both the static and the embed maps. Also worth noting is that this strategy works with both Mapbox and Google APIs.
 As we move into a web that's even more solidly mobile-centric, we'll need to keep adapting maps with the resources we have available. It's actually a lot of fun trying to keep up.

@@ -7,14 +7,14 @@ author: "Bill Morris"
 cover-img: "/assets/img/2013-07-24_cover.jpg"
 ---
 
-[![1](/shoals/assets/img/2013-07-24_1.png)](http://farm8.staticflickr.com/7307/9361470537_3e739d2181_z.jpg)
+![1](/shoals/assets/img/2013-07-24_1.png)
 
 ## A bolt of GIS-Manna from Heaven
 
 A dedicated and talented GIS developer at the VT Agency of Natural Resources just finished compiling the most-comprehensive cadastral dataset to which our small state has ever had access. Coincidentally he sent out the announcement while [I was annoying a few githubbers](https://twitter.com/BenBalter/status/359323562147983363) about their new geodata capabilities. What luck: a test case.
 The dataset - as a shapefile - clocks in at 250MB, representing 289,000 parcel polygons in 191 towns. [The 46 VT towns not included tend to have populations under 200 and a blithe commitment to dusty paper records.] It turns out that this is over the [100MB limit](https://github.com/blog/1533-new-file-size-limits) imposed on individual files, so I pulled the dataset, split it by town and converted the outputs to geojson, then pushed them to [a repository](https://github.com/wboykinm/vcgi) I just set up. The [largest of these](https://github.com/wboykinm/vcgi/blob/master/cadastral/vt_parcels_BURLINGTON.geojson) is juuuuust over the maximum file size to be renderable in Github's [snazzy new Mapbox-based interactive maps](https://github.com/blog/1528-there-s-a-map-for-that), but most of the town parcel maps [pop up just fine](https://github.com/wboykinm/vcgi/blob/master/cadastral/vt_parcels_WOODSTOCK.geojson).
 
-[![2](/shoals/assets/img/2013-07-24_2.png)](http://farm3.staticflickr.com/2863/9361380819_d06d1cac66_z.jpg)
+![2](/shoals/assets/img/2013-07-24_2.png)
 
 ## The Implications
 
