@@ -14,22 +14,22 @@ This morning [Ahmad Babar noticed](https://www.facebook.com/photo.php?fbid=10155
 
 ![image](/shoals/assets/img/2015-04-24_1.gif)
 
-Dammit, Calvin.
+_Dammit, Calvin._
 
 
 
 Yes indeed — an android pissing on an Apple logo, rendered in the color that Google typically uses to signify a park or natural area. It was a part of the basemap! The internet [howled with glee](http://mashable.com/2015/04/24/android-bot-peeing-on-apple-logo-google-maps/?utm_cid=mash-com-Tw-main-link):
 
 
-### How the android got there
+## How the android got there
 
 Google is constantly pulling in map data from 3rd party vendors, and they have [their own massive data operation](http://www.wired.com/2014/12/google-maps-ground-truth/), but this most likely came from a user-submitted edit to the [Google Mapmaker system](http://www.google.com/mapmaker). Ostensibly a crowdsourcing project, Google asks users to add local knowledge to the map directly. This means everything from business names to one-way street restrictions most of the time, but users can also add big polygons like parks. Or, y’know, huge logos.
 
 The official Google process for allowing these map edits involves a verification step. Sometimes it’s a Google employee, more often it’s an approved volunteer with local knowledge, but someone has to hit an “approved” button before a user edit makes it onto the map. That process broke down this time.
 
-### Two reasons why this matters
+## Two reasons why this matters
 
-#### It shows that Google’s data isn’t perfect.
+### It shows that Google’s data isn’t perfect.
 
 For nearly a decade now, Google has been the recognized leader in map accuracy and utility. When Apple [tried to cut the cord](http://www.apple.com/au/letter-from-tim-cook-on-maps/) and created it’s own maps, they famously and awkwardly learned how hard it really was to make a high-quality geographic database (and how much money Google must have thrown at the problem).
 
@@ -39,7 +39,8 @@ This leadership has made Google sort of cocky in some ways. In conversations wit
 
 
 ![image](/shoals/assets/img/2015-04-24_2.png)
-OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan
+
+_OpenStreetmap (left) vs Google Maps (right) in Juba, South Sudan_
 
 
 
@@ -47,27 +48,23 @@ But OSM (and Apple, and others) is [catching up](http://thenextweb.com/insider/2
 
 A typical Google criticism of OSM is that — absent verification and dollars spent — the quality is lacking. _Anybody can add anything! That’s chaos!_ After today there are at least a few holes in that argument.
 
-#### It exposes the painful irony of our maps.
+### It exposes the painful irony of our maps.
 
 The urinating android (now removed) was drawn on what seemed like an empty spot on the map. Google had little data there, despite the fact that nearby Rawalpindi has a population of six million - so the prankster had plenty of space to work. OSM [isn’t much better](http://www.openstreetmap.org/node/58744442#map=15/33.5174/73.0626&amp;layers=C) in this area. The problem is that the space there is not actually empty. People farm there, build there and live there:
 
 
-
-
 ![image](/shoals/assets/img/2015-04-24_3.png)
 
-What lay under the android
+_What lay under the android_
 
 > And their land was briefly turned into a battlefield in a pissing contest between two American corporate behemoths.
 
 Whatever the intent, this is a form of casual imperialism, and we usually just miss it completely, seeing nothing in the empty spots on our maps.
 
 
-
-
 ![image](/shoals/assets/img/2015-04-24_4.png)
 
-[Kindu, DR Congo](http://tools.geofabrik.de/mc/#17/-2.9558/25.9534&amp;num=2&amp;mt0=google-map&amp;mt1=google-satellite)
+_[Kindu, DR Congo](http://tools.geofabrik.de/mc/#17/-2.9558/25.9534&amp;num=2&amp;mt0=google-map&amp;mt1=google-satellite)_
 
 
 

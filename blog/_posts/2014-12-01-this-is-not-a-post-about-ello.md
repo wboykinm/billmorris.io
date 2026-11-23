@@ -17,7 +17,7 @@ I’ve been posting a bunch of stuff [on Ello](https://ello.co/vtcraghead) recen
 
 ![image](/shoals/assets/img/2014-12-01_1.png)
 
-Hayer, Alberta
+_Hayer, Alberta_
 
 
 
@@ -28,7 +28,7 @@ Ello is a nice place to put these images because they get a large container. Tha
 
 ![image](/shoals/assets/img/2014-12-01_2.png)
 
-The spare view
+_The spare view_
 
 
 

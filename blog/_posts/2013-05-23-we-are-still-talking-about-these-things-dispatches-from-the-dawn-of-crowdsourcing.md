@@ -4,10 +4,8 @@ title: "We Are Still Talking About These Things: Dispatches from the Dawn of Cro
 date: 2013-05-23 13:24:00 -0700
 categories: [gis, cartography]
 author: "Bill Morris"
-cover-img: "/assets/img/2013-05-23_cover.jpg"
+cover-img: "/assets/img/2013-05-23_1.jpg"
 ---
-
-![1](/shoals/assets/img/2013-05-23_1.jpg)
 
 I was just having a conversation with some colleagues about the nuts and bolts of participatory mapping with some local farmers. We were all:
 
@@ -20,6 +18,8 @@ This talk of getting a skeumorphic data-entry device in the hands of the common 
 > Even taking as a fact of life that community GIS will always require some mediation by the more technically skilled, Al-Kodmany's Chicago neighbourhood projects are not a little bit extreme. In fact, by the time he describes the community members being given 'coloring the map' participation exercises as a way to actually participate, there is a rather patronizing air about the project. 'Participants were broken into small groups and were given a map and felt-tipped markers,' he writes. Felt so as not to inadvertently poke out their own eyeballs, no doubt.
 
 This from Christopher Miller, [writing in 2006](https://courseware.e-education.psu.edu/downloads/geog884/miller_2006.pdf) about how participatory GIS (nee "GIS/2") was being hamstrung by academic condescension, cultural barriers and the failure of imagination that is traditional GIS ("GIS/1"). Man, 2006 sounds like a long time ago from here, but we're still spinning our wheels in some ways on this stuff.
+
+![1](/shoals/assets/img/2013-05-23_1.jpg)
 
 ---
 

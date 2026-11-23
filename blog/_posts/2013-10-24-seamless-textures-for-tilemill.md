@@ -20,4 +20,3 @@ I'm personally inclined to overuse things like this once I've made them availabl
 
 Have fun! And I'd love to see any examples of these in the wild once you put them to use . . .
 
-<iframe frameborder="0" height="300" src="http://bl.ocks.org/wboykinm/raw/7142714/" width="100%"></iframe>

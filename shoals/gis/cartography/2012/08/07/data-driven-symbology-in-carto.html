@@ -1265,13 +1265,18 @@
       
 
       <article role="main" class="blog-post">
-        <p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirDi3CrWznI5G3ED_6ulh4iaBFw-X5Zfh6GdTReyK_VSiKLtVLhoUGafKKpX-QtG9Px74ZSqA0ZiuBudzdqYdmilGfR2S3D-ME8TBI3mRS9j-AmQaq79qOHtDucBN6P90JC_jcV-CkxhQ/s1600/2012-08-07_1222.png"><img src="/shoals/assets/img/2012-08-07_1.png" alt="1" /></a></p>
+        <p><img src="/shoals/assets/img/2012-08-07_1.png" alt="1" /></p>
 
 <p>The term “disruption” makes me want to stick a hot poker in my eyes, and then post a tilt-shifted instagram pic of that poker laying on a table next to a lychee mojito.
 However, “disruption” is an accurate description of the state of cartography over the past two years or so. The traditional realm of the GIS analyst has been invaded and turned upside-down by an army of new cartographers who come from a software development background. These visigoths have brought odd notions like <a href="http://mapbox.com/blog/modest-maps-and-leaflet-new-choices-web-apis/">efficiency</a>, <a href="http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/">economy</a> and - heaven help us - <em><a href="http://maps.stamen.com/#toner/12/37.7706/-122.3782">design</a></em> to the mapping field, but wow do they have a different process for making maps.
 This dichotomy between GIS-er and carto-developer is visible in the <a href="http://mapbox.com/tilemill/docs/manual/carto/">CartoCSS</a> language. Stemming from a project called <a href="https://github.com/mapnik/Cascadenik">Cascadenik</a>, CartoCSS is a collection of stylesheet code that allows a mapper to assign symbology to geodata and render it with <a href="http://mapnik.org/">Mapnik</a> - by far the best image rendering engine available for cartography. This code distinctly resembles the assemblage of rule sets, blocks and properties that any web developer would use to style a web page (hint: the target user base):</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #wind {    marker-width:5;    marker-fill:#DADDE2;    marker-line-color:#fff;    marker-fill-opacity: 0.6;   }
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #wind {    
+    marker-width:5;    
+    marker-fill:#DADDE2;    
+    marker-line-color:#fff;    
+    marker-fill-opacity: 0.6;   
+}
 </code></pre></div></div>
 
 <p>The highest-profile deployment of CartoCSS is in the excellent <a href="http://mapbox.com/tilemill/">Tilemill mapping platform</a> from the folks at <a href="http://developmentseed.org/">Development Seed</a>. The code drives every style choice you make in Tilemill, then it compiles everything to Mapnik and delivers you exceptional graphics, both static and web-ready. This is great news for developers, who are already comfortable with code in their workflows. Not so much for the GIS analysts (like me) who have been Arc-trained for years on how to push buttons and move sliders in the quest for a good map. Also, CartoCSS has had limited functionality for thematic mapping - a common complaint is that you can’t do multivariate symbology (graduated colors and symbols, say) without <a href="https://github.com/wboykinm/geosprocket-carto/blob/master/mtl_nightvision/style.mss#L327-387">awkwardly-nested code cascades</a>.
@@ -1285,7 +1290,7 @@ Until now, that is. A key development has been taking place behind the scenes, o
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Vt8VfW4Ds8P4UnjOMmSoO9sGfQ9-frm0sKH_idBP9FfVca8ray11mG3TmeukIVeE-XnMYdzrZWInbkxQJhRxAe5h68WtLjbQcFjg0SCp9EIJ4bI0qY_GubY6zZ_Q7OVFMAkLTGm7gw/s1600/dots1.png"><img src="/shoals/assets/img/2012-08-07_2.png" alt="2" /></a></td>
+      <td><img src="/shoals/assets/img/2012-08-07_2.png" alt="2" /></td>
     </tr>
     <tr>
       <td>Figure 1 - Marker Size</td>
@@ -1313,7 +1318,7 @@ Until now, that is. A key development has been taking place behind the scenes, o
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJcE-tdonSICz1dll5biuwZyCSGt74nsYGBbhuqqkJo4GmJHuSnvCn20Xh49yYWfE01LPwRaLNBf8AgOLzdWUUoKYsQf8h15cCqP-2Ldi26y2nik7jfUt4PPbhsoUen3hzwkl_iLAUNS4/s1600/dots2.png"><img src="/shoals/assets/img/2012-08-07_3.png" alt="3" /></a></td>
+      <td><img src="/shoals/assets/img/2012-08-07_3.png" alt="3" /></td>
     </tr>
     <tr>
       <td>Figure 2 - Multivariate Symbology</td>
@@ -1339,7 +1344,7 @@ Until now, that is. A key development has been taking place behind the scenes, o
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhllHOgJpkBxOPSRVYCn7uj1aC8qvy_-3VyAMfl8F_H1VpwBnZkVa-y14L1o-RlzyVmUK6T2qKtT6soAGGuXY-uF0-1JAgdx2jb8HZGtZUNp-0Hkxoigw4FAexkLkzwUKEDUcoBDXJ_z_w/s1600/labels.png"><img src="/shoals/assets/img/2012-08-07_4.png" alt="4" /></a></td>
+      <td><img src="/shoals/assets/img/2012-08-07_4.png" alt="4" /></td>
     </tr>
     <tr>
       <td>Figure 3 - Label Rotation</td>
@@ -1357,7 +1362,7 @@ Until now, that is. A key development has been taking place behind the scenes, o
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXeoBUDXtBiS0Ia9aq2bKmuUR7_UnN16i59eJCcTTj5Lm6gxm3kOlG85BsSveGoc9LHMk4wsEIa4csSs6arTphOWnoP4jqTA2kfCKb0BxRm1lNnk2wWSti69MPGjDK4yLTaoHF2KfulW8/s1600/bldg.png"><img src="/shoals/assets/img/2012-08-07_5.png" alt="5" /></a></td>
+      <td><img src="/shoals/assets/img/2012-08-07_5.png" alt="5" /></td>
     </tr>
     <tr>
       <td>Figure 4 - Dynamic Building Heights</td>

@@ -12,7 +12,7 @@ Upon the occasion of Halloween, and the need to optimize, I took a look at [Next
 
 ![image](/shoals/assets/img/2015-11-03_1.png)
 
-Where I live, according to NextDoor
+_Where I live, according to NextDoor_
 
 **Eastwood. Awesome. Never heard of it.**
 
@@ -20,7 +20,7 @@ You see this is Burlington, Vermont — where a NextDoor precursor/competito
 
 ![image](/shoals/assets/img/2015-11-03_2.png)
 
-Where I live, according to Front Porch Forum
+_Where I live, according to Front Porch Forum_
 
 Leaving aside questions of geographic or customary accuracy (I’ve already spilled too much ink there), I realized that these were two parallel streams of information. Maybe the reports of missing cats, rants about parking and occasional racist dogwhistles (_seriously Trent, stop it._) overlapped between FPF and NextDoor, but maybe a lot was being lost. What if someone on the next block has been posting to NextDoor for months, looking for the adorable wallaby that snacks on my azaleas every morning? The thought of such vital information missing its target because of platform lock-in is almost too much to bear.
 
@@ -30,7 +30,8 @@ Last year at a statewide digital conference `<insert joke about Vermont and smok
 
 
 ![image](/shoals/assets/img/2015-11-03_3.jpeg)
-Irene says hi. Photo by [Stephen Flanders](https://commons.wikimedia.org/wiki/File:Tropical_Storm_Irene_Flood-Buildings_at_Quechee_Vermont_2011-08-28.jpg)
+
+_Irene says hi. Photo by [Stephen Flanders](https://commons.wikimedia.org/wiki/File:Tropical_Storm_Irene_Flood-Buildings_at_Quechee_Vermont_2011-08-28.jpg)_
 
 > **Quick background**: at the end of the summer in 2011, a random hurricane veered off course and wandered up the Green Mountains, cutting off whole towns, killing electricity statewide and incidentally flooding the VT office of emergency management out of their building. In the days and weeks afterward, some colleagues and I used [Ushahidi](https://www.ushahidi.com/) and [straight-up Wordpress](https://vtresponse.wordpress.com/) to fill the gap in the information plumbing, relaying help requests and offers between victims, responders and the public, over any channel we could plug into.
 
@@ -51,7 +52,8 @@ But there are lots of channels, with messages repeated over many of them. Adword
 
 
 ![image](/shoals/assets/img/2015-11-03_4.jpeg)
-Photo by [Simon Cousins](https://www.flickr.com/photos/simon_cousins/4869880958)
+
+_Photo by [Simon Cousins](https://www.flickr.com/photos/simon_cousins/4869880958)_
 
 
 

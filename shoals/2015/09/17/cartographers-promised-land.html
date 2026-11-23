@@ -82,7 +82,7 @@
   <meta property="og:description" content="The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.">
 
   
-  <meta property="og:image" content="/shoals/assets/img/2015-09-17_10.png">
+  <meta property="og:image" content="/shoals/assets/img/2015-09-17_1.png">
   
 
   
@@ -103,7 +103,7 @@
   <meta property="twitter:description" content="The new Mapbox Studio just went to private beta today. Here’s what I’ve learned using it.">
 
   
-  <meta name="twitter:image" content="/shoals/assets/img/2015-09-17_10.png">
+  <meta name="twitter:image" content="/shoals/assets/img/2015-09-17_1.png">
   
 
   
@@ -1203,7 +1203,7 @@
     
     
       
-      data-img-src-1="/shoals/assets/img/2015-09-17_10.png"
+      data-img-src-1="/shoals/assets/img/2015-09-17_1.png"
     
     
     
@@ -1275,7 +1275,7 @@
       <article role="main" class="blog-post">
         <p>There’s a lot of marketing behind <a href="https://www.mapbox.com/mapbox-studio/">the new Mapbox Studio</a>, along with <a href="http://www.wired.com/2015/09/mapbox-studio/">a glowing review in Wired</a>. I’ve been fortunate enough to be able to play with it for a few months now as it developed, and the Mapbox team should be proud.</p>
 
-<h3 id="the-good">The good</h3>
+<h2 id="the-good">The good</h2>
 
 <p>It’s a flexible adaptation of <a href="https://www.mapbox.com/developers/vector-tiles/">fast vector tile technology</a> to WebGL, which is already powering Google’s maps and represents the next generation of how we see geographic data in our daily lives. It also carries over what I loved about the previous iteration of the platform:</p>
 <blockquote>
@@ -1284,23 +1284,25 @@
 
 <p><img src="/shoals/assets/img/2015-09-17_1.png" alt="image" /></p>
 
-<p>The new cartographic interface</p>
+<p><em>The new cartographic interface</em></p>
 
 <p>Using the new Mapbox Studio, I was able to quickly and painlessly adapt the Faraday basemap style to MapboxGL. It was even easy to include our application fonts. The result is such a different paradigm from raster tiles that I could spend hours just watching it, exploring the rendering and trying to absorb it. I suspect it’ll be many more months before <a href="http://bl.ocks.org/wboykinm/2a483a2cced4b9b38407">this ceases to feel novel</a>.</p>
 
 <p><img src="/shoals/assets/img/2015-09-17_2.gif" alt="image" /></p>
 
-<p>Flying around Seattle</p>
+<p><em>Flying around Seattle</em></p>
 
 <p>But I’m a cartographer; overanalyzing the feel of a map is what I do. The real test of the new platform will be how developers take to it, and how users react. [It might actually be a positive indicator if users don’t react at all.]</p>
 
-<h3 id="maturity-needed">Maturity needed</h3>
+<h2 id="maturity-needed">Maturity needed</h2>
 
 <p>I’ve found that some roadblocks remain to using maps produced in the new Mapbox Studio in production on <a href="http://app.faraday.io">the Faraday platform</a>. There are still bugs in <a href="https://github.com/mapbox/mapbox-gl-js/issues/757">the rendering of layered labels,</a> and for a complex system of panes and API hooks like ours, the mapbox-gl.js library is not a complete replacement for the LeafletJS-based mapbox.js.</p>
 
 <p>The support architecture for the new Mapbox Studio is not yet as robust as what it seeks to replace — just count the number of examples available in the crucial Mapbox documentation: <a href="https://www.mapbox.com/mapbox-gl-js/examples/">18 for MapboxGL</a> vs. <a href="https://www.mapbox.com/mapbox.js/example/v1.0.0/">&gt; 200 for MapboxJS</a>. I’m not alone in using those examples to guide my adoption of web mapping tools — I owe them a lot, actually, and I think they’ve helped a lot of developers gravitate toward Mapbox’s offerings. The new rendering engine needs more wayfinding on markers, layers, drawings and the whole range of user expectations.</p>
 
 <p>If I’m the target audience for the new Mapbox Studio, their job is done. Its fun, beautiful and fast. But the rest of Faraday’s engineers— and application developers in general — may need more functionality before they can jump onboard.</p>
+
+<p><img src="/shoals/assets/img/2015-09-17_10.png" alt="image" /></p>
 
       </article>
 
